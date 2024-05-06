@@ -2,6 +2,7 @@
 A small list of interesting papers.
 
 # 2024.05
+- [KAN: Kolmogorov–Arnold Networks](https://arxiv.org/pdf/2404.19756)
 - [U-Nets as Belief Propagation: Efficient Classification, Denoising, and Diffusion in Generative Hierarchical Models](https://arxiv.org/pdf/2404.18444)
 
 # 2024.04
