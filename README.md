@@ -2,6 +2,7 @@
 A small list of interesting papers.
 
 # 2024.05
+- [Breaking the Molecular Dynamics Timescale Barrier Using a Wafer-Scale System](https://arxiv.org/pdf/2405.07898)
 - [KAN: Kolmogorov–Arnold Networks](https://arxiv.org/pdf/2404.19756)
 - [U-Nets as Belief Propagation: Efficient Classification, Denoising, and Diffusion in Generative Hierarchical Models](https://arxiv.org/pdf/2404.18444)
 
