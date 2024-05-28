@@ -6,6 +6,7 @@ A small list of interesting papers.
 - [KAN: Kolmogorov–Arnold Networks](https://arxiv.org/pdf/2404.19756)
 - [U-Nets as Belief Propagation: Efficient Classification, Denoising, and Diffusion in Generative Hierarchical Models](https://arxiv.org/pdf/2404.18444)
 - [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764)
+- [MOMENT: A Family of Open Time-series Foundation Models](https://arxiv.org/pdf/2402.03885)
 
 # 2024.04
 - [TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding](https://arxiv.org/pdf/2404.11912v1.pdf)
@@ -17,3 +18,6 @@ A small list of interesting papers.
 # 2023
 - [Bytes Are All You Need: Transformers Operating Directly On File Bytes](https://arxiv.org/pdf/2306.00238)
 - [TabPFN: A transformer that solves small tabular classification problems in a second](https://arxiv.org/pdf/2207.01848v3.pdf)
+
+# 2022
+- [A Generalist Agent](https://arxiv.org/pdf/2205.06175)
