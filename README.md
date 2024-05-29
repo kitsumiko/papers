@@ -22,3 +22,6 @@ A small list of interesting papers.
 
 # 2022
 - [A Generalist Agent](https://arxiv.org/pdf/2205.06175)
+
+# Deadlines
+ - [Academic Conferences](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)
