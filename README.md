@@ -7,6 +7,7 @@ A small list of interesting papers.
 - [U-Nets as Belief Propagation: Efficient Classification, Denoising, and Diffusion in Generative Hierarchical Models](https://arxiv.org/pdf/2404.18444)
 - [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764)
 - [MOMENT: A Family of Open Time-series Foundation Models](https://arxiv.org/pdf/2402.03885)
+- [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/pdf/2402.01030)
 
 # 2024.04
 - [TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding](https://arxiv.org/pdf/2404.11912v1.pdf)
