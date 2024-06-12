@@ -1,6 +1,10 @@
 # papers
 A small list of interesting papers.
 
+# 2024.06
+- [A Log-Domain Implementation of the Diffusion Network in Very Large Scale Integration](https://proceedings.neurips.cc/paper_files/paper/2010/file/7bcdf75ad237b8e02e301f4091fb6bc8-Paper.pdf)
+- [Scalable MatMul-free Language Modeling](https://arxiv.org/pdf/2406.02528)
+
 # 2024.05
 - [Breaking the Molecular Dynamics Timescale Barrier Using a Wafer-Scale System](https://arxiv.org/pdf/2405.07898)
 - [KAN: Kolmogorov–Arnold Networks](https://arxiv.org/pdf/2404.19756)
@@ -24,4 +28,4 @@ A small list of interesting papers.
 - [A Generalist Agent](https://arxiv.org/pdf/2205.06175)
 
 # Deadlines
- - [Academic Conferences](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)
+- [Academic Conferences](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)
