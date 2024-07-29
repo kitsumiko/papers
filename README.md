@@ -1,6 +1,9 @@
 # papers
 A small list of interesting papers.
 
+# 2024.07
+- [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
+
 # 2024.06
 - [A Log-Domain Implementation of the Diffusion Network in Very Large Scale Integration](https://proceedings.neurips.cc/paper_files/paper/2010/file/7bcdf75ad237b8e02e301f4091fb6bc8-Paper.pdf)
 - [Scalable MatMul-free Language Modeling](https://arxiv.org/pdf/2406.02528)
