@@ -2,6 +2,7 @@
 A small list of interesting papers.
 
 # 2024.07
+- [Stable Audio Open](https://arxiv.org/pdf/2407.14358)
 - [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
 
 # 2024.06
