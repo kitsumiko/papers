@@ -2,6 +2,7 @@
 A small list of interesting papers.
 
 # 2024.07
+- [Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval](https://arxiv.org/pdf/2404.09889)
 - [Stable Audio Open](https://arxiv.org/pdf/2407.14358)
 - [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
 
