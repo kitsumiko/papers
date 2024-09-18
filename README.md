@@ -1,6 +1,9 @@
 # papers
 A small list of interesting papers.
 
+# 2024.09
+- [HUMAN] [Accelerating Training With Neuron Interaction And Nowcasting Networks](https://arxiv.org/pdf/2409.04434)
+
 # 2024.08
 - [HUMAN] [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/pdf/2408.06292)
     - [AI] [Dualscale Diffusion: Adaptive Feature Balancing for Low-Dimensional Generative Models](https://sakana.ai/assets/ai-scientist/adaptive_dual_scale_denoising.pdf)
