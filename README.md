@@ -10,7 +10,7 @@ A curated collection of research papers across AI/ML domains.
 - [Memorization vs. generalization studies](https://arxiv.org/pdf/2505.24832)
 
 **🧠 AI Reasoning & Agents**
-- [Hierarchical reasoning models](https://arxiv.org/pdf/2506.21734) and cognitive architectures
+- [Hierarchical reasoning models](https://arxiv.org/pdf/2506.21734) and [recursive reasoning with tiny networks](https://arxiv.org/pdf/2510.04871)
 - Multi-agent systems with zero supervision ([MAS-ZERO](https://arxiv.org/pdf/2505.14996))
 - Dynamic action generation beyond predefined sets ([DynaSaur](https://arxiv.org/abs/2411.01747))
 - [Reinforcement learning in pre-training](https://arxiv.org/abs/2506.08007)
