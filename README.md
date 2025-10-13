@@ -13,6 +13,7 @@ A curated collection of research papers across AI/ML domains.
 - [Hierarchical reasoning models](https://arxiv.org/pdf/2506.21734) and [recursive reasoning with tiny networks](https://arxiv.org/pdf/2510.04871)
 - Multi-agent systems with zero supervision ([MAS-ZERO](https://arxiv.org/pdf/2505.14996))
 - Dynamic action generation beyond predefined sets ([DynaSaur](https://arxiv.org/abs/2411.01747))
+- [Agentic Context Engineering: Evolving contexts for self-improving language models](https://arxiv.org/abs/2510.04618)
 - [Reinforcement learning in pre-training](https://arxiv.org/abs/2506.08007)
 
 **🔍 Retrieval & Search**
