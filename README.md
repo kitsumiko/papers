@@ -4,7 +4,7 @@ A curated collection of research papers across AI/ML domains.
 ## Summary
 
 **🤖 Large Language Models & Training**
-- Advanced training techniques ([Megatron-LM](https://arxiv.org/abs/1909.08053), [ZeRO optimization](https://arxiv.org/abs/1910.02054), [model parallelism](https://arxiv.org/abs/2104.04473))
+- Advanced training techniques ([Megatron-LM](https://arxiv.org/abs/1909.08053), [ZeRO optimization](https://arxiv.org/abs/1910.02054), [model parallelism](https://arxiv.org/abs/2104.04473), [second-order optimization](https://arxiv.org/pdf/2510.09378))
 - Memory optimization and efficiency ([Cut Your Losses](https://arxiv.org/abs/2411.09009), [Native Sparse Attention](https://arxiv.org/abs/2502.11089))
 - Evaluation and benchmarking ([MLE-bench](https://arxiv.org/abs/2410.07095), [LLM evaluation methodologies](https://arxiv.org/pdf/2502.07445))
 - [Memorization vs. generalization studies](https://arxiv.org/pdf/2505.24832)

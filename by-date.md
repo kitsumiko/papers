@@ -3,6 +3,7 @@
 ## 2025
 
 ### 2025.10
+- [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378)
 - [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618)
 - [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/pdf/2510.04871)
 
