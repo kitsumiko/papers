@@ -101,6 +101,16 @@
 - [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)
 - [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
 
+### 2017
+- [Methods for Interpreting and Understanding Deep Neural Networks](https://arxiv.org/abs/1706.07979)
+- [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599)
+- [SmoothGrad: Removing Noise by Adding Noise](https://arxiv.org/abs/1706.03825)
+- [Learning How to Explain Neural Networks: PatternNet and PatternAttribution](https://arxiv.org/abs/1705.05598)
+- [Axiomatic Attribution for Deep Networks (Integrated Gradients)](https://arxiv.org/abs/1703.01365)
+- [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/abs/1703.04730)
+- [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608)
+- [Visualizing Deep Neural Network Decisions: Prediction Difference Analysis](https://arxiv.org/abs/1702.04595)
+
 ### 2016
 - [Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408)
 - [Encapsulating Models and Approximate Inference Programs in Probabilistic Modules](https://arxiv.org/abs/1612.04759)
@@ -108,16 +118,22 @@
 - [Measuring the Non-asymptotic Convergence of Sequential Monte Carlo Samplers using Probabilistic Programming](https://arxiv.org/abs/1612.02161)
 - [Time Series Structure Discovery via Probabilistic Program Synthesis](https://arxiv.org/abs/1611.07051)
 - [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
+- [Synthesizing the Preferred Inputs for Neurons via Deep Generator Networks](https://arxiv.org/abs/1605.09304)
+- [LIME: "Why Should I Trust You?" Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
 
 ### 2015
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- [Deep Taylor Decomposition: Explaining Nonlinear Classification Decisions](https://arxiv.org/abs/1512.02479)
 - [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://mrkulk.github.io/www_cvpr15/1999.pdf)
+- [Striving for Simplicity: The All Convolutional Net](https://arxiv.org/abs/1412.6806)
 
 ### 2014
 - [Going Deeper with Convolutions (GoogLeNet)](https://arxiv.org/abs/1409.4842)
 - [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
 
 ### 2013
+- [Visualizing and Understanding Convolutional Networks (DeconvNet)](https://arxiv.org/abs/1311.2901)
+- [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/abs/1312.6034)
 - [Approximate Bayesian Image Interpretation using Generative Probabilistic Graphics Programs](http://papers.nips.cc/paper/4881-approximate-bayesian-image-interpretation-using-generative-probabilistic-graphics-programs.pdf)
 
 ### 2012
