@@ -5,6 +5,7 @@ A curated collection of research papers across AI/ML domains.
 
 **🤖 Large Language Models & Training**
 - Advanced training techniques ([Megatron-LM](https://arxiv.org/abs/1909.08053), [ZeRO optimization](https://arxiv.org/abs/1910.02054), [model parallelism](https://arxiv.org/abs/2104.04473), [second-order optimization](https://arxiv.org/pdf/2510.09378))
+- Pre-training methods ([ELECTRA: discriminative pre-training](https://arxiv.org/abs/2003.10555))
 - Memory optimization and efficiency ([Cut Your Losses](https://arxiv.org/abs/2411.09009), [Native Sparse Attention](https://arxiv.org/abs/2502.11089))
 - Evaluation and benchmarking ([MLE-bench](https://arxiv.org/abs/2410.07095), [LLM evaluation methodologies](https://arxiv.org/pdf/2502.07445))
 - [Memorization vs. generalization studies](https://arxiv.org/pdf/2505.24832)
@@ -45,6 +46,19 @@ A curated collection of research papers across AI/ML domains.
 - [Kolmogorov–Arnold Networks (KAN)](https://arxiv.org/pdf/2404.19756)
 - [Consciousness in AI systems](https://arxiv.org/pdf/2308.08708v3.pdf)
 - Information theory and compression
+
+**🎲 Probabilistic Programming & Bayesian Methods**
+- Probabilistic programming frameworks and inference ([encapsulation with modules](https://arxiv.org/abs/1612.04759), [SMC convergence measurement](https://arxiv.org/abs/1612.02161), [probabilistic data analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf))
+- [Time series structure discovery via program synthesis](https://arxiv.org/abs/1611.07051)
+- Generative models for vision ([Picture: scene perception](https://mrkulk.github.io/www_cvpr15/1999.pdf), [Bayesian image interpretation](http://papers.nips.cc/paper/4881-approximate-bayesian-image-interpretation-using-generative-probabilistic-graphics-programs.pdf))
+- [Bayesian framework for intuitive dynamics](https://cocosci.berkeley.edu/tom/papers/collisions.pdf)
+- [MCMC using Hamiltonian dynamics](https://arxiv.org/abs/1206.1901)
+
+**👁️ Computer Vision & Deep Learning Foundations**
+- Convolutional architectures ([LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf), [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [GoogLeNet/Inception](https://arxiv.org/abs/1409.4842), [ResNet](https://arxiv.org/abs/1512.03385))
+- Generative models ([GANs](https://arxiv.org/abs/1406.2661), [adversarial segmentation](https://arxiv.org/abs/1611.08408))
+- Sequence models ([LSTM](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory))
+- Graph neural networks ([learning on graphs](http://proceedings.mlr.press/v48/niepert16.pdf))
 
 ---
 
