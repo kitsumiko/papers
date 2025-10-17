@@ -55,10 +55,17 @@ A curated collection of research papers across AI/ML domains.
 - [MCMC using Hamiltonian dynamics](https://arxiv.org/abs/1206.1901)
 
 **👁️ Computer Vision & Deep Learning Foundations**
-- Convolutional architectures ([LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf), [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [GoogLeNet/Inception](https://arxiv.org/abs/1409.4842), [ResNet](https://arxiv.org/abs/1512.03385))
+- Convolutional architectures ([LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf), [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [GoogLeNet/Inception](https://arxiv.org/abs/1409.4842), [ResNet](https://arxiv.org/abs/1512.03385), [All-CNN](https://arxiv.org/abs/1412.6806))
 - Generative models ([GANs](https://arxiv.org/abs/1406.2661), [adversarial segmentation](https://arxiv.org/abs/1611.08408))
 - Sequence models ([LSTM](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory))
 - Graph neural networks ([learning on graphs](http://proceedings.mlr.press/v48/niepert16.pdf))
+
+**🔍 Interpretability & Explainability**
+- Visualization techniques ([DeconvNet](https://arxiv.org/abs/1311.2901), [saliency maps](https://arxiv.org/abs/1312.6034), [deep visualization](http://yosinski.com/media/papers/Yosinski__2015__ICML_DL__Understanding_Neural_Networks_Through_Deep_Visualization__.pdf), [activation maximization](https://arxiv.org/abs/1605.09304))
+- Attribution methods ([Deep Taylor](https://arxiv.org/abs/1512.02479), [LIME](https://arxiv.org/abs/1602.04938), [Integrated Gradients](https://arxiv.org/abs/1703.01365), [PatternNet](https://arxiv.org/abs/1705.05598), [SmoothGrad](https://arxiv.org/abs/1706.03825))
+- Understanding predictions ([influence functions](https://arxiv.org/abs/1703.04730), [prediction difference analysis](https://arxiv.org/abs/1702.04595))
+- Theory and frameworks ([rigorous interpretability science](https://arxiv.org/abs/1702.08608), [interpretability methods survey](https://arxiv.org/abs/1706.07979))
+- Model calibration ([neural network calibration](https://arxiv.org/abs/1706.04599))
 
 ---
 
