@@ -96,9 +96,40 @@
 - [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473)
 
 ### 2019-2020
+- [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555)
 - [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054)
 - [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)
 - [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
+
+### 2016
+- [Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408)
+- [Encapsulating Models and Approximate Inference Programs in Probabilistic Modules](https://arxiv.org/abs/1612.04759)
+- [A Probabilistic Programming Approach to Probabilistic Data Analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf)
+- [Measuring the Non-asymptotic Convergence of Sequential Monte Carlo Samplers using Probabilistic Programming](https://arxiv.org/abs/1612.02161)
+- [Time Series Structure Discovery via Probabilistic Program Synthesis](https://arxiv.org/abs/1611.07051)
+- [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
+
+### 2015
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://mrkulk.github.io/www_cvpr15/1999.pdf)
+
+### 2014
+- [Going Deeper with Convolutions (GoogLeNet)](https://arxiv.org/abs/1409.4842)
+- [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
+
+### 2013
+- [Approximate Bayesian Image Interpretation using Generative Probabilistic Graphics Programs](http://papers.nips.cc/paper/4881-approximate-bayesian-image-interpretation-using-generative-probabilistic-graphics-programs.pdf)
+
+### 2012
+- [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+- [MCMC using Hamiltonian dynamics](https://arxiv.org/abs/1206.1901)
+
+### 2009
+- [A Bayesian Framework for Modeling Intuitive Dynamics](https://cocosci.berkeley.edu/tom/papers/collisions.pdf)
+
+### 1997-2001
+- [Gradient-Based Learning Applied to Document Recognition (LeNet)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+- [Long Short-Term Memory (LSTM)](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory)
 
 ## Resources
 
