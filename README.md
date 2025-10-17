@@ -26,7 +26,8 @@ A curated collection of research papers across AI/ML domains.
 **🛡️ Security & Privacy**
 - [Prompt sanitization and privacy protection](https://arxiv.org/abs/2504.05147)
 - [Cyber threat intelligence reliability](https://arxiv.org/abs/2503.23175)
-- Enterprise-grade security frameworks ([MCP](https://arxiv.org/pdf/2504.08623))
+- Enterprise-grade security frameworks ([MCP](https://arxiv.org/pdf/2504.08623), [A2AS](https://arxiv.org/pdf/2510.13825))
+- [Runtime security and self-defense for AI agents](https://arxiv.org/pdf/2510.13825)
 - Differential privacy applications
 
 **🏗️ Architecture & Infrastructure**
