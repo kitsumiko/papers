@@ -41,12 +41,13 @@ A curated collection of research papers across AI/ML domains.
 - [Audio generation and processing](https://arxiv.org/pdf/2407.14358)
 - [Time-series forecasting and analysis](https://arxiv.org/pdf/2402.03885)
 - [Molecular dynamics and computational science](https://arxiv.org/pdf/2405.07898)
+- [OCR and context compression via optical 2D mapping](https://arxiv.org/pdf/2510.18234)
 
 **🔬 Theoretical Foundations**
 - [Token embedding geometry and manifold hypothesis](https://arxiv.org/abs/2504.01002)
 - [Kolmogorov–Arnold Networks (KAN)](https://arxiv.org/pdf/2404.19756)
 - [Consciousness in AI systems](https://arxiv.org/pdf/2308.08708v3.pdf)
-- Information theory and compression
+- Information theory and [context compression](https://arxiv.org/pdf/2510.18234)
 
 **🎲 Probabilistic Programming & Bayesian Methods**
 - Probabilistic programming frameworks and inference ([encapsulation with modules](https://arxiv.org/abs/1612.04759), [SMC convergence measurement](https://arxiv.org/abs/1612.02161), [probabilistic data analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf))
