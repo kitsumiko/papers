@@ -3,6 +3,7 @@
 ## 2025
 
 ### 2025.10
+- [DeepSeek-OCR: Contexts Optical Compression](https://arxiv.org/pdf/2510.18234)
 - [A2AS: Agentic AI Runtime Security and Self-Defense](https://arxiv.org/pdf/2510.13825)
 - [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378)
 - [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618)
