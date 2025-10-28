@@ -58,7 +58,7 @@ Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or 
 
 **🌱 The Beginner Path** (3-6 months)
 1. Start with [Phase 1: Foundations](learning/phase-01-foundations.md)
-2. Read key papers: Attention Is All You Need → BERT → GPT-3
+2. Read key papers: [Attention Is All You Need](https://arxiv.org/abs/1706.03762) → [BERT](https://arxiv.org/abs/1810.04805) → [GPT-3](https://arxiv.org/abs/2005.14165)
 3. Focus on "Why" explanations before diving deep
 4. Take notes on connections between papers
 
@@ -150,144 +150,79 @@ papers/
 This collection spans the full spectrum of modern AI/ML research, organized by theme:
 
 ### 🏗️ Deep Learning Foundations
-- Classic architectures: LeNet, AlexNet, GoogLeNet, ResNet
-- Training techniques: Xavier initialization, Batch Normalization
-- **Word Embeddings**: Word2Vec, GloVe, encoder-decoder architectures
-- Sequence models: LSTM, time-series foundations (MOMENT)
-- Generative models: GANs, diffusion models
-- **Tokenization**: BPE, SentencePiece, tokenization bias and best practices
+- Classic architectures: [LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf), [AlexNet](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf), [GoogLeNet](https://arxiv.org/abs/1409.4842), [ResNet](https://arxiv.org/abs/1512.03385)
+- Training techniques: [Xavier initialization](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf), [Batch Normalization](https://arxiv.org/abs/1502.03167)
+- **Word Embeddings**: [Word2Vec](https://arxiv.org/abs/1301.3781), [GloVe](https://aclanthology.org/D14-1162/), [Seq2Seq](https://arxiv.org/abs/1409.3215) encoder-decoder architectures
+- Sequence models: [LSTM](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory) 🔒, time-series foundations ([MOMENT](https://arxiv.org/pdf/2402.03885))
+- Generative models: [GANs](https://arxiv.org/abs/1406.2661), diffusion models
+- **Tokenization**: [BPE](https://arxiv.org/abs/1508.07909), [SentencePiece](https://arxiv.org/abs/1808.06226), [tokenization bias](https://arxiv.org/abs/2406.16829) and [best practices](https://arxiv.org/abs/2403.01289)
 
 ### 🤖 Large Language Models & Transformers
 - **Foundational**: [Attention Is All You Need](https://arxiv.org/abs/1706.03762), [BERT](https://arxiv.org/abs/1810.04805), [GPT-3](https://arxiv.org/abs/2005.14165)
-- **Modern LLMs**: Llama 3, OpenELM, EuroLLM
-- **Training at Scale**: Megatron-LM, ZeRO, model parallelism, second-order optimization
-- **Efficiency**: MatMul-free models, 1-bit LLMs, vocabulary optimization
+- **Modern LLMs**: [Llama 3](https://arxiv.org/abs/2407.21783), [OpenELM](https://arxiv.org/pdf/2404.14619), [EuroLLM](https://arxiv.org/pdf/2409.11741)
+- **Training at Scale**: [Megatron-LM](https://arxiv.org/abs/1909.08053), [ZeRO](https://arxiv.org/abs/1910.02054), [model parallelism](https://arxiv.org/abs/2104.04473), [second-order optimization](https://arxiv.org/pdf/2510.09378)
+- **Efficiency**: [MatMul-free models](https://arxiv.org/pdf/2406.02528), [1-bit LLMs](https://arxiv.org/pdf/2402.17764), [vocabulary optimization](https://arxiv.org/abs/2411.09009)
 
 ### ⚡ Efficient Attention & Long Context
-- FlashAttention: IO-aware attention algorithms
-- Alternative mechanisms: RetNet, attention sinks, Infini-attention
-- Hardware-aligned: Native sparse attention
-- Context compression: DeepSeek-OCR, hierarchical speculative decoding
+- FlashAttention: [IO-aware attention algorithms](https://arxiv.org/abs/2205.14135)
+- Alternative mechanisms: [RetNet](https://arxiv.org/abs/2307.08621), [attention sinks](https://arxiv.org/pdf/2309.17453.pdf), [Infini-attention](https://arxiv.org/pdf/2404.07143v1.pdf)
+- Hardware-aligned: [Native sparse attention](https://arxiv.org/abs/2502.11089)
+- Context compression: [DeepSeek-OCR](https://arxiv.org/pdf/2510.18234), [hierarchical speculative decoding](https://arxiv.org/pdf/2404.11912v1.pdf)
 
 ### 🔍 Retrieval & Knowledge Systems
-- RAG fundamentals: REALM, kNN-LM, REFRAG
-- Advanced retrieval: Semantic IDs, table retrieval, multi-table systems
-- Federated approaches: Classifier-as-retriever with adapters
+- RAG fundamentals: [REALM](https://arxiv.org/abs/2002.08909), [kNN-LM](https://arxiv.org/abs/1911.00172), [REFRAG](https://arxiv.org/pdf/2509.01092)
+- Advanced retrieval: [Semantic IDs](https://arxiv.org/abs/2508.10478), [table retrieval](https://arxiv.org/pdf/2404.09889), multi-table systems
+- Federated approaches: [Classifier-as-retriever with adapters](https://arxiv.org/pdf/2509.16508)
 
-### � Reasoning, Alignment & Agents
-- **Alignment**: RLHF, PPO, InstructGPT, Constitutional AI
-- **Reasoning**: Hierarchical reasoning, recursive reasoning, reinforcement pre-training
-- **Agents**: ReAct, Reflexion, Gato, DynaSaur
-- **Multi-agent**: MAS-ZERO (zero-supervision design)
-- **Efficiency**: Small language models for agents
+### 🧠 Reasoning, Alignment & Agents
+- **Alignment**: [RLHF](https://arxiv.org/abs/1706.03741), [PPO](https://arxiv.org/abs/1707.06347), [InstructGPT](https://arxiv.org/abs/2203.02155), [Constitutional AI](https://arxiv.org/abs/2212.08073)
+- **Reasoning**: [Hierarchical reasoning](https://arxiv.org/pdf/2506.21734), [recursive reasoning](https://arxiv.org/pdf/2510.04871), [reinforcement pre-training](https://arxiv.org/abs/2506.08007)
+- **Agents**: [ReAct](https://arxiv.org/abs/2210.03629), [Reflexion](https://arxiv.org/abs/2303.11366), [Gato](https://arxiv.org/pdf/2205.06175), [DynaSaur](https://arxiv.org/abs/2411.01747)
+- **Multi-agent**: [MAS-ZERO](https://arxiv.org/pdf/2505.14996) (zero-supervision design)
+- **Efficiency**: [Small language models for agents](https://arxiv.org/abs/2506.02153)
 
 ### 🏛️ Novel Architectures & Theory
-- Alternatives to transformers: RWKV, Mamba, state-space models
-- Novel approaches: Kolmogorov-Arnold Networks (KAN), U-Nets as belief propagation
-- Theoretical foundations: Neural Tangent Kernel, manifold hypothesis
-- Training acceleration: Neuron interaction networks
+- Alternatives to transformers: [RWKV](https://arxiv.org/abs/2305.13048), [Mamba](https://arxiv.org/pdf/2409.15254), state-space models
+- Novel approaches: [Kolmogorov-Arnold Networks (KAN)](https://arxiv.org/pdf/2404.19756), [U-Nets as belief propagation](https://arxiv.org/pdf/2404.18444)
+- Theoretical foundations: [Neural Tangent Kernel](https://arxiv.org/abs/1806.07572), [manifold hypothesis](https://arxiv.org/abs/2504.01002)
+- Training acceleration: [Neuron interaction networks](https://arxiv.org/pdf/2409.04434)
 
 ### 🔬 Interpretability & Analysis
-- Attribution methods: LIME, Integrated Gradients, SmoothGrad
-- Frameworks: Rigorous interpretability science, interpretation surveys
-- Evaluation: TruthfulQA, MLE-bench, model calibration
-- Critical analysis: "The Illusion of Thinking", LLM evaluation challenges
+- Attribution methods: [LIME](https://arxiv.org/abs/1602.04938), [Integrated Gradients](https://arxiv.org/abs/1703.01365), [SmoothGrad](https://arxiv.org/abs/1706.03825)
+- Frameworks: [Rigorous interpretability science](https://arxiv.org/abs/1702.08608), [interpretation surveys](https://arxiv.org/abs/1706.07979)
+- Evaluation: [TruthfulQA](https://arxiv.org/abs/2109.07958), [MLE-bench](https://arxiv.org/abs/2410.07095), [model calibration](https://arxiv.org/abs/1706.04599)
+- Critical analysis: ["The Illusion of Thinking"](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf), [LLM evaluation challenges](https://arxiv.org/pdf/2502.07445)
 
 ### 🛡️ Security, Safety & Robustness
-- **Alignment & Safety**: InstructGPT, Constitutional AI
-- **Security**: Prompt sanitization, MCP security, agentic AI self-defense
-- **Threats**: Cyber threat intelligence, reliability concerns
+- **Alignment & Safety**: [InstructGPT](https://arxiv.org/abs/2203.02155), [Constitutional AI](https://arxiv.org/abs/2212.08073)
+- **Security**: [Prompt sanitization](https://arxiv.org/abs/2504.05147), [MCP security](https://arxiv.org/pdf/2504.08623), [agentic AI self-defense](https://arxiv.org/pdf/2510.13825)
+- **Threats**: [Cyber threat intelligence](https://arxiv.org/abs/2503.23175), reliability concerns
 
 ### 👁️ Computer Vision & Multimodal AI
-- Vision transformers: ViT, CLIP, SAM
-- Interpretability: DeconvNet, saliency maps, visualization techniques
-- Segmentation: All-CNN, adversarial segmentation
+- Vision transformers: [ViT](https://arxiv.org/abs/2010.11929), [CLIP](https://arxiv.org/abs/2103.00020), [SAM](https://arxiv.org/abs/2304.02643)
+- Interpretability: [DeconvNet](https://arxiv.org/abs/1311.2901), [saliency maps](https://arxiv.org/abs/1312.6034), visualization techniques
+- Segmentation: [All-CNN](https://arxiv.org/abs/1412.6806), [adversarial segmentation](https://arxiv.org/abs/1611.08408)
 - Multimodal understanding: Vision-language models
 
 ### 🎯 Advanced Applications
-- **Scientific AI**: AI scientist, scientific software generation, architecture discovery
-- **Specialized**: Audio generation (Stable Audio), molecular dynamics
-- **Tabular**: TabPFN for small classification problems
-- **Test-time compute**: o3 system, consciousness in AI
+- **Scientific AI**: [AI scientist](https://arxiv.org/pdf/2408.06292), [scientific software generation](https://arxiv.org/pdf/2509.06503), [architecture discovery](https://arxiv.org/pdf/2507.18074)
+- **Specialized**: [Audio generation](https://arxiv.org/pdf/2407.14358) (Stable Audio), [molecular dynamics](https://arxiv.org/pdf/2405.07898)
+- **Tabular**: [TabPFN](https://arxiv.org/pdf/2207.01848v3.pdf) for small classification problems
+- **Test-time compute**: [o3 system](https://arxiv.org/pdf/2411.04996), [consciousness in AI](https://arxiv.org/pdf/2308.08708v3.pdf)
 
 ### 🎲 Probabilistic & Generative Models
-- Probabilistic programming: Data analysis, scene perception (Picture)
-- MCMC methods: Hamiltonian dynamics
-- Bayesian approaches: Intuitive dynamics modeling
+- Probabilistic programming: [Data analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf), [scene perception](https://openaccess.thecvf.com/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf) (Picture)
+- MCMC methods: [Hamiltonian dynamics](https://arxiv.org/abs/1206.1901)
+- Bayesian approaches: [Intuitive dynamics modeling](https://cocosci.berkeley.edu/tom/papers/collisions.pdf) 🔒
 
 ### ⚙️ Hardware & Systems
-- Photonic computing for AI
-- VLSI implementations: Log-domain diffusion networks
+- Photonic computing for AI 🔒
+- VLSI implementations: [Log-domain diffusion networks](https://papers.nips.cc/paper_files/paper/2010/file/7bcdf75ad237b8e02e301f4091fb6bc8-Paper.pdf)
 - Hardware-algorithm co-design
 
 ### 📜 Policy & Governance
-- AI policy frameworks: Dual-use models, open weights
+- AI policy frameworks: [Dual-use models, open weights](https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf)
 - Governance considerations for foundation models
-
----
-
-## 🆕 What's New
-
----
-
-## 🎓 How to Use This Repository
-
-### Reading Strategies
-
-**🌱 The Beginner Path** (3-6 months)
-1. Start with [Phase 1: Foundations](learning/phase-01-foundations.md)
-2. Read key papers: Attention Is All You Need → BERT → GPT-3
-3. Focus on "Why" explanations before diving deep
-4. Take notes on connections between papers
-
-**⚡ The Practitioner Sprint** (1-2 months)
-1. Read Phase 1 summaries for context
-2. Deep-dive: [Phase 2](learning/phase-02-llms.md) + [Phase 3](learning/phase-03-attention.md) + [Phase 4](learning/phase-04-retrieval.md)
-3. Skim related work sections to understand landscape
-4. Implement key techniques from papers
-
-**🔬 The Researcher Deep-Dive** (Ongoing)
-1. Use [chronological view](by-date.md) for latest research
-2. Focus on specific phases relevant to your research
-3. Read citations and follow paper connections
-4. Compare approaches across different papers
-
-**🛠️ The Engineer Focus** (2-4 weeks)
-1. Priority: [Phase 3](learning/phase-03-attention.md) (Efficiency), [Phase 8](learning/phase-08-security.md) (Security), [Phase 12](learning/phase-12-hardware.md) (Hardware)
-2. Focus on implementation details and benchmarks
-3. Note production considerations and trade-offs
-
-**� The Security Specialist** (1-2 weeks)
-1. Core: [Phase 8](learning/phase-08-security.md)
-2. Context: [Phase 2](learning/phase-02-llms.md) (LLM basics), [Phase 5](learning/phase-05-reasoning.md) (Alignment)
-3. Focus on threat models and defense mechanisms
-
-### Paper Reading Tips
-
-1. **Start with abstracts** - Understand the core contribution
-2. **Read "Why" annotations** - Context before content
-3. **Check the [📖 Glossary](learning/glossary.md)** - Look up unfamiliar terms
-4. **Follow the narrative** - Papers build on each other
-5. **Take notes** - Document connections and insights
-6. **Implement key ideas** - Hands-on learning reinforces concepts
-
----
-
-## 🆕 What's New
-
-### Recent Additions (October 2025)
-- ✨ **Structured Learning Path**: 13-phase curriculum with navigation
-- 📝 **Phase Overviews**: Contextual introductions for each learning phase
-- 🔓 **Open Access Focus**: Updated links to freely accessible versions
-- 🔒 **Paywall Markers**: Clear indicators for paywalled papers
-- 🧭 **Better Navigation**: Breadcrumb links between all phases
-
-### Latest Papers (2025)
-- [Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153) (June 2025)
-- [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf) (February 2025)
-- [Native Sparse Attention](https://arxiv.org/abs/2502.11089) (February 2025)
-
-See [by-date.md](by-date.md) for complete chronological listing.
 
 ---
 
