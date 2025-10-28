@@ -43,6 +43,9 @@
 4. [MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](https://arxiv.org/pdf/2505.14996) (2025)
    - *Why*: Automated multi-agent system design
 
+5. [Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153) (2025)
+   - *Why*: Makes the case for using smaller, specialized models in agent systems for efficiency and cost-effectiveness; practical deployment considerations
+
 ---
 
 **Next**: [Phase 6: Novel Architectures & Theory →](phase-06-architectures.md)
