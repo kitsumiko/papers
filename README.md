@@ -17,6 +17,8 @@ This repository contains **100+ carefully selected research papers** organized i
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
 3. **📖 [Comprehensive Glossary](learning/glossary.md)** - 250+ terms, concepts, and acronyms explained with context
 
+**Plus**: [Recommended reading strategies](#-how-to-use-this-repository), [notes on learning](#paper-reading-tips), and [quick start guides](#-quick-start) tailored to your role (beginner, practitioner, researcher, engineer, security specialist).
+
 ### Why This Collection?
 
 - **Curated for Learning**: Papers selected for their pedagogical value and impact
