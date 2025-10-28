@@ -1,8 +1,8 @@
 # Phase 9: Advanced Topics & Applications
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 8](phase-08-security.md)
+[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 8](phase-08-security.md) | [📖 Glossary](glossary.md)
 
-**Phase Overview**: With strong foundations in place, this phase explores cutting-edge applications and research directions. You'll learn how models handle multiple modalities (text, images, audio) simultaneously, how test-time compute scaling allows models to "think longer" for better results, how to evaluate model outputs effectively, and emerging techniques like inference scaling laws. This phase also covers practical deployment considerations and the shift from pure scaling to more efficient use of compute. These topics represent the current frontier of research and what you might encounter in production systems today.
+**Phase Overview**: With strong foundations in place, this phase explores cutting-edge applications and research directions. You'll learn how models handle multiple modalities (text, images, audio) simultaneously, how [test-time compute](glossary.md#test-time-compute) scaling allows models to "think longer" for better results, how to evaluate model outputs effectively, and emerging techniques like inference scaling laws. This phase also covers practical deployment considerations and the shift from pure scaling to more efficient use of compute. These topics represent the current frontier of research and what you might encounter in production systems today.
 
 ## 9.1 Multimodal Learning
 **Goal**: AI systems that can do research

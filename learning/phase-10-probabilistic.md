@@ -1,8 +1,8 @@
 # Phase 10: Probabilistic & Bayesian Approaches
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Advanced Topics](phase-09-advanced.md)
+[← Back to Learning Path](../learning-path.md) | [← Previous: Advanced Topics](phase-09-advanced.md) | [📖 Glossary](glossary.md)
 
-**Phase Overview**: Beyond language models lies a rich world of probabilistic generative models. This phase covers diffusion models—the technology behind Stable Diffusion and DALL-E—which generate high-quality images by gradually denoising random noise. You'll understand the theoretical foundations connecting diffusion to score matching and stochastic differential equations, and how these models have revolutionized image generation, video synthesis, and even molecular design. While briefer than other phases, these concepts are essential for understanding modern generative AI beyond just text.
+**Phase Overview**: Beyond language models lies a rich world of probabilistic generative models. This phase covers [diffusion models](glossary.md#diffusion-model)—the technology behind Stable Diffusion and DALL-E—which generate high-quality images by gradually denoising random noise. You'll understand the theoretical foundations connecting diffusion to score matching and stochastic differential equations, and how these models have revolutionized image generation, video synthesis, and even molecular design. While briefer than other phases, these concepts are essential for understanding modern generative AI beyond just text.
 
 ## 10.1 Probabilistic Programming
 **Goal**: Build probabilistic models programmatically

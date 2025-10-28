@@ -1,8 +1,8 @@
 # Phase 2: Large Language Models - Core Concepts
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Foundations](phase-01-foundations.md)
+[← Back to Learning Path](../learning-path.md) | [← Previous: Foundations](phase-01-foundations.md) | [📖 Glossary](glossary.md)
 
-**Phase Overview**: This phase traces the explosive evolution of language models from BERT's bidirectional pretraining breakthrough to GPT-3's massive scale demonstration. You'll learn how the field discovered that pretraining on vast amounts of text data creates models with remarkable few-shot learning abilities, and how different pretraining objectives (masked language modeling vs. autoregressive) lead to different capabilities. This progression from BERT to GPT-3 to instruction-tuned models forms the backbone of modern NLP and sets the stage for understanding today's ChatGPT-style systems.
+**Phase Overview**: This phase traces the explosive evolution of language models from [BERT](glossary.md#bert-bidirectional-encoder-representations-from-transformers)'s bidirectional pretraining breakthrough to [GPT](glossary.md#gpt-generative-pre-trained-transformer)-3's massive scale demonstration. You'll learn how the field discovered that [pre-training](glossary.md#pre-training) on vast amounts of text data creates models with remarkable [few-shot learning](glossary.md#few-shot-learning) abilities, and how different pretraining objectives (masked language modeling vs. autoregressive) lead to different capabilities. This progression from BERT to GPT-3 to instruction-tuned models forms the backbone of modern NLP and sets the stage for understanding today's ChatGPT-style systems.
 
 ## 2.1 LLM Foundations
 **Goal**: Understand transformer architecture and pre-training

@@ -68,6 +68,7 @@
 
 ### 2024.06
 - [Scalable MatMul-free Language Modeling](https://arxiv.org/pdf/2406.02528)
+- [Understanding and Mitigating Tokenization Bias in Language Models](https://arxiv.org/abs/2406.16829)
 
 ### 2024.05
 - [Breaking the Molecular Dynamics Timescale Barrier Using a Wafer-Scale System](https://arxiv.org/pdf/2405.07898)
@@ -82,6 +83,7 @@
 
 ### 2024.03
 - [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643)
+- [Greed is All You Need: An Evaluation of Tokenizer Inference Methods](https://arxiv.org/abs/2403.01289)
 
 ### 2024.02
 - [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764)
@@ -163,6 +165,7 @@
 ## 2018
 
 - [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
+- [SentencePiece: A simple and language independent subword tokenizer and detokenizer](https://arxiv.org/abs/1808.06226)
 
 ## 2017
 
@@ -205,7 +208,10 @@
 ### 2016-NeurIPS
 - [A Probabilistic Programming Approach to Probabilistic Data Analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf)
 
-## 2015
+## 2015-2016
+
+### 2016.08
+- [Neural Machine Translation of Rare Words with Subword Units (BPE)](https://arxiv.org/abs/1508.07909)
 
 ### 2015.12
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
@@ -223,11 +229,14 @@
 
 ## 2014
 
+- [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
+- [GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162/)
 - [Going Deeper with Convolutions (GoogLeNet)](https://arxiv.org/abs/1409.4842)
 - [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
 
 ## 2013
 
+- [Efficient Estimation of Word Representations in Vector Space (Word2Vec)](https://arxiv.org/abs/1301.3781)
 - [Visualizing and Understanding Convolutional Networks (DeconvNet)](https://arxiv.org/abs/1311.2901)
 - [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/abs/1312.6034)
 - [Approximate Bayesian Image Interpretation using Generative Probabilistic Graphics Programs](http://papers.nips.cc/paper/4881-approximate-bayesian-image-interpretation-using-generative-probabilistic-graphics-programs.pdf)
@@ -272,7 +281,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 94 papers  
+**Total Papers in Learning Path**: 101 papers  
 **Paywalled Papers**: 4 (marked with 🔒)  
 **Open Access**: ~96%
 
