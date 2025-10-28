@@ -72,6 +72,7 @@ A curated collection of research papers across AI/ML domains.
 ---
 
 ## Navigation
-📅 **[View by Publication Date](by-date.md)** - Complete chronological listing of all papers  
-📚 **[Academic Conferences](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)** - Submission deadlines
-📚 **[Follow the learning path](learning-path.md)** - Learning Path
+
+- 📅 **[View by Publication Date](by-date.md)** - Complete chronological listing of all papers
+- 📚 **[Learning Path](learning-path.md)** - Structured curriculum for learning AI/ML from foundations to advanced topics
+- 🎓 **[Academic Conferences](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)** - Submission deadlines
