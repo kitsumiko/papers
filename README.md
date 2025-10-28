@@ -4,22 +4,25 @@
 
 [![Papers](https://img.shields.io/badge/papers-100+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
+[![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
 [![Last Updated](https://img.shields.io/badge/updated-October_2025-orange.svg)](by-date.md)
 
 ---
 
 ## 🎯 What's Inside
 
-This repository contains **100+ carefully selected research papers** organized in two complementary ways:
+This repository contains **100+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
+3. **📖 [Comprehensive Glossary](learning/glossary.md)** - 250+ terms, concepts, and acronyms explained with context
 
 ### Why This Collection?
 
 - **Curated for Learning**: Papers selected for their pedagogical value and impact
 - **Pedagogically Organized**: Follow a structured path from basics to advanced topics
 - **Modern & Comprehensive**: Covers transformers, LLMs, agents, vision, security, and more
+- **Glossary Integrated**: Key terms linked throughout—never get lost in jargon
 - **Open Access Focused**: Most papers freely available; paywalled papers marked 🔒
 - **Actively Maintained**: Updated with latest research from 2025
 
@@ -28,7 +31,7 @@ This repository contains **100+ carefully selected research papers** organized i
 ## 🚀 Quick Start
 
 ### For Beginners
-Start with the **[Learning Path](learning-path.md)** and follow **Phase 1: Foundations**. Read papers in sequence, focusing on the "Why" explanations.
+Start with the **[Learning Path](learning-path.md)** and follow **Phase 1: Foundations**. Read papers in sequence, focusing on the "Why" explanations. Check the **[Glossary](learning/glossary.md)** whenever you encounter unfamiliar terms.
 
 ### For Practitioners
 Jump to relevant phases:
@@ -41,6 +44,52 @@ Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or 
 - [Phase 6: Alternative Architectures](learning/phase-06-architectures.md)
 - [Phase 7: Interpretability](learning/phase-07-interpretability.md)
 - [Phase 9: Advanced Topics](learning/phase-09-advanced.md)
+
+### Quick Reference
+**Need a definition?** → Check the **[📖 Glossary](learning/glossary.md)** for 250+ terms organized by category (architectures, training, NLP, security, etc.)
+
+---
+
+## 🎓 How to Use This Repository
+
+### Reading Strategies
+
+**🌱 The Beginner Path** (3-6 months)
+1. Start with [Phase 1: Foundations](learning/phase-01-foundations.md)
+2. Read key papers: Attention Is All You Need → BERT → GPT-3
+3. Focus on "Why" explanations before diving deep
+4. Take notes on connections between papers
+
+**⚡ The Practitioner Sprint** (1-2 months)
+1. Read Phase 1 summaries for context
+2. Deep-dive: [Phase 2](learning/phase-02-llms.md) + [Phase 3](learning/phase-03-attention.md) + [Phase 4](learning/phase-04-retrieval.md)
+3. Skim related work sections to understand landscape
+4. Implement key techniques from papers
+
+**🔬 The Researcher Deep-Dive** (Ongoing)
+1. Use [chronological view](by-date.md) for latest research
+2. Focus on specific phases relevant to your research
+3. Read citations and follow paper connections
+4. Compare approaches across different papers
+
+**🛠️ The Engineer Focus** (2-4 weeks)
+1. Priority: [Phase 3](learning/phase-03-attention.md) (Efficiency), [Phase 8](learning/phase-08-security.md) (Security), [Phase 12](learning/phase-12-hardware.md) (Hardware)
+2. Focus on implementation details and benchmarks
+3. Note production considerations and trade-offs
+
+**� The Security Specialist** (1-2 weeks)
+1. Core: [Phase 8](learning/phase-08-security.md)
+2. Context: [Phase 2](learning/phase-02-llms.md) (LLM basics), [Phase 5](learning/phase-05-reasoning.md) (Alignment)
+3. Focus on threat models and defense mechanisms
+
+### Paper Reading Tips
+
+1. **Start with abstracts** - Understand the core contribution
+2. **Read "Why" annotations** - Context before content
+3. **Check the [📖 Glossary](learning/glossary.md)** - Look up unfamiliar terms
+4. **Follow the narrative** - Papers build on each other
+5. **Take notes** - Document connections and insights
+6. **Implement key ideas** - Hands-on learning reinforces concepts
 
 ---
 
@@ -172,6 +221,10 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 ### 📜 Policy & Governance
 - AI policy frameworks: Dual-use models, open weights
 - Governance considerations for foundation models
+
+---
+
+## 🆕 What's New
 
 ---
 
