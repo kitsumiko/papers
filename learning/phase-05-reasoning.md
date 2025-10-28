@@ -1,8 +1,8 @@
 # Phase 5: Reasoning & Alignment
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 4](phase-04-retrieval.md)
+[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 4](phase-04-retrieval.md) | [📖 Glossary](glossary.md)
 
-**Phase Overview**: Raw language models don't naturally follow instructions or break down complex problems step-by-step. This phase covers the crucial techniques that transform base models into helpful, harmless assistants: reinforcement learning from human feedback (RLHF) that aligns models with human preferences, chain-of-thought prompting that enables multi-step reasoning, and constitutional AI approaches that encode ethical principles. You'll also learn about agent frameworks like ReAct that give models the ability to use tools and take actions. These methods are what make modern AI systems genuinely useful and (relatively) safe.
+**Phase Overview**: Raw language models don't naturally follow instructions or break down complex problems step-by-step. This phase covers the crucial techniques that transform base models into helpful, harmless assistants: [reinforcement learning from human feedback (RLHF)](glossary.md#rlhf-reinforcement-learning-from-human-feedback) that aligns models with human preferences, [chain-of-thought prompting](glossary.md#chain-of-thought-prompting) that enables multi-step reasoning, and [constitutional AI](glossary.md#constitutional-ai) approaches that encode ethical principles. You'll also learn about [agent](glossary.md#agent) frameworks like [ReAct](glossary.md#react-reasoning-and-acting) that give models the ability to use tools and take actions. These methods are what make modern AI systems genuinely useful and (relatively) safe.
 
 ## 5.1 Teaching Models to Reason
 **Goal**: Build models that can reason and solve complex problems

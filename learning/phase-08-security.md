@@ -1,8 +1,8 @@
 # Phase 8: Security & Robustness
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 7](phase-07-interpretability.md)
+[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 7](phase-07-interpretability.md) | [📖 Glossary](glossary.md)
 
-**Phase Overview**: AI systems face unique security challenges that don't exist in traditional software. This phase examines the threat landscape: adversarial examples that fool models with imperceptible perturbations, jailbreaking techniques that bypass safety guardrails, prompt injection attacks that hijack model behavior, and data poisoning that corrupts training. You'll also learn about defenses like adversarial training and certified robustness. As AI systems control increasingly important decisions—from content moderation to autonomous vehicles—understanding their vulnerabilities and defenses becomes critical for responsible deployment.
+**Phase Overview**: AI systems face unique security challenges that don't exist in traditional software. This phase examines the threat landscape: [adversarial examples](glossary.md#adversarial-example) that fool models with imperceptible perturbations, [jailbreaking](glossary.md#jailbreaking) techniques that bypass safety guardrails, [prompt injection](glossary.md#prompt-injection) attacks that hijack model behavior, and [data poisoning](glossary.md#data-poisoning) that corrupts training. You'll also learn about defenses like [adversarial training](glossary.md#adversarial-training) and certified robustness. As AI systems control increasingly important decisions—from content moderation to autonomous vehicles—understanding their vulnerabilities and defenses becomes critical for responsible deployment.
 
 ## 8.1 Adversarial Attacks
 **Goal**: Build secure and aligned AI systems

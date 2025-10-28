@@ -50,7 +50,7 @@ The learning path is organized into **13 progressive phases**, each building on 
 
 | Phase | Topic | Papers | Focus |
 |-------|-------|--------|-------|
-| **[1](learning/phase-01-foundations.md)** | 🏗️ **Foundations** | 8 | Deep learning basics, CNNs, RNNs, GANs |
+| **[1](learning/phase-01-foundations.md)** | 🏗️ **Foundations** | 15 | Deep learning basics, embeddings, CNNs, RNNs, GANs, tokenization |
 | **[2](learning/phase-02-llms.md)** | 🤖 **Large Language Models** | 10 | Transformers, BERT, GPT, training at scale |
 | **[3](learning/phase-03-attention.md)** | ⚡ **Attention Innovations** | 7 | FlashAttention, efficient attention, long context |
 | **[4](learning/phase-04-retrieval.md)** | 🔍 **Retrieval & RAG** | 6 | RAG systems, kNN-LM, semantic search |
@@ -64,7 +64,7 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 2 | Photonic computing, VLSI implementations |
 | **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 1 | AI safety, policy, societal impact |
 
-**Total**: 88+ core papers across 13 phases
+**Total**: 95+ core papers across 13 phases
 
 ---
 
@@ -76,6 +76,7 @@ papers/
 ├── learning-path.md             # Main learning path navigation
 ├── by-date.md                   # Chronological paper listing
 └── learning/                    # Phase-by-phase curriculum
+    ├── glossary.md              # Comprehensive glossary of terms & concepts
     ├── phase-01-foundations.md
     ├── phase-02-llms.md
     ├── phase-03-attention.md
@@ -100,8 +101,10 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 ### 🏗️ Deep Learning Foundations
 - Classic architectures: LeNet, AlexNet, GoogLeNet, ResNet
 - Training techniques: Xavier initialization, Batch Normalization
+- **Word Embeddings**: Word2Vec, GloVe, encoder-decoder architectures
 - Sequence models: LSTM, time-series foundations (MOMENT)
 - Generative models: GANs, diffusion models
+- **Tokenization**: BPE, SentencePiece, tokenization bias and best practices
 
 ### 🤖 Large Language Models & Transformers
 - **Foundational**: [Attention Is All You Need](https://arxiv.org/abs/1706.03762), [BERT](https://arxiv.org/abs/1810.04805), [GPT-3](https://arxiv.org/abs/2005.14165)
@@ -208,9 +211,10 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 
 1. **Start with abstracts** - Understand the core contribution
 2. **Read "Why" annotations** - Context before content
-3. **Follow the narrative** - Papers build on each other
-4. **Take notes** - Document connections and insights
-5. **Implement key ideas** - Hands-on learning reinforces concepts
+3. **Check the [📖 Glossary](learning/glossary.md)** - Look up unfamiliar terms
+4. **Follow the narrative** - Papers build on each other
+5. **Take notes** - Document connections and insights
+6. **Implement key ideas** - Hands-on learning reinforces concepts
 
 ---
 

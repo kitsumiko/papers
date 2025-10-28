@@ -1,8 +1,8 @@
 # Phase 3: Attention Mechanism Innovations
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 2](phase-02-llms.md)
+[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 2](phase-02-llms.md) | [📖 Glossary](glossary.md)
 
-**Phase Overview**: While transformers are powerful, their quadratic memory and compute complexity with sequence length creates significant bottlenecks. This phase explores ingenious solutions to make attention more efficient—from FlashAttention's IO-aware algorithms that dramatically speed up training, to architectural innovations like linear attention and state-space models that achieve sub-quadratic scaling. These advances are critical for processing long documents, reducing costs, and enabling real-time applications, representing some of the most active areas of current research.
+**Phase Overview**: While [transformers](glossary.md#transformer) are powerful, their quadratic memory and compute complexity with sequence length creates significant bottlenecks. This phase explores ingenious solutions to make [attention](glossary.md#attention-mechanism) more efficient—from [FlashAttention](glossary.md#flashattention)'s IO-aware algorithms that dramatically speed up training, to architectural innovations like linear attention and state-space models that achieve sub-quadratic scaling. These advances are critical for processing long documents, reducing costs, and enabling real-time applications, representing some of the most active areas of current research.
 
 ## 3.1 Efficient Attention
 **Goal**: Understand and optimize the core attention mechanism

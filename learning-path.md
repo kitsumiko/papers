@@ -109,6 +109,7 @@ Follow **[Phase 1-2](learning/phase-01-foundations.md)** for foundations, then d
 
 ## 🔗 Additional Resources
 
+- **[📖 Glossary](learning/glossary.md)** - Comprehensive definitions of terms, concepts, and acronyms
 - **Full Chronological List**: [by-date.md](by-date.md)
 - **Topical Summary**: [README.md](README.md)
 - **Academic Conference Deadlines**: [AI Deadlines](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)

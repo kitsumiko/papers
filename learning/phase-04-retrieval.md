@@ -1,8 +1,8 @@
 # Phase 4: Retrieval & Knowledge Systems
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Attention](phase-03-attention.md)
+[← Back to Learning Path](../learning-path.md) | [← Previous: Attention](phase-03-attention.md) | [📖 Glossary](glossary.md)
 
-**Phase Overview**: Language models have limited memory and can hallucinate facts, but what if they could look up information before answering? This phase introduces retrieval-augmented generation (RAG), where models query external knowledge bases to ground their responses in factual sources. You'll learn about dense retrieval systems that find relevant documents, nearest-neighbor approaches that augment model capabilities, and the architectural patterns that make RAG practical. These techniques are essential for building reliable, factual AI systems and are widely used in production applications today.
+**Phase Overview**: Language models have limited memory and can [hallucinate](glossary.md#hallucination) facts, but what if they could look up information before answering? This phase introduces [retrieval-augmented generation (RAG)](glossary.md#rag-retrieval-augmented-generation), where models query external knowledge bases to ground their responses in factual sources. You'll learn about dense retrieval systems that find relevant documents, nearest-neighbor approaches that augment model capabilities, and the architectural patterns that make RAG practical. These techniques are essential for building reliable, factual AI systems and are widely used in production applications today.
 
 ## 4.1 Retrieval-Augmented Generation (RAG)
 **Goal**: Combine retrieval with generation for better knowledge access
