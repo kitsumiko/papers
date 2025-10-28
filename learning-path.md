@@ -9,17 +9,26 @@ A structured curriculum organizing papers from this collection, designed to buil
 ### 1.1 Deep Learning Basics
 **Goal**: Understand the fundamental building blocks of modern deep learning
 
-1. [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (2012)
-   - *Why*: The paper that sparked the deep learning revolution
+1. [Deep Learning (Nature Review)](https://www.nature.com/articles/nature14539) (LeCun, Bengio, Hinton, 2015)
+   - *Why*: The canonical overview of deep learning principles - start here for the big picture
    
-2. [Gradient-Based Learning Applied to Document Recognition (LeNet)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) (1997)
+2. [Understanding the Difficulty of Training Deep Feedforward Neural Networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) (Glorot & Bengio, 2010)
+   - *Why*: Introduces Xavier initialization and explains training challenges; foundational for understanding why deep networks are hard to train
+
+3. [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) (Ioffe & Szegedy, 2015)
+   - *Why*: Essential technique for stable, fast training; enables much deeper networks
+
+4. [Gradient-Based Learning Applied to Document Recognition (LeNet)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) (1997)
    - *Why*: Historical foundation of CNNs
 
-3. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (2015)
-   - *Why*: ResNets and skip connections - essential architecture innovation
-
-4. [Going Deeper with Convolutions (GoogLeNet)](https://arxiv.org/abs/1409.4842) (2014)
+5. [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (2012)
+   - *Why*: The paper that sparked the deep learning revolution
+   
+6. [Going Deeper with Convolutions (GoogLeNet)](https://arxiv.org/abs/1409.4842) (2014)
    - *Why*: Inception modules and efficient architecture design
+
+7. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (2015)
+   - *Why*: ResNets and skip connections - essential architecture innovation
 
 ### 1.2 Sequence Modeling & Recurrent Networks
 **Goal**: Learn time-series and sequential data processing
@@ -46,16 +55,25 @@ A structured curriculum organizing papers from this collection, designed to buil
 ### 2.1 LLM Foundations
 **Goal**: Understand transformer architecture and pre-training
 
-1. [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555) (2020)
+1. [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al., 2017)
+   - *Why*: **THE foundational transformer paper** - introduces self-attention, multi-head attention, and the transformer architecture that powers all modern LLMs
+
+2. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (Devlin et al., 2019)
+   - *Why*: Introduces masked language modeling and bidirectional pre-training; revolutionized NLP fine-tuning
+
+3. [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165) (Brown et al., 2020)
+   - *Why*: Demonstrates emergent abilities at scale; introduces in-context learning and few-shot prompting
+
+4. [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555) (2020)
    - *Why*: Efficient pre-training alternative to masked language modeling
 
-2. [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) (2024)
+5. [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) (2024)
    - *Why*: State-of-the-art open LLMs and their design principles
 
-3. [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/pdf/2404.14619) (2024)
+6. [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/pdf/2404.14619) (2024)
    - *Why*: Efficient, open-source LLM architecture
 
-4. [EuroLLM: Multilingual Language Models for Europe](https://arxiv.org/pdf/2409.11741) (2024)
+7. [EuroLLM: Multilingual Language Models for Europe](https://arxiv.org/pdf/2409.11741) (2024)
    - *Why*: Multilingual capabilities and cross-lingual transfer
 
 ### 2.2 Training at Scale
@@ -92,10 +110,16 @@ A structured curriculum organizing papers from this collection, designed to buil
 ### 3.1 Efficient Attention
 **Goal**: Understand and optimize the core attention mechanism
 
-1. [Efficient streaming language models with attention sinks](https://arxiv.org/pdf/2309.17453.pdf) (2024)
+1. [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) (Dao et al., 2022)
+   - *Why*: **Foundational for modern efficient training** - IO-aware attention algorithm that's 3x faster and enables longer context
+
+2. [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) (Sun et al., 2023)
+   - *Why*: Bridges efficient attention and RNN-style recurrence with O(1) inference cost
+
+3. [Efficient streaming language models with attention sinks](https://arxiv.org/pdf/2309.17453.pdf) (2024)
    - *Why*: Handling streaming/infinite sequences
 
-2. [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/pdf/2404.07143v1.pdf) (2024)
+4. [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/pdf/2404.07143v1.pdf) (2024)
    - *Why*: Infinite context windows
 
 3. [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089) (2025)
@@ -120,13 +144,19 @@ A structured curriculum organizing papers from this collection, designed to buil
 ### 4.1 Retrieval-Augmented Generation (RAG)
 **Goal**: Combine retrieval with generation for better knowledge access
 
-1. [REFRAG: Rethinking RAG based Decoding](https://arxiv.org/pdf/2509.01092) (2025)
+1. [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) (Guu et al., 2020)
+   - *Why*: **First major retrieval-augmented pretraining approach** - shows how to integrate retrieval into pre-training with backpropagation through millions of documents
+
+2. [Generalization through Memorization: Nearest Neighbor Language Models (kNN-LM)](https://arxiv.org/abs/1911.00172) (Khandelwal et al., 2020)
+   - *Why*: Memory-augmented decoding foundation; shows that similarity search is easier than next-word prediction
+
+3. [REFRAG: Rethinking RAG based Decoding](https://arxiv.org/pdf/2509.01092) (2025)
    - *Why*: Optimizing RAG decoding strategies
 
-2. [Semantic IDs for Joint Generative Search and Recommendation](https://arxiv.org/abs/2508.10478) (2025)
+4. [Semantic IDs for Joint Generative Search and Recommendation](https://arxiv.org/abs/2508.10478) (2025)
    - *Why*: Unified approach to search and recommendation
 
-3. [Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval](https://arxiv.org/pdf/2404.09889) (2024)
+5. [Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval](https://arxiv.org/pdf/2404.09889) (2024)
    - *Why*: Structured data retrieval challenges
 
 ### 4.2 Federated & Distributed Learning
@@ -142,7 +172,19 @@ A structured curriculum organizing papers from this collection, designed to buil
 ### 5.1 Reasoning Architectures
 **Goal**: Build models that can reason and solve complex problems
 
-1. [Hierarchical Reasoning Model](https://arxiv.org/pdf/2506.21734) (2025)
+1. [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/abs/1706.03741) (Christiano et al., 2017)
+   - *Why*: **Introduces RLHF** - the foundation of alignment; learning from human feedback without explicit rewards
+
+2. [Proximal Policy Optimization Algorithms (PPO)](https://arxiv.org/abs/1707.06347) (Schulman et al., 2017)
+   - *Why*: **Modern RL training backbone** for LLM fine-tuning; simpler and more stable than TRPO
+
+3. [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) (Yao et al., 2022)
+   - *Why*: **Core to reasoning-agent architectures** - interleaves reasoning traces with actions for better problem-solving
+
+4. [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) (Shinn et al., 2023)
+   - *Why*: Agentic self-improvement through linguistic feedback and episodic memory
+
+5. [Hierarchical Reasoning Model](https://arxiv.org/pdf/2506.21734) (2025)
    - *Why*: Brain-inspired hierarchical reasoning
 
 2. [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/pdf/2510.04871) (2025)
@@ -173,19 +215,25 @@ A structured curriculum organizing papers from this collection, designed to buil
 ### 6.1 Alternative Architectures
 **Goal**: Explore beyond standard transformers
 
-1. [Kolmogorov–Arnold Networks (KAN)](https://arxiv.org/pdf/2404.19756) (2024)
-   - *Why*: Novel learnable activation functions
+1. [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) (Peng et al., 2023)
+   - *Why*: **Foundational non-transformer alternative** - combines efficient parallelizable training with O(1) inference; scaled to 14B parameters
 
-2. [U-Nets as Belief Propagation: Efficient Classification, Denoising, and Diffusion in Generative Hierarchical Models](https://arxiv.org/pdf/2404.18444) (2024)
+2. [Kolmogorov–Arnold Networks (KAN)](https://arxiv.org/pdf/2404.19756) (2024)
+   - *Why*: Novel learnable activation functions replacing fixed activations
+
+3. [U-Nets as Belief Propagation: Efficient Classification, Denoising, and Diffusion in Generative Hierarchical Models](https://arxiv.org/pdf/2404.18444) (2024)
    - *Why*: Connecting neural networks to probabilistic inference
 
-3. [Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model](https://arxiv.org/pdf/2409.15254) (2024)
-   - *Why*: Alternative sequence modeling approaches
+4. [Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model](https://arxiv.org/pdf/2409.15254) (2024)
+   - *Why*: Comparison of alternative sequence modeling approaches
 
 ### 6.2 Theoretical Foundations
 **Goal**: Understand the mathematical foundations
 
-1. [Token embeddings violate the manifold hypothesis](https://arxiv.org/abs/2504.01002) (2025)
+1. [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572) (Jacot et al., 2018)
+   - *Why*: **Bridges theory and deep learning** - shows ANNs are equivalent to kernel methods in infinite-width limit; explains generalization
+
+2. [Token embeddings violate the manifold hypothesis](https://arxiv.org/abs/2504.01002) (2025)
    - *Why*: Understanding embedding space geometry
 
 2. [How much do language models memorize?](https://arxiv.org/pdf/2505.24832) (2025)
@@ -219,26 +267,35 @@ A structured curriculum organizing papers from this collection, designed to buil
 ### 7.2 Model Evaluation & Robustness
 **Goal**: Properly evaluate and benchmark models
 
-1. [Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon](https://arxiv.org/pdf/2502.07445) (2025)
+1. [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958) (Lin et al., 2022)
+   - *Why*: **Factuality benchmark** - reveals that larger models can be less truthful; critical for understanding model limitations
+
+2. [Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon](https://arxiv.org/pdf/2502.07445) (2025)
    - *Why*: Critical analysis of evaluation methodologies
 
-2. [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/abs/2410.07095) (2024)
+3. [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/abs/2410.07095) (2024)
    - *Why*: Benchmarking ML engineering capabilities
 
-3. [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) (2017)
+4. [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) (2017)
    - *Why*: Understanding prediction confidence
 
-4. [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf) (2025)
+5. [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf) (2025)
    - *Why*: Critical examination of reasoning capabilities
 
 ---
 
 ## Phase 8: Security, Privacy & Safety
 
-### 8.1 Security Frameworks
-**Goal**: Build secure AI systems
+### 8.1 Security Frameworks & Alignment
+**Goal**: Build secure and aligned AI systems
 
-1. [Pr$εε$mpt: Sanitizing Sensitive Prompts for LLMs](https://arxiv.org/abs/2504.05147) (2025)
+1. [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155) (Ouyang et al., 2022)
+   - *Why*: **The InstructGPT paper** - demonstrates fine-tuning with RLHF for alignment; 1.3B model preferred over 175B GPT-3
+
+2. [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) (Bai et al., 2022)
+   - *Why*: **Central to LLM safety** - self-improvement through AI feedback (RLAIF) without human labels; reduces need for oversight
+
+3. [Pr$εε$mpt: Sanitizing Sensitive Prompts for LLMs](https://arxiv.org/abs/2504.05147) (2025)
    - *Why*: Protecting sensitive information in prompts
 
 2. [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/pdf/2504.08623) (2025)
@@ -317,9 +374,24 @@ A structured curriculum organizing papers from this collection, designed to buil
 ## Phase 11: Computer Vision Specialization (Optional)
 
 ### 11.1 Vision Architectures
-1. [Visualizing and Understanding Convolutional Networks (DeconvNet)](https://arxiv.org/abs/1311.2901) (2013)
-2. [Striving for Simplicity: The All Convolutional Net](https://arxiv.org/abs/1412.6806) (2015)
-3. [Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408) (2016)
+
+1. [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Vision Transformer/ViT)](https://arxiv.org/abs/2010.11929) (Dosovitskiy et al., 2021)
+   - *Why*: **Missing but crucial** - applies pure transformers to vision; connects vision and language model architectures
+
+2. [Learning Transferable Visual Models From Natural Language Supervision (CLIP)](https://arxiv.org/abs/2103.00020) (Radford et al., 2021)
+   - *Why*: **The bridge to multimodal AI** - learns vision-language alignment from 400M image-text pairs; enables zero-shot transfer
+
+3. [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643) (Kirillov et al., 2023)
+   - *Why*: **Pivotal open foundation model** - promptable segmentation with 1B masks; demonstrates vision foundation model capabilities
+
+4. [Visualizing and Understanding Convolutional Networks (DeconvNet)](https://arxiv.org/abs/1311.2901) (2013)
+   - *Why*: Understanding what CNNs learn through deconvolution
+
+5. [Striving for Simplicity: The All Convolutional Net](https://arxiv.org/abs/1412.6806) (2015)
+   - *Why*: Replacing pooling with learned downsampling
+
+6. [Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408) (2016)
+   - *Why*: Applying GANs to segmentation tasks
 
 ### 11.2 Vision Interpretability
 1. [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/abs/1312.6034) (2013)
