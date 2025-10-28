@@ -17,10 +17,10 @@
    - *Why*: Demonstrates emergent abilities at scale; introduces in-context learning and few-shot prompting
 
 4. [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555) (2020)
-   - *Why*: Efficient pre-training alternative to masked language modeling
+   - *Why*: Efficient alternative to masked language modeling; achieves BERT-level performance with less compute
 
-5. [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) (2024)
-   - *Why*: State-of-the-art open LLMs and their design principles
+5. [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (2024)
+   - *Why*: State-of-the-art open-source LLMs; demonstrates continued scaling benefits and instruction-tuning techniques
 
 6. [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/pdf/2404.14619) (2024)
    - *Why*: Efficient, open-source LLM architecture

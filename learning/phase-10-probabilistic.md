@@ -10,17 +10,17 @@
 1. [A Probabilistic Programming Approach to Probabilistic Data Analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf) (2016)
    - *Why*: Foundation of probabilistic programming
 
-2. [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://mrkulk.github.io/www_cvpr15/1999.pdf) (2015)
-   - *Why*: Vision with probabilistic programming
+2. [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://openaccess.thecvf.com/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf) (2015)
+   - *Why*: Probabilistic programming for computer vision; demonstrates analysis-by-synthesis
 
 3. [MCMC using Hamiltonian dynamics](https://arxiv.org/abs/1206.1901) (2012)
-   - *Why*: Core inference algorithm (HMC)
 
-## 10.2 Bayesian Deep Learning
-**Goal**: Combine deep learning with Bayesian inference
+## 10.2 Generative Models for Vision
+**Goal**: Apply probabilistic models to visual understanding
 
-1. [A Bayesian Framework for Modeling Intuitive Dynamics](https://cocosci.berkeley.edu/tom/papers/collisions.pdf) (2009)
-   - *Why*: Bayesian models of physical reasoning
+1. 🔒 [A Bayesian Framework for Modeling Intuitive Dynamics](https://cocosci.berkeley.edu/tom/papers/collisions.pdf) (2009)
+   - *Why*: Models physical intuition probabilistically
+   - *Note*: Institutional repository - may require access
 
 ---
 
