@@ -34,7 +34,7 @@
 1. [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/pdf/2308.08708v3.pdf) (2024)
    - *Why*: Understanding consciousness in AI systems
 
-2. [OpenAI o3 System Card](https://arxiv.org/pdf/2411.04996) (2024)
+2. [Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models](https://arxiv.org/pdf/2411.04996) (2024)
    - *Why*: Advanced reasoning capabilities in modern systems
 
 ---
