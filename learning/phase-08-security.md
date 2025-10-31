@@ -22,6 +22,9 @@
 5. [A2AS: Agentic AI Runtime Security and Self-Defense](https://arxiv.org/pdf/2510.13825) (2025)
    - *Why*: Runtime security for AI agents
 
+6. [Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](https://arxiv.org/abs/2510.22620) (Bazinska et al., 2025)
+   - *Why*: Systematic security evaluation of LLM backbones in AI agents; introduces threat snapshots framework and b³ benchmark with 194,331 adversarial attacks; reveals reasoning capabilities improve security while model size doesn't correlate
+
 ## 8.2 Adversarial Robustness
 **Goal**: Understand and defend against adversarial attacks
 
