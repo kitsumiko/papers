@@ -3,6 +3,7 @@
 ## 2025
 
 ### 2025.10
+- [Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](https://arxiv.org/abs/2510.22620)
 - [DeepSeek-OCR: Contexts Optical Compression](https://arxiv.org/pdf/2510.18234)
 - [A2AS: Agentic AI Runtime Security and Self-Defense](https://arxiv.org/pdf/2510.13825)
 - [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378)

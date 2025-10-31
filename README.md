@@ -2,16 +2,16 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-100+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-102+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
-[![Last Updated](https://img.shields.io/badge/updated-October_2025-orange.svg)](by-date.md)
+[![Last Updated](https://img.shields.io/badge/updated-October_30,_2025-orange.svg)](by-date.md)
 
 ---
 
 ## 🎯 What's Inside
 
-This repository contains **100+ carefully selected research papers** organized in three complementary ways:
+This repository contains **102+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
@@ -108,14 +108,14 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[5](learning/phase-05-reasoning.md)** | 🧠 **Reasoning & Agents** | 12 | RLHF, chain-of-thought, agentic systems |
 | **[6](learning/phase-06-architectures.md)** | 🏛️ **Alternative Architectures** | 7 | RWKV, Mamba, state-space models, theory |
 | **[7](learning/phase-07-interpretability.md)** | 🔬 **Interpretability** | 10 | LIME, integrated gradients, evaluation methods |
-| **[8](learning/phase-08-security.md)** | 🛡️ **Security & Robustness** | 6 | Alignment, jailbreaking, adversarial ML |
+| **[8](learning/phase-08-security.md)** | 🛡️ **Security & Robustness** | 7 | Alignment, jailbreaking, adversarial ML |
 | **[9](learning/phase-09-advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
 | **[10](learning/phase-10-probabilistic.md)** | 🎲 **Probabilistic Models** | 4 | Diffusion, probabilistic programming |
 | **[11](learning/phase-11-vision.md)** | 👁️ **Vision & Multimodal** | 8 | ViT, CLIP, SAM, vision-language models |
 | **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 2 | Photonic computing, VLSI implementations |
 | **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 1 | AI safety, policy, societal impact |
 
-**Total**: 95+ core papers across 13 phases
+**Total**: 96+ core papers across 13 phases
 
 ---
 
@@ -262,12 +262,12 @@ Have a paper that should be included? Found a broken link? Want to improve expla
 
 ## 📊 Repository Statistics
 
-- **Total Papers**: 100+
+- **Total Papers**: 102+
 - **Date Range**: 1997-2025
 - **Coverage**: 13 major AI/ML topics
 - **Open Access**: ~95% freely available
 - **Structure**: 2 navigation modes (pedagogical + chronological)
-- **Last Updated**: October 2025
+- **Last Updated**: October 30, 2025
 
 ---
 
