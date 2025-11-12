@@ -265,17 +265,6 @@ Have a paper that should be included? Found a broken link? Want to improve expla
 
 ---
 
-## 📊 Repository Statistics
-
-- **Total Papers**: 102+
-- **Date Range**: 1997-2025
-- **Coverage**: 13 major AI/ML topics
-- **Open Access**: ~95% freely available
-- **Structure**: 2 navigation modes (pedagogical + chronological)
-- **Last Updated**: October 30, 2025
-
----
-
 ## 📄 License
 
 This repository contains links to research papers. All papers remain under their original licenses and copyrights held by authors and publishers.
