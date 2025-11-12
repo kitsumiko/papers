@@ -2,16 +2,16 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-102+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-103+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
-[![Last Updated](https://img.shields.io/badge/updated-October_30,_2025-orange.svg)](by-date.md)
+[![Last Updated](https://img.shields.io/badge/updated-November_11,_2025-orange.svg)](by-date.md)
 
 ---
 
 ## 🎯 What's Inside
 
-This repository contains **102+ carefully selected research papers** organized in three complementary ways:
+This repository contains **103+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)

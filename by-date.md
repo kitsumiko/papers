@@ -2,6 +2,9 @@
 
 ## 2025
 
+### 2025.11
+- [Nested Learning: The Illusion of Deep Learning Architectures](https://abehrouz.github.io/files/NL.pdf) - NeurIPS 2025
+
 ### 2025.10
 - [Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](https://arxiv.org/abs/2510.22620)
 - [DeepSeek-OCR: Contexts Optical Compression](https://arxiv.org/pdf/2510.18234)
