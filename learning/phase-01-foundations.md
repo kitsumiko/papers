@@ -105,6 +105,9 @@ The embeddings in GPT-4 or Claude aren't just fancy Word2Vec - they're contextua
    - *Why*: Reveals how tokenization introduces systematic biases that affect model fairness and performance across languages
    - *Critical insight*: Tokenization isn't neutral - it can amplify biases and hurt underrepresented languages
 
+5. [Bytes Are All You Need: Transformers Operating Directly On File Bytes](https://arxiv.org/pdf/2306.00238) (2023)
+   - *Why*: Explores byte-level tokenization for truly language-agnostic models; eliminates tokenization entirely by operating on raw bytes
+
 **Key Concepts to Understand**:
 - **[Byte Pair Encoding (BPE)](glossary.md#bpe-byte-pair-encoding)**: Bottom-up approach starting from characters
 - **[WordPiece](glossary.md#wordpiece)**: Used by BERT; similar to BPE but optimizes likelihood

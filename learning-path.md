@@ -70,10 +70,18 @@ Each phase is in a separate file for easier navigation and tracking your progres
     - Vision Interpretability
 
 12. **[Phase 12: Hardware & Systems](learning/phase-12-hardware.md)**
-    - Hardware Optimization
+   - Hardware-Algorithm Co-design
+   - Specialized AI Hardware
 
-13. **[Phase 13: Policy & Governance](learning/phase-13-policy.md)**
-    - AI Policy & Standards
+13. **[Phase 13: Policy, Safety & Societal Impact](learning/phase-13-policy.md)**
+   - Financial Services & Model Risk Management (OCC 2011-12, SR 11-7)
+   - Data Protection & Privacy Law (GDPR, CCPA)
+   - AI-Specific Legislation (EU AI Act, US Executive Orders)
+   - Risk Management Frameworks (NIST AI RMF, ISO/IEC Standards)
+   - Sector-Specific Guidance (Healthcare, Employment, Criminal Justice)
+   - Dual-Use AI & National Security
+   - Responsible AI & Industry Best Practices
+   - Practical Compliance Tools & Resources
 
 ---
 
@@ -130,4 +138,4 @@ Follow **[Phase 1-2](learning/phase-01-foundations.md)** for foundations, then d
 
 ---
 
-*Last updated: October 2025*
+*Last updated: November 11, 2025*

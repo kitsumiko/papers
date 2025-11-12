@@ -22,6 +22,15 @@
 5. [SmoothGrad: Removing Noise by Adding Noise](https://arxiv.org/abs/1706.03825) (2017)
    - *Why*: Improving gradient-based visualizations
 
+6. [Deep Taylor Decomposition: Explaining Nonlinear Classification Decisions](https://arxiv.org/abs/1512.02479) (2015)
+   - *Why*: Layer-wise relevance propagation through Taylor decomposition
+
+7. [Learning How to Explain Neural Networks: PatternNet and PatternAttribution](https://arxiv.org/abs/1705.05598) (2017)
+   - *Why*: Learning explanations directly from data
+
+8. [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/abs/1703.04730) (2017)
+   - *Why*: Tracing predictions back to training data; identifying influential examples
+
 ## 7.2 Model Evaluation & Robustness
 **Goal**: Properly evaluate and benchmark models
 

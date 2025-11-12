@@ -2,7 +2,7 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-103+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-111+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
 [![Last Updated](https://img.shields.io/badge/updated-November_11,_2025-orange.svg)](by-date.md)
@@ -11,7 +11,7 @@
 
 ## 🎯 What's Inside
 
-This repository contains **103+ carefully selected research papers** organized in three complementary ways:
+This repository contains **111+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
@@ -110,12 +110,12 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[7](learning/phase-07-interpretability.md)** | 🔬 **Interpretability** | 10 | LIME, integrated gradients, evaluation methods |
 | **[8](learning/phase-08-security.md)** | 🛡️ **Security & Robustness** | 7 | Alignment, jailbreaking, adversarial ML |
 | **[9](learning/phase-09-advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
-| **[10](learning/phase-10-probabilistic.md)** | 🎲 **Probabilistic Models** | 4 | Diffusion, probabilistic programming |
+| **[10](learning/phase-10-probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
 | **[11](learning/phase-11-vision.md)** | 👁️ **Vision & Multimodal** | 8 | ViT, CLIP, SAM, vision-language models |
 | **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 2 | Photonic computing, VLSI implementations |
-| **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 1 | AI safety, policy, societal impact |
+| **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
-**Total**: 96+ core papers across 13 phases
+**Total**: 111+ core papers across 13 phases (plus 40+ policy documents & frameworks)
 
 ---
 
@@ -221,8 +221,13 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 - Hardware-algorithm co-design
 
 ### 📜 Policy & Governance
-- AI policy frameworks: [Dual-use models, open weights](https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf)
-- Governance considerations for foundation models
+- **Financial services**: [OCC 2011-12](https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12a.pdf) (Model Risk Management), [SR 11-7](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm) (Federal Reserve), [Model Risk Handbook](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)
+- **Data protection**: [GDPR](https://gdpr-info.eu/) (EU), [CCPA/CPRA](https://oag.ca.gov/privacy/ccpa) (California), [Convention 108+](https://www.coe.int/en/web/data-protection/convention108-and-protocol)
+- **AI legislation**: [EU AI Act](https://artificialintelligenceact.eu/), [Executive Order 14110](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/), [Blueprint for AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/), [China's Generative AI regulations](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)
+- **Standards & frameworks**: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [ISO/IEC 42001](https://www.iso.org/standard/81230.html), [IEEE 7000 series](https://standards.ieee.org/featured/artificial-intelligence-systems/), [OECD AI Principles](https://oecd.ai/en/ai-principles)
+- **Sector-specific**: [FDA AI/ML guidance](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices), [EEOC AI discrimination guidance](https://www.eeoc.gov/laws/guidance/what-you-should-know-about-using-artificial-intelligence-when-making-employment), [NYC Local Law 144](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page)
+- **National security**: [Dual-use models report](https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf), [Export controls](https://www.bis.gov/index.php/emerging-tech-and-ai-controls), [NSCAI report](https://www.nscai.gov/2021-final-report/)
+- **Responsible AI**: [Model cards](https://arxiv.org/abs/1810.03993), [Datasheets for datasets](https://arxiv.org/abs/1803.09010), [Microsoft Responsible AI Standard](https://www.microsoft.com/en-us/ai/responsible-ai), [AI Incident Database](https://incidentdatabase.ai/)
 
 ---
 
