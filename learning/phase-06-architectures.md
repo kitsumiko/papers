@@ -22,6 +22,9 @@
 5. [Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model](https://arxiv.org/pdf/2409.15254) (2024)
    - *Why*: Comparison of alternative sequence modeling approaches
 
+6. [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf) (2016)
+   - *Why*: Applying CNNs to graph-structured data; foundation for graph neural networks
+
 ## 6.2 Theoretical Foundations
 **Goal**: Understand the mathematical foundations
 

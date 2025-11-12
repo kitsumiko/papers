@@ -266,26 +266,7 @@
 
 ---
 
-## Additional Resources
-
-### Papers Not Yet in Learning Path
-- [Bytes Are All You Need: Transformers Operating Directly On File Bytes](https://arxiv.org/pdf/2306.00238) (2023)
-- 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf) (2023) - *Paywalled*
-- [Deep Taylor Decomposition: Explaining Nonlinear Classification Decisions](https://arxiv.org/abs/1512.02479) (2015)
-- [Learning How to Explain Neural Networks: PatternNet and PatternAttribution](https://arxiv.org/abs/1705.05598) (2017)
-- [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/abs/1703.04730) (2017)
-- [Encapsulating Models and Approximate Inference Programs in Probabilistic Modules](https://arxiv.org/abs/1612.04759) (2016)
-- [Measuring the Non-asymptotic Convergence of Sequential Monte Carlo Samplers using Probabilistic Programming](https://arxiv.org/abs/1612.02161) (2016)
-- [Time Series Structure Discovery via Probabilistic Program Synthesis](https://arxiv.org/abs/1611.07051) (2016)
-- [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf) (2016)
-- [Approximate Bayesian Image Interpretation using Generative Probabilistic Graphics Programs](http://papers.nips.cc/paper/4881-approximate-bayesian-image-interpretation-using-generative-probabilistic-graphics-programs.pdf) (2013)
-
-### Deadlines
-- [Academic Conferences](https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR,HCI)
-
----
-
-**Total Papers in Learning Path**: 101 papers  
+**Total Papers in Learning Path**: 111 papers  
 **Paywalled Papers**: 4 (marked with 🔒)  
 **Open Access**: ~96%
 
