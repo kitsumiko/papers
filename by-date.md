@@ -3,6 +3,7 @@
 ## 2025
 
 ### 2025.11
+- [Weight-sparse transformers have interpretable circuits](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) (OpenAI, Nov 13, 2025)
 - [Nested Learning: The Illusion of Deep Learning Architectures](https://abehrouz.github.io/files/NL.pdf) - NeurIPS 2025
 
 ### 2025.10
@@ -266,7 +267,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 111 papers  
+**Total Papers in Learning Path**: 112 papers  
 **Paywalled Papers**: 4 (marked with 🔒)  
 **Open Access**: ~96%
 

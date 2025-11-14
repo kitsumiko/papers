@@ -31,6 +31,9 @@
 8. [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/abs/1703.04730) (2017)
    - *Why*: Tracing predictions back to training data; identifying influential examples
 
+9. [Weight-sparse transformers have interpretable circuits](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) (Gao et al., OpenAI, 2025)
+   - *Why*: **Training models for interpretability from scratch** - constrains most weights to zero so neurons have few connections; produces circuits with unprecedented human understandability through weight sparsity rather than post-hoc analysis; validates circuits with mean ablation showing they are necessary and sufficient for task performance
+
 ## 7.2 Model Evaluation & Robustness
 **Goal**: Properly evaluate and benchmark models
 

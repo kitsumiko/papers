@@ -2,16 +2,16 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-111+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-112+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
-[![Last Updated](https://img.shields.io/badge/updated-November_11,_2025-orange.svg)](by-date.md)
+[![Last Updated](https://img.shields.io/badge/updated-November_14,_2025-orange.svg)](by-date.md)
 
 ---
 
 ## 🎯 What's Inside
 
-This repository contains **111+ carefully selected research papers** organized in three complementary ways:
+This repository contains **112+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
@@ -107,7 +107,7 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[4](learning/phase-04-retrieval.md)** | 🔍 **Retrieval & RAG** | 6 | RAG systems, kNN-LM, semantic search |
 | **[5](learning/phase-05-reasoning.md)** | 🧠 **Reasoning & Agents** | 12 | RLHF, chain-of-thought, agentic systems |
 | **[6](learning/phase-06-architectures.md)** | 🏛️ **Alternative Architectures** | 7 | RWKV, Mamba, state-space models, theory |
-| **[7](learning/phase-07-interpretability.md)** | 🔬 **Interpretability** | 10 | LIME, integrated gradients, evaluation methods |
+| **[7](learning/phase-07-interpretability.md)** | 🔬 **Interpretability** | 11 | LIME, integrated gradients, weight-sparse circuits |
 | **[8](learning/phase-08-security.md)** | 🛡️ **Security & Robustness** | 7 | Alignment, jailbreaking, adversarial ML |
 | **[9](learning/phase-09-advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
 | **[10](learning/phase-10-probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
@@ -115,7 +115,7 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 2 | Photonic computing, VLSI implementations |
 | **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
-**Total**: 111+ core papers across 13 phases (plus 40+ policy documents & frameworks)
+**Total**: 112+ core papers across 13 phases (plus 40+ policy documents & frameworks)
 
 ---
 
@@ -190,6 +190,7 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 ### 🔬 Interpretability & Analysis
 - Attribution methods: [LIME](https://arxiv.org/abs/1602.04938), [Integrated Gradients](https://arxiv.org/abs/1703.01365), [SmoothGrad](https://arxiv.org/abs/1706.03825)
 - Frameworks: [Rigorous interpretability science](https://arxiv.org/abs/1702.08608), [interpretation surveys](https://arxiv.org/abs/1706.07979)
+- **Mechanistic interpretability**: [Weight-sparse transformers](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) - training interpretable models from scratch with circuit discovery
 - Evaluation: [TruthfulQA](https://arxiv.org/abs/2109.07958), [MLE-bench](https://arxiv.org/abs/2410.07095), [model calibration](https://arxiv.org/abs/1706.04599)
 - Critical analysis: ["The Illusion of Thinking"](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf), [LLM evaluation challenges](https://arxiv.org/pdf/2502.07445)
 
