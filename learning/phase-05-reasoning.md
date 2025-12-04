@@ -46,6 +46,9 @@
 5. [Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153) (2025)
    - *Why*: Makes the case for using smaller, specialized models in agent systems for efficiency and cost-effectiveness; practical deployment considerations
 
+6. [Learning in Stackelberg Mean Field Games: A Non-Asymptotic Analysis](https://arxiv.org/pdf/2509.15392) (Zeng et al., 2025)
+   - *Why*: Introduces AC-SMFG, a single-loop actor-critic algorithm for hierarchical multi-agent systems with a leader and infinite population of followers; first Stackelberg MFG algorithm with non-asymptotic convergence guarantees; addresses policy optimization in strategic interactions like optimal liquidation and public policy
+
 ---
 
 **Next**: [Phase 6: Novel Architectures & Theory →](phase-06-architectures.md)
