@@ -49,6 +49,9 @@
 6. [Learning in Stackelberg Mean Field Games: A Non-Asymptotic Analysis](https://arxiv.org/pdf/2509.15392) (Zeng et al., 2025)
    - *Why*: Introduces AC-SMFG, a single-loop actor-critic algorithm for hierarchical multi-agent systems with a leader and infinite population of followers; first Stackelberg MFG algorithm with non-asymptotic convergence guarantees; addresses policy optimization in strategic interactions like optimal liquidation and public policy
 
+7. [Embedded Universal Predictive Intelligence: a coherent framework for multi-agent learning](https://arxiv.org/pdf/2511.22226) (Meulemans et al., 2025)
+   - *Why*: Introduces a mathematical framework for embedded agency and prospective learning in multi-agent settings; extends AIXI theory with self-prediction where Bayesian RL agents predict both future inputs and their own actions; enables infinite-order theory of mind and novel forms of cooperation in mixed-motive scenarios
+
 ---
 
 **Next**: [Phase 6: Novel Architectures & Theory →](phase-06-architectures.md)
