@@ -31,6 +31,9 @@
 1. [Large Language Models are Unreliable for Cyber Threat Intelligence](https://arxiv.org/abs/2503.23175) (2025)
    - *Why*: Understanding LLM limitations in security contexts
 
+2. [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0) (Lee et al., 2025)
+   - *Why*: First fully automated benchmarking framework for evaluating LLM agents on authentic security engineering tasks; introduces multi-agent scaffold for constructing verified vulnerability datasets with reproducible PoCs and patches; reveals significant performance gaps (18% PoC generation, 34% vulnerability patching) highlighting need for specialized security-focused agent architectures
+
 ---
 
 **Next**: [Phase 9: Advanced Topics & Frontiers →](phase-09-advanced.md)
