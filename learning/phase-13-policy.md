@@ -97,6 +97,17 @@
    - *Philosophical approach*: Content-focused vs. Western risk-focused frameworks
    - *English summary*: [Stanford HAI](https://hai.stanford.edu/policy/chinas-generative-ai-regulations)
 
+6. 📄 [New York State A6453A/S6953B: Training and Use of Artificial Intelligence Frontier Models](https://www.nysenate.gov/legislation/bills/2025/A6453/amendment/A) (New York, 2025)
+   - *Why*: **First US state law regulating frontier AI models** - establishes safety and transparency requirements for large AI developers
+   - *Key requirements*:
+     - Safety and security protocols for frontier models (defined as models with >10^26 FLOPs training compute)
+     - 72-hour incident reporting to state authorities
+     - Annual protocol reviews and updates
+     - Transparency requirements with appropriate redactions for trade secrets
+   - *Enforcement*: Civil penalties up to $10M (first violation) or $30M (subsequent violations)
+   - *Scope*: Applies to "large developers" deploying frontier models in New York State
+   - *Status*: Signed by Governor December 2025; effective 90 days after signing
+
 ---
 
 ## 13.4 Risk Management Frameworks & Standards

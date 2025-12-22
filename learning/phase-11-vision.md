@@ -24,7 +24,12 @@
 6. [Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408) (2016)
    - *Why*: Applying GANs to segmentation tasks
 
-## 11.2 Vision Interpretability
+## 11.2 Multimodal & Speech
+
+1. [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595) (Amodei et al., 2016)
+   - *Why*: **End-to-end speech recognition** - demonstrates deep learning for speech without hand-engineered features; scales to multiple languages; foundational for modern speech systems
+
+## 11.3 Vision Interpretability
 
 1. [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/abs/1312.6034) (2013)
    - *Why*: Visualizing image classification models
