@@ -25,6 +25,9 @@
 6. [Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](https://arxiv.org/abs/2510.22620) (Bazinska et al., 2025)
    - *Why*: Systematic security evaluation of LLM backbones in AI agents; introduces threat snapshots framework and b³ benchmark with 194,331 adversarial attacks; reveals reasoning capabilities improve security while model size doesn't correlate
 
+7. [GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253) (Yu et al., 2023)
+   - *Why*: Automated jailbreak generation framework inspired by AFL fuzzing; achieves 90%+ attack success rates against ChatGPT and Llama-2 by mutating seed templates; demonstrates scalability and adaptability for red-teaming LLMs
+
 ## 8.2 Adversarial Robustness
 **Goal**: Understand and defend against adversarial attacks
 
