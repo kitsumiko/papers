@@ -29,6 +29,12 @@
 7. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (2015)
    - *Why*: ResNets and skip connections - essential architecture innovation
 
+8. [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) (He et al., 2016)
+   - *Why*: **Refines ResNet architecture** - analyzes and improves residual connections; shows how identity mappings enable training of very deep networks
+
+9. [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122) (Yu & Koltun, 2016)
+   - *Why*: **Dilated convolutions for dense prediction** - enables exponential expansion of receptive field without losing resolution; foundational for semantic segmentation and dense prediction tasks
+
 ## 1.2 Word Embeddings & Representations
 **Goal**: Learn how words become vectors - the bridge between discrete symbols and continuous neural networks
 
@@ -48,6 +54,9 @@
    - *Why*: Introduces the encoder-decoder architecture that became the template for modern transformers; shows how to map sequences to sequences using neural networks
    - *Key insight*: Use one LSTM to encode the input sequence into a fixed-size vector, then another LSTM to decode the output sequence; reversing input order helps with long sequences
    - *Impact*: Achieved breakthrough results on machine translation (BLEU 34.8 on WMT'14 EN→FR); laid the groundwork for attention mechanisms
+
+4. [Pointer Networks](https://arxiv.org/abs/1506.03134) (Vinyals et al., 2015)
+   - *Why*: **Addresses variable-length output sequences** - uses attention to point to input positions rather than generating from vocabulary; essential for tasks like sorting, convex hull, and combinatorial optimization
 
 **Key Concepts to Understand**:
 - **[Static vs. Contextual Embeddings](glossary.md#static-embeddings)**: Word2Vec/GloVe produce one vector per word type (static); transformers produce different vectors based on context (contextual)
@@ -72,7 +81,10 @@ The embeddings in GPT-4 or Claude aren't just fancy Word2Vec - they're contextua
    - *Why*: Revolutionary architecture for sequence modeling; still widely used
    - *Note*: Paywalled - MIT Press Neural Computation journal
 
-2. [MOMENT: A Family of Open Time-series Foundation Models](https://arxiv.org/pdf/2402.03885) (2024)
+2. [Recurrent Neural Network Regularization](https://arxiv.org/abs/1409.2329) (Zaremba et al., 2014)
+   - *Why*: **Dropout for RNNs** - introduces dropout regularization techniques specifically designed for recurrent networks; essential for training stable RNNs
+
+3. [MOMENT: A Family of Open Time-series Foundation Models](https://arxiv.org/pdf/2402.03885) (2024)
    - *Why*: Modern approach to time-series with foundation models
 
 ## 1.4 Generative Models
@@ -81,7 +93,10 @@ The embeddings in GPT-4 or Claude aren't just fancy Word2Vec - they're contextua
 1. [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) (2014)
    - *Why*: Revolutionary generative modeling approach
 
-2. [Dualscale Diffusion: Adaptive Feature Balancing for Low-Dimensional Generative Models](https://sakana.ai/assets/ai-scientist/adaptive_dual_scale_denoising.pdf) (2024)
+2. [Variational Lossy Autoencoder](https://arxiv.org/abs/1611.02731) (Chen et al., 2016)
+   - *Why*: **Connects VAEs and information theory** - shows how variational autoencoders can learn lossy compression; important for understanding generative models and representation learning
+
+3. [Dualscale Diffusion: Adaptive Feature Balancing for Low-Dimensional Generative Models](https://sakana.ai/assets/ai-scientist/adaptive_dual_scale_denoising.pdf) (2024)
    - *Why*: Modern diffusion models for generative tasks
 
 ## 1.5 Tokenization & Subword Models

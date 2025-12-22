@@ -108,6 +108,7 @@
 - [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/pdf/2308.08708v3.pdf)
 
 ### 2023.07
+- [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
 - [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621)
 
 ### 2023.05
@@ -153,11 +154,17 @@
 ### 2020.05
 - [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165)
 
+### 2020.04
+- [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906)
+
 ### 2020.03
 - [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555)
 
 ### 2020.02
 - [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909)
+
+### 2020.01
+- [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
 
 ## 2019
 
@@ -173,6 +180,14 @@
 
 ## 2018
 
+### 2018.11
+- [GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](https://arxiv.org/abs/1811.06965)
+
+### 2018.06
+- [Relational Recurrent Neural Networks](https://arxiv.org/abs/1806.01822)
+
+## 2018
+
 - [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer](https://arxiv.org/abs/1808.06226)
 
@@ -180,6 +195,7 @@
 
 ### 2017.07
 - [Proximal Policy Optimization Algorithms (PPO)](https://arxiv.org/abs/1707.06347)
+- [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [Methods for Interpreting and Understanding Deep Neural Networks](https://arxiv.org/abs/1706.07979)
 - [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599)
@@ -200,12 +216,17 @@
 ## 2016
 
 ### 2016.12
+- [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595)
 - [Encapsulating Models and Approximate Inference Programs in Probabilistic Modules](https://arxiv.org/abs/1612.04759)
 - [Measuring the Non-asymptotic Convergence of Sequential Monte Carlo Samplers using Probabilistic Programming](https://arxiv.org/abs/1612.02161)
 
 ### 2016.11
+- [Variational Lossy Autoencoder](https://arxiv.org/abs/1611.02731)
 - [Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408)
 - [Time Series Structure Discovery via Probabilistic Program Synthesis](https://arxiv.org/abs/1611.07051)
+
+### 2016.03
+- [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
 
 ### 2016.06
 - [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
@@ -226,6 +247,13 @@
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 - [Deep Taylor Decomposition: Explaining Nonlinear Classification Decisions](https://arxiv.org/abs/1512.02479)
 
+### 2015.11
+- [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/abs/1511.06391)
+- [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122)
+
+### 2015.06
+- [Pointer Networks](https://arxiv.org/abs/1506.03134)
+
 ### 2015.05
 - [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
 
@@ -238,10 +266,20 @@
 
 ## 2014
 
+### 2014.10
+- [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
+
+### 2014.09
+- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+- [Recurrent Neural Network Regularization](https://arxiv.org/abs/1409.2329)
 - [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
-- [GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162/)
 - [Going Deeper with Convolutions (GoogLeNet)](https://arxiv.org/abs/1409.4842)
+
+### 2014.06
 - [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
+
+### 2014.01
+- [GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162/)
 
 ## 2013
 
