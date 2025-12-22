@@ -2,6 +2,9 @@
 
 ## 2025
 
+### 2025.12
+- 📄 [New York State A6453A/S6953B: Training and Use of Artificial Intelligence Frontier Models](https://www.nysenate.gov/legislation/bills/2025/A6453/amendment/A) (Signed December 2025)
+
 ### 2025.11
 - [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0)
 - [Embedded Universal Predictive Intelligence: a coherent framework for multi-agent learning](https://arxiv.org/pdf/2511.22226)
@@ -309,7 +312,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 112 papers  
+**Total Papers in Learning Path**: 132 papers  
 **Paywalled Papers**: 4 (marked with 🔒)  
 **Open Access**: ~96%
 

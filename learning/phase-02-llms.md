@@ -16,22 +16,22 @@
 3. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (Devlin et al., 2019)
    - *Why*: Introduces masked language modeling and bidirectional pre-training; revolutionized NLP fine-tuning
 
-3. [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) (Kaplan et al., 2020)
+4. [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) (Kaplan et al., 2020)
    - *Why*: **Empirical scaling laws** - establishes predictable relationships between model size, dataset size, compute, and performance; foundational for understanding how to scale LLMs effectively
 
-4. [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165) (Brown et al., 2020)
+5. [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165) (Brown et al., 2020)
    - *Why*: Demonstrates emergent abilities at scale; introduces in-context learning and few-shot prompting
 
-4. [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555) (2020)
+6. [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555) (2020)
    - *Why*: Efficient alternative to masked language modeling; achieves BERT-level performance with less compute
 
-5. [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (2024)
+7. [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (2024)
    - *Why*: State-of-the-art open-source LLMs; demonstrates continued scaling benefits and instruction-tuning techniques
 
-6. [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/pdf/2404.14619) (2024)
+8. [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/pdf/2404.14619) (2024)
    - *Why*: Efficient, open-source LLM architecture
 
-7. [EuroLLM: Multilingual Language Models for Europe](https://arxiv.org/pdf/2409.11741) (2024)
+9. [EuroLLM: Multilingual Language Models for Europe](https://arxiv.org/pdf/2409.11741) (2024)
    - *Why*: Multilingual capabilities and cross-lingual transfer
 
 ## 2.2 Training at Scale
@@ -43,13 +43,13 @@
 2. [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) (2019)
    - *Why*: Foundation of distributed LLM training
 
-2. [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054) (2019)
+3. [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054) (2019)
    - *Why*: Memory-efficient training techniques
 
-3. [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021)
+4. [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021)
    - *Why*: Combining techniques for practical large-scale training
 
-4. [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378) (2025)
+5. [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378) (2025)
    - *Why*: Advanced optimization techniques for faster convergence
 
 ## 2.3 Memory & Efficiency Optimizations
