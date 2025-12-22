@@ -7,7 +7,13 @@
 ## 6.1 Alternative Architectures
 **Goal**: Explore beyond standard transformers
 
-1. [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) (Peng et al., 2023)
+1. [Neural Turing Machines](https://arxiv.org/abs/1410.5401) (Graves et al., 2014)
+   - *Why*: **Foundational memory-augmented architecture** - introduces external memory and attention mechanisms that inspired modern architectures; demonstrates how neural networks can learn to use memory
+
+2. [Relational Recurrent Neural Networks](https://arxiv.org/abs/1806.01822) (Santoro et al., 2018)
+   - *Why*: **Memory-augmented RNNs** - extends RNNs with relational memory for better long-term dependencies; combines recurrence with relational reasoning
+
+3. [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) (Peng et al., 2023)
    - *Why*: **Foundational non-transformer alternative** - combines efficient parallelizable training with O(1) inference; scaled to 14B parameters
 
 2. [Nested Learning: The Illusion of Deep Learning Architectures](https://abehrouz.github.io/files/NL.pdf) (Behrouz et al., 2025) - NeurIPS 2025
@@ -24,6 +30,9 @@
 
 6. [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf) (2016)
    - *Why*: Applying CNNs to graph-structured data; foundation for graph neural networks
+
+7. [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/abs/1511.06391) (Vinyals et al., 2015)
+   - *Why*: **Handling set-structured data** - extends sequence-to-sequence models to handle unordered sets; important for tasks like set prediction and permutation-invariant learning
 
 ## 6.2 Theoretical Foundations
 **Goal**: Understand the mathematical foundations

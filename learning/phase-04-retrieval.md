@@ -7,7 +7,10 @@
 ## 4.1 Retrieval-Augmented Generation (RAG)
 **Goal**: Combine retrieval with generation for better knowledge access
 
-1. [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) (Guu et al., 2020)
+1. [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906) (Karpukhin et al., 2020)
+   - *Why*: **Foundational dense retrieval paper** - introduces dual-encoder architecture for semantic search; enables efficient retrieval without explicit term matching
+
+2. [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) (Guu et al., 2020)
    - *Why*: **First major retrieval-augmented pretraining approach** - shows how to integrate retrieval into pre-training with backpropagation through millions of documents
 
 2. [Generalization through Memorization: Nearest Neighbor Language Models (kNN-LM)](https://arxiv.org/abs/1911.00172) (Khandelwal et al., 2020)
@@ -21,6 +24,9 @@
 
 5. [Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval](https://arxiv.org/pdf/2404.09889) (2024)
    - *Why*: Structured data retrieval challenges
+
+6. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) (Liu et al., 2023)
+   - *Why*: **Critical analysis of long-context usage** - reveals U-shaped performance curve where models struggle with information in the middle of long contexts; important for RAG system design
 
 ## 4.2 Federated & Distributed Learning
 **Goal**: Train models across distributed data

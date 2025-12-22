@@ -28,6 +28,9 @@
 7. [Reinforcement Pre-Training](https://arxiv.org/abs/2506.08007) (2025)
    - *Why*: Using RL during pre-training phase
 
+8. [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427) (Santoro et al., 2017)
+   - *Why*: **Relational reasoning foundation** - introduces Relation Networks for learning to reason about relationships between objects; essential for visual question answering and abstract reasoning tasks
+
 ## 5.2 Agentic Systems
 **Goal**: Create autonomous AI agents
 

@@ -7,13 +7,19 @@
 ## 2.1 LLM Foundations
 **Goal**: Understand transformer architecture and pre-training
 
-1. [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al., 2017)
+1. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) (Bahdanau et al., 2014)
+   - *Why*: **Introduces attention mechanism** - the foundational paper that introduced attention for sequence-to-sequence models; paved the way for transformers
+
+2. [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al., 2017)
    - *Why*: **THE foundational transformer paper** - introduces self-attention, multi-head attention, and the transformer architecture that powers all modern LLMs
 
-2. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (Devlin et al., 2019)
+3. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (Devlin et al., 2019)
    - *Why*: Introduces masked language modeling and bidirectional pre-training; revolutionized NLP fine-tuning
 
-3. [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165) (Brown et al., 2020)
+3. [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) (Kaplan et al., 2020)
+   - *Why*: **Empirical scaling laws** - establishes predictable relationships between model size, dataset size, compute, and performance; foundational for understanding how to scale LLMs effectively
+
+4. [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165) (Brown et al., 2020)
    - *Why*: Demonstrates emergent abilities at scale; introduces in-context learning and few-shot prompting
 
 4. [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555) (2020)
@@ -31,7 +37,10 @@
 ## 2.2 Training at Scale
 **Goal**: Learn how to train massive models efficiently
 
-1. [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) (2019)
+1. [GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](https://arxiv.org/abs/1811.06965) (Huang et al., 2019)
+   - *Why*: **Pipeline parallelism foundation** - enables training of very large models by splitting across devices with micro-batching; essential for scaling beyond single-device memory limits
+
+2. [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) (2019)
    - *Why*: Foundation of distributed LLM training
 
 2. [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054) (2019)
