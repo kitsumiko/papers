@@ -2,7 +2,7 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-112+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-132+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
 [![Last Updated](https://img.shields.io/badge/updated-November_14,_2025-orange.svg)](by-date.md)
@@ -11,7 +11,7 @@
 
 ## 🎯 What's Inside
 
-This repository contains **112+ carefully selected research papers** organized in three complementary ways:
+This repository contains **132+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
@@ -115,7 +115,7 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 2 | Photonic computing, VLSI implementations |
 | **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
-**Total**: 112+ core papers across 13 phases (plus 40+ policy documents & frameworks)
+**Total**: 132+ core papers across 13 phases (plus 40+ policy documents & frameworks)
 
 ---
 
@@ -150,17 +150,19 @@ papers/
 This collection spans the full spectrum of modern AI/ML research, organized by theme:
 
 ### 🏗️ Deep Learning Foundations
-- Classic architectures: [LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf), [AlexNet](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf), [GoogLeNet](https://arxiv.org/abs/1409.4842), [ResNet](https://arxiv.org/abs/1512.03385)
-- Training techniques: [Xavier initialization](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf), [Batch Normalization](https://arxiv.org/abs/1502.03167)
-- **Word Embeddings**: [Word2Vec](https://arxiv.org/abs/1301.3781), [GloVe](https://aclanthology.org/D14-1162/), [Seq2Seq](https://arxiv.org/abs/1409.3215) encoder-decoder architectures
+- Classic architectures: [LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf), [AlexNet](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf), [GoogLeNet](https://arxiv.org/abs/1409.4842), [ResNet](https://arxiv.org/abs/1512.03385), [Identity Mappings in ResNets](https://arxiv.org/abs/1603.05027)
+- Training techniques: [Xavier initialization](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf), [Batch Normalization](https://arxiv.org/abs/1502.03167), [RNN Regularization](https://arxiv.org/abs/1409.2329)
+- **Word Embeddings**: [Word2Vec](https://arxiv.org/abs/1301.3781), [GloVe](https://aclanthology.org/D14-1162/), [Seq2Seq](https://arxiv.org/abs/1409.3215) encoder-decoder architectures, [Pointer Networks](https://arxiv.org/abs/1506.03134)
 - Sequence models: [LSTM](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory) 🔒, time-series foundations ([MOMENT](https://arxiv.org/pdf/2402.03885))
-- Generative models: [GANs](https://arxiv.org/abs/1406.2661), diffusion models
+- Generative models: [GANs](https://arxiv.org/abs/1406.2661), [Variational Lossy Autoencoder](https://arxiv.org/abs/1611.02731), diffusion models
+- **Convolutional innovations**: [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122)
 - **Tokenization**: [BPE](https://arxiv.org/abs/1508.07909), [SentencePiece](https://arxiv.org/abs/1808.06226), [tokenization bias](https://arxiv.org/abs/2406.16829) and [best practices](https://arxiv.org/abs/2403.01289)
 
 ### 🤖 Large Language Models & Transformers
-- **Foundational**: [Attention Is All You Need](https://arxiv.org/abs/1706.03762), [BERT](https://arxiv.org/abs/1810.04805), [GPT-3](https://arxiv.org/abs/2005.14165)
+- **Foundational**: [Neural Machine Translation with Attention](https://arxiv.org/abs/1409.0473) (attention mechanism precursor), [Attention Is All You Need](https://arxiv.org/abs/1706.03762), [BERT](https://arxiv.org/abs/1810.04805), [GPT-3](https://arxiv.org/abs/2005.14165)
+- **Scaling**: [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) - empirical relationships between size, data, and performance
 - **Modern LLMs**: [Llama 3](https://arxiv.org/abs/2407.21783), [OpenELM](https://arxiv.org/pdf/2404.14619), [EuroLLM](https://arxiv.org/pdf/2409.11741)
-- **Training at Scale**: [Megatron-LM](https://arxiv.org/abs/1909.08053), [ZeRO](https://arxiv.org/abs/1910.02054), [model parallelism](https://arxiv.org/abs/2104.04473), [second-order optimization](https://arxiv.org/pdf/2510.09378)
+- **Training at Scale**: [GPipe](https://arxiv.org/abs/1811.06965) (pipeline parallelism), [Megatron-LM](https://arxiv.org/abs/1909.08053), [ZeRO](https://arxiv.org/abs/1910.02054), [model parallelism](https://arxiv.org/abs/2104.04473), [second-order optimization](https://arxiv.org/pdf/2510.09378)
 - **Efficiency**: [MatMul-free models](https://arxiv.org/pdf/2406.02528), [1-bit LLMs](https://arxiv.org/pdf/2402.17764), [vocabulary optimization](https://arxiv.org/abs/2411.09009)
 
 ### ⚡ Efficient Attention & Long Context
@@ -170,19 +172,22 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 - Context compression: [DeepSeek-OCR](https://arxiv.org/pdf/2510.18234), [hierarchical speculative decoding](https://arxiv.org/pdf/2404.11912v1.pdf)
 
 ### 🔍 Retrieval & Knowledge Systems
-- RAG fundamentals: [REALM](https://arxiv.org/abs/2002.08909), [kNN-LM](https://arxiv.org/abs/1911.00172), [REFRAG](https://arxiv.org/pdf/2509.01092)
+- RAG fundamentals: [Dense Passage Retrieval](https://arxiv.org/abs/2004.04906), [REALM](https://arxiv.org/abs/2002.08909), [kNN-LM](https://arxiv.org/abs/1911.00172), [REFRAG](https://arxiv.org/pdf/2509.01092)
+- **Long context analysis**: [Lost in the Middle](https://arxiv.org/abs/2307.03172) - reveals U-shaped performance curve in long contexts
 - Advanced retrieval: [Semantic IDs](https://arxiv.org/abs/2508.10478), [table retrieval](https://arxiv.org/pdf/2404.09889), multi-table systems
 - Federated approaches: [Classifier-as-retriever with adapters](https://arxiv.org/pdf/2509.16508)
 
 ### 🧠 Reasoning, Alignment & Agents
 - **Alignment**: [RLHF](https://arxiv.org/abs/1706.03741), [PPO](https://arxiv.org/abs/1707.06347), [InstructGPT](https://arxiv.org/abs/2203.02155), [Constitutional AI](https://arxiv.org/abs/2212.08073)
-- **Reasoning**: [Hierarchical reasoning](https://arxiv.org/pdf/2506.21734), [recursive reasoning](https://arxiv.org/pdf/2510.04871), [reinforcement pre-training](https://arxiv.org/abs/2506.08007)
+- **Reasoning**: [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427), [hierarchical reasoning](https://arxiv.org/pdf/2506.21734), [recursive reasoning](https://arxiv.org/pdf/2510.04871), [reinforcement pre-training](https://arxiv.org/abs/2506.08007)
 - **Agents**: [ReAct](https://arxiv.org/abs/2210.03629), [Reflexion](https://arxiv.org/abs/2303.11366), [Gato](https://arxiv.org/pdf/2205.06175), [DynaSaur](https://arxiv.org/abs/2411.01747)
 - **Multi-agent**: [MAS-ZERO](https://arxiv.org/pdf/2505.14996) (zero-supervision design)
 - **Efficiency**: [Small language models for agents](https://arxiv.org/abs/2506.02153)
 
 ### 🏛️ Novel Architectures & Theory
+- **Memory-augmented architectures**: [Neural Turing Machines](https://arxiv.org/abs/1410.5401), [Relational Recurrent Neural Networks](https://arxiv.org/abs/1806.01822)
 - Alternatives to transformers: [RWKV](https://arxiv.org/abs/2305.13048), [Mamba](https://arxiv.org/pdf/2409.15254), state-space models
+- **Set-based models**: [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/abs/1511.06391)
 - Novel approaches: [Kolmogorov-Arnold Networks (KAN)](https://arxiv.org/pdf/2404.19756), [U-Nets as belief propagation](https://arxiv.org/pdf/2404.18444)
 - Theoretical foundations: [Neural Tangent Kernel](https://arxiv.org/abs/1806.07572), [manifold hypothesis](https://arxiv.org/abs/2504.01002)
 - Training acceleration: [Neuron interaction networks](https://arxiv.org/pdf/2409.04434)
@@ -201,6 +206,7 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 
 ### 👁️ Computer Vision & Multimodal AI
 - Vision transformers: [ViT](https://arxiv.org/abs/2010.11929), [CLIP](https://arxiv.org/abs/2103.00020), [SAM](https://arxiv.org/abs/2304.02643)
+- **Speech recognition**: [Deep Speech 2](https://arxiv.org/abs/1512.02595) - end-to-end speech recognition
 - Interpretability: [DeconvNet](https://arxiv.org/abs/1311.2901), [saliency maps](https://arxiv.org/abs/1312.6034), visualization techniques
 - Segmentation: [All-CNN](https://arxiv.org/abs/1412.6806), [adversarial segmentation](https://arxiv.org/abs/1611.08408)
 - Multimodal understanding: Vision-language models
@@ -224,7 +230,7 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 ### 📜 Policy & Governance
 - **Financial services**: [OCC 2011-12](https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12a.pdf) (Model Risk Management), [SR 11-7](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm) (Federal Reserve), [Model Risk Handbook](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)
 - **Data protection**: [GDPR](https://gdpr-info.eu/) (EU), [CCPA/CPRA](https://oag.ca.gov/privacy/ccpa) (California), [Convention 108+](https://www.coe.int/en/web/data-protection/convention108-and-protocol)
-- **AI legislation**: [EU AI Act](https://artificialintelligenceact.eu/), [Executive Order 14110](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/), [Blueprint for AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/), [China's Generative AI regulations](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)
+- **AI legislation**: [EU AI Act](https://artificialintelligenceact.eu/), [Executive Order 14110](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/), [Blueprint for AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/), [China's Generative AI regulations](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm), [New York State Frontier AI Model Law](https://www.nysenate.gov/legislation/bills/2025/A6453/amendment/A) (A6453A/S6953B)
 - **Standards & frameworks**: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [ISO/IEC 42001](https://www.iso.org/standard/81230.html), [IEEE 7000 series](https://standards.ieee.org/featured/artificial-intelligence-systems/), [OECD AI Principles](https://oecd.ai/en/ai-principles)
 - **Sector-specific**: [FDA AI/ML guidance](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices), [EEOC AI discrimination guidance](https://www.eeoc.gov/laws/guidance/what-you-should-know-about-using-artificial-intelligence-when-making-employment), [NYC Local Law 144](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page)
 - **National security**: [Dual-use models report](https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf), [Export controls](https://www.bis.gov/index.php/emerging-tech-and-ai-controls), [NSCAI report](https://www.nscai.gov/2021-final-report/)
