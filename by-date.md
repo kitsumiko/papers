@@ -101,6 +101,7 @@
 ## 2023
 
 ### 2023.09
+- [GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253)
 - [Efficient streaming language models with attention sinks](https://arxiv.org/pdf/2309.17453.pdf)
 
 ### 2023.08
