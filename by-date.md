@@ -37,6 +37,7 @@
 - [Reinforcement Pre-Training](https://arxiv.org/abs/2506.08007)
 
 ### 2025.05
+- [Why Diffusion Models Don't Memorize: The Role of Implicit Dynamical Regularization in Training](https://arxiv.org/pdf/2505.17638)
 - [MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](https://arxiv.org/pdf/2505.14996)
 - [How much do language models memorize?](https://arxiv.org/pdf/2505.24832)
 
