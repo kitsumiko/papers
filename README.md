@@ -2,7 +2,7 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-132+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-150+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
 
@@ -10,7 +10,7 @@
 
 ## 🎯 What's Inside
 
-This repository contains **132+ carefully selected research papers** organized in three complementary ways:
+This repository contains **150+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
@@ -102,19 +102,19 @@ The learning path is organized into **13 progressive phases**, each building on 
 |-------|-------|--------|-------|
 | **[1](learning/phase-01-foundations.md)** | 🏗️ **Foundations** | 15 | Deep learning basics, embeddings, CNNs, RNNs, GANs, tokenization |
 | **[2](learning/phase-02-llms.md)** | 🤖 **Large Language Models** | 10 | Transformers, BERT, GPT, training at scale |
-| **[3](learning/phase-03-attention.md)** | ⚡ **Attention Innovations** | 7 | FlashAttention, efficient attention, long context |
-| **[4](learning/phase-04-retrieval.md)** | 🔍 **Retrieval & RAG** | 6 | RAG systems, kNN-LM, semantic search |
+| **[3](learning/phase-03-attention.md)** | ⚡ **Attention Innovations** | 9 | FlashAttention 1 & 2, efficient attention, long context |
+| **[4](learning/phase-04-retrieval.md)** | 🔍 **Retrieval & RAG** | 9 | THE RAG paper, dense retrieval, kNN-LM, semantic search |
 | **[5](learning/phase-05-reasoning.md)** | 🧠 **Reasoning & Agents** | 12 | RLHF, chain-of-thought, agentic systems |
 | **[6](learning/phase-06-architectures.md)** | 🏛️ **Alternative Architectures** | 7 | RWKV, Mamba, state-space models, theory |
 | **[7](learning/phase-07-interpretability.md)** | 🔬 **Interpretability** | 11 | LIME, integrated gradients, weight-sparse circuits |
 | **[8](learning/phase-08-security.md)** | 🛡️ **Security, Safety & Robustness** | 10+ | Alignment, security threats, safety evaluation, bias & fairness, harmful content, long-term safety |
 | **[9](learning/phase-09-advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
 | **[10](learning/phase-10-probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
-| **[11](learning/phase-11-vision.md)** | 👁️ **Vision & Multimodal** | 8 | ViT, CLIP, SAM, vision-language models |
-| **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 2 | Photonic computing, VLSI implementations |
+| **[11](learning/phase-11-vision.md)** | 👁️ **Vision & Multimodal** | 10 | ViT, CLIP, SAM, LLaVA, vision-language models |
+| **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 4 | GPU optimization, inference scaling, photonic computing |
 | **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
-**Total**: 132+ core papers across 13 phases (plus 40+ policy documents & frameworks)
+**Total**: 150+ core papers across 13 phases (plus 40+ policy documents & frameworks)
 
 ---
 
@@ -165,13 +165,13 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 - **Efficiency**: [MatMul-free models](https://arxiv.org/pdf/2406.02528), [1-bit LLMs](https://arxiv.org/pdf/2402.17764), [vocabulary optimization](https://arxiv.org/abs/2411.09009)
 
 ### ⚡ Efficient Attention & Long Context
-- FlashAttention: [IO-aware attention algorithms](https://arxiv.org/abs/2205.14135)
+- FlashAttention: [IO-aware attention algorithms](https://arxiv.org/abs/2205.14135), [FlashAttention-2](https://arxiv.org/abs/2307.08691) (production standard)
 - Alternative mechanisms: [RetNet](https://arxiv.org/abs/2307.08621), [attention sinks](https://arxiv.org/pdf/2309.17453.pdf), [Infini-attention](https://arxiv.org/pdf/2404.07143v1.pdf)
 - Hardware-aligned: [Native sparse attention](https://arxiv.org/abs/2502.11089)
 - Context compression: [DeepSeek-OCR](https://arxiv.org/pdf/2510.18234), [hierarchical speculative decoding](https://arxiv.org/pdf/2404.11912v1.pdf)
 
 ### 🔍 Retrieval & Knowledge Systems
-- RAG fundamentals: [Dense Passage Retrieval](https://arxiv.org/abs/2004.04906), [REALM](https://arxiv.org/abs/2002.08909), [kNN-LM](https://arxiv.org/abs/1911.00172), [REFRAG](https://arxiv.org/pdf/2509.01092)
+- RAG fundamentals: [THE RAG paper](https://arxiv.org/abs/2005.11401), [Dense Passage Retrieval](https://arxiv.org/abs/2004.04906), [REALM](https://arxiv.org/abs/2002.08909), [kNN-LM](https://arxiv.org/abs/1911.00172), [REFRAG](https://arxiv.org/pdf/2509.01092)
 - **Long context analysis**: [Lost in the Middle](https://arxiv.org/abs/2307.03172) - reveals U-shaped performance curve in long contexts
 - Advanced retrieval: [Semantic IDs](https://arxiv.org/abs/2508.10478), [table retrieval](https://arxiv.org/pdf/2404.09889), multi-table systems
 - Federated approaches: [Classifier-as-retriever with adapters](https://arxiv.org/pdf/2509.16508)

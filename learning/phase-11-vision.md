@@ -26,7 +26,10 @@
 
 ## 11.2 Multimodal & Speech
 
-1. [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595) (Amodei et al., 2016)
+1. [Visual Instruction Tuning (LLaVA)](https://arxiv.org/abs/2304.08485) (Liu et al., 2023)
+   - *Why*: **Pioneering vision-language instruction following** - connects vision encoder with LLM for multimodal conversations; demonstrates that instruction tuning works across modalities; foundation for many open-source multimodal models
+
+2. [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595) (Amodei et al., 2016)
    - *Why*: **End-to-end speech recognition** - demonstrates deep learning for speech without hand-engineered features; scales to multiple languages; foundational for modern speech systems
 
 ## 11.3 Vision Interpretability

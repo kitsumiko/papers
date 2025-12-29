@@ -37,6 +37,9 @@ A subset of machine learning using neural networks with multiple layers (hence "
 ### Distributional Hypothesis
 The linguistic principle that "words that occur in similar contexts tend to have similar meanings." Foundation of word embedding methods like Word2Vec and GloVe.
 
+### Dual Encoder
+An architecture using two separate encoders (typically transformers) to encode queries and documents into dense vectors that can be compared via similarity metrics. Foundation of modern dense retrieval systems like DPR.
+
 ### Embeddings
 Dense, continuous vector representations of discrete objects (words, tokens, images). Convert discrete symbols into points in high-dimensional space where semantic similarity corresponds to geometric proximity.
 
@@ -140,6 +143,9 @@ The dominant neural architecture for sequential data, using self-attention mecha
 ### U-Net
 An architecture with an encoder-decoder structure and skip connections, originally for image segmentation. Recently connected to probabilistic inference.
 
+### Vision-Language Model (VLM)
+A model that can understand and reason about both images and text together. Examples include CLIP (contrastive), LLaVA (generative), and GPT-4V. Key for multimodal AI applications.
+
 ### ViT (Vision Transformer)
 Applies pure transformer architecture to image classification by treating images as sequences of patches. Showed transformers aren't just for text.
 
@@ -233,7 +239,7 @@ A phenomenon where attention weights concentrate on initial tokens regardless of
 Attention between two different sequences (e.g., between encoder and decoder outputs). Used in machine translation and multimodal models.
 
 ### FlashAttention
-An IO-aware attention algorithm that's 3x faster than standard attention by optimizing memory access patterns. Critical for training modern LLMs efficiently.
+An IO-aware attention algorithm that's 3x faster than standard attention by optimizing memory access patterns. Critical for training modern LLMs efficiently. FlashAttention-2 further improves performance with better parallelism and is the de facto standard in production systems.
 
 ### Infini-attention
 An attention mechanism enabling infinite context windows by compressing information from earlier tokens, allowing processing of arbitrarily long sequences.
@@ -252,6 +258,9 @@ Attention mechanism where queries, keys, and values all come from the same seque
 
 ### Sparse Attention
 Attention patterns that only attend to a subset of positions rather than all positions. Reduces complexity from O(n²) to near-linear, enabling longer sequences.
+
+### Speculative Decoding
+A technique to accelerate LLM inference by using a smaller "draft" model to propose multiple tokens, then verifying them in parallel with the larger model. Can achieve 2-3x speedups without changing output distribution.
 
 ---
 
@@ -274,6 +283,9 @@ The ability to learn new tasks from just a few examples. GPT-3 demonstrated rema
 
 ### In-Context Learning
 The ability of large language models to learn tasks from examples provided in the prompt, without updating parameters. Emergent ability of large models.
+
+### Induction Head
+A specific attention pattern in transformers that copies tokens that appeared after similar tokens earlier in the sequence. Key mechanistic interpretability finding that explains how models perform in-context learning. A circuit composed of a "previous token head" and an "induction head" working together.
 
 ### kNN-LM (k-Nearest Neighbors Language Model)
 Augmenting language models with retrieval: at each step, retrieve similar contexts from a database and use them to improve predictions.
@@ -434,6 +446,9 @@ The property of an AI system that allows it to be corrected or shut down even if
 
 ## Systems & Hardware
 
+### Arithmetic Intensity
+The ratio of compute operations (FLOPs) to memory accesses (bytes). High arithmetic intensity operations are compute-bound; low intensity operations are memory-bound. Critical concept for understanding GPU performance and why optimizations like FlashAttention work.
+
 ### Checkpoint Sharding
 Splitting model checkpoints across multiple files to enable distributed saving/loading of very large models.
 
@@ -505,7 +520,10 @@ Training agents through trial and error using reward signals. Different from sup
 Data organized in rows and columns (spreadsheets, databases). TabPFN specializes in learning from small tabular datasets.
 
 ### Test-Time Compute
-Using additional computation during inference (e.g., generating multiple solutions, extended reasoning) to improve output quality.
+Using additional computation during inference (e.g., generating multiple solutions, extended reasoning) to improve output quality. Also known as inference-time scaling or "thinking longer."
+
+### Test-Time Training
+Adapting model parameters during inference on the specific input, as opposed to fixed weights. Enables models to dynamically improve on individual examples.
 
 ### Time Series
 Data points indexed in time order. Require specialized models (LSTM, MOMENT) that can capture temporal dependencies.
@@ -550,6 +568,9 @@ Data points indexed in time order. Require specialized models (LSTM, MOMENT) tha
 | ViT | Vision Transformer | Models |
 | VLSI | Very Large Scale Integration | Hardware |
 | ZeRO | Zero Redundancy Optimizer | Training |
+| DPR | Dense Passage Retrieval | Retrieval |
+| VLM | Vision-Language Model | Models |
+| LLaVA | Large Language and Vision Assistant | Models |
 
 ---
 
@@ -567,4 +588,4 @@ Data points indexed in time order. Require specialized models (LSTM, MOMENT) tha
 
 [← Back to Learning Path](../learning-path.md) | [→ Browse Papers by Date](../by-date.md)
 
-*Last updated: October 2025*
+*Last updated: December 2025*

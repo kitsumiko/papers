@@ -96,7 +96,6 @@
 - [Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval](https://arxiv.org/pdf/2404.09889)
 
 ### 2024.03
-- [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643)
 - [Greed is All You Need: An Evaluation of Tokenizer Inference Methods](https://arxiv.org/abs/2403.01289)
 - [The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning](https://arxiv.org/abs/2403.03218)
 
@@ -110,6 +109,10 @@
 - [Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training](https://arxiv.org/abs/2401.05566)
 
 ## 2023
+
+### 2023.04
+- [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643)
+- [Visual Instruction Tuning (LLaVA)](https://arxiv.org/abs/2304.08485)
 
 ### 2023.12
 - [Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision](https://arxiv.org/abs/2312.09390)
@@ -125,6 +128,7 @@
 ### 2023.07
 - [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
 - [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621)
+- [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691)
 
 ### 2023.05
 - [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048)
@@ -143,11 +147,15 @@
 ### 2022.09
 - [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://arxiv.org/abs/2209.07858)
 
+### 2022.11
+- [Efficiently Scaling Transformer Inference](https://arxiv.org/abs/2211.05102)
+
 ### 2022.10
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
 
-### 2022.09
-- [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958)
+### 2022
+- [Scalable Oversight](https://www.anthropic.com/research/scalable-oversight) (Anthropic)
+- [Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) (Anthropic)
 
 ### 2022.05
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
@@ -155,6 +163,9 @@
 
 ### 2022.03
 - [Training language models to follow instructions with human feedback (InstructGPT)](https://arxiv.org/abs/2203.02155)
+
+### 2021.09
+- [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958)
 
 ## 2021
 
@@ -177,6 +188,7 @@
 
 ### 2020.05
 - [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
 
 ### 2020.04
 - [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906)
@@ -342,7 +354,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 145+ papers  
+**Total Papers in Learning Path**: 150+ papers  
 **Paywalled Papers**: 4 (marked with 🔒)  
 **Open Access**: ~97%
 

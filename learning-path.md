@@ -142,4 +142,4 @@ Follow **[Phase 1-2](learning/phase-01-foundations.md)** for foundations, then d
 
 ---
 
-*Last updated: November 11, 2025*
+*Last updated: December 29, 2025*
