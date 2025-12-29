@@ -10,16 +10,19 @@
 1. [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) (Dao et al., 2022)
    - *Why*: **Foundational for modern efficient training** - IO-aware attention algorithm that's 3x faster and enables longer context
 
-2. [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) (Sun et al., 2023)
+2. [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) (Dao, 2023)
+   - *Why*: **The production standard** - 2x faster than FlashAttention through improved parallelism and reduced non-matmul FLOPs; de facto attention implementation in modern LLM training and inference
+
+3. [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) (Sun et al., 2023)
    - *Why*: Bridges efficient attention and RNN-style recurrence with O(1) inference cost
 
-3. [Efficient streaming language models with attention sinks](https://arxiv.org/pdf/2309.17453.pdf) (2024)
+4. [Efficient streaming language models with attention sinks](https://arxiv.org/pdf/2309.17453.pdf) (2023)
    - *Why*: Handling streaming/infinite sequences
 
-4. [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/pdf/2404.07143v1.pdf) (2024)
+5. [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/pdf/2404.07143v1.pdf) (2024)
    - *Why*: Infinite context windows
 
-5. [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089) (2025)
+6. [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089) (2025)
    - *Why*: Hardware-efficient sparse attention
 
 ## 3.2 Long Context & Compression
