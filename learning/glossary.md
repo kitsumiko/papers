@@ -325,7 +325,7 @@ An input crafted with small, imperceptible perturbations that causes a model to 
 A technique for explaining model predictions by assigning importance scores to input features. Examples: Integrated Gradients, LIME.
 
 ### Calibration
-How well a model's confidence scores match actual accuracy. A well-calibrated model's predicted 80% confidence means it's correct 80% of the time.
+How well a model's confidence scores match actual accuracy. A well-calibrated model's predicted 80% confidence means it's correct 80% of the time. Critical for safety-critical applications where understanding prediction reliability is essential.
 
 ### Gradient-based Attribution
 Explanation methods using gradients to identify which input features most influence the output. Includes vanilla gradients, Integrated Gradients, SmoothGrad.
@@ -343,7 +343,7 @@ An attribution method that computes the path integral of gradients from a baseli
 A technique that explains individual predictions by fitting an interpretable model locally around the prediction.
 
 ### Mechanistic Interpretability
-Reverse-engineering neural networks to understand the algorithms they've learned at a mechanistic level. Goes beyond just finding important features.
+Reverse-engineering neural networks to understand the algorithms they've learned at a mechanistic level. Goes beyond just finding important features. Essential for safety as it enables detection of deceptive or misaligned behavior in models.
 
 ### MLE-bench
 A benchmark for evaluating machine learning agents on practical ML engineering tasks, testing end-to-end capabilities.
@@ -355,7 +355,10 @@ A visualization highlighting which parts of an input are most important for a mo
 An attribution method that reduces noise in gradient-based explanations by averaging gradients of noisy versions of the input.
 
 ### TruthfulQA
-A benchmark measuring whether language models generate truthful answers, revealing that larger models can be less truthful due to learning human falsehoods.
+A benchmark measuring whether language models generate truthful answers, revealing that larger models can be less truthful due to learning human falsehoods. Critical safety evaluation tool for assessing model reliability.
+
+### Truthfulness
+The property of generating factually correct information. A key safety concern as language models may generate plausible-sounding but false information, especially on topics where training data contains human falsehoods.
 
 ---
 
@@ -390,6 +393,42 @@ Using AI systems to provide feedback for training instead of humans. Potentially
 
 ### Robust Machine Learning
 Developing models that maintain performance under adversarial conditions, distribution shifts, or corrupted inputs.
+
+### Algorithmic Bias
+Systematic and unfair discrimination in AI systems, often reflecting biases in training data or model design. Can manifest as demographic disparities, unfair treatment of protected groups, or unequal outcomes.
+
+### Bias Detection
+Methods for identifying when AI systems exhibit biased behavior, including statistical tests, fairness metrics, and demographic analysis.
+
+### Fairness
+Ensuring AI systems treat different groups equitably. Common definitions include demographic parity (equal positive rates), equalized odds (equal true/false positive rates), and calibration (equal prediction accuracy across groups).
+
+### Demographic Parity
+A fairness criterion requiring that the rate of positive predictions is equal across different demographic groups. Also known as statistical parity or group fairness.
+
+### Equalized Odds
+A fairness criterion requiring that true positive rates and false positive rates are equal across different demographic groups. Stronger than demographic parity as it accounts for actual outcomes, not just predictions.
+
+### Harmful Content
+AI-generated content that is toxic, offensive, discriminatory, or otherwise harmful. Includes hate speech, misinformation, and content that could cause real-world harm.
+
+### Toxicity
+Language or content that is harmful, offensive, or inappropriate. Toxicity detection is crucial for safety in text generation systems, as models can generate toxic content even when not explicitly prompted.
+
+### Misinformation
+False or misleading information that is spread, often unintentionally by AI systems. A major safety concern as language models can generate plausible-sounding but factually incorrect information.
+
+### Long-term Safety
+Research addressing safety challenges for advanced AI systems, including AGI safety, scalable oversight, corrigibility, and control problems. Focuses on ensuring safety as AI systems become more capable than humans.
+
+### Safety Evaluation
+Systematic assessment of AI systems for safety risks, including red teaming, safety benchmarks, and evaluation frameworks. Essential for identifying harmful behaviors before deployment.
+
+### Scalable Oversight
+The challenge of supervising AI systems that may become more capable than their human supervisors. Research explores techniques like debate, recursive reward modeling, and amplification to maintain control.
+
+### Corrigibility
+The property of an AI system that allows it to be corrected or shut down even if doing so conflicts with its training objectives. Important for maintaining human control over advanced AI systems.
 
 ---
 
@@ -522,7 +561,7 @@ Data points indexed in time order. Require specialized models (LSTM, MOMENT) tha
 - **LLMs** → See also: GPT, BERT, Transformer, Pre-training, Fine-tuning, RLHF
 - **Training** → See also: Backpropagation, SGD, Adam, Batch Normalization, Dropout
 - **Interpretability** → See also: LIME, Integrated Gradients, Attribution Methods, Saliency Maps
-- **Security** → See also: Adversarial Examples, RLHF, Constitutional AI, Jailbreaking
+- **Security & Safety** → See also: Adversarial Examples, RLHF, Constitutional AI, Jailbreaking, Red Teaming, Bias Detection, Fairness, Safety Evaluation, Long-term Safety
 
 ---
 

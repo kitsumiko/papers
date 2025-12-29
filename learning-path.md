@@ -50,9 +50,13 @@ Each phase is in a separate file for easier navigation and tracking your progres
    - Understanding Model Behavior
    - Model Evaluation & Robustness (TruthfulQA)
 
-8. **[Phase 8: Security, Privacy & Safety](learning/phase-08-security.md)**
-   - Security Frameworks & Alignment (InstructGPT, Constitutional AI)
-   - Adversarial Robustness
+8. **[Phase 8: Security, Safety & Robustness](learning/phase-08-security.md)**
+   - AI Alignment & Safety Training (InstructGPT, Constitutional AI)
+   - Security Threats & Attacks (jailbreaking, prompt injection)
+   - Safety Evaluation & Red Teaming
+   - Bias, Fairness & Robustness
+   - Harmful Content & Misinformation
+   - Long-term Safety Research
 
 9. **[Phase 9: Advanced Topics & Frontiers](learning/phase-09-advanced.md)**
    - Automated AI Research
@@ -134,7 +138,7 @@ Follow **[Phase 1-2](learning/phase-01-foundations.md)** for foundations, then d
 
 **Want to build agents?** → Focus on [Phase 5: Reasoning & Agents](learning/phase-05-reasoning.md)
 
-**Interested in safety?** → Head to [Phase 8: Security & Safety](learning/phase-08-security.md)
+**Interested in safety?** → Head to [Phase 8: Security, Safety & Robustness](learning/phase-08-security.md)
 
 ---
 

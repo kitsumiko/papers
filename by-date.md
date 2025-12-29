@@ -81,9 +81,11 @@
 ### 2024.06
 - [Scalable MatMul-free Language Modeling](https://arxiv.org/pdf/2406.02528)
 - [Understanding and Mitigating Tokenization Bias in Language Models](https://arxiv.org/abs/2406.16829)
+- [WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs](https://arxiv.org/abs/2406.18495)
 
 ### 2024.05
 - [Breaking the Molecular Dynamics Timescale Barrier Using a Wafer-Scale System](https://arxiv.org/pdf/2405.07898)
+- [Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/abs/2405.06624)
 
 ### 2024.04
 - [KAN: Kolmogorov–Arnold Networks](https://arxiv.org/pdf/2404.19756)
@@ -96,13 +98,22 @@
 ### 2024.03
 - [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643)
 - [Greed is All You Need: An Evaluation of Tokenizer Inference Methods](https://arxiv.org/abs/2403.01289)
+- [The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning](https://arxiv.org/abs/2403.03218)
 
 ### 2024.02
 - [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764)
 - [MOMENT: A Family of Open Time-series Foundation Models](https://arxiv.org/pdf/2402.03885)
 - [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/pdf/2402.01030)
+- [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal](https://arxiv.org/abs/2402.04249)
+
+### 2024.01
+- [Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training](https://arxiv.org/abs/2401.05566)
 
 ## 2023
+
+### 2023.12
+- [Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision](https://arxiv.org/abs/2312.09390)
+- [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674)
 
 ### 2023.09
 - [GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253)
@@ -129,6 +140,9 @@
 ### 2022.12
 - [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)
 
+### 2022.09
+- [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://arxiv.org/abs/2209.07858)
+
 ### 2022.10
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
 
@@ -153,7 +167,13 @@
 ### 2021.02
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Vision Transformer/ViT)](https://arxiv.org/abs/2010.11929)
 
+### 2021.01
+- [The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/abs/2101.00027)
+
 ## 2020
+
+### 2020.09
+- [RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models](https://arxiv.org/abs/2009.11462)
 
 ### 2020.05
 - [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165)
@@ -182,6 +202,9 @@
 ### 2019.09
 - [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)
 
+### 2018.02
+- [Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification](http://proceedings.mlr.press/v81/buolamwini18a.html)
+
 ## 2018
 
 ### 2018.11
@@ -189,10 +212,9 @@
 
 ### 2018.06
 - [Relational Recurrent Neural Networks](https://arxiv.org/abs/1806.01822)
-
-## 2018
-
 - [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
+
+### 2018.08
 - [SentencePiece: A simple and language independent subword tokenizer and detokenizer](https://arxiv.org/abs/1808.06226)
 
 ## 2017
@@ -217,6 +239,9 @@
 - [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608)
 - [Visualizing Deep Neural Network Decisions: Prediction Difference Analysis](https://arxiv.org/abs/1702.04595)
 
+### 2017.11
+- [AI Safety Gridworlds](https://arxiv.org/abs/1711.09883)
+
 ## 2016
 
 ### 2016.12
@@ -232,9 +257,13 @@
 ### 2016.03
 - [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
 
+### 2016.10
+- [Equality of Opportunity in Supervised Learning](https://arxiv.org/abs/1610.02413)
+
 ### 2016.06
 - [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
 - [Synthesizing the Preferred Inputs for Neurons via Deep Generator Networks](https://arxiv.org/abs/1605.09304)
+- [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565)
 
 ### 2016.02
 - [LIME: "Why Should I Trust You?" Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
@@ -313,8 +342,8 @@
 
 ---
 
-**Total Papers in Learning Path**: 132 papers  
+**Total Papers in Learning Path**: 145+ papers  
 **Paywalled Papers**: 4 (marked with 🔒)  
-**Open Access**: ~96%
+**Open Access**: ~97%
 
 [← Back to Main](README.md) | [→ View Learning Path](learning-path.md)

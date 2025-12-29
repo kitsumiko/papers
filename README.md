@@ -5,7 +5,6 @@
 [![Papers](https://img.shields.io/badge/papers-132+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
-[![Last Updated](https://img.shields.io/badge/updated-November_14,_2025-orange.svg)](by-date.md)
 
 ---
 
@@ -39,7 +38,7 @@ Start with the **[Learning Path](learning-path.md)** and follow **Phase 1: Found
 Jump to relevant phases:
 - **LLMs & Training**: [Phase 2](learning/phase-02-llms.md)
 - **Efficient Models**: [Phase 3](learning/phase-03-attention.md)
-- **Production AI**: [Phase 4](learning/phase-04-retrieval.md) (RAG), [Phase 8](learning/phase-08-security.md) (Security)
+- **Production AI**: [Phase 4](learning/phase-04-retrieval.md) (RAG), [Phase 8](learning/phase-08-security.md) (Security & Safety)
 
 ### For Researchers
 Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or deep-dive into:
@@ -75,14 +74,14 @@ Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or 
 4. Compare approaches across different papers
 
 **🛠️ The Engineer Focus** (2-4 weeks)
-1. Priority: [Phase 3](learning/phase-03-attention.md) (Efficiency), [Phase 8](learning/phase-08-security.md) (Security), [Phase 12](learning/phase-12-hardware.md) (Hardware)
+1. Priority: [Phase 3](learning/phase-03-attention.md) (Efficiency), [Phase 8](learning/phase-08-security.md) (Security & Safety), [Phase 12](learning/phase-12-hardware.md) (Hardware)
 2. Focus on implementation details and benchmarks
 3. Note production considerations and trade-offs
 
 **� The Security Specialist** (1-2 weeks)
 1. Core: [Phase 8](learning/phase-08-security.md)
 2. Context: [Phase 2](learning/phase-02-llms.md) (LLM basics), [Phase 5](learning/phase-05-reasoning.md) (Alignment)
-3. Focus on threat models and defense mechanisms
+3. Focus on threat models, defense mechanisms, and safety evaluation
 
 ### Paper Reading Tips
 
@@ -108,7 +107,7 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[5](learning/phase-05-reasoning.md)** | 🧠 **Reasoning & Agents** | 12 | RLHF, chain-of-thought, agentic systems |
 | **[6](learning/phase-06-architectures.md)** | 🏛️ **Alternative Architectures** | 7 | RWKV, Mamba, state-space models, theory |
 | **[7](learning/phase-07-interpretability.md)** | 🔬 **Interpretability** | 11 | LIME, integrated gradients, weight-sparse circuits |
-| **[8](learning/phase-08-security.md)** | 🛡️ **Security & Robustness** | 7 | Alignment, jailbreaking, adversarial ML |
+| **[8](learning/phase-08-security.md)** | 🛡️ **Security, Safety & Robustness** | 10+ | Alignment, security threats, safety evaluation, bias & fairness, harmful content, long-term safety |
 | **[9](learning/phase-09-advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
 | **[10](learning/phase-10-probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
 | **[11](learning/phase-11-vision.md)** | 👁️ **Vision & Multimodal** | 8 | ViT, CLIP, SAM, vision-language models |
@@ -200,9 +199,13 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 - Critical analysis: ["The Illusion of Thinking"](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf), [LLM evaluation challenges](https://arxiv.org/pdf/2502.07445)
 
 ### 🛡️ Security, Safety & Robustness
-- **Alignment & Safety**: [InstructGPT](https://arxiv.org/abs/2203.02155), [Constitutional AI](https://arxiv.org/abs/2212.08073)
-- **Security**: [Prompt sanitization](https://arxiv.org/abs/2504.05147), [MCP security](https://arxiv.org/pdf/2504.08623), [agentic AI self-defense](https://arxiv.org/pdf/2510.13825)
-- **Threats**: [Cyber threat intelligence](https://arxiv.org/abs/2503.23175), reliability concerns
+- **Foundational Safety**: [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565), [InstructGPT](https://arxiv.org/abs/2203.02155), [Constitutional AI](https://arxiv.org/abs/2212.08073), [Weak-to-Strong Generalization](https://arxiv.org/abs/2312.09390)
+- **Safety Guardrails**: [Llama Guard](https://arxiv.org/abs/2312.06674), [WildGuard](https://arxiv.org/abs/2406.18495)
+- **Security Threats**: [Prompt sanitization](https://arxiv.org/abs/2504.05147), [MCP security](https://arxiv.org/pdf/2504.08623), [agentic AI self-defense](https://arxiv.org/pdf/2510.13825)
+- **Red Teaming & Evaluation**: [Red Teaming Language Models](https://arxiv.org/abs/2209.07858), [GPTFuzzer](https://arxiv.org/pdf/2309.10253), [HarmBench](https://arxiv.org/abs/2402.04249), [WMDP](https://arxiv.org/abs/2403.03218), [TruthfulQA](https://arxiv.org/abs/2109.07958)
+- **Bias & Fairness**: [Equality of Opportunity](https://arxiv.org/abs/1610.02413), [Gender Shades](http://proceedings.mlr.press/v81/buolamwini18a.html), [Tokenization bias](https://arxiv.org/abs/2406.16829), [model calibration](https://arxiv.org/abs/1706.04599)
+- **Harmful Content**: [RealToxicityPrompts](https://arxiv.org/abs/2009.11462)
+- **Long-term Safety**: [Sleeper Agents](https://arxiv.org/abs/2401.05566), [AI Safety Gridworlds](https://arxiv.org/abs/1711.09883), [Scalable oversight](https://www.anthropic.com/research/scalable-oversight), [Guaranteed Safe AI](https://arxiv.org/abs/2405.06624)
 
 ### 👁️ Computer Vision & Multimodal AI
 - Vision transformers: [ViT](https://arxiv.org/abs/2010.11929), [CLIP](https://arxiv.org/abs/2103.00020), [SAM](https://arxiv.org/abs/2304.02643)
