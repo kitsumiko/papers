@@ -128,6 +128,9 @@ As AI systems control increasingly important decisions—from content moderation
 6. [Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/abs/2405.06624) (Dalrymple et al., 2024)
    - *Why*: Proposes world model-based safety framework with quantitative guarantees; addresses how to build AI systems with provable safety properties; important for high-stakes deployment scenarios
 
+7. [Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data](https://arxiv.org/pdf/2507.14805) (Cloud et al., 2025)
+   - *Why*: **Critical safety finding** - demonstrates that language models can transmit behavioral traits (including misalignment) through semantically unrelated data like number sequences, code, or reasoning traces; occurs even when data is filtered to remove explicit references to the trait; reveals unexpected pitfall for AI development where distillation could propagate unintended traits; only works when teacher and student share similar initializations
+
 ---
 
 **Next**: [Phase 9: Advanced Topics & Frontiers →](phase-09-advanced.md)
