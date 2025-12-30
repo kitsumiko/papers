@@ -29,6 +29,7 @@
 - [Semantic IDs for Joint Generative Search and Recommendation](https://arxiv.org/abs/2508.10478)
 
 ### 2025.07
+- [Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data](https://arxiv.org/pdf/2507.14805) (Cloud et al., 2025)
 - [AlphaGo Moment for Model Architecture Discovery](https://arxiv.org/pdf/2507.18074)
 
 ### 2025.06
