@@ -18,15 +18,6 @@ This repository contains **150+ carefully selected research papers** organized i
 
 **Plus**: [Recommended reading strategies](#-how-to-use-this-repository), [notes on learning](#paper-reading-tips), and [quick start guides](#-quick-start) tailored to your role (beginner, practitioner, researcher, engineer, security specialist).
 
-### Why This Collection?
-
-- **Curated for Learning**: Papers selected for their pedagogical value and impact
-- **Pedagogically Organized**: Follow a structured path from basics to advanced topics
-- **Modern & Comprehensive**: Covers transformers, LLMs, agents, vision, security, and more
-- **Glossary Integrated**: Key terms linked throughout—never get lost in jargon
-- **Open Access Focused**: Most papers freely available; paywalled papers marked 🔒
-- **Actively Maintained**: Updated with latest research from 2025
-
 ---
 
 ## 🚀 Quick Start
@@ -115,32 +106,6 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
 **Total**: 150+ core papers across 13 phases (plus 40+ policy documents & frameworks)
-
----
-
-## 🗂️ Repository Structure
-
-```
-papers/
-├── README.md                    # This file - repository overview
-├── learning-path.md             # Main learning path navigation
-├── by-date.md                   # Chronological paper listing
-└── learning/                    # Phase-by-phase curriculum
-    ├── glossary.md              # Comprehensive glossary of terms & concepts
-    ├── phase-01-foundations.md
-    ├── phase-02-llms.md
-    ├── phase-03-attention.md
-    ├── phase-04-retrieval.md
-    ├── phase-05-reasoning.md
-    ├── phase-06-architectures.md
-    ├── phase-07-interpretability.md
-    ├── phase-08-security.md
-    ├── phase-09-advanced.md
-    ├── phase-10-probabilistic.md
-    ├── phase-11-vision.md
-    ├── phase-12-hardware.md
-    └── phase-13-policy.md
-```
 
 ---
 
@@ -243,17 +208,17 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 
 ## 🤝 Contributing
 
-Have a paper that should be included? Found a broken link? Want to improve explanations?
+We welcome contributions! There are many ways to help:
 
-**To suggest a paper:**
-1. Check if it's already in [by-date.md](by-date.md)
-2. Consider: Is it influential? Does it fit the learning path?
-3. Open an issue with: Title, arXiv/URL, why it's important, suggested phase
+| Contribution Type | How to Help |
+|-------------------|-------------|
+| 📄 **Suggest Papers** | [Open an issue](../../issues/new?template=paper-suggestion.yml) with paper details |
+| 🔗 **Fix Broken Links** | [Report](../../issues/new?template=broken-link.yml) or submit a PR |
+| 📖 **Improve Glossary** | [Suggest terms](../../issues/new?template=glossary-term.yml) or definitions |
+| ✏️ **Better Annotations** | Improve "Why" explanations via PR |
+| 💬 **Discuss Papers** | Join [Discussions](../../discussions) |
 
-**To fix issues:**
-1. Broken links: Open an issue or PR with updated URL
-2. Typos/improvements: PRs welcome!
-3. Better explanations: Suggest edits to "Why" annotations
+**📋 [Read the full Contributing Guide](CONTRIBUTING.md)** for detailed instructions, paper selection criteria, and style guidelines
 
 ---
 

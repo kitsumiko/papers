@@ -55,10 +55,10 @@ As AI systems control increasingly important decisions—from content moderation
 1. [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://arxiv.org/abs/2209.07858) (Ganguli et al., 2022)
    - *Why*: **Foundational red teaming paper** from Anthropic - systematic approach to discovering harmful outputs through adversarial probing; demonstrates how red teaming scales with model size; essential methodology for safety evaluation
 
-2. [GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253) (Yu et al., 2023)
-   - *Why*: Automated jailbreak generation framework inspired by AFL fuzzing; achieves 90%+ attack success rates against ChatGPT and Llama-2 by mutating seed templates; demonstrates scalability and adaptability for red-teaming LLMs
+3. [Automated Red Teaming with GOAT: the Generative Offensive Agent Tester](https://arxiv.org/abs/2410.01606) (Pavlova et al., 2024)
+   - *Why*: Agentic red teaming system that simulates multi-turn adversarial conversations using 7 attack techniques; achieves 97% ASR against Llama 3.1 and 88% against GPT-4-Turbo; demonstrates how combining jailbreak methods in conversation outperforms single-prompt attacks
 
-3. [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal](https://arxiv.org/abs/2402.04249) (Mazeika et al., 2024)
+4. [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal](https://arxiv.org/abs/2402.04249) (Mazeika et al., 2024)
    - *Why*: **Comprehensive safety benchmark** - standardized evaluation for automated red teaming; includes 510 harmful behaviors across semantic categories; enables reproducible comparison of attack and defense methods
 
 4. [WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs](https://arxiv.org/abs/2406.18495) (Han et al., 2024)

@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 General Discussion
+    url: https://github.com/kitsumiko/papers/discussions
+    about: Ask questions, discuss papers, or share learning experiences
+  - name: 📚 Request Learning Resources
+    url: https://github.com/kitsumiko/papers/discussions/new?category=ideas
+    about: Suggest complementary resources, tutorials, or learning materials
+

@@ -1,0 +1,117 @@
+name: 📄 Paper Suggestion
+description: Suggest a research paper to be added to the collection
+title: "[Paper] "
+labels: ["paper-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a paper! Please provide the details below to help us evaluate your suggestion.
+
+  - type: input
+    id: title
+    attributes:
+      label: Paper Title
+      description: Full title of the paper
+      placeholder: "Attention Is All You Need"
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Paper Link
+      description: arXiv link preferred, or direct PDF/conference link
+      placeholder: "https://arxiv.org/abs/1706.03762"
+    validations:
+      required: true
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Primary authors (first 3-5 names)
+      placeholder: "Vaswani, Shazeer, Parmar, et al."
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Publication Year
+      description: Year the paper was published or submitted
+      placeholder: "2017"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Suggested Learning Phase
+      description: Which phase does this paper best fit into?
+      options:
+        - "Phase 1: Foundations"
+        - "Phase 2: Large Language Models"
+        - "Phase 3: Attention & Context"
+        - "Phase 4: Retrieval & RAG"
+        - "Phase 5: Reasoning & Agents"
+        - "Phase 6: Novel Architectures"
+        - "Phase 7: Interpretability"
+        - "Phase 8: Security & Safety"
+        - "Phase 9: Advanced Topics"
+        - "Phase 10: Probabilistic Models"
+        - "Phase 11: Vision & Multimodal"
+        - "Phase 12: Hardware & Systems"
+        - "Phase 13: Policy & Governance"
+        - "Not sure / Multiple phases"
+    validations:
+      required: true
+
+  - type: textarea
+    id: importance
+    attributes:
+      label: Why should this paper be included?
+      description: |
+        Explain why this paper is important for the collection:
+        - What makes it influential or foundational?
+        - How many citations does it have?
+        - What concepts does it introduce?
+      placeholder: |
+        This paper introduced the Transformer architecture which became the foundation for all modern LLMs.
+        It has 100,000+ citations and introduced multi-head self-attention.
+    validations:
+      required: true
+
+  - type: textarea
+    id: annotation
+    attributes:
+      label: Suggested "Why Read This" Annotation
+      description: 1-2 sentence explanation for learners about what they'll gain from reading this paper
+      placeholder: |
+        Introduces the Transformer architecture that replaced RNNs for sequence modeling.
+        Essential for understanding attention mechanisms and modern LLM foundations.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: access
+    attributes:
+      label: Access
+      description: Paper accessibility
+      options:
+        - label: "Paper is freely accessible (arXiv, open access, or author website)"
+          required: false
+        - label: "Paper is paywalled (will be marked with 🔒)"
+          required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      description: Please confirm the following
+      options:
+        - label: I have checked that this paper is not already in the collection
+          required: true
+        - label: I have verified the link works
+          required: true
+
