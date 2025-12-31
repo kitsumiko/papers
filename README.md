@@ -5,7 +5,6 @@
 [![Papers](https://img.shields.io/badge/papers-133+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
-[![Last Updated](https://img.shields.io/badge/updated-November_14,_2025-orange.svg)](by-date.md)
 
 ---
 
@@ -18,26 +17,6 @@ This repository contains **133+ carefully selected research papers** organized i
 3. **📖 [Comprehensive Glossary](learning/glossary.md)** - 250+ terms, concepts, and acronyms explained with context
 
 **Plus**: [Recommended reading strategies](#-how-to-use-this-repository), [notes on learning](#paper-reading-tips), and [quick start guides](#-quick-start) tailored to your role (beginner, practitioner, researcher, engineer, security specialist).
-
-### Why This Collection?
-
-| Feature | Description |
-|---------|-------------|
-| 🎯 **Curated for Learning** | Papers selected for pedagogical value and impact |
-| 📈 **Progressive Structure** | Follow a path from basics to cutting-edge research |
-| 🌐 **Comprehensive Coverage** | Transformers, LLMs, agents, vision, security & more |
-| 📖 **Glossary Integrated** | 250+ terms—never get lost in jargon |
-| 🔓 **Open Access Focused** | ~96% freely available; paywalled marked 🔒 |
-| 🔄 **Actively Maintained** | Monthly curation with latest 2025 research |
-
-### 📅 Curation Cadence
-
-This collection is actively maintained with:
-- **Monthly reviews** of new papers from major venues (arXiv, NeurIPS, ICML, ICLR, ACL, CVPR)
-- **Quarterly updates** to phase organization and learning path structure
-- **Community contributions** welcomed and reviewed promptly
-
-> 💡 **Want to stay updated?** Star the repo and watch for releases, or check [by-date.md](by-date.md) for the latest additions
 
 ---
 
@@ -128,35 +107,6 @@ The learning path is organized into **13 progressive phases**, each building on 
 
 **Total**: 133+ core papers across 13 phases (plus 40+ policy documents & frameworks)
 
----
-
-## 🗂️ Repository Structure
-
-```
-papers/
-├── README.md                    # This file - repository overview
-├── CONTRIBUTING.md              # How to contribute papers and improvements
-├── learning-path.md             # Main learning path navigation
-├── by-date.md                   # Chronological paper listing (1997-2025)
-├── .github/                     # Issue templates & PR templates
-│   ├── ISSUE_TEMPLATE/          # Structured forms for contributions
-│   └── PULL_REQUEST_TEMPLATE.md
-└── learning/                    # Phase-by-phase curriculum
-    ├── glossary.md              # 250+ terms, concepts & acronyms
-    ├── phase-01-foundations.md  # Deep learning basics (15 papers)
-    ├── phase-02-llms.md         # Transformers & LLMs (10 papers)
-    ├── phase-03-attention.md    # Efficient attention (7 papers)
-    ├── phase-04-retrieval.md    # RAG & knowledge systems (6 papers)
-    ├── phase-05-reasoning.md    # Agents & alignment (12 papers)
-    ├── phase-06-architectures.md # Novel architectures (7 papers)
-    ├── phase-07-interpretability.md # Model analysis (11 papers)
-    ├── phase-08-security.md     # Safety & robustness (10 papers)
-    ├── phase-09-advanced.md     # Frontiers & applications (7 papers)
-    ├── phase-10-probabilistic.md # Bayesian & diffusion (6 papers)
-    ├── phase-11-vision.md       # Vision & multimodal (8 papers)
-    ├── phase-12-hardware.md     # Hardware & systems (2 papers)
-    └── phase-13-policy.md       # Governance & compliance (40+ docs)
-```
 ---
 
 ## 📊 Coverage by Topic
