@@ -7,11 +7,17 @@
 ## 12.1 Hardware Considerations
 **Goal**: Understand hardware-algorithm co-design
 
-1. 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf) (2023)
+1. [Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html) (He, 2022)
+   - *Why*: **Essential practitioner guide** - explains GPU memory hierarchy, compute vs memory bound operations, and why FlashAttention works; practical understanding for optimizing ML workloads
+
+2. [Efficiently Scaling Transformer Inference](https://arxiv.org/abs/2211.05102) (Pope et al., 2022)
+   - *Why*: **Google's inference optimization guide** - analyzes memory bandwidth vs compute tradeoffs for transformer inference; introduces key concepts like arithmetic intensity and roofline analysis
+
+3. 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf) (2023)
    - *Why*: Photonic computing for AI; next-generation hardware
    - *Note*: Paywalled - Nature Photonics journal
 
-2. [A Log-Domain Implementation of the Diffusion Network in Very Large Scale Integration](https://papers.nips.cc/paper_files/paper/2010/file/7bcdf75ad237b8e02e301f4091fb6bc8-Paper.pdf) (2010)
+4. [A Log-Domain Implementation of the Diffusion Network in Very Large Scale Integration](https://papers.nips.cc/paper_files/paper/2010/file/7bcdf75ad237b8e02e301f4091fb6bc8-Paper.pdf) (2010)
 
 ---
 
