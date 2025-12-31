@@ -28,6 +28,9 @@
 7. [GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253) (Yu et al., 2023)
    - *Why*: Automated jailbreak generation framework inspired by AFL fuzzing; achieves 90%+ attack success rates against ChatGPT and Llama-2 by mutating seed templates; demonstrates scalability and adaptability for red-teaming LLMs
 
+8. [Automated Red Teaming with GOAT: the Generative Offensive Agent Tester](https://arxiv.org/abs/2410.01606) (Pavlova et al., 2024)
+   - *Why*: Agentic red teaming system that simulates multi-turn adversarial conversations using 7 attack techniques; achieves 97% ASR against Llama 3.1 and 88% against GPT-4-Turbo; demonstrates how combining jailbreak methods in conversation outperforms single-prompt attacks
+
 ## 8.2 Adversarial Robustness
 **Goal**: Understand and defend against adversarial attacks
 
