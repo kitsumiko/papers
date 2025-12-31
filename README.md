@@ -21,12 +21,23 @@ This repository contains **132+ carefully selected research papers** organized i
 
 ### Why This Collection?
 
-- **Curated for Learning**: Papers selected for their pedagogical value and impact
-- **Pedagogically Organized**: Follow a structured path from basics to advanced topics
-- **Modern & Comprehensive**: Covers transformers, LLMs, agents, vision, security, and more
-- **Glossary Integrated**: Key terms linked throughout—never get lost in jargon
-- **Open Access Focused**: Most papers freely available; paywalled papers marked 🔒
-- **Actively Maintained**: Updated with latest research from 2025
+| Feature | Description |
+|---------|-------------|
+| 🎯 **Curated for Learning** | Papers selected for pedagogical value and impact |
+| 📈 **Progressive Structure** | Follow a path from basics to cutting-edge research |
+| 🌐 **Comprehensive Coverage** | Transformers, LLMs, agents, vision, security & more |
+| 📖 **Glossary Integrated** | 250+ terms—never get lost in jargon |
+| 🔓 **Open Access Focused** | ~96% freely available; paywalled marked 🔒 |
+| 🔄 **Actively Maintained** | Monthly curation with latest 2025 research |
+
+### 📅 Curation Cadence
+
+This collection is actively maintained with:
+- **Monthly reviews** of new papers from major venues (arXiv, NeurIPS, ICML, ICLR, ACL, CVPR)
+- **Quarterly updates** to phase organization and learning path structure
+- **Community contributions** welcomed and reviewed promptly
+
+> 💡 **Want to stay updated?** Star the repo and watch for releases, or check [by-date.md](by-date.md) for the latest additions
 
 ---
 
@@ -124,23 +135,58 @@ The learning path is organized into **13 progressive phases**, each building on 
 ```
 papers/
 ├── README.md                    # This file - repository overview
+├── CONTRIBUTING.md              # How to contribute papers and improvements
 ├── learning-path.md             # Main learning path navigation
-├── by-date.md                   # Chronological paper listing
+├── by-date.md                   # Chronological paper listing (1997-2025)
+├── .github/                     # Issue templates & PR templates
+│   ├── ISSUE_TEMPLATE/          # Structured forms for contributions
+│   └── PULL_REQUEST_TEMPLATE.md
 └── learning/                    # Phase-by-phase curriculum
-    ├── glossary.md              # Comprehensive glossary of terms & concepts
-    ├── phase-01-foundations.md
-    ├── phase-02-llms.md
-    ├── phase-03-attention.md
-    ├── phase-04-retrieval.md
-    ├── phase-05-reasoning.md
-    ├── phase-06-architectures.md
-    ├── phase-07-interpretability.md
-    ├── phase-08-security.md
-    ├── phase-09-advanced.md
-    ├── phase-10-probabilistic.md
-    ├── phase-11-vision.md
-    ├── phase-12-hardware.md
-    └── phase-13-policy.md
+    ├── glossary.md              # 250+ terms, concepts & acronyms
+    ├── phase-01-foundations.md  # Deep learning basics (15 papers)
+    ├── phase-02-llms.md         # Transformers & LLMs (10 papers)
+    ├── phase-03-attention.md    # Efficient attention (7 papers)
+    ├── phase-04-retrieval.md    # RAG & knowledge systems (6 papers)
+    ├── phase-05-reasoning.md    # Agents & alignment (12 papers)
+    ├── phase-06-architectures.md # Novel architectures (7 papers)
+    ├── phase-07-interpretability.md # Model analysis (11 papers)
+    ├── phase-08-security.md     # Safety & robustness (7 papers)
+    ├── phase-09-advanced.md     # Frontiers & applications (7 papers)
+    ├── phase-10-probabilistic.md # Bayesian & diffusion (6 papers)
+    ├── phase-11-vision.md       # Vision & multimodal (8 papers)
+    ├── phase-12-hardware.md     # Hardware & systems (2 papers)
+    └── phase-13-policy.md       # Governance & compliance (40+ docs)
+```
+
+### 🗺️ Visual Learning Path
+
+```
+                              ┌─────────────────────────────────────────────────────────┐
+                              │                    SPECIALIZED TRACKS                    │
+                              └─────────────────────────────────────────────────────────┘
+                                         │               │               │
+                              ┌──────────┴───┐  ┌────────┴────┐  ┌───────┴───────┐
+                              │  Phase 10    │  │  Phase 11   │  │   Phase 12    │
+                              │ Probabilistic│  │   Vision    │  │   Hardware    │
+                              └──────────────┘  └─────────────┘  └───────────────┘
+                                         │               │               │
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                                     CORE CURRICULUM                                      │
+├─────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                          │
+│   Phase 1        Phase 2       Phase 3       Phase 4       Phase 5       Phase 6        │
+│  Foundations  →   LLMs     →  Attention  →  Retrieval  →  Reasoning  → Architectures   │
+│   (basics)      (BERT,GPT)   (Flash,Ret)    (RAG)        (Agents)       (Mamba)        │
+│                                                                                          │
+│                        ↓               ↓               ↓               ↓                │
+│                                                                                          │
+│                    Phase 7       Phase 8       Phase 9       Phase 13                   │
+│                 Interpretability  Security     Advanced       Policy                    │
+│                    (LIME)        (Safety)     (AI Sci)      (EU AI Act)                │
+│                                                                                          │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+
+Legend:  → Sequential path    ↓ Can branch to    ─ Optional/Specialized
 ```
 
 ---
@@ -240,17 +286,17 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 
 ## 🤝 Contributing
 
-Have a paper that should be included? Found a broken link? Want to improve explanations?
+We welcome contributions! There are many ways to help:
 
-**To suggest a paper:**
-1. Check if it's already in [by-date.md](by-date.md)
-2. Consider: Is it influential? Does it fit the learning path?
-3. Open an issue with: Title, arXiv/URL, why it's important, suggested phase
+| Contribution Type | How to Help |
+|-------------------|-------------|
+| 📄 **Suggest Papers** | [Open an issue](../../issues/new?template=paper-suggestion.yml) with paper details |
+| 🔗 **Fix Broken Links** | [Report](../../issues/new?template=broken-link.yml) or submit a PR |
+| 📖 **Improve Glossary** | [Suggest terms](../../issues/new?template=glossary-term.yml) or definitions |
+| ✏️ **Better Annotations** | Improve "Why" explanations via PR |
+| 💬 **Discuss Papers** | Join [Discussions](../../discussions) |
 
-**To fix issues:**
-1. Broken links: Open an issue or PR with updated URL
-2. Typos/improvements: PRs welcome!
-3. Better explanations: Suggest edits to "Why" annotations
+**📋 [Read the full Contributing Guide](CONTRIBUTING.md)** for detailed instructions, paper selection criteria, and style guidelines
 
 ---
 
