@@ -1,0 +1,69 @@
+name: 🔗 Broken Link Report
+description: Report a broken or outdated link
+title: "[Broken Link] "
+labels: ["broken-link", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep our links up to date! Please provide details about the broken link.
+
+  - type: input
+    id: paper_title
+    attributes:
+      label: Paper Title
+      description: Name of the paper with the broken link
+      placeholder: "Attention Is All You Need"
+    validations:
+      required: true
+
+  - type: input
+    id: broken_link
+    attributes:
+      label: Broken Link
+      description: The URL that is not working
+      placeholder: "https://arxiv.org/abs/..."
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location in Repository
+      description: Which file contains this link?
+      placeholder: "learning/phase-02-llms.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: error_type
+    attributes:
+      label: Error Type
+      description: What happens when you try to access the link?
+      options:
+        - "404 Not Found"
+        - "403 Forbidden"
+        - "Connection Timeout"
+        - "Redirects to wrong page"
+        - "Domain no longer exists"
+        - "Other"
+    validations:
+      required: true
+
+  - type: input
+    id: working_link
+    attributes:
+      label: Working Alternative (if known)
+      description: If you found a working link to the same paper, please share it
+      placeholder: "https://arxiv.org/abs/..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other relevant information
+    validations:
+      required: false
+

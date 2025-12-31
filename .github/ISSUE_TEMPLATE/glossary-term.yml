@@ -1,0 +1,70 @@
+name: 📖 Glossary Term Suggestion
+description: Suggest a new term or improvement to the glossary
+title: "[Glossary] "
+labels: ["glossary", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help expand or improve our glossary! Suggest new terms or improvements to existing definitions.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request Type
+      options:
+        - "Add new term"
+        - "Improve existing definition"
+        - "Fix error in definition"
+    validations:
+      required: true
+
+  - type: input
+    id: term
+    attributes:
+      label: Term
+      description: The term or acronym
+      placeholder: "RLHF"
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition
+      description: Clear, concise definition of the term
+      placeholder: |
+        Reinforcement Learning from Human Feedback (RLHF) is a technique for training language models
+        using human preference data to align model outputs with human values and intentions.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this term belong to?
+      options:
+        - "Architectures"
+        - "Training & Optimization"
+        - "NLP & Language Models"
+        - "Computer Vision"
+        - "Reinforcement Learning"
+        - "Security & Safety"
+        - "Evaluation & Metrics"
+        - "Hardware & Systems"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related Terms or Papers
+      description: Terms this connects to, or papers that explain this concept
+      placeholder: |
+        Related to: PPO, InstructGPT, Constitutional AI
+        Key paper: "Training language models to follow instructions with human feedback"
+    validations:
+      required: false
+
