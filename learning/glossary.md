@@ -37,6 +37,9 @@ A subset of machine learning using neural networks with multiple layers (hence "
 ### Distributional Hypothesis
 The linguistic principle that "words that occur in similar contexts tend to have similar meanings." Foundation of word embedding methods like Word2Vec and GloVe.
 
+### Dual Encoder
+An architecture using two separate encoders (typically transformers) to encode queries and documents into dense vectors that can be compared via similarity metrics. Foundation of modern dense retrieval systems like DPR.
+
 ### Embeddings
 Dense, continuous vector representations of discrete objects (words, tokens, images). Convert discrete symbols into points in high-dimensional space where semantic similarity corresponds to geometric proximity.
 
@@ -140,6 +143,9 @@ The dominant neural architecture for sequential data, using self-attention mecha
 ### U-Net
 An architecture with an encoder-decoder structure and skip connections, originally for image segmentation. Recently connected to probabilistic inference.
 
+### Vision-Language Model (VLM)
+A model that can understand and reason about both images and text together. Examples include CLIP (contrastive), LLaVA (generative), and GPT-4V. Key for multimodal AI applications.
+
 ### ViT (Vision Transformer)
 Applies pure transformer architecture to image classification by treating images as sequences of patches. Showed transformers aren't just for text.
 
@@ -233,7 +239,7 @@ A phenomenon where attention weights concentrate on initial tokens regardless of
 Attention between two different sequences (e.g., between encoder and decoder outputs). Used in machine translation and multimodal models.
 
 ### FlashAttention
-An IO-aware attention algorithm that's 3x faster than standard attention by optimizing memory access patterns. Critical for training modern LLMs efficiently.
+An IO-aware attention algorithm that's 3x faster than standard attention by optimizing memory access patterns. Critical for training modern LLMs efficiently. FlashAttention-2 further improves performance with better parallelism and is the de facto standard in production systems.
 
 ### Infini-attention
 An attention mechanism enabling infinite context windows by compressing information from earlier tokens, allowing processing of arbitrarily long sequences.
@@ -252,6 +258,9 @@ Attention mechanism where queries, keys, and values all come from the same seque
 
 ### Sparse Attention
 Attention patterns that only attend to a subset of positions rather than all positions. Reduces complexity from O(n²) to near-linear, enabling longer sequences.
+
+### Speculative Decoding
+A technique to accelerate LLM inference by using a smaller "draft" model to propose multiple tokens, then verifying them in parallel with the larger model. Can achieve 2-3x speedups without changing output distribution.
 
 ---
 
@@ -274,6 +283,9 @@ The ability to learn new tasks from just a few examples. GPT-3 demonstrated rema
 
 ### In-Context Learning
 The ability of large language models to learn tasks from examples provided in the prompt, without updating parameters. Emergent ability of large models.
+
+### Induction Head
+A specific attention pattern in transformers that copies tokens that appeared after similar tokens earlier in the sequence. Key mechanistic interpretability finding that explains how models perform in-context learning. A circuit composed of a "previous token head" and an "induction head" working together.
 
 ### kNN-LM (k-Nearest Neighbors Language Model)
 Augmenting language models with retrieval: at each step, retrieve similar contexts from a database and use them to improve predictions.
@@ -325,7 +337,7 @@ An input crafted with small, imperceptible perturbations that causes a model to 
 A technique for explaining model predictions by assigning importance scores to input features. Examples: Integrated Gradients, LIME.
 
 ### Calibration
-How well a model's confidence scores match actual accuracy. A well-calibrated model's predicted 80% confidence means it's correct 80% of the time.
+How well a model's confidence scores match actual accuracy. A well-calibrated model's predicted 80% confidence means it's correct 80% of the time. Critical for safety-critical applications where understanding prediction reliability is essential.
 
 ### Gradient-based Attribution
 Explanation methods using gradients to identify which input features most influence the output. Includes vanilla gradients, Integrated Gradients, SmoothGrad.
@@ -343,7 +355,7 @@ An attribution method that computes the path integral of gradients from a baseli
 A technique that explains individual predictions by fitting an interpretable model locally around the prediction.
 
 ### Mechanistic Interpretability
-Reverse-engineering neural networks to understand the algorithms they've learned at a mechanistic level. Goes beyond just finding important features.
+Reverse-engineering neural networks to understand the algorithms they've learned at a mechanistic level. Goes beyond just finding important features. Essential for safety as it enables detection of deceptive or misaligned behavior in models.
 
 ### MLE-bench
 A benchmark for evaluating machine learning agents on practical ML engineering tasks, testing end-to-end capabilities.
@@ -355,7 +367,10 @@ A visualization highlighting which parts of an input are most important for a mo
 An attribution method that reduces noise in gradient-based explanations by averaging gradients of noisy versions of the input.
 
 ### TruthfulQA
-A benchmark measuring whether language models generate truthful answers, revealing that larger models can be less truthful due to learning human falsehoods.
+A benchmark measuring whether language models generate truthful answers, revealing that larger models can be less truthful due to learning human falsehoods. Critical safety evaluation tool for assessing model reliability.
+
+### Truthfulness
+The property of generating factually correct information. A key safety concern as language models may generate plausible-sounding but false information, especially on topics where training data contains human falsehoods.
 
 ---
 
@@ -391,9 +406,48 @@ Using AI systems to provide feedback for training instead of humans. Potentially
 ### Robust Machine Learning
 Developing models that maintain performance under adversarial conditions, distribution shifts, or corrupted inputs.
 
+### Algorithmic Bias
+Systematic and unfair discrimination in AI systems, often reflecting biases in training data or model design. Can manifest as demographic disparities, unfair treatment of protected groups, or unequal outcomes.
+
+### Bias Detection
+Methods for identifying when AI systems exhibit biased behavior, including statistical tests, fairness metrics, and demographic analysis.
+
+### Fairness
+Ensuring AI systems treat different groups equitably. Common definitions include demographic parity (equal positive rates), equalized odds (equal true/false positive rates), and calibration (equal prediction accuracy across groups).
+
+### Demographic Parity
+A fairness criterion requiring that the rate of positive predictions is equal across different demographic groups. Also known as statistical parity or group fairness.
+
+### Equalized Odds
+A fairness criterion requiring that true positive rates and false positive rates are equal across different demographic groups. Stronger than demographic parity as it accounts for actual outcomes, not just predictions.
+
+### Harmful Content
+AI-generated content that is toxic, offensive, discriminatory, or otherwise harmful. Includes hate speech, misinformation, and content that could cause real-world harm.
+
+### Toxicity
+Language or content that is harmful, offensive, or inappropriate. Toxicity detection is crucial for safety in text generation systems, as models can generate toxic content even when not explicitly prompted.
+
+### Misinformation
+False or misleading information that is spread, often unintentionally by AI systems. A major safety concern as language models can generate plausible-sounding but factually incorrect information.
+
+### Long-term Safety
+Research addressing safety challenges for advanced AI systems, including AGI safety, scalable oversight, corrigibility, and control problems. Focuses on ensuring safety as AI systems become more capable than humans.
+
+### Safety Evaluation
+Systematic assessment of AI systems for safety risks, including red teaming, safety benchmarks, and evaluation frameworks. Essential for identifying harmful behaviors before deployment.
+
+### Scalable Oversight
+The challenge of supervising AI systems that may become more capable than their human supervisors. Research explores techniques like debate, recursive reward modeling, and amplification to maintain control.
+
+### Corrigibility
+The property of an AI system that allows it to be corrected or shut down even if doing so conflicts with its training objectives. Important for maintaining human control over advanced AI systems.
+
 ---
 
 ## Systems & Hardware
+
+### Arithmetic Intensity
+The ratio of compute operations (FLOPs) to memory accesses (bytes). High arithmetic intensity operations are compute-bound; low intensity operations are memory-bound. Critical concept for understanding GPU performance and why optimizations like FlashAttention work.
 
 ### Checkpoint Sharding
 Splitting model checkpoints across multiple files to enable distributed saving/loading of very large models.
@@ -466,7 +520,10 @@ Training agents through trial and error using reward signals. Different from sup
 Data organized in rows and columns (spreadsheets, databases). TabPFN specializes in learning from small tabular datasets.
 
 ### Test-Time Compute
-Using additional computation during inference (e.g., generating multiple solutions, extended reasoning) to improve output quality.
+Using additional computation during inference (e.g., generating multiple solutions, extended reasoning) to improve output quality. Also known as inference-time scaling or "thinking longer."
+
+### Test-Time Training
+Adapting model parameters during inference on the specific input, as opposed to fixed weights. Enables models to dynamically improve on individual examples.
 
 ### Time Series
 Data points indexed in time order. Require specialized models (LSTM, MOMENT) that can capture temporal dependencies.
@@ -511,6 +568,9 @@ Data points indexed in time order. Require specialized models (LSTM, MOMENT) tha
 | ViT | Vision Transformer | Models |
 | VLSI | Very Large Scale Integration | Hardware |
 | ZeRO | Zero Redundancy Optimizer | Training |
+| DPR | Dense Passage Retrieval | Retrieval |
+| VLM | Vision-Language Model | Models |
+| LLaVA | Large Language and Vision Assistant | Models |
 
 ---
 
@@ -522,10 +582,10 @@ Data points indexed in time order. Require specialized models (LSTM, MOMENT) tha
 - **LLMs** → See also: GPT, BERT, Transformer, Pre-training, Fine-tuning, RLHF
 - **Training** → See also: Backpropagation, SGD, Adam, Batch Normalization, Dropout
 - **Interpretability** → See also: LIME, Integrated Gradients, Attribution Methods, Saliency Maps
-- **Security** → See also: Adversarial Examples, RLHF, Constitutional AI, Jailbreaking
+- **Security & Safety** → See also: Adversarial Examples, RLHF, Constitutional AI, Jailbreaking, Red Teaming, Bias Detection, Fairness, Safety Evaluation, Long-term Safety
 
 ---
 
 [← Back to Learning Path](../learning-path.md) | [→ Browse Papers by Date](../by-date.md)
 
-*Last updated: October 2025*
+*Last updated: December 2025*

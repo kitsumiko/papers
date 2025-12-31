@@ -25,7 +25,13 @@
 6. [MCMC using Hamiltonian dynamics](https://arxiv.org/abs/1206.1901) (2012)
    - *Why*: Foundation of modern MCMC sampling methods
 
-## 10.2 Generative Models for Vision
+## 10.2 Diffusion Models
+**Goal**: Understand how diffusion models learn and generalize
+
+1. [Why Diffusion Models Don't Memorize: The Role of Implicit Dynamical Regularization in Training](https://arxiv.org/pdf/2505.17638) (2025)
+   - *Why*: Theoretical analysis of why diffusion models generalize rather than memorize training data; identifies two distinct training timescales and implicit dynamical regularization
+
+## 10.3 Generative Models for Vision
 **Goal**: Apply probabilistic models to visual understanding
 
 1. [Approximate Bayesian Image Interpretation using Generative Probabilistic Graphics Programs](http://papers.nips.cc/paper/4881-approximate-bayesian-image-interpretation-using-generative-probabilistic-graphics-programs.pdf) (2013)
