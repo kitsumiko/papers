@@ -63,6 +63,7 @@
 - [OpenAI o3 System Card](https://arxiv.org/pdf/2411.04996)
 
 ### 2024.10
+- [Automated Red Teaming with GOAT: the Generative Offensive Agent Tester](https://arxiv.org/abs/2410.01606)
 - [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/abs/2410.07095)
 
 ### 2024.09
@@ -355,7 +356,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 150+ papers  
+**Total Papers in Learning Path**: 150+ papers
 **Paywalled Papers**: 4 (marked with 🔒)  
 **Open Access**: ~97%
 
