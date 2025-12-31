@@ -2,7 +2,7 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-132+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-133+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
 [![Last Updated](https://img.shields.io/badge/updated-November_14,_2025-orange.svg)](by-date.md)
@@ -11,7 +11,7 @@
 
 ## 🎯 What's Inside
 
-This repository contains **132+ carefully selected research papers** organized in three complementary ways:
+This repository contains **133+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
@@ -119,14 +119,14 @@ The learning path is organized into **13 progressive phases**, each building on 
 | **[5](learning/phase-05-reasoning.md)** | 🧠 **Reasoning & Agents** | 12 | RLHF, chain-of-thought, agentic systems |
 | **[6](learning/phase-06-architectures.md)** | 🏛️ **Alternative Architectures** | 7 | RWKV, Mamba, state-space models, theory |
 | **[7](learning/phase-07-interpretability.md)** | 🔬 **Interpretability** | 11 | LIME, integrated gradients, weight-sparse circuits |
-| **[8](learning/phase-08-security.md)** | 🛡️ **Security & Robustness** | 7 | Alignment, jailbreaking, adversarial ML |
+| **[8](learning/phase-08-security.md)** | 🛡️ **Security & Robustness** | 10 | Alignment, jailbreaking, adversarial ML |
 | **[9](learning/phase-09-advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
 | **[10](learning/phase-10-probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
 | **[11](learning/phase-11-vision.md)** | 👁️ **Vision & Multimodal** | 8 | ViT, CLIP, SAM, vision-language models |
 | **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 2 | Photonic computing, VLSI implementations |
 | **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
-**Total**: 132+ core papers across 13 phases (plus 40+ policy documents & frameworks)
+**Total**: 133+ core papers across 13 phases (plus 40+ policy documents & frameworks)
 
 ---
 
@@ -150,45 +150,13 @@ papers/
     ├── phase-05-reasoning.md    # Agents & alignment (12 papers)
     ├── phase-06-architectures.md # Novel architectures (7 papers)
     ├── phase-07-interpretability.md # Model analysis (11 papers)
-    ├── phase-08-security.md     # Safety & robustness (7 papers)
+    ├── phase-08-security.md     # Safety & robustness (10 papers)
     ├── phase-09-advanced.md     # Frontiers & applications (7 papers)
     ├── phase-10-probabilistic.md # Bayesian & diffusion (6 papers)
     ├── phase-11-vision.md       # Vision & multimodal (8 papers)
     ├── phase-12-hardware.md     # Hardware & systems (2 papers)
     └── phase-13-policy.md       # Governance & compliance (40+ docs)
 ```
-
-### 🗺️ Visual Learning Path
-
-```
-                              ┌─────────────────────────────────────────────────────────┐
-                              │                    SPECIALIZED TRACKS                    │
-                              └─────────────────────────────────────────────────────────┘
-                                         │               │               │
-                              ┌──────────┴───┐  ┌────────┴────┐  ┌───────┴───────┐
-                              │  Phase 10    │  │  Phase 11   │  │   Phase 12    │
-                              │ Probabilistic│  │   Vision    │  │   Hardware    │
-                              └──────────────┘  └─────────────┘  └───────────────┘
-                                         │               │               │
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                     CORE CURRICULUM                                      │
-├─────────────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                          │
-│   Phase 1        Phase 2       Phase 3       Phase 4       Phase 5       Phase 6        │
-│  Foundations  →   LLMs     →  Attention  →  Retrieval  →  Reasoning  → Architectures   │
-│   (basics)      (BERT,GPT)   (Flash,Ret)    (RAG)        (Agents)       (Mamba)        │
-│                                                                                          │
-│                        ↓               ↓               ↓               ↓                │
-│                                                                                          │
-│                    Phase 7       Phase 8       Phase 9       Phase 13                   │
-│                 Interpretability  Security     Advanced       Policy                    │
-│                    (LIME)        (Safety)     (AI Sci)      (EU AI Act)                │
-│                                                                                          │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-
-Legend:  → Sequential path    ↓ Can branch to    ─ Optional/Specialized
-```
-
 ---
 
 ## 📊 Coverage by Topic
