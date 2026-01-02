@@ -34,6 +34,9 @@
 9. [Order Matters: Sequence to Sequence for Sets](https://arxiv.org/abs/1511.06391) (Vinyals et al., 2015)
    - *Why*: **Handling set-structured data** - extends sequence-to-sequence models to handle unordered sets; important for tasks like set prediction and permutation-invariant learning
 
+10. [mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880) (Xie et al., 2025)
+   - *Why*: **Extends Hyper-Connections with stability guarantees** - projects residual connection space onto a constrained manifold to restore identity mapping property; addresses training instability and scalability issues in HC while maintaining performance gains; demonstrates effectiveness at scale (3B-27B models) with improved stability
+
 ## 6.2 Theoretical Foundations
 **Goal**: Understand the mathematical foundations
 
