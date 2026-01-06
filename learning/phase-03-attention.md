@@ -37,6 +37,9 @@
 3. [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618) (2025)
    - *Why*: Dynamic context optimization
 
+4. [Recursive Language Models](https://arxiv.org/abs/2512.24601) (Zhang et al., 2025)
+   - *Why*: **Scales context beyond model limits** - treats long prompts as external environment, allowing LLMs to programmatically examine and recursively call themselves over snippets; handles inputs up to two orders of magnitude beyond context windows while maintaining quality
+
 ---
 
 **Next**: [Phase 4: Retrieval & Knowledge Systems →](phase-04-retrieval.md)
