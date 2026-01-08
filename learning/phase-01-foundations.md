@@ -35,6 +35,11 @@
 9. [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122) (Yu & Koltun, 2016)
    - *Why*: **Dilated convolutions for dense prediction** - enables exponential expansion of receptive field without losing resolution; foundational for semantic segmentation and dense prediction tasks
 
+10. [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635) (Frankle & Carbin, ICLR 2019)
+   - *Why*: **Fundamental insight into network initialization and sparsity** - demonstrates that dense networks contain sparse "winning ticket" subnetworks that can train to full accuracy from initialization; reveals the critical importance of weight initialization for trainability; foundational for understanding why pruning works and how to design efficient architectures
+   - *Key insight*: Standard pruning naturally uncovers subnetworks whose initializations made them capable of training effectively; these winning tickets are typically 10-20% of the original network size
+   - *Impact*: Sparked extensive research into sparse training, initialization strategies, and understanding what makes networks trainable
+
 ## 1.2 Word Embeddings & Representations
 **Goal**: Learn how words become vectors - the bridge between discrete symbols and continuous neural networks
 
