@@ -223,6 +223,9 @@
 
 ## 2018
 
+### 2018.03
+- [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635)
+
 ### 2018.11
 - [GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](https://arxiv.org/abs/1811.06965)
 
