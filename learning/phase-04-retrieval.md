@@ -19,16 +19,19 @@
 4. [Generalization through Memorization: Nearest Neighbor Language Models (kNN-LM)](https://arxiv.org/abs/1911.00172) (Khandelwal et al., 2020)
    - *Why*: Memory-augmented decoding foundation; shows that similarity search is easier than next-word prediction
 
-5. [REFRAG: Rethinking RAG based Decoding](https://arxiv.org/pdf/2509.01092) (2025)
+5. [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334) (Mei et al., 2025)
+   - *Why*: **Comprehensive survey (1400+ papers)** - defines context engineering as a discipline; covers context retrieval, processing, management, RAG architectures, memory systems, and multi-agent integration
+
+6. [REFRAG: Rethinking RAG based Decoding](https://arxiv.org/pdf/2509.01092) (2025)
    - *Why*: Optimizing RAG decoding strategies
 
-6. [Semantic IDs for Joint Generative Search and Recommendation](https://arxiv.org/abs/2508.10478) (2025)
+7. [Semantic IDs for Joint Generative Search and Recommendation](https://arxiv.org/abs/2508.10478) (2025)
    - *Why*: Unified approach to search and recommendation
 
-7. [Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval](https://arxiv.org/pdf/2404.09889) (2024)
+8. [Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval](https://arxiv.org/pdf/2404.09889) (2024)
    - *Why*: Structured data retrieval challenges
 
-8. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) (Liu et al., 2023)
+9. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) (Liu et al., 2023)
    - *Why*: **Critical analysis of long-context usage** - reveals U-shaped performance curve where models struggle with information in the middle of long contexts; important for RAG system design
 
 ## 4.2 Federated & Distributed Learning
