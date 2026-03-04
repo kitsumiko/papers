@@ -31,7 +31,7 @@
 |-------|-------|
 | Paper Title | |
 | Link | |
-| Phase | |
+| Area | |
 | Year | |
 
 **Why this paper should be included:**
@@ -45,7 +45,7 @@
 <!-- Check all that apply -->
 
 - [ ] I have checked that links work
-- [ ] Papers are added to both the phase file AND `by-date.md`
+- [ ] Papers are added to both the area file AND `by-date.md`
 - [ ] New papers include a "Why" annotation
 - [ ] I have followed the style guidelines in CONTRIBUTING.md
 - [ ] I have checked for typos

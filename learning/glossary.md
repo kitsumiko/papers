@@ -29,7 +29,7 @@ A mathematical function applied to a neuron's output that introduces non-lineari
 The fundamental algorithm for training neural networks by computing gradients of the loss function with respect to each weight. Uses the chain rule to efficiently propagate errors backward through the network.
 
 ### Batch Normalization
-A technique that normalizes layer inputs by re-centering and re-scaling, making training faster and more stable. Introduced in Phase 1, it enables training much deeper networks by reducing internal covariate shift.
+A technique that normalizes layer inputs by re-centering and re-scaling, making training faster and more stable. Introduced in the Foundations area, it enables training much deeper networks by reducing internal covariate shift.
 
 ### Deep Learning
 A subset of machine learning using neural networks with multiple layers (hence "deep"). Excels at automatically learning hierarchical representations from raw data without manual feature engineering.
@@ -341,6 +341,9 @@ How well a model's confidence scores match actual accuracy. A well-calibrated mo
 
 ### Gradient-based Attribution
 Explanation methods using gradients to identify which input features most influence the output. Includes vanilla gradients, Integrated Gradients, SmoothGrad.
+
+### H-Neurons (Hallucination-Associated Neurons)
+A sparse subset of feedforward network (FFN) neurons whose activations reliably predict when an LLM will produce hallucinated rather than faithful outputs. Identified via sparse linear probing on contribution metrics (e.g., CETT); typically &lt;0.1% of model neurons. Causal interventions show they drive over-compliance behaviors (invalid premises, misleading context, sycophancy, harmful instructions). They originate in pre-training rather than alignment. Enables neuron-level hallucination detection and potential intervention points. See [H-Neurons (Gao et al., 2025)](https://arxiv.org/abs/2512.01797).
 
 ### Hallucination
 When language models generate plausible-sounding but factually incorrect information. A major challenge for deploying LLMs in production.

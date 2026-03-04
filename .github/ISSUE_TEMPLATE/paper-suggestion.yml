@@ -45,25 +45,25 @@ body:
       required: true
 
   - type: dropdown
-    id: phase
+    id: area
     attributes:
-      label: Suggested Learning Phase
-      description: Which phase does this paper best fit into?
+      label: Suggested Area
+      description: Which topic area does this paper best fit into?
       options:
-        - "Phase 1: Foundations"
-        - "Phase 2: Large Language Models"
-        - "Phase 3: Attention & Context"
-        - "Phase 4: Retrieval & RAG"
-        - "Phase 5: Reasoning & Agents"
-        - "Phase 6: Novel Architectures"
-        - "Phase 7: Interpretability"
-        - "Phase 8: Security & Safety"
-        - "Phase 9: Advanced Topics"
-        - "Phase 10: Probabilistic Models"
-        - "Phase 11: Vision & Multimodal"
-        - "Phase 12: Hardware & Systems"
-        - "Phase 13: Policy & Governance"
-        - "Not sure / Multiple phases"
+        - "Foundations"
+        - "Language Models"
+        - "Attention & Context"
+        - "Retrieval & RAG"
+        - "Reasoning & Agents"
+        - "Architectures"
+        - "Interpretability"
+        - "Safety"
+        - "Advanced Topics"
+        - "Probabilistic Models"
+        - "Vision & Multimodal"
+        - "Hardware & Systems"
+        - "Policy & Governance"
+        - "Not sure / Multiple areas"
     validations:
       required: true
 

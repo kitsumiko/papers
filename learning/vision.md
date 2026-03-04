@@ -1,10 +1,10 @@
-# Phase 11: Vision & Multimodal Systems
+# Vision & Multimodal Systems
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 10](phase-10-probabilistic.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Probabilistic](probabilistic.md) | [Hardware](hardware.md)
 
-**Phase Overview**: The transformer revolution didn't stop at text—it transformed computer vision too. This phase explores how [attention mechanisms](glossary.md#attention-mechanism) replaced [convolutional neural networks](glossary.md#cnn-convolutional-neural-network) as the dominant paradigm in vision, how [CLIP](glossary.md#clip-contrastive-language-image-pre-training) bridges vision and language through contrastive learning, and how models like [SAM](glossary.md#sam-segment-anything-model) achieve unprecedented zero-shot image segmentation. You'll see how the same principles that power ChatGPT enable models to understand and generate images, paving the way for truly [multimodal](glossary.md#multimodal-learning) AI systems that can seamlessly work with text, images, and video together.
+**Overview**: The transformer revolution didn't stop at text—it transformed computer vision too. This phase explores how [attention mechanisms](glossary.md#attention-mechanism) replaced [convolutional neural networks](glossary.md#cnn-convolutional-neural-network) as the dominant paradigm in vision, how [CLIP](glossary.md#clip-contrastive-language-image-pre-training) bridges vision and language through contrastive learning, and how models like [SAM](glossary.md#sam-segment-anything-model) achieve unprecedented zero-shot image segmentation. You'll see how the same principles that power ChatGPT enable models to understand and generate images, paving the way for truly [multimodal](glossary.md#multimodal-learning) AI systems that can seamlessly work with text, images, and video together.
 
-## 11.1 Vision Transformers
+## Vision Transformers
 
 1. [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Vision Transformer/ViT)](https://arxiv.org/abs/2010.11929) (Dosovitskiy et al., 2021)
    - *Why*: **Missing but crucial** - applies pure transformers to vision; connects vision and language model architectures
@@ -24,7 +24,7 @@
 6. [Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408) (2016)
    - *Why*: Applying GANs to segmentation tasks
 
-## 11.2 Multimodal & Speech
+## Multimodal & Speech
 
 1. [Visual Instruction Tuning (LLaVA)](https://arxiv.org/abs/2304.08485) (Liu et al., 2023)
    - *Why*: **Pioneering vision-language instruction following** - connects vision encoder with LLM for multimodal conversations; demonstrates that instruction tuning works across modalities; foundation for many open-source multimodal models
@@ -32,7 +32,7 @@
 2. [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](https://arxiv.org/abs/1512.02595) (Amodei et al., 2016)
    - *Why*: **End-to-end speech recognition** - demonstrates deep learning for speech without hand-engineered features; scales to multiple languages; foundational for modern speech systems
 
-## 11.3 Vision Interpretability
+## Vision Interpretability
 
 1. [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/abs/1312.6034) (2013)
    - *Why*: Visualizing image classification models
@@ -45,4 +45,4 @@
 
 ---
 
-**Next**: [Phase 12: Hardware & Systems →](phase-12-hardware.md)
+**Related**: [Probabilistic](probabilistic.md) | [Hardware](hardware.md) | [Interpretability](interpretability.md)

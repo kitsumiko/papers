@@ -1,12 +1,12 @@
-# Phase 13: Policy, Safety & Societal Impact
+# Policy, Safety & Societal Impact
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 12](phase-12-hardware.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Hardware](hardware.md) | [Safety](safety.md)
 
-**Phase Overview**: Technical capabilities alone don't determine AI's impact on society—policy, governance, and ethical considerations are equally critical. This final phase steps back to examine the bigger picture: how should AI systems be regulated, what are the existential and near-term risks, how do we ensure equitable access and prevent misuse, and what frameworks exist for responsible AI development? Whether you're building AI systems, advising organizations, or simply want to be an informed citizen, understanding these policy and safety considerations is essential as AI becomes increasingly central to society.
+**Overview**: Technical capabilities alone don't determine AI's impact on society—policy, governance, and ethical considerations are equally critical. This area steps back to examine the bigger picture: how should AI systems be regulated, what are the existential and near-term risks, how do we ensure equitable access and prevent misuse, and what frameworks exist for responsible AI development? Whether you're building AI systems, advising organizations, or simply want to be an informed citizen, understanding these policy and safety considerations is essential as AI becomes increasingly central to society.
 
 ---
 
-## 13.1 Financial Services & Model Risk Management
+## Financial Services & Model Risk Management
 **Goal**: Understand regulatory frameworks for AI in financial services
 
 **Why this matters**: Financial institutions were among the first to systematically regulate AI/ML models. The frameworks developed here—particularly around model validation, governance, and risk management—have influenced AI regulation across industries.
@@ -32,7 +32,7 @@
 
 ---
 
-## 13.2 Data Protection & Privacy Law
+## Data Protection & Privacy Law
 **Goal**: Navigate privacy regulations affecting AI systems
 
 **Why this matters**: AI systems are data-hungry, but data collection and use are heavily regulated. Understanding GDPR, CCPA, and related frameworks is essential for legal AI deployment, especially for systems processing personal data.
@@ -57,7 +57,7 @@
 
 ---
 
-## 13.3 AI-Specific Legislation & Executive Action
+## AI-Specific Legislation & Executive Action
 **Goal**: Understand emerging AI-specific regulatory frameworks
 
 **Why this matters**: Unlike sector-specific rules, these frameworks regulate AI systems directly based on risk, use case, or capability level. They represent the future of AI governance.
@@ -110,7 +110,7 @@
 
 ---
 
-## 13.4 Risk Management Frameworks & Standards
+## Risk Management Frameworks & Standards
 **Goal**: Learn structured approaches to AI risk management
 
 **Why this matters**: Regulations tell you what to do; frameworks tell you how. These voluntary standards provide practical implementation guidance and are increasingly referenced by regulators.
@@ -148,7 +148,7 @@
 
 ---
 
-## 13.5 Sector-Specific AI Guidance
+## Sector-Specific AI Guidance
 **Goal**: Navigate industry-specific AI regulations
 
 **Why this matters**: Healthcare AI faces different requirements than financial AI. Understanding sector-specific rules is essential for practical deployment.
@@ -187,7 +187,7 @@
 
 ---
 
-## 13.6 Dual-Use AI & National Security
+## Dual-Use AI & National Security
 **Goal**: Understand national security considerations for AI
 
 **Why this matters**: Advanced AI models have both beneficial and harmful uses. Export controls, dual-use regulations, and open vs. closed debates shape what can be built and shared.
@@ -211,7 +211,7 @@
 
 ---
 
-## 13.7 Responsible AI & Industry Best Practices
+## Responsible AI & Industry Best Practices
 **Goal**: Understand voluntary frameworks and industry initiatives
 
 **Why this matters**: Many organizations operate ahead of regulation. These frameworks represent current best practices and often foreshadow future requirements.
@@ -248,7 +248,7 @@
 
 ---
 
-## 13.8 Practical Compliance & Implementation
+## Practical Compliance & Implementation
 **Goal**: Apply policy frameworks in real-world scenarios
 
 **Resources for Practitioners**:
