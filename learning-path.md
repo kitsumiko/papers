@@ -1,110 +1,115 @@
 # Learning Path: AI/ML Research Curriculum
 
-A structured curriculum organizing papers from this collection, designed to build knowledge progressively from foundational concepts to cutting-edge research.
+A structured curriculum organizing papers from this collection. Content is organized by **topic areas** (browse by interest); **tracks** are curated reading sequences for specific goals.
 
 ---
 
 ## 📚 How to Use This Learning Path
 
-This curriculum is organized into **13 progressive phases**, each building on previous knowledge. You can:
+This collection is organized in two complementary ways:
 
-- **Follow sequentially** for a comprehensive understanding
-- **Jump to specific phases** based on your interests or needs
-- **Use multiple reading strategies** (see below) tailored to your role
+- **Areas** = Topic-based paper collections. No implied order—browse any area based on your interests. Each area is in its own file.
+- **Tracks** = Curated reading sequences that suggest an order across areas for a given goal (e.g., "ML Engineer," "Safety Specialist").
 
-Each phase is in a separate file for easier navigation and tracking your progress.
+You can **follow a track** for a guided path, **jump to specific areas** based on interest, or **mix both**.
 
 ---
 
 ## Table of Contents
 
-### Core Curriculum
+### Core Areas
 
-1. **[Phase 1: Foundations (Start Here)](learning/phase-01-foundations.md)**
-   - Deep Learning Basics
-   - Sequence Modeling & Recurrent Networks
-   - Generative Models
+- **[Foundations (Start Here)](learning/foundations.md)**
+  - Deep Learning Basics
+  - Word Embeddings & Representations
+  - Sequence Modeling, Generative Models, Tokenization
 
-2. **[Phase 2: Large Language Models - Core Concepts](learning/phase-02-llms.md)**
-   - LLM Foundations (Transformers, BERT, GPT-3)
-   - Training at Scale (Megatron, ZeRO)
-   - Memory & Efficiency Optimizations
+- **[Large Language Models](learning/language-models.md)**
+  - LLM Foundations (Transformers, BERT, GPT-3)
+  - Training at Scale (Megatron, ZeRO)
+  - Memory & Efficiency Optimizations
 
-3. **[Phase 3: Attention Mechanisms & Context](learning/phase-03-attention.md)**
-   - Efficient Attention (FlashAttention, RetNet)
-   - Long Context & Compression
+- **[Attention Mechanisms & Context](learning/attention.md)**
+  - Efficient Attention (FlashAttention, RetNet)
+  - Long Context & Compression
 
-4. **[Phase 4: Retrieval & Knowledge Systems](learning/phase-04-retrieval.md)**
-   - Retrieval-Augmented Generation (RAG)
-   - Federated & Distributed Learning
+- **[Retrieval & Knowledge Systems](learning/retrieval.md)**
+  - Retrieval-Augmented Generation (RAG)
+  - Federated & Distributed Learning
 
-5. **[Phase 5: AI Reasoning & Agents](learning/phase-05-reasoning.md)**
-   - Reasoning Architectures (RLHF, PPO, ReAct)
-   - Agentic Systems
+- **[Reasoning & Alignment](learning/reasoning.md)**
+  - Teaching Models to Reason (RLHF, PPO, ReAct)
+  - Agentic Systems
 
-6. **[Phase 6: Novel Architectures & Theory](learning/phase-06-architectures.md)**
-   - Alternative Architectures (RWKV, KAN)
-   - Theoretical Foundations (Neural Tangent Kernel)
+- **[Novel Architectures & Theory](learning/architectures.md)**
+  - Alternative Architectures (RWKV, KAN)
+  - Theoretical Foundations (Neural Tangent Kernel)
 
-7. **[Phase 7: Model Interpretability & Evaluation](learning/phase-07-interpretability.md)**
-   - Understanding Model Behavior
-   - Model Evaluation & Robustness (TruthfulQA)
+- **[Interpretability & Evaluation](learning/interpretability.md)**
+  - Understanding Model Behavior
+  - Model Evaluation & Robustness (TruthfulQA)
 
-8. **[Phase 8: Security, Safety & Robustness](learning/phase-08-security.md)**
-   - AI Alignment & Safety Training (InstructGPT, Constitutional AI)
-   - Security Threats & Attacks (jailbreaking, prompt injection)
-   - Safety Evaluation & Red Teaming
-   - Bias, Fairness & Robustness
-   - Harmful Content & Misinformation
-   - Long-term Safety Research
+- **[Security, Safety & Robustness](learning/safety.md)**
+  - AI Alignment & Safety Training (InstructGPT, Constitutional AI)
+  - Security Threats & Attacks (jailbreaking, prompt injection)
+  - Safety Evaluation & Red Teaming
+  - Bias, Fairness & Robustness
+  - Harmful Content & Misinformation
+  - Long-term Safety Research
 
-9. **[Phase 9: Advanced Topics & Frontiers](learning/phase-09-advanced.md)**
-   - Automated AI Research
-   - Specialized Applications
-   - Consciousness & AGI
+- **[Advanced Topics & Applications](learning/advanced.md)**
+  - Automated AI Research
+  - Specialized Applications
+  - Consciousness & AGI
 
-### Specialized Topics
+### Specialized Areas
 
-10. **[Phase 10: Probabilistic & Bayesian Approaches](learning/phase-10-probabilistic.md)**
-    - Probabilistic Programming
-    - Bayesian Deep Learning
+- **[Probabilistic & Bayesian Approaches](learning/probabilistic.md)**
+  - Probabilistic Programming
+  - Diffusion Models
 
-11. **[Phase 11: Computer Vision Specialization (Optional)](learning/phase-11-vision.md)**
-    - Vision Architectures (ViT, CLIP, SAM)
-    - Vision Interpretability
+- **[Vision & Multimodal Systems](learning/vision.md)**
+  - Vision Transformers (ViT, CLIP, SAM)
+  - Multimodal & Speech
+  - Vision Interpretability
 
-12. **[Phase 12: Hardware & Systems](learning/phase-12-hardware.md)**
-   - Hardware-Algorithm Co-design
-   - Specialized AI Hardware
+- **[Hardware & Systems](learning/hardware.md)**
+  - Hardware-Algorithm Co-design
+  - Specialized AI Hardware
 
-13. **[Phase 13: Policy, Safety & Societal Impact](learning/phase-13-policy.md)**
-   - Financial Services & Model Risk Management (OCC 2011-12, SR 11-7)
-   - Data Protection & Privacy Law (GDPR, CCPA)
-   - AI-Specific Legislation (EU AI Act, US Executive Orders)
-   - Risk Management Frameworks (NIST AI RMF, ISO/IEC Standards)
-   - Sector-Specific Guidance (Healthcare, Employment, Criminal Justice)
-   - Dual-Use AI & National Security
-   - Responsible AI & Industry Best Practices
-   - Practical Compliance Tools & Resources
+- **[Policy, Safety & Societal Impact](learning/policy.md)**
+  - Financial Services & Model Risk Management (OCC 2011-12, SR 11-7)
+  - Data Protection & Privacy Law (GDPR, CCPA)
+  - AI-Specific Legislation (EU AI Act, US Executive Orders)
+  - Risk Management Frameworks (NIST AI RMF, ISO/IEC Standards)
+  - Sector-Specific Guidance (Healthcare, Employment, Criminal Justice)
+  - Dual-Use AI & National Security
+  - Responsible AI & Industry Best Practices
+  - Practical Compliance Tools & Resources
 
 ---
 
-## 🎯 Recommended Reading Strategies
+## 🎯 Recommended Tracks
+
+Tracks suggest an order across areas for different goals. Pick one that fits your role or goal, then follow the listed areas in sequence (or skip around as needed).
+
+### Comprehensive Track
+Full curriculum in a logical order: [Foundations](learning/foundations.md) → [Language Models](learning/language-models.md) → [Attention](learning/attention.md) → [Retrieval](learning/retrieval.md) → [Reasoning](learning/reasoning.md) → [Architectures](learning/architectures.md) → [Interpretability](learning/interpretability.md) → [Safety](learning/safety.md) → [Advanced](learning/advanced.md) → [Probabilistic](learning/probabilistic.md) → [Vision](learning/vision.md) → [Hardware](learning/hardware.md) → [Policy](learning/policy.md).
 
 ### For Beginners
-Start with **[Phase 1](learning/phase-01-foundations.md)** and **[Phase 2.1](learning/phase-02-llms.md#21-llm-foundations)**, then explore based on interests.
+Start with [Foundations](learning/foundations.md) and [Language Models — LLM Foundations](learning/language-models.md#llm-foundations), then explore based on interests.
 
-### For ML Practitioners
-Start with **[Phase 2](learning/phase-02-llms.md)** (LLMs), then **[Phase 3](learning/phase-03-attention.md)** (Attention), **[Phase 5](learning/phase-05-reasoning.md)** (Agents), and **[Phase 7](learning/phase-07-interpretability.md)** (Evaluation).
+### ML Practitioner Track
+[Language Models](learning/language-models.md) → [Attention](learning/attention.md) → [Reasoning](learning/reasoning.md) → [Interpretability](learning/interpretability.md). Add [Retrieval](learning/retrieval.md) and [Safety](learning/safety.md) for production-focused work.
 
-### For Researchers
-Follow sequentially but focus deeply on **[Phase 6](learning/phase-06-architectures.md)** (Theory), **[Phase 9](learning/phase-09-advanced.md)** (Frontiers), and your area of interest.
+### Researcher Track
+Follow the Comprehensive track but focus deeply on [Architectures](learning/architectures.md), [Interpretability](learning/interpretability.md), [Advanced](learning/advanced.md), and your area of interest.
 
-### For Engineers/Practitioners
-Prioritize **[Phase 2](learning/phase-02-llms.md)** (Training), **[Phase 3](learning/phase-03-attention.md)** (Efficiency), **[Phase 7](learning/phase-07-interpretability.md)** (Evaluation), and **[Phase 8](learning/phase-08-security.md)** (Security).
+### Engineer Track
+Prioritize [Language Models](learning/language-models.md), [Attention](learning/attention.md), [Interpretability](learning/interpretability.md), [Safety](learning/safety.md), and [Hardware](learning/hardware.md).
 
-### For Security Specialists
-Follow **[Phase 1-2](learning/phase-01-foundations.md)** for foundations, then deep dive into **[Phase 8](learning/phase-08-security.md)**.
+### Security Specialist Track
+[Foundations](learning/foundations.md) and [Language Models](learning/language-models.md) for basics, then deep dive into [Safety](learning/safety.md). Add [Interpretability](learning/interpretability.md) and [Policy](learning/policy.md) for full coverage.
 
 ---
 
@@ -130,16 +135,16 @@ Follow **[Phase 1-2](learning/phase-01-foundations.md)** for foundations, then d
 
 ## 🚀 Quick Start
 
-**New to AI/ML?** → Start with [Phase 1: Foundations](learning/phase-01-foundations.md)
+**New to AI/ML?** → Start with [Foundations](learning/foundations.md)
 
-**Have ML background?** → Jump to [Phase 2: Large Language Models](learning/phase-02-llms.md)
+**Have ML background?** → Jump to [Large Language Models](learning/language-models.md)
 
-**Looking for specific topics?** → Use the TOC above to navigate directly
+**Looking for specific topics?** → Use the TOC above to navigate by area
 
-**Want to build agents?** → Focus on [Phase 5: Reasoning & Agents](learning/phase-05-reasoning.md)
+**Want to build agents?** → Focus on [Reasoning & Agents](learning/reasoning.md)
 
-**Interested in safety?** → Head to [Phase 8: Security, Safety & Robustness](learning/phase-08-security.md)
+**Interested in safety?** → Head to [Security, Safety & Robustness](learning/safety.md)
 
 ---
 
-*Last updated: December 29, 2025*
+*Last updated: March 4, 2026*
