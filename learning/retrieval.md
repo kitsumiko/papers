@@ -1,10 +1,10 @@
-# Phase 4: Retrieval & Knowledge Systems
+# Retrieval & Knowledge Systems
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Attention](phase-03-attention.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Attention](attention.md) | [Reasoning](reasoning.md)
 
-**Phase Overview**: Language models have limited memory and can [hallucinate](glossary.md#hallucination) facts, but what if they could look up information before answering? This phase introduces [retrieval-augmented generation (RAG)](glossary.md#rag-retrieval-augmented-generation), where models query external knowledge bases to ground their responses in factual sources. You'll learn about dense retrieval systems that find relevant documents, nearest-neighbor approaches that augment model capabilities, and the architectural patterns that make RAG practical. These techniques are essential for building reliable, factual AI systems and are widely used in production applications today.
+**Overview**: Language models have limited memory and can [hallucinate](glossary.md#hallucination) facts, but what if they could look up information before answering? This area introduces [retrieval-augmented generation (RAG)](glossary.md#rag-retrieval-augmented-generation), where models query external knowledge bases to ground their responses in factual sources. You'll learn about dense retrieval systems that find relevant documents, nearest-neighbor approaches that augment model capabilities, and the architectural patterns that make RAG practical. These techniques are essential for building reliable, factual AI systems and are widely used in production applications today.
 
-## 4.1 Retrieval-Augmented Generation (RAG)
+## Retrieval-Augmented Generation (RAG)
 **Goal**: Combine retrieval with generation for better knowledge access
 
 1. [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906) (Karpukhin et al., 2020)
@@ -35,9 +35,9 @@
    - *Why*: **Critical analysis of long-context usage** - reveals U-shaped performance curve where models struggle with information in the middle of long contexts; important for RAG system design
 
 10. [Engram: Conditional Memory via Scalable Lookup](https://github.com/deepseek-ai/Engram/blob/main/Engram_paper.pdf) (Cheng et al., 2025)
-    - *Why*: **Novel memory-augmented architecture** - introduces conditional memory as a new sparsity axis complementing MoE; uses N-gram embeddings for O(1) lookup to retrieve static knowledge, freeing attention for global context and improving both knowledge retrieval and reasoning
+   - *Why*: **Novel memory-augmented architecture** - introduces conditional memory as a new sparsity axis complementing MoE; uses N-gram embeddings for O(1) lookup to retrieve static knowledge, freeing attention for global context and improving both knowledge retrieval and reasoning
 
-## 4.2 Federated & Distributed Learning
+## Federated & Distributed Learning
 **Goal**: Train models across distributed data
 
 1. [Federated Learning with Ad-hoc Adapter Insertions: The Case of Soft-Embeddings for Training Classifier-as-Retriever](https://arxiv.org/pdf/2509.16508) (2025)
@@ -45,4 +45,4 @@
 
 ---
 
-**Next**: [Phase 5: AI Reasoning & Agents →](phase-05-reasoning.md)
+**Related**: [Attention](attention.md) | [Reasoning](reasoning.md) | [Language Models](language-models.md)

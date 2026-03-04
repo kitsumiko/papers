@@ -1,10 +1,10 @@
-# Phase 1: Foundations (Start Here)
+# Foundations (Start Here)
 
-[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Language Models](language-models.md)
 
-**Phase Overview**: This phase establishes the essential groundwork for understanding modern AI systems. You'll explore the fundamental principles of [deep learning](glossary.md#deep-learning), from basic neural network architectures to the revolutionary [transformer](glossary.md#transformer) model that underpins nearly all current LLMs. By mastering these foundational concepts—including training dynamics, [attention mechanisms](glossary.md#attention-mechanism), and the shift from convolutional to attention-based architectures—you'll build the technical vocabulary and intuition needed for everything that follows. Think of this as learning the alphabet before reading literature.
+**Overview**: This phase establishes the essential groundwork for understanding modern AI systems. You'll explore the fundamental principles of [deep learning](glossary.md#deep-learning), from basic neural network architectures to the revolutionary [transformer](glossary.md#transformer) model that underpins nearly all current LLMs. By mastering these foundational concepts—including training dynamics, [attention mechanisms](glossary.md#attention-mechanism), and the shift from convolutional to attention-based architectures—you'll build the technical vocabulary and intuition needed for everything that follows. Think of this as learning the alphabet before reading literature.
 
-## 1.1 Deep Learning Basics
+## Deep Learning Basics
 **Goal**: Understand the fundamental building blocks of modern deep learning
 
 1. 🔒 [Deep Learning (Nature Review)](https://www.nature.com/articles/nature14539) (LeCun, Bengio, Hinton, 2015)
@@ -40,7 +40,7 @@
    - *Key insight*: Standard pruning naturally uncovers subnetworks whose initializations made them capable of training effectively; these winning tickets are typically 10-20% of the original network size
    - *Impact*: Sparked extensive research into sparse training, initialization strategies, and understanding what makes networks trainable
 
-## 1.2 Word Embeddings & Representations
+## Word Embeddings & Representations
 **Goal**: Learn how words become vectors - the bridge between discrete symbols and continuous neural networks
 
 **Why this matters**: Before transformers, before tokenization strategies, there was a fundamental question: how do we represent words as numbers that neural networks can process? [Word embeddings](glossary.md#embeddings) revolutionized NLP by learning dense vector representations that capture semantic relationships (e.g., "king" - "man" + "woman" ≈ "queen"). Understanding embeddings is crucial for grasping why modern LLMs work - they're doing something far more sophisticated than simple lookup tables.
@@ -73,13 +73,13 @@
 **The Evolution**:
 - **2013**: Word2Vec shows neural embeddings work amazingly well
 - **2014**: GloVe and Seq2Seq show different ways to capture meaning
-- **2017**: Transformers (Phase 2) make embeddings contextual via attention
+- **2017**: Transformers ([Language Models](language-models.md)) make embeddings contextual via attention
 - **2018+**: BERT, GPT show that contextual embeddings are far more powerful
 
 **Bridge to Modern LLMs**: 
 The embeddings in GPT-4 or Claude aren't just fancy Word2Vec - they're contextual representations computed through layers of attention. But Word2Vec taught us the fundamental insight: meaning lives in high-dimensional geometry. Every modern LLM starts with an embedding layer that converts tokens to vectors, then transforms those vectors through attention layers.
 
-## 1.3 Sequence Models
+## Sequence Models
 **Goal**: Learn how to model sequential data
 
 1. 🔒 [Long Short-Term Memory (LSTM)](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory) (1997)
@@ -92,7 +92,7 @@ The embeddings in GPT-4 or Claude aren't just fancy Word2Vec - they're contextua
 3. [MOMENT: A Family of Open Time-series Foundation Models](https://arxiv.org/pdf/2402.03885) (2024)
    - *Why*: Modern approach to time-series with foundation models
 
-## 1.4 Generative Models
+## Generative Models
 **Goal**: Understand how to generate new data
 
 1. [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) (2014)
@@ -104,7 +104,7 @@ The embeddings in GPT-4 or Claude aren't just fancy Word2Vec - they're contextua
 3. [Dualscale Diffusion: Adaptive Feature Balancing for Low-Dimensional Generative Models](https://sakana.ai/assets/ai-scientist/adaptive_dual_scale_denoising.pdf) (2024)
    - *Why*: Modern diffusion models for generative tasks
 
-## 1.5 Tokenization & Subword Models
+## Tokenization & Subword Models
 **Goal**: Understand how text is broken into tokens - the bridge between raw text and neural networks
 
 **Why this matters**: Before any language model can process text, it must convert words into tokens. This seemingly simple step profoundly impacts model performance, vocabulary size, and the ability to handle rare words, different languages, and out-of-vocabulary terms. Understanding tokenization is essential for grasping why LLMs behave the way they do with certain inputs.
@@ -143,4 +143,4 @@ The embeddings in GPT-4 or Claude aren't just fancy Word2Vec - they're contextua
 
 ---
 
-**Next**: [Phase 2: Large Language Models →](phase-02-llms.md)
+**Related**: [Language Models](language-models.md) | [Attention](attention.md)

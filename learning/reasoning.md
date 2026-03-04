@@ -1,10 +1,10 @@
-# Phase 5: Reasoning & Alignment
+# Reasoning & Alignment
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 4](phase-04-retrieval.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Retrieval](retrieval.md) | [Architectures](architectures.md) | [Safety](safety.md)
 
-**Phase Overview**: Raw language models don't naturally follow instructions or break down complex problems step-by-step. This phase covers the crucial techniques that transform base models into helpful, harmless assistants: [reinforcement learning from human feedback (RLHF)](glossary.md#rlhf-reinforcement-learning-from-human-feedback) that aligns models with human preferences, [chain-of-thought prompting](glossary.md#chain-of-thought-prompting) that enables multi-step reasoning, and [constitutional AI](glossary.md#constitutional-ai) approaches that encode ethical principles. You'll also learn about [agent](glossary.md#agent) frameworks like [ReAct](glossary.md#react-reasoning-and-acting) that give models the ability to use tools and take actions. These methods are what make modern AI systems genuinely useful and (relatively) safe.
+**Overview**: Raw language models don't naturally follow instructions or break down complex problems step-by-step. This phase covers the crucial techniques that transform base models into helpful, harmless assistants: [reinforcement learning from human feedback (RLHF)](glossary.md#rlhf-reinforcement-learning-from-human-feedback) that aligns models with human preferences, [chain-of-thought prompting](glossary.md#chain-of-thought-prompting) that enables multi-step reasoning, and [constitutional AI](glossary.md#constitutional-ai) approaches that encode ethical principles. You'll also learn about [agent](glossary.md#agent) frameworks like [ReAct](glossary.md#react-reasoning-and-acting) that give models the ability to use tools and take actions. These methods are what make modern AI systems genuinely useful and (relatively) safe.
 
-## 5.1 Teaching Models to Reason
+## Teaching Models to Reason
 **Goal**: Build models that can reason and solve complex problems
 
 1. [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/abs/1706.03741) (Christiano et al., 2017)
@@ -31,7 +31,7 @@
 8. [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427) (Santoro et al., 2017)
    - *Why*: **Relational reasoning foundation** - introduces Relation Networks for learning to reason about relationships between objects; essential for visual question answering and abstract reasoning tasks
 
-## 5.2 Agentic Systems
+## Agentic Systems
 **Goal**: Create autonomous AI agents
 
 1. [A Generalist Agent](https://arxiv.org/pdf/2205.06175) (2022)
@@ -57,4 +57,4 @@
 
 ---
 
-**Next**: [Phase 6: Novel Architectures & Theory →](phase-06-architectures.md)
+**Related**: [Retrieval](retrieval.md) | [Architectures](architectures.md) | [Safety](safety.md)

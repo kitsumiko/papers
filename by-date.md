@@ -3,6 +3,7 @@
 ## 2025
 
 ### 2025.12
+- [H-Neurons: On the Existence, Impact, and Origin of Hallucination-Associated Neurons in LLMs](https://arxiv.org/abs/2512.01797) (Gao et al., Tsinghua, 2025)
 - [Recursive Language Models](https://arxiv.org/abs/2512.24601)
 - [mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880)
 - 📄 [New York State A6453A/S6953B: Training and Use of Artificial Intelligence Frontier Models](https://www.nysenate.gov/legislation/bills/2025/A6453/amendment/A) (Signed December 2025)

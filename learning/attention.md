@@ -1,10 +1,10 @@
-# Phase 3: Attention Mechanism Innovations
+# Attention Mechanism Innovations
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 2](phase-02-llms.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Language Models](language-models.md) | [Retrieval](retrieval.md)
 
-**Phase Overview**: While [transformers](glossary.md#transformer) are powerful, their quadratic memory and compute complexity with sequence length creates significant bottlenecks. This phase explores ingenious solutions to make [attention](glossary.md#attention-mechanism) more efficient—from [FlashAttention](glossary.md#flashattention)'s IO-aware algorithms that dramatically speed up training, to architectural innovations like linear attention and state-space models that achieve sub-quadratic scaling. These advances are critical for processing long documents, reducing costs, and enabling real-time applications, representing some of the most active areas of current research.
+**Overview**: While [transformers](glossary.md#transformer) are powerful, their quadratic memory and compute complexity with sequence length creates significant bottlenecks. This phase explores ingenious solutions to make [attention](glossary.md#attention-mechanism) more efficient—from [FlashAttention](glossary.md#flashattention)'s IO-aware algorithms that dramatically speed up training, to architectural innovations like linear attention and state-space models that achieve sub-quadratic scaling. These advances are critical for processing long documents, reducing costs, and enabling real-time applications, representing some of the most active areas of current research.
 
-## 3.1 Efficient Attention
+## Efficient Attention
 **Goal**: Understand and optimize the core attention mechanism
 
 1. [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135) (Dao et al., 2022)
@@ -25,7 +25,7 @@
 6. [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089) (2025)
    - *Why*: Hardware-efficient sparse attention
 
-## 3.2 Long Context & Compression
+## Long Context & Compression
 **Goal**: Handle longer sequences efficiently
 
 1. [TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding](https://arxiv.org/pdf/2404.11912v1.pdf) (2024)
@@ -42,4 +42,4 @@
 
 ---
 
-**Next**: [Phase 4: Retrieval & Knowledge Systems →](phase-04-retrieval.md)
+**Related**: [Language Models](language-models.md) | [Retrieval](retrieval.md) | [Architectures](architectures.md)

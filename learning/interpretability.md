@@ -1,10 +1,10 @@
-# Phase 7: Interpretability & Analysis
+# Interpretability & Analysis
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 6](phase-06-architectures.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Architectures](architectures.md) | [Safety](safety.md)
 
-**Phase Overview**: Neural networks are often treated as black boxes, but what's really happening inside? This phase dives into [interpretability](glossary.md#mechanistic-interpretability)—the science of understanding and explaining model behavior. You'll learn about mechanistic interpretability that reverse-engineers learned algorithms, activation analysis techniques like sparse autoencoders that reveal hidden structure, theoretical frameworks like the [Neural Tangent Kernel](glossary.md#neural-tangent-kernel) that explain why deep learning works, and methods for detecting when models are truthful or deceptive. As AI systems become more powerful and deployed in high-stakes settings, interpretability becomes crucial for trust, debugging, and safety.
+**Overview**: Neural networks are often treated as black boxes, but what's really happening inside? This phase dives into [interpretability](glossary.md#mechanistic-interpretability)—the science of understanding and explaining model behavior. You'll learn about mechanistic interpretability that reverse-engineers learned algorithms, activation analysis techniques like sparse autoencoders that reveal hidden structure, theoretical frameworks like the [Neural Tangent Kernel](glossary.md#neural-tangent-kernel) that explain why deep learning works, and methods for detecting when models are truthful or deceptive. As AI systems become more powerful and deployed in high-stakes settings, interpretability becomes crucial for trust, debugging, and safety.
 
-## 7.1 Understanding Model Behavior
+## Understanding Model Behavior
 **Goal**: Interpret what models learn and how they work
 
 1. [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) (2017)
@@ -34,7 +34,10 @@
 9. [Weight-sparse transformers have interpretable circuits](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) (Gao et al., OpenAI, 2025)
    - *Why*: **Training models for interpretability from scratch** - constrains most weights to zero so neurons have few connections; produces circuits with unprecedented human understandability through weight sparsity rather than post-hoc analysis; validates circuits with mean ablation showing they are necessary and sufficient for task performance
 
-## 7.2 Model Evaluation & Robustness
+10. [H-Neurons: On the Existence, Impact, and Origin of Hallucination-Associated Neurons in LLMs](https://arxiv.org/abs/2512.01797) (Gao et al., Tsinghua, 2025)
+   - *Why*: **Neuron-level mechanistic view of hallucinations** - identifies a sparse subset (<0.1%) of feedforward neurons ([H-Neurons](glossary.md#h-neurons-hallucination-associated-neurons)) that reliably predict hallucination; shows they drive over-compliance behaviors (invalid premises, misleading context, sycophancy, harmful instructions) and originate in pre-training; bridges macro-behavioral patterns with micro-neural mechanisms for detection and intervention
+
+## Model Evaluation & Robustness
 **Goal**: Properly evaluate and benchmark models
 
 1. [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958) (Lin et al., 2022)
@@ -54,4 +57,4 @@
 
 ---
 
-**Next**: [Phase 8: Security, Safety & Robustness →](phase-08-security.md)
+**Related**: [Architectures](architectures.md) | [Safety](safety.md) | [Language Models](language-models.md)

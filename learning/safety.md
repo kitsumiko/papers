@@ -1,8 +1,8 @@
-# Phase 8: Security, Safety & Robustness
+# Security, Safety & Robustness
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Phase 7](phase-07-interpretability.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Interpretability](interpretability.md) | [Reasoning](reasoning.md) | [Policy](policy.md)
 
-**Phase Overview**: AI systems face unique challenges in both **security** and **safety** that don't exist in traditional software. This phase examines both dimensions:
+**Overview**: AI systems face unique challenges in both **security** and **safety** that don't exist in traditional software. This phase examines both dimensions:
 
 **Security** focuses on protecting systems from attacks: [adversarial examples](glossary.md#adversarial-example) that fool models with imperceptible perturbations, [jailbreaking](glossary.md#jailbreaking) techniques that bypass safety guardrails, [prompt injection](glossary.md#prompt-injection) attacks that hijack model behavior, and [data poisoning](glossary.md#data-poisoning) that corrupts training.
 
@@ -10,7 +10,7 @@
 
 As AI systems control increasingly important decisions—from content moderation to autonomous vehicles—understanding both their vulnerabilities and how to ensure safe behavior becomes critical for responsible deployment.
 
-## 8.1 AI Alignment & Safety Training
+## AI Alignment & Safety Training
 **Goal**: Build AI systems that are aligned with human values and safe to deploy
 
 1. [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) (Amodei et al., 2016)
@@ -28,7 +28,7 @@ As AI systems control increasingly important decisions—from content moderation
 5. [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674) (Inan et al., 2023)
    - *Why*: **Practical safety guardrail** - open-source safety classifier for LLM inputs and outputs; defines taxonomy of unsafe content categories; enables deployment of safety-filtered LLM applications
 
-## 8.2 Security Threats & Attacks
+## Security Threats & Attacks
 **Goal**: Understand and defend against security vulnerabilities in AI systems
 
 1. [Pr$εε$mpt: Sanitizing Sensitive Prompts for LLMs](https://arxiv.org/abs/2504.05147) (2025)
@@ -49,7 +49,7 @@ As AI systems control increasingly important decisions—from content moderation
 6. [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0) (Lee et al., 2025)
    - *Why*: First fully automated benchmarking framework for evaluating LLM agents on authentic security engineering tasks; introduces multi-agent scaffold for constructing verified vulnerability datasets with reproducible PoCs and patches; reveals significant performance gaps (18% PoC generation, 34% vulnerability patching)
 
-## 8.3 Safety Evaluation & Red Teaming
+## Safety Evaluation & Red Teaming
 **Goal**: Systematically evaluate AI systems for safety risks and harmful behaviors
 
 1. [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://arxiv.org/abs/2209.07858) (Ganguli et al., 2022)
@@ -66,12 +66,12 @@ As AI systems control increasingly important decisions—from content moderation
 
 5. [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958) (Lin et al., 2022)
    - *Why*: **Foundational safety benchmark** - reveals that larger models can be less truthful; critical for understanding model limitations and safety risks; measures tendency to generate false but plausible-sounding answers
-   - *Note*: Also covered in Phase 7 for interpretability
+   - *Note*: Also covered in [Interpretability](interpretability.md)
 
 6. [The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning](https://arxiv.org/abs/2403.03218) (Li et al., 2024)
    - *Why*: **Weapons of Mass Destruction Proxy benchmark** - evaluates dangerous knowledge in biosecurity, cybersecurity, and chemical security; demonstrates unlearning can reduce hazardous capabilities while maintaining general performance; critical for preventing dual-use risks
 
-## 8.4 Bias, Fairness & Robustness
+## Bias, Fairness & Robustness
 **Goal**: Detect, measure, and mitigate bias in AI systems while maintaining robustness
 
 1. [Equality of Opportunity in Supervised Learning](https://arxiv.org/abs/1610.02413) (Hardt et al., 2016)
@@ -85,9 +85,9 @@ As AI systems control increasingly important decisions—from content moderation
 
 4. [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) (Guo et al., 2017)
    - *Why*: **Foundational work on model calibration** - shows modern neural networks are poorly calibrated despite high accuracy; important for understanding when to trust model predictions; critical for safety-critical applications
-   - *Note*: Also relevant for interpretability (Phase 7)
+   - *Note*: Also relevant for [Interpretability](interpretability.md)
 
-## 8.5 Harmful Content & Misinformation
+## Harmful Content & Misinformation
 **Goal**: Detect and mitigate harmful content generation and misinformation
 
 1. [RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models](https://arxiv.org/abs/2009.11462) (Gehman et al., 2020)
@@ -104,7 +104,7 @@ As AI systems control increasingly important decisions—from content moderation
    - *Why*: Benchmark measuring how models generate misinformation by mimicking human falsehoods; reveals counterintuitive scaling where larger models can be less truthful
    - *Note*: Also listed in 8.3 for safety evaluation context
 
-## 8.6 Long-term Safety Research
+## Long-term Safety Research
 **Goal**: Understand and address long-term safety challenges for advanced AI systems
 
 1. [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) (Amodei et al., 2016)
@@ -123,7 +123,7 @@ As AI systems control increasingly important decisions—from content moderation
 
 5. [Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) (Elhage et al., 2022)
    - *Why*: **Mechanistic interpretability for safety** - demonstrates how to reverse-engineer model behavior to understand what models are actually doing; essential for detecting deceptive or misaligned behavior
-   - *Note*: Part of Anthropic's interpretability research; also relevant for Phase 7
+   - *Note*: Part of Anthropic's interpretability research; also relevant for [Interpretability](interpretability.md)
 
 6. [Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/abs/2405.06624) (Dalrymple et al., 2024)
    - *Why*: Proposes world model-based safety framework with quantitative guarantees; addresses how to build AI systems with provable safety properties; important for high-stakes deployment scenarios
@@ -133,4 +133,4 @@ As AI systems control increasingly important decisions—from content moderation
 
 ---
 
-**Next**: [Phase 9: Advanced Topics & Frontiers →](phase-09-advanced.md)
+**Related**: [Interpretability](interpretability.md) | [Advanced](advanced.md) | [Policy](policy.md)
