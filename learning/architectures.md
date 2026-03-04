@@ -1,10 +1,10 @@
-# Phase 6: Novel Architectures & Theory
+# Novel Architectures & Theory
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Reasoning & Agents](phase-05-reasoning.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Reasoning](reasoning.md) | [Interpretability](interpretability.md)
 
-**Phase Overview**: [Transformers](glossary.md#transformer) dominate modern AI, but are they the final answer? This phase explores alternative architectures that challenge the transformer's supremacy: [state-space models](glossary.md#state-space-model) like [Mamba](glossary.md#mamba) that achieve linear-time inference, [retention networks](glossary.md#retnet-retentive-network) that blend RNN and transformer properties, [RWKV](glossary.md#rwkv)'s parallelizable RNN approach, and hybrid architectures that combine different mechanisms. Each offers different trade-offs between performance, efficiency, and scaling properties. Understanding these alternatives gives you insight into the fundamental principles that make architectures work—and hints at what might come next.
+**Overview**: [Transformers](glossary.md#transformer) dominate modern AI, but are they the final answer? This phase explores alternative architectures that challenge the transformer's supremacy: [state-space models](glossary.md#state-space-model) like [Mamba](glossary.md#mamba) that achieve linear-time inference, [retention networks](glossary.md#retnet-retentive-network) that blend RNN and transformer properties, [RWKV](glossary.md#rwkv)'s parallelizable RNN approach, and hybrid architectures that combine different mechanisms. Each offers different trade-offs between performance, efficiency, and scaling properties. Understanding these alternatives gives you insight into the fundamental principles that make architectures work—and hints at what might come next.
 
-## 6.1 Alternative Architectures
+## Alternative Architectures
 **Goal**: Explore beyond standard transformers
 
 1. [Neural Turing Machines](https://arxiv.org/abs/1410.5401) (Graves et al., 2014)
@@ -37,7 +37,7 @@
 10. [mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880) (Xie et al., 2025)
    - *Why*: **Extends Hyper-Connections with stability guarantees** - projects residual connection space onto a constrained manifold to restore identity mapping property; addresses training instability and scalability issues in HC while maintaining performance gains; demonstrates effectiveness at scale (3B-27B models) with improved stability
 
-## 6.2 Theoretical Foundations
+## Theoretical Foundations
 **Goal**: Understand the mathematical foundations
 
 1. [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572) (Jacot et al., 2018)
@@ -54,4 +54,4 @@
 
 ---
 
-**Next**: [Phase 7: Model Interpretability & Evaluation →](phase-07-interpretability.md)
+**Related**: [Reasoning](reasoning.md) | [Interpretability](interpretability.md) | [Safety](safety.md)

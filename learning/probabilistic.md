@@ -1,10 +1,10 @@
-# Phase 10: Probabilistic & Bayesian Approaches
+# Probabilistic & Bayesian Approaches
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Advanced Topics](phase-09-advanced.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Advanced](advanced.md) | [Vision](vision.md)
 
-**Phase Overview**: Beyond language models lies a rich world of probabilistic generative models. This phase covers [diffusion models](glossary.md#diffusion-model)—the technology behind Stable Diffusion and DALL-E—which generate high-quality images by gradually denoising random noise. You'll understand the theoretical foundations connecting diffusion to score matching and stochastic differential equations, and how these models have revolutionized image generation, video synthesis, and even molecular design. While briefer than other phases, these concepts are essential for understanding modern generative AI beyond just text.
+**Overview**: Beyond language models lies a rich world of probabilistic generative models. This phase covers [diffusion models](glossary.md#diffusion-model)—the technology behind Stable Diffusion and DALL-E—which generate high-quality images by gradually denoising random noise. You'll understand the theoretical foundations connecting diffusion to score matching and stochastic differential equations, and how these models have revolutionized image generation, video synthesis, and even molecular design. While briefer than other phases, these concepts are essential for understanding modern generative AI beyond just text.
 
-## 10.1 Probabilistic Programming
+## Probabilistic Programming
 **Goal**: Build probabilistic models programmatically
 
 1. [A Probabilistic Programming Approach to Probabilistic Data Analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf) (2016)
@@ -25,13 +25,13 @@
 6. [MCMC using Hamiltonian dynamics](https://arxiv.org/abs/1206.1901) (2012)
    - *Why*: Foundation of modern MCMC sampling methods
 
-## 10.2 Diffusion Models
+## Diffusion Models
 **Goal**: Understand how diffusion models learn and generalize
 
 1. [Why Diffusion Models Don't Memorize: The Role of Implicit Dynamical Regularization in Training](https://arxiv.org/pdf/2505.17638) (2025)
    - *Why*: Theoretical analysis of why diffusion models generalize rather than memorize training data; identifies two distinct training timescales and implicit dynamical regularization
 
-## 10.3 Generative Models for Vision
+## Generative Models for Vision
 **Goal**: Apply probabilistic models to visual understanding
 
 1. [Approximate Bayesian Image Interpretation using Generative Probabilistic Graphics Programs](http://papers.nips.cc/paper/4881-approximate-bayesian-image-interpretation-using-generative-probabilistic-graphics-programs.pdf) (2013)
@@ -43,4 +43,4 @@
 
 ---
 
-**Next**: [Phase 11: Computer Vision (Optional) →](phase-11-vision.md)
+**Related**: [Advanced](advanced.md) | [Vision](vision.md) | [Hardware](hardware.md)

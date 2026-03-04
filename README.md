@@ -3,7 +3,7 @@
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
 [![Papers](https://img.shields.io/badge/papers-150+-blue.svg)](by-date.md)
-[![Learning Path](https://img.shields.io/badge/learning-13_phases-green.svg)](learning-path.md)
+[![Learning Path](https://img.shields.io/badge/learning-13_areas-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
 
 ---
@@ -12,30 +12,30 @@
 
 This repository contains **150+ carefully selected research papers** organized in three complementary ways:
 
-1. **📚 [Structured Learning Path](learning-path.md)** - A 13-phase curriculum designed to take you from foundations to cutting-edge research
+1. **📚 [Structured Learning Path](learning-path.md)** - Topic areas and curated tracks from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
 3. **📖 [Comprehensive Glossary](learning/glossary.md)** - 250+ terms, concepts, and acronyms explained with context
 
-**Plus**: [Recommended reading strategies](#-how-to-use-this-repository), [notes on learning](#paper-reading-tips), and [quick start guides](#-quick-start) tailored to your role (beginner, practitioner, researcher, engineer, security specialist).
+**Plus**: [Recommended tracks](#-how-to-use-this-repository), [notes on learning](#paper-reading-tips), and [quick start guides](#-quick-start) tailored to your role (beginner, practitioner, researcher, engineer, security specialist).
 
 ---
 
 ## 🚀 Quick Start
 
 ### For Beginners
-Start with the **[Learning Path](learning-path.md)** and follow **Phase 1: Foundations**. Read papers in sequence, focusing on the "Why" explanations. Check the **[Glossary](learning/glossary.md)** whenever you encounter unfamiliar terms.
+Start with the **[Learning Path](learning-path.md)** and follow **Foundations**. Read papers in sequence, focusing on the "Why" explanations. Check the **[Glossary](learning/glossary.md)** whenever you encounter unfamiliar terms.
 
 ### For Practitioners
-Jump to relevant phases:
-- **LLMs & Training**: [Phase 2](learning/phase-02-llms.md)
-- **Efficient Models**: [Phase 3](learning/phase-03-attention.md)
-- **Production AI**: [Phase 4](learning/phase-04-retrieval.md) (RAG), [Phase 8](learning/phase-08-security.md) (Security & Safety)
+Jump to relevant areas:
+- **LLMs & Training**: [Language Models](learning/language-models.md)
+- **Efficient Models**: [Attention](learning/attention.md)
+- **Production AI**: [Retrieval](learning/retrieval.md) (RAG), [Safety](learning/safety.md) (Security & Safety)
 
 ### For Researchers
 Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or deep-dive into:
-- [Phase 6: Alternative Architectures](learning/phase-06-architectures.md)
-- [Phase 7: Interpretability](learning/phase-07-interpretability.md)
-- [Phase 9: Advanced Topics](learning/phase-09-advanced.md)
+- [Alternative Architectures](learning/architectures.md)
+- [Interpretability](learning/interpretability.md)
+- [Advanced Topics](learning/advanced.md)
 
 ### Quick Reference
 **Need a definition?** → Check the **[📖 Glossary](learning/glossary.md)** for 250+ terms organized by category (architectures, training, NLP, security, etc.)
@@ -47,31 +47,31 @@ Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or 
 ### Reading Strategies
 
 **🌱 The Beginner Path** (3-6 months)
-1. Start with [Phase 1: Foundations](learning/phase-01-foundations.md)
+1. Start with [Foundations](learning/foundations.md)
 2. Read key papers: [Attention Is All You Need](https://arxiv.org/abs/1706.03762) → [BERT](https://arxiv.org/abs/1810.04805) → [GPT-3](https://arxiv.org/abs/2005.14165)
 3. Focus on "Why" explanations before diving deep
 4. Take notes on connections between papers
 
 **⚡ The Practitioner Sprint** (1-2 months)
-1. Read Phase 1 summaries for context
-2. Deep-dive: [Phase 2](learning/phase-02-llms.md) + [Phase 3](learning/phase-03-attention.md) + [Phase 4](learning/phase-04-retrieval.md)
+1. Read Foundations summaries for context
+2. Deep-dive: [Language Models](learning/language-models.md) + [Attention](learning/attention.md) + [Retrieval](learning/retrieval.md)
 3. Skim related work sections to understand landscape
 4. Implement key techniques from papers
 
 **🔬 The Researcher Deep-Dive** (Ongoing)
 1. Use [chronological view](by-date.md) for latest research
-2. Focus on specific phases relevant to your research
+2. Focus on specific areas relevant to your research
 3. Read citations and follow paper connections
 4. Compare approaches across different papers
 
 **🛠️ The Engineer Focus** (2-4 weeks)
-1. Priority: [Phase 3](learning/phase-03-attention.md) (Efficiency), [Phase 8](learning/phase-08-security.md) (Security & Safety), [Phase 12](learning/phase-12-hardware.md) (Hardware)
+1. Priority: [Attention](learning/attention.md) (Efficiency), [Safety](learning/safety.md) (Security & Safety), [Hardware](learning/hardware.md)
 2. Focus on implementation details and benchmarks
 3. Note production considerations and trade-offs
 
-**� The Security Specialist** (1-2 weeks)
-1. Core: [Phase 8](learning/phase-08-security.md)
-2. Context: [Phase 2](learning/phase-02-llms.md) (LLM basics), [Phase 5](learning/phase-05-reasoning.md) (Alignment)
+**🛡️ The Security Specialist** (1-2 weeks)
+1. Core: [Safety](learning/safety.md)
+2. Context: [Language Models](learning/language-models.md) (LLM basics), [Reasoning](learning/reasoning.md) (Alignment)
 3. Focus on threat models, defense mechanisms, and safety evaluation
 
 ### Paper Reading Tips
@@ -87,25 +87,25 @@ Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or 
 
 ## 📖 Learning Path Overview
 
-The learning path is organized into **13 progressive phases**, each building on previous knowledge:
+The learning path is organized into **13 topic areas**; use [learning-path.md](learning-path.md) for curated **tracks** (reading sequences by goal).
 
-| Phase | Topic | Papers | Focus |
-|-------|-------|--------|-------|
-| **[1](learning/phase-01-foundations.md)** | 🏗️ **Foundations** | 15 | Deep learning basics, embeddings, CNNs, RNNs, GANs, tokenization |
-| **[2](learning/phase-02-llms.md)** | 🤖 **Large Language Models** | 10 | Transformers, BERT, GPT, training at scale |
-| **[3](learning/phase-03-attention.md)** | ⚡ **Attention Innovations** | 9 | FlashAttention 1 & 2, efficient attention, long context |
-| **[4](learning/phase-04-retrieval.md)** | 🔍 **Retrieval & RAG** | 9 | THE RAG paper, dense retrieval, kNN-LM, semantic search |
-| **[5](learning/phase-05-reasoning.md)** | 🧠 **Reasoning & Agents** | 12 | RLHF, chain-of-thought, agentic systems |
-| **[6](learning/phase-06-architectures.md)** | 🏛️ **Alternative Architectures** | 7 | RWKV, Mamba, state-space models, theory |
-| **[7](learning/phase-07-interpretability.md)** | 🔬 **Interpretability** | 11 | LIME, integrated gradients, weight-sparse circuits |
-| **[8](learning/phase-08-security.md)** | 🛡️ **Security, Safety & Robustness** | 10+ | Alignment, security threats, safety evaluation, bias & fairness, harmful content, long-term safety |
-| **[9](learning/phase-09-advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
-| **[10](learning/phase-10-probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
-| **[11](learning/phase-11-vision.md)** | 👁️ **Vision & Multimodal** | 10 | ViT, CLIP, SAM, LLaVA, vision-language models |
-| **[12](learning/phase-12-hardware.md)** | ⚙️ **Hardware & Systems** | 4 | GPU optimization, inference scaling, photonic computing |
-| **[13](learning/phase-13-policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
+| Area | Topic | Papers | Focus |
+|------|-------|--------|-------|
+| **[Foundations](learning/foundations.md)** | 🏗️ **Foundations** | 15 | Deep learning basics, embeddings, CNNs, RNNs, GANs, tokenization |
+| **[Language Models](learning/language-models.md)** | 🤖 **Large Language Models** | 10 | Transformers, BERT, GPT, training at scale |
+| **[Attention](learning/attention.md)** | ⚡ **Attention Innovations** | 9 | FlashAttention 1 & 2, efficient attention, long context |
+| **[Retrieval](learning/retrieval.md)** | 🔍 **Retrieval & RAG** | 9 | THE RAG paper, dense retrieval, kNN-LM, semantic search |
+| **[Reasoning](learning/reasoning.md)** | 🧠 **Reasoning & Agents** | 12 | RLHF, chain-of-thought, agentic systems |
+| **[Architectures](learning/architectures.md)** | 🏛️ **Alternative Architectures** | 7 | RWKV, Mamba, state-space models, theory |
+| **[Interpretability](learning/interpretability.md)** | 🔬 **Interpretability** | 11 | LIME, integrated gradients, weight-sparse circuits |
+| **[Safety](learning/safety.md)** | 🛡️ **Security, Safety & Robustness** | 10+ | Alignment, security threats, safety evaluation, bias & fairness, harmful content, long-term safety |
+| **[Advanced](learning/advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
+| **[Probabilistic](learning/probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
+| **[Vision](learning/vision.md)** | 👁️ **Vision & Multimodal** | 10 | ViT, CLIP, SAM, LLaVA, vision-language models |
+| **[Hardware](learning/hardware.md)** | ⚙️ **Hardware & Systems** | 4 | GPU optimization, inference scaling, photonic computing |
+| **[Policy](learning/policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
-**Total**: 150+ core papers across 13 phases (plus 40+ policy documents & frameworks)
+**Total**: 150+ core papers across 13 areas (plus 40+ policy documents & frameworks)
 
 ---
 

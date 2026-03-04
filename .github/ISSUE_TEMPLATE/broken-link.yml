@@ -31,7 +31,7 @@ body:
     attributes:
       label: Location in Repository
       description: Which file contains this link?
-      placeholder: "learning/phase-02-llms.md"
+      placeholder: "learning/language-models.md"
     validations:
       required: true
 

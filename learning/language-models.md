@@ -1,10 +1,10 @@
-# Phase 2: Large Language Models - Core Concepts
+# Large Language Models - Core Concepts
 
-[← Back to Learning Path](../learning-path.md) | [← Previous: Foundations](phase-01-foundations.md) | [📖 Glossary](glossary.md)
+[← Back to Learning Path](../learning-path.md) | [📖 Glossary](glossary.md) | Related: [Foundations](foundations.md) | [Attention](attention.md)
 
-**Phase Overview**: This phase traces the explosive evolution of language models from [BERT](glossary.md#bert-bidirectional-encoder-representations-from-transformers)'s bidirectional pretraining breakthrough to [GPT](glossary.md#gpt-generative-pre-trained-transformer)-3's massive scale demonstration. You'll learn how the field discovered that [pre-training](glossary.md#pre-training) on vast amounts of text data creates models with remarkable [few-shot learning](glossary.md#few-shot-learning) abilities, and how different pretraining objectives (masked language modeling vs. autoregressive) lead to different capabilities. This progression from BERT to GPT-3 to instruction-tuned models forms the backbone of modern NLP and sets the stage for understanding today's ChatGPT-style systems.
+**Overview**: This phase traces the explosive evolution of language models from [BERT](glossary.md#bert-bidirectional-encoder-representations-from-transformers)'s bidirectional pretraining breakthrough to [GPT](glossary.md#gpt-generative-pre-trained-transformer)-3's massive scale demonstration. You'll learn how the field discovered that [pre-training](glossary.md#pre-training) on vast amounts of text data creates models with remarkable [few-shot learning](glossary.md#few-shot-learning) abilities, and how different pretraining objectives (masked language modeling vs. autoregressive) lead to different capabilities. This progression from BERT to GPT-3 to instruction-tuned models forms the backbone of modern NLP and sets the stage for understanding today's ChatGPT-style systems.
 
-## 2.1 LLM Foundations
+## LLM Foundations
 **Goal**: Understand transformer architecture and pre-training
 
 1. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) (Bahdanau et al., 2014)
@@ -34,7 +34,7 @@
 9. [EuroLLM: Multilingual Language Models for Europe](https://arxiv.org/pdf/2409.11741) (2024)
    - *Why*: Multilingual capabilities and cross-lingual transfer
 
-## 2.2 Training at Scale
+## Training at Scale
 **Goal**: Learn how to train massive models efficiently
 
 1. [GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](https://arxiv.org/abs/1811.06965) (Huang et al., 2019)
@@ -52,7 +52,7 @@
 5. [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378) (2025)
    - *Why*: Advanced optimization techniques for faster convergence
 
-## 2.3 Memory & Efficiency Optimizations
+## Memory & Efficiency Optimizations
 **Goal**: Make models faster and more memory-efficient
 
 1. [Cut Your Losses in Large-Vocabulary Language Models](https://arxiv.org/abs/2411.09009) (2024)
@@ -66,4 +66,4 @@
 
 ---
 
-**Next**: [Phase 3: Attention Mechanisms & Context →](phase-03-attention.md)
+**Related**: [Foundations](foundations.md) | [Attention](attention.md) | [Retrieval](retrieval.md)

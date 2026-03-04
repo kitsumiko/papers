@@ -46,24 +46,24 @@ We prioritize papers that meet these criteria:
 - [ ] **Well-scoped** - Focused contribution that's digestible
 - [ ] **Reproducible** - Methods described in enough detail to replicate
 
-### Phase Fit
-Consider which learning phase the paper belongs to:
+### Area Fit
+Consider which topic area the paper belongs to:
 
-| Phase | Focus Area | Example Papers |
-|-------|------------|----------------|
-| 1 | Foundations | LeNet, AlexNet, Word2Vec |
-| 2 | LLMs | BERT, GPT-3, Transformers |
-| 3 | Attention | FlashAttention, RetNet |
-| 4 | Retrieval | RAG, Dense Passage Retrieval |
-| 5 | Reasoning & Agents | ReAct, RLHF, Constitutional AI |
-| 6 | Architectures | Mamba, KAN, Neural Turing Machines |
-| 7 | Interpretability | LIME, Integrated Gradients |
-| 8 | Security | Prompt injection, Adversarial ML |
-| 9 | Advanced | AI Scientist, Multimodal |
-| 10 | Probabilistic | Diffusion, Bayesian methods |
-| 11 | Vision | ViT, CLIP, SAM |
-| 12 | Hardware | Photonics, VLSI |
-| 13 | Policy | GDPR, EU AI Act, NIST RMF |
+| Area | Focus | Example Papers |
+|------|-------|----------------|
+| Foundations | Deep learning basics | LeNet, AlexNet, Word2Vec |
+| Language Models | LLMs | BERT, GPT-3, Transformers |
+| Attention | Efficient attention | FlashAttention, RetNet |
+| Retrieval | RAG, retrieval | RAG, Dense Passage Retrieval |
+| Reasoning | Reasoning & agents | ReAct, RLHF, Constitutional AI |
+| Architectures | Alternative architectures | Mamba, KAN, Neural Turing Machines |
+| Interpretability | Interpretability & evaluation | LIME, Integrated Gradients |
+| Safety | Security & safety | Prompt injection, Adversarial ML |
+| Advanced | Advanced applications | AI Scientist, Multimodal |
+| Probabilistic | Probabilistic models | Diffusion, Bayesian methods |
+| Vision | Vision & multimodal | ViT, CLIP, SAM |
+| Hardware | Hardware & systems | Photonics, VLSI |
+| Policy | Policy & governance | GDPR, EU AI Act, NIST RMF |
 
 ---
 
@@ -76,7 +76,7 @@ Consider which learning phase the paper belongs to:
 3. Fill in:
    - Paper title and link (arXiv preferred)
    - Authors and publication year
-   - Suggested learning phase
+   - Suggested area
    - Why this paper should be included
    - A "Why read this?" annotation (1-2 sentences)
 
@@ -86,7 +86,7 @@ If you're comfortable with Git:
 
 1. Fork the repository
 2. Create a branch: `git checkout -b add-paper-<short-name>`
-3. Add the paper to the appropriate phase file
+3. Add the paper to the appropriate area file (in `learning/`)
 4. Add to `by-date.md` in the correct chronological position
 5. Submit a pull request using the template
 
@@ -134,7 +134,7 @@ For larger changes:
 
 ### Markdown Formatting
 
-- Use `###` for paper titles within phase files
+- Use `###` for paper titles within area files
 - Use emoji indicators:
   - 📄 for research papers
   - 🔒 for paywalled content
