@@ -1,5 +1,10 @@
 # Papers by Publication Date
 
+## 2026
+
+### 2026.02
+- [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
+
 ## 2025
 
 ### 2025.12
