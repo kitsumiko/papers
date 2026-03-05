@@ -64,6 +64,9 @@
 3. [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764) (2024)
    - *Why*: Extreme quantization techniques
 
+4. [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
+   - *Why*: Shows that omitting prior assistant responses in multi-turn context often preserves quality while cutting context length; identifies context pollution and motivates selective context filtering.
+
 ---
 
 **Related**: [Foundations](foundations.md) | [Attention](attention.md) | [Retrieval](retrieval.md)
