@@ -57,8 +57,8 @@ Do not commit directly to `main`. Instead:
 1. Create a new branch from `main` named `add-<short-kebab-title>` (e.g. `add-agents-of-chaos`).
 2. Commit the two changed files with a clear message, e.g. `Add paper: Title (YYYY)`.
 3. Push the branch and create a pull request into `main` using `gh pr create`.
-4. Merge the PR using `gh pr merge --merge`.
-5. Switch back to `main` and pull to sync.
+4. Merge the PR using `gh pr merge --merge --delete-branch` (this deletes the remote branch).
+5. Switch back to `main`, pull to sync, and delete the local branch with `git branch -d <branch-name>`.
 
 ## Conventions (from CONTRIBUTING.md)
 - Use `###` for paper titles only where CONTRIBUTING specifies; in topic files use numbered list entries.
