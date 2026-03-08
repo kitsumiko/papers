@@ -71,6 +71,9 @@ As AI systems control increasingly important decisions—from content moderation
 6. [The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning](https://arxiv.org/abs/2403.03218) (Li et al., 2024)
    - *Why*: **Weapons of Mass Destruction Proxy benchmark** - evaluates dangerous knowledge in biosecurity, cybersecurity, and chemical security; demonstrates unlearning can reduce hazardous capabilities while maintaining general performance; critical for preventing dual-use risks
 
+7. [Agents of Chaos](https://arxiv.org/abs/2602.20021) (Shapira et al., 2026)
+   - *Why*: Empirical red-teaming of autonomous LLM agents with persistent memory, email, shell access, and multi-agent communication in a live environment; documents eleven failure modes including unauthorized compliance, identity spoofing, cross-agent propagation, and partial system takeover
+
 ## Bias, Fairness & Robustness
 **Goal**: Detect, measure, and mitigate bias in AI systems while maintaining robustness
 
