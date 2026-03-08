@@ -51,8 +51,14 @@ Edit `by-date.md`:
 - Insert a new bullet at the top of that month's list: `- [Full Paper Title](canonical_url) (Authors, Year)`.
 - Keep months in reverse chronological order (newest first). Create a new year section at the top of the file if the paper is from a future year.
 
-### 6. Commit
-Commit the two changed files with a clear message, e.g. `Add paper: Title (YYYY)`.
+### 6. Branch, commit, PR, and merge
+Do not commit directly to `main`. Instead:
+
+1. Create a new branch from `main` named `add-<short-kebab-title>` (e.g. `add-agents-of-chaos`).
+2. Commit the two changed files with a clear message, e.g. `Add paper: Title (YYYY)`.
+3. Push the branch and create a pull request into `main` using `gh pr create`.
+4. Merge the PR using `gh pr merge --merge`.
+5. Switch back to `main` and pull to sync.
 
 ## Conventions (from CONTRIBUTING.md)
 - Use `###` for paper titles only where CONTRIBUTING specifies; in topic files use numbered list entries.
