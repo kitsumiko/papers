@@ -46,6 +46,7 @@
 - [AlphaGo Moment for Model Architecture Discovery](https://arxiv.org/pdf/2507.18074)
 
 ### 2025.06
+- [Artificial Intelligent Disobedience: Rethinking the Agency of Our Artificial Teammates](https://arxiv.org/abs/2506.22276) (Mirsky, 2025)
 - [Hierarchical Reasoning Model](https://arxiv.org/pdf/2506.21734)
 - [Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153)
 - [Reinforcement Pre-Training](https://arxiv.org/abs/2506.08007)
