@@ -29,10 +29,10 @@
    - *Why*: State-of-the-art open-source LLMs; demonstrates continued scaling benefits and instruction-tuning techniques
 
 8. [OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework](https://arxiv.org/pdf/2404.14619) (2024)
-   - *Why*: Efficient, open-source LLM architecture
+   - *Why*: **Fully open LLM pipeline** - releases training code, data, weights, and evaluation logs for complete reproducibility; uses layer-wise scaling to allocate parameters non-uniformly across transformer layers for better accuracy per FLOP
 
 9. [EuroLLM: Multilingual Language Models for Europe](https://arxiv.org/pdf/2409.11741) (2024)
-   - *Why*: Multilingual capabilities and cross-lingual transfer
+   - *Why*: **Multilingual-first pretraining** - trains LLMs on all official EU languages plus additional high-resource languages with carefully curated data mixtures; demonstrates that balanced multilingual pretraining avoids the "curse of multilinguality" capacity dilution seen in English-centric models with multilingual fine-tuning
 
 ## Training at Scale
 **Goal**: Learn how to train massive models efficiently
@@ -41,28 +41,28 @@
    - *Why*: **Pipeline parallelism foundation** - enables training of very large models by splitting across devices with micro-batching; essential for scaling beyond single-device memory limits
 
 2. [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) (2019)
-   - *Why*: Foundation of distributed LLM training
+   - *Why*: **Intra-layer model parallelism** - partitions transformer attention heads and MLP columns across GPUs without requiring new communication primitives; achieves 76% scaling efficiency at 8.3B parameters on 512 GPUs; established the practical blueprint for distributed LLM training
 
 3. [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054) (2019)
-   - *Why*: Memory-efficient training techniques
+   - *Why*: **Eliminating memory redundancy in data parallelism** - partitions optimizer states, gradients, and parameters across data-parallel ranks to reduce per-device memory by up to 8x; enables training models with over 100B parameters without model parallelism; foundational technique used in DeepSpeed and most modern training frameworks
 
 4. [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021)
-   - *Why*: Combining techniques for practical large-scale training
+   - *Why*: **3D parallelism at trillion scale** - combines tensor, pipeline, and data parallelism into a unified framework; analyzes interaction effects between parallelism strategies on communication overhead and memory; achieves 52% compute efficiency training a 1T-parameter model across thousands of GPUs
 
 5. [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378) (2025)
-   - *Why*: Advanced optimization techniques for faster convergence
+   - *Why*: **Second-order methods revisited for LLMs** - makes full Gauss-Newton optimization tractable at LLM scale through careful implementation; shows curvature-aware updates converge in fewer steps than Adam on language modeling tasks; quantifies the gap between first- and second-order methods to motivate future optimizer research
 
 ## Memory & Efficiency Optimizations
 **Goal**: Make models faster and more memory-efficient
 
 1. [Cut Your Losses in Large-Vocabulary Language Models](https://arxiv.org/abs/2411.09009) (2024)
-   - *Why*: Reducing memory footprint during training
+   - *Why*: **Chunked cross-entropy loss** - eliminates the massive logit matrix that dominates memory in large-vocabulary models by computing loss in small chunks; reduces peak memory by up to 7x for vocabularies of 128K+ tokens with no accuracy loss; directly enables longer sequences and larger batch sizes on existing hardware
 
 2. [Scalable MatMul-free Language Modeling](https://arxiv.org/pdf/2406.02528) (2024)
-   - *Why*: Eliminating expensive matrix multiplications
+   - *Why*: **Removing matrix multiplications entirely** - replaces all MatMul operations in transformers with ternary weight operations and element-wise Hadamard products; matches transformer quality at billion-parameter scale while drastically reducing compute and memory requirements; demonstrates a viable path toward hardware-efficient LLMs on custom accelerators
 
 3. [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764) (2024)
-   - *Why*: Extreme quantization techniques
+   - *Why*: **Ternary weight LLMs from scratch** - trains BitNet b1.58 with weights constrained to {-1, 0, 1}, matching full-precision LLM perplexity and task performance at 3B parameters; reduces memory footprint by 3.5x and increases throughput by 2.7x; replaces multiplication with addition for energy-efficient inference
 
 4. [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
    - *Why*: Shows that omitting prior assistant responses in multi-turn context often preserves quality while cutting context length; identifies context pollution and motivates selective context filtering.

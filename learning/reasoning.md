@@ -20,13 +20,13 @@
    - *Why*: Agentic self-improvement through linguistic feedback and episodic memory
 
 5. [Hierarchical Reasoning Model](https://arxiv.org/pdf/2506.21734) (2025)
-   - *Why*: Brain-inspired hierarchical reasoning
+   - *Why*: **Multi-level reasoning decomposition** - structures LLM reasoning into hierarchical levels mirroring how humans break complex problems into subgoals; each level operates at a different abstraction granularity, enabling systematic decomposition of problems that flat chain-of-thought fails on
 
 6. [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/pdf/2510.04871) (2025)
-   - *Why*: Efficient reasoning with small models
+   - *Why*: **Recursive depth over parameter width** - shows that small networks applied recursively over multiple passes can match or exceed large models on reasoning tasks; trades model size for inference-time compute by iterating over intermediate representations; challenges the assumption that reasoning requires massive parameter counts
 
 7. [Reinforcement Pre-Training](https://arxiv.org/abs/2506.08007) (2025)
-   - *Why*: Using RL during pre-training phase
+   - *Why*: **RL-augmented pretraining** - integrates reinforcement learning objectives directly into the language model pretraining loop rather than applying RL only during fine-tuning; produces base models with stronger reasoning and instruction-following capabilities before any alignment stage; blurs the traditional pretrain-then-finetune boundary
 
 8. [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427) (Santoro et al., 2017)
    - *Why*: **Relational reasoning foundation** - introduces Relation Networks for learning to reason about relationships between objects; essential for visual question answering and abstract reasoning tasks
@@ -35,16 +35,16 @@
 **Goal**: Create autonomous AI agents
 
 1. [A Generalist Agent](https://arxiv.org/pdf/2205.06175) (2022)
-   - *Why*: Multi-task agent foundations (Gato)
+   - *Why*: **Single network, hundreds of tasks** - Gato uses a single transformer to play Atari, caption images, chat, stack blocks with a robot arm, and more; tokenizes all modalities (text, images, actions, observations) into a shared sequence format; demonstrates that a generalist agent can perform competently across 604 distinct tasks without task-specific architecture changes
 
 2. [Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/pdf/2402.01030) (2024)
-   - *Why*: Code execution for agents
+   - *Why*: **Code as the action language** - replaces JSON/text-based tool calls with executable Python code, enabling agents to compose actions, use variables, and leverage control flow; significantly outperforms structured action formats on multi-step tasks; shows that code generation is a more natural and expressive action space for LLM agents
 
 3. [DynaSaur: Large Language Agents Beyond Predefined Actions](https://arxiv.org/abs/2411.01747) (2024)
-   - *Why*: Dynamic action generation
+   - *Why*: **Runtime action synthesis** - allows LLM agents to dynamically generate new actions (as Python functions) at inference time rather than selecting from a fixed action set; accumulates a growing action library across episodes; overcomes the brittleness of predefined tool inventories in open-ended environments
 
 4. [MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](https://arxiv.org/pdf/2505.14996) (2025)
-   - *Why*: Automated multi-agent system design
+   - *Why*: **Zero-shot multi-agent orchestration** - automatically designs multi-agent team structures, role assignments, and communication protocols without human supervision or task-specific training; uses an LLM meta-controller to generate and refine agent configurations; outperforms hand-designed multi-agent systems on complex collaborative benchmarks
 
 5. [Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153) (2025)
    - *Why*: Makes the case for using smaller, specialized models in agent systems for efficiency and cost-effectiveness; practical deployment considerations
@@ -54,6 +54,9 @@
 
 7. [Embedded Universal Predictive Intelligence: a coherent framework for multi-agent learning](https://arxiv.org/pdf/2511.22226) (Meulemans et al., 2025)
    - *Why*: Introduces a mathematical framework for embedded agency and prospective learning in multi-agent settings; extends AIXI theory with self-prediction where Bayesian RL agents predict both future inputs and their own actions; enables infinite-order theory of mind and novel forms of cooperation in mixed-motive scenarios
+
+8. [Artificial Intelligent Disobedience: Rethinking the Agency of Our Artificial Teammates](https://arxiv.org/abs/2506.22276) (Mirsky, 2025)
+   - *Why*: Argues for expanding AI teammate autonomy beyond rigid obedience to include intelligent disobedience; introduces a scale of AI agency levels and examines when autonomous contributions in human-AI teams are necessary, even when they conflict with explicit instructions
 
 ---
 

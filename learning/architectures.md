@@ -20,13 +20,13 @@
    - *Why*: **New paradigm unifying architecture and optimization** - views models as nested optimization problems at multiple time scales; introduces Hope, a self-modifying architecture with continuum memory systems that achieves superior continual learning and mitigates catastrophic forgetting
 
 5. [Kolmogorov–Arnold Networks (KAN)](https://arxiv.org/pdf/2404.19756) (2024)
-   - *Why*: Novel learnable activation functions replacing fixed activations
+   - *Why*: **Learnable activation functions on edges** - replaces fixed activations (ReLU, GELU) with learnable univariate spline functions placed on network edges rather than nodes, inspired by the Kolmogorov-Arnold representation theorem; achieves better accuracy with smaller networks on scientific tasks; produces more interpretable models where each edge learns a meaningful function
 
 6. [U-Nets as Belief Propagation: Efficient Classification, Denoising, and Diffusion in Generative Hierarchical Models](https://arxiv.org/pdf/2404.18444) (2024)
-   - *Why*: Connecting neural networks to probabilistic inference
+   - *Why*: **U-Nets are approximate belief propagation** - proves that the U-Net architecture's skip connections and encoder-decoder structure correspond to message-passing in hierarchical probabilistic graphical models; provides a theoretical framework explaining why U-Nets excel at denoising and diffusion tasks; bridges deep learning architectures with classical probabilistic inference
 
 7. [Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model](https://arxiv.org/pdf/2409.15254) (2024)
-   - *Why*: Comparison of alternative sequence modeling approaches
+   - *Why*: **SSMs vs. linear RNNs for vision** - benchmarks Mamba (state-space model) and RWKV (linear RNN) as backbones for SAM-style image segmentation, comparing their quality-efficiency tradeoffs against transformer baselines; provides practical guidance on when sub-quadratic architectures can replace transformers in dense prediction tasks
 
 8. [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf) (2016)
    - *Why*: Applying CNNs to graph-structured data; foundation for graph neural networks
@@ -44,13 +44,13 @@
    - *Why*: **Bridges theory and deep learning** - shows ANNs are equivalent to kernel methods in infinite-width limit; explains generalization
 
 2. [Token embeddings violate the manifold hypothesis](https://arxiv.org/abs/2504.01002) (2025)
-   - *Why*: Understanding embedding space geometry
+   - *Why*: **Challenging assumptions about embedding geometry** - demonstrates that learned token embeddings in LLMs do not lie on smooth low-dimensional manifolds as widely assumed; shows embedding spaces have fractal-like, non-manifold structure with implications for interpolation, representation analysis, and theoretical models of how transformers organize knowledge
 
 3. [How much do language models memorize?](https://arxiv.org/pdf/2505.24832) (2025)
-   - *Why*: Memorization vs. generalization theory
+   - *Why*: **Quantifying memorization in LLMs** - develops rigorous methods to measure how much of the training set language models can reproduce verbatim; distinguishes extractable memorization from latent memorization; reveals that memorization scales predictably with model size, data repetition, and sequence length, informing privacy and data governance decisions
 
 4. [Accelerating Training With Neuron Interaction And Nowcasting Networks](https://arxiv.org/pdf/2409.04434) (2024)
-   - *Why*: Novel training acceleration theory
+   - *Why*: **Predicting weight updates to skip training steps** - trains a small auxiliary network to predict future gradient updates by modeling neuron interactions; enables "nowcasting" of weight trajectories to skip multiple optimization steps; achieves training speedups by reducing the total number of forward-backward passes needed for convergence
 
 ---
 
