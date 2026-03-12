@@ -23,13 +23,13 @@
    - *Why*: **Comprehensive survey (1400+ papers)** - defines context engineering as a discipline; covers context retrieval, processing, management, RAG architectures, memory systems, and multi-agent integration
 
 6. [REFRAG: Rethinking RAG based Decoding](https://arxiv.org/pdf/2509.01092) (2025)
-   - *Why*: Optimizing RAG decoding strategies
+   - *Why*: **Retrieval-aware decoding** - rethinks how retrieved documents are integrated during generation by modifying the decoding procedure itself rather than just prepending context; adjusts token-level probabilities based on retrieval relevance scores; improves factual grounding without increasing context length or requiring model fine-tuning
 
 7. [Semantic IDs for Joint Generative Search and Recommendation](https://arxiv.org/abs/2508.10478) (2025)
-   - *Why*: Unified approach to search and recommendation
+   - *Why*: **Unifying search and recommendation with learned identifiers** - assigns each document a learned semantic ID (a short sequence of tokens encoding its content) that a generative model can directly produce; enables a single autoregressive model to handle both search queries and personalized recommendations; eliminates the need for separate retrieval indexes by generating document identifiers as output tokens
 
 8. [Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval](https://arxiv.org/pdf/2404.09889) (2024)
-   - *Why*: Structured data retrieval challenges
+   - *Why*: **Multi-table retrieval with join reasoning** - shows that retrieving individual tables is insufficient for real-world queries that require joining multiple tables; introduces join-aware retrieval methods that consider foreign key relationships and schema compatibility; reveals a significant gap between single-table and multi-table retrieval performance on enterprise data
 
 9. [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) (Liu et al., 2023)
    - *Why*: **Critical analysis of long-context usage** - reveals U-shaped performance curve where models struggle with information in the middle of long contexts; important for RAG system design
@@ -41,7 +41,7 @@
 **Goal**: Train models across distributed data
 
 1. [Federated Learning with Ad-hoc Adapter Insertions: The Case of Soft-Embeddings for Training Classifier-as-Retriever](https://arxiv.org/pdf/2509.16508) (2025)
-   - *Why*: Privacy-preserving distributed training
+   - *Why*: **Federated retriever training with adapters** - inserts lightweight soft-embedding adapters into a shared classifier-as-retriever model, allowing each federated client to specialize without sharing raw data; demonstrates that adapter-based personalization achieves competitive retrieval quality while preserving privacy across distributed data silos
 
 ---
 
