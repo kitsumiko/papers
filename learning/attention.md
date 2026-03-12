@@ -14,28 +14,28 @@
    - *Why*: **The production standard** - 2x faster than FlashAttention through improved parallelism and reduced non-matmul FLOPs; de facto attention implementation in modern LLM training and inference
 
 3. [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) (Sun et al., 2023)
-   - *Why*: Bridges efficient attention and RNN-style recurrence with O(1) inference cost
+   - *Why*: **Triple-paradigm sequence modeling** - introduces retention, a mechanism that supports parallel training (like transformers), recurrent O(1) inference (like RNNs), and chunked hybrid computation; achieves training parallelism and low-cost autoregressive decoding simultaneously, addressing the fundamental efficiency-quality tradeoff in sequence models
 
 4. [Efficient streaming language models with attention sinks](https://arxiv.org/pdf/2309.17453.pdf) (2023)
-   - *Why*: Handling streaming/infinite sequences
+   - *Why*: **Attention sink discovery** - reveals that LLMs allocate disproportionate attention to initial tokens regardless of semantic relevance, causing failures when those tokens leave the KV cache window; fixes this by retaining a few "sink" tokens alongside the sliding window, enabling stable generation over arbitrarily long sequences with bounded memory
 
 5. [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/pdf/2404.07143v1.pdf) (2024)
-   - *Why*: Infinite context windows
+   - *Why*: **Compressive memory for unbounded context** - augments standard attention with a compressive memory that accumulates information from discarded KV cache segments; blends local fine-grained attention with a global compressed summary using a learned gating mechanism; enables processing of million-token inputs with bounded memory and compute
 
 6. [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089) (2025)
-   - *Why*: Hardware-efficient sparse attention
+   - *Why*: **Trainable sparse attention aligned to GPU hardware** - designs sparsity patterns that map directly to GPU memory hierarchies and tensor core operations, avoiding the overhead of unstructured sparse kernels; trains the sparsity pattern end-to-end rather than applying it post-hoc; maintains dense-attention quality at a fraction of the compute cost for long sequences
 
 ## Long Context & Compression
 **Goal**: Handle longer sequences efficiently
 
 1. [TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding](https://arxiv.org/pdf/2404.11912v1.pdf) (2024)
-   - *Why*: Speeding up long sequence generation
+   - *Why*: **Hierarchical speculative decoding** - uses a two-level draft-verify pipeline where a lightweight model proposes tokens and a retrieval-based system verifies against the full KV cache; achieves lossless (identical output) speedups of up to 2.3x on long-context generation by reducing the number of full-model forward passes
 
 2. [DeepSeek-OCR: Contexts Optical Compression](https://arxiv.org/pdf/2510.18234) (2025)
-   - *Why*: Novel compression via 2D optical mapping
+   - *Why*: **2D optical context compression** - maps sequential token representations into 2D image-like structures and applies vision-style compression to reduce context length; preserves semantic content while drastically cutting the number of tokens the LLM must attend over; bridges techniques from image compression and language modeling for efficient long-context processing
 
 3. [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618) (2025)
-   - *Why*: Dynamic context optimization
+   - *Why*: **Evolutionary context optimization** - treats the LLM's context (system prompts, few-shot examples, instructions) as a mutable artifact that an agent iteratively refines through evaluation and selection; demonstrates self-improving performance without weight updates by evolving the prompt environment; formalizes context engineering as an optimization problem
 
 4. [Recursive Language Models](https://arxiv.org/abs/2512.24601) (Zhang et al., 2025)
    - *Why*: **Scales context beyond model limits** - treats long prompts as external environment, allowing LLMs to programmatically examine and recursively call themselves over snippets; handles inputs up to two orders of magnitude beyond context windows while maintaining quality
