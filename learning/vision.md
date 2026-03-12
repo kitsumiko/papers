@@ -16,13 +16,13 @@
    - *Why*: **Pivotal open foundation model** - promptable segmentation with 1B masks; demonstrates vision foundation model capabilities
 
 4. [Visualizing and Understanding Convolutional Networks (DeconvNet)](https://arxiv.org/abs/1311.2901) (2013)
-   - *Why*: Understanding what CNNs learn through deconvolution
+   - *Why*: **Peering inside CNN layers** - introduces deconvolutional network visualization that maps activations back to pixel space, revealing what each layer and feature map has learned; shows early layers learn edges and textures while deeper layers learn object parts and compositions; guided the design of better architectures by making learned representations inspectable
 
 5. [Striving for Simplicity: The All Convolutional Net](https://arxiv.org/abs/1412.6806) (2015)
-   - *Why*: Replacing pooling with learned downsampling
+   - *Why*: **Eliminating pooling layers entirely** - shows that replacing max-pooling with strided convolutions matches or improves accuracy while making the network fully differentiable and learnable at every layer; simplifies architecture design by using a single operation type; provides cleaner gradient flow for visualization and interpretability
 
 6. [Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408) (2016)
-   - *Why*: Applying GANs to segmentation tasks
+   - *Why*: **GAN-based structured prediction** - uses an adversarial discriminator to enforce higher-order spatial consistency in segmentation maps, catching implausible label configurations that per-pixel losses miss; demonstrates that adversarial training can improve any dense prediction task by learning to distinguish realistic outputs from artifacts
 
 ## Multimodal & Speech
 
@@ -35,13 +35,13 @@
 ## Vision Interpretability
 
 1. [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/abs/1312.6034) (2013)
-   - *Why*: Visualizing image classification models
+   - *Why*: **Gradient-based saliency maps** - introduces backpropagation-based visualization to highlight which input pixels most influence a CNN's classification decision; one of the earliest methods for explaining individual predictions in vision models; foundational technique that led to Grad-CAM, Integrated Gradients, and modern attribution methods
 
 2. [Visualizing Deep Neural Network Decisions: Prediction Difference Analysis](https://arxiv.org/abs/1702.04595) (2017)
-   - *Why*: Understanding network decision-making
+   - *Why*: **Occlusion-based decision explanations** - systematically measures how removing or altering each input region changes the prediction, producing fine-grained maps of which areas support or oppose each class; provides model-agnostic explanations that do not require access to gradients; complements gradient-based methods by capturing nonlinear feature interactions
 
 3. [Synthesizing the Preferred Inputs for Neurons via Deep Generator Networks](https://arxiv.org/abs/1605.09304) (2016)
-   - *Why*: Generating optimal inputs for neurons
+   - *Why*: **Activation maximization via learned generators** - uses a pre-trained deep generator network to synthesize high-quality natural images that maximally activate specific neurons; produces dramatically more realistic and interpretable visualizations than direct pixel-space optimization; reveals what individual neurons and layers have learned to detect in a human-understandable way
 
 ---
 

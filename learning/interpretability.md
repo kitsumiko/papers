@@ -8,25 +8,25 @@
 **Goal**: Interpret what models learn and how they work
 
 1. [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) (2017)
-   - *Why*: Framework for interpretability research
+   - *Why*: **Defining interpretability as a science** - introduces a taxonomy of evaluation approaches (application-grounded, human-grounded, and functionally-grounded) for explanation methods; establishes rigorous criteria for when interpretability is needed and how to measure explanation quality
 
 2. [Axiomatic Attribution for Deep Networks (Integrated Gradients)](https://arxiv.org/abs/1703.01365) (2017)
-   - *Why*: Principled attribution methods
+   - *Why*: **Axiomatic foundation for attribution** - introduces Integrated Gradients, which satisfies two fundamental axioms (Sensitivity and Implementation Invariance) that prior methods violate; computes attributions by integrating gradients along the path from a baseline to the input, requiring no model modification
 
 3. [LIME: "Why Should I Trust You?" Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938) (2016)
-   - *Why*: Model-agnostic explanations
+   - *Why*: **Model-agnostic local explanations** - approximates any classifier's decision boundary locally with an interpretable surrogate model; generates explanations by perturbing inputs and observing prediction changes, working with any model type without access to internals
 
 4. [Methods for Interpreting and Understanding Deep Neural Networks](https://arxiv.org/abs/1706.07979) (2017)
-   - *Why*: Comprehensive interpretability overview
+   - *Why*: **Unified interpretability survey** - categorizes interpretation methods into optimization-based, propagation-based, and network analysis approaches; provides a mathematical framework connecting gradient-based attribution, deconvolution, and layer-wise relevance propagation under a common lens
 
 5. [SmoothGrad: Removing Noise by Adding Noise](https://arxiv.org/abs/1706.03825) (2017)
-   - *Why*: Improving gradient-based visualizations
+   - *Why*: **Denoising sensitivity maps** - reduces visual noise in gradient-based attributions by averaging gradients computed on multiple noisy copies of the input; simple technique that dramatically sharpens attribution maps for any gradient-based method without model modification
 
 6. [Deep Taylor Decomposition: Explaining Nonlinear Classification Decisions](https://arxiv.org/abs/1512.02479) (2015)
-   - *Why*: Layer-wise relevance propagation through Taylor decomposition
+   - *Why*: **Mathematical foundation for LRP** - extends layer-wise relevance propagation with formal theoretical grounding using first-order Taylor expansions at each layer; decomposes network output into per-input relevance scores with provable conservation properties across layers
 
 7. [Learning How to Explain Neural Networks: PatternNet and PatternAttribution](https://arxiv.org/abs/1705.05598) (2017)
-   - *Why*: Learning explanations directly from data
+   - *Why*: **Data-driven explanation learning** - separates signal direction from noise in neuron activations to produce cleaner attributions; shows that standard gradient-based methods conflate signal and noise, producing misleading explanations; learns data-dependent patterns that yield more faithful feature attributions
 
 8. [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/abs/1703.04730) (2017)
    - *Why*: Tracing predictions back to training data; identifying influential examples
@@ -47,16 +47,16 @@
    - *Why*: **Factuality benchmark** - reveals that larger models can be less truthful; critical for understanding model limitations
 
 2. [Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon](https://arxiv.org/pdf/2502.07445) (2025)
-   - *Why*: Critical analysis of evaluation methodologies
+   - *Why*: **Fragility of LLM benchmarks** - demonstrates that benchmark scores are highly sensitive to superficial prompt format changes (ordering, spacing, templates); shows models adapt chameleon-like to evaluation framing rather than exhibiting stable capabilities, challenging the reliability of standard evaluation practices
 
 3. [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/abs/2410.07095) (2024)
-   - *Why*: Benchmarking ML engineering capabilities
+   - *Why*: **End-to-end ML engineering benchmark** - evaluates AI agents on 75 real Kaggle competitions spanning tabular, NLP, and vision tasks; tests the full ML pipeline from data processing through model selection and tuning; establishes a practical measure of autonomous ML engineering capability
 
 4. [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) (2017)
-   - *Why*: Understanding prediction confidence
+   - *Why*: **Revealing systematic overconfidence** - shows that modern deep networks are poorly calibrated despite high accuracy, with confidence scores that systematically overestimate correctness; introduces temperature scaling as a simple, effective post-hoc calibration method; foundational for understanding when to trust model predictions
 
 5. [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf) (2025)
-   - *Why*: Critical examination of reasoning capabilities
+   - *Why*: **Stress-testing reasoning models** - evaluates chain-of-thought models (o1, o3) on novel compositional tasks outside training distributions; demonstrates that CoT reasoning often mimics pattern matching rather than genuine logical inference, with performance degrading sharply on problems requiring novel reasoning steps
 
 ---
 
