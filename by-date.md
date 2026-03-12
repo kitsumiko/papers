@@ -2,6 +2,9 @@
 
 ## 2026
 
+### 2026.03
+- [Farther the Shift, Sparser the Representation: Analyzing OOD Mechanisms in LLMs](https://arxiv.org/abs/2603.03415) (Jin et al., 2026)
+
 ### 2026.02
 - [Agents of Chaos](https://arxiv.org/abs/2602.20021) (Shapira et al., 2026)
 - [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
