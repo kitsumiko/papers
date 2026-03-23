@@ -1,11 +1,13 @@
-# Add Paper to Collection
+Add a research paper to this repo's learning index and chronological list.
 
-Add a research paper to this repo's learning index and chronological list. The user provides a paper URL (e.g. an arXiv link) after the command; anything typed after `/add-paper` is the input.
+The user provides a paper URL (e.g. an arXiv link) as input: $ARGUMENTS
+
+If no URL is provided, ask for one.
 
 ## Steps
 
 ### 1. Parse the paper URL
-Extract the paper URL from the user's message. If no URL is given, ask for one. Support at least:
+Extract the paper URL from the input. Support at least:
 - arXiv abstract pages: `https://arxiv.org/abs/XXXX.XXXXX`
 - arXiv PDF links (normalize to abstract when editing)
 - Other direct links (conference, author page) if needed
@@ -17,7 +19,7 @@ Use the URL to obtain:
 - **Publication date** (year and month if available; for arXiv use submission date)
 - **Abstract** (to decide placement)
 
-If the URL is arXiv, you can fetch the abstract page to get this. Derive `YYYY.MM` for the chronological index.
+If the URL is arXiv, fetch the abstract page to get this. Derive `YYYY.MM` for the chronological index.
 
 ### 3. Discover learning areas and choose placement
 **Do not hardcode topic names.** Instead:
@@ -41,7 +43,7 @@ Once confirmed:
 - Append a new entry with the next number in the same format as existing entries:
   - `N. [Full Paper Title](canonical_url) (Authors, Year)`
   - `   - *Why*: One or two concise sentences on why the paper matters and what the reader learns.`
-- Use the repo style: no emoji for research papers (📄 is for policy docs only). Prefer arXiv abstract URL. Follow existing "Why" style (specific, 1–2 sentences). See `CONTRIBUTING.md` and existing entries in that file for examples.
+- Use the repo style: no emoji for research papers (use emoji for policy docs only). Prefer arXiv abstract URL. Follow existing "Why" style (specific, 1-2 sentences). See `CONTRIBUTING.md` and existing entries in that file for examples.
 
 ### 5. Add to chronological index
 Edit `by-date.md`:
@@ -63,5 +65,5 @@ Do not commit directly to `main`. Instead:
 ## Conventions (from CONTRIBUTING.md)
 - Use `###` for paper titles only where CONTRIBUTING specifies; in topic files use numbered list entries.
 - Links: prefer arXiv abstract; then PDF; then proceedings.
-- "Why": 1–2 sentences, specific and contextual.
-- Emoji: 📄 policy docs only in topic files; research papers have no emoji there.
+- "Why": 1-2 sentences, specific and contextual.
+- Emoji: policy docs only in topic files; research papers have no emoji there.
