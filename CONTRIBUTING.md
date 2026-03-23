@@ -63,6 +63,7 @@ Consider which topic area the paper belongs to:
 | Probabilistic | Probabilistic models | Diffusion, Bayesian methods |
 | Vision | Vision & multimodal | ViT, CLIP, SAM |
 | Hardware | Hardware & systems | Photonics, VLSI |
+| Human-AI Interaction | Human cognition with AI | Cognitive surrender, automation bias |
 | Policy | Policy & governance | GDPR, EU AI Act, NIST RMF |
 
 ---

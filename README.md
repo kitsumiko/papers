@@ -2,15 +2,15 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-150+-blue.svg)](by-date.md)
-[![Learning Path](https://img.shields.io/badge/learning-13_areas-green.svg)](learning-path.md)
+[![Papers](https://img.shields.io/badge/papers-160+-blue.svg)](by-date.md)
+[![Learning Path](https://img.shields.io/badge/learning-14_areas-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
 
 ---
 
 ## 🎯 What's Inside
 
-This repository contains **150+ carefully selected research papers** organized in three complementary ways:
+This repository contains **160+ carefully selected research papers** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - Topic areas and curated tracks from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
@@ -87,7 +87,7 @@ Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or 
 
 ## 📖 Learning Path Overview
 
-The learning path is organized into **13 topic areas**; use [learning-path.md](learning-path.md) for curated **tracks** (reading sequences by goal).
+The learning path is organized into **14 topic areas**; use [learning-path.md](learning-path.md) for curated **tracks** (reading sequences by goal).
 
 | Area | Topic | Papers | Focus |
 |------|-------|--------|-------|
@@ -103,9 +103,10 @@ The learning path is organized into **13 topic areas**; use [learning-path.md](l
 | **[Probabilistic](learning/probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
 | **[Vision](learning/vision.md)** | 👁️ **Vision & Multimodal** | 10 | ViT, CLIP, SAM, LLaVA, vision-language models |
 | **[Hardware](learning/hardware.md)** | ⚙️ **Hardware & Systems** | 4 | GPU optimization, inference scaling, photonic computing |
+| **[Human-AI Interaction](learning/human-ai-interaction.md)** | 🧠 **Human-AI Interaction** | 11 | Trust, automation bias, cognitive effects, human-AI teams |
 | **[Policy](learning/policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
-**Total**: 150+ core papers across 13 areas (plus 40+ policy documents & frameworks)
+**Total**: 160+ core papers across 14 areas (plus 40+ policy documents & frameworks)
 
 ---
 
@@ -178,6 +179,11 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 - Interpretability: [DeconvNet](https://arxiv.org/abs/1311.2901), [saliency maps](https://arxiv.org/abs/1312.6034), visualization techniques
 - Segmentation: [All-CNN](https://arxiv.org/abs/1412.6806), [adversarial segmentation](https://arxiv.org/abs/1611.08408)
 - Multimodal understanding: Vision-language models
+
+### 🧠 Human-AI Interaction & Cognition
+- **Trust & Reliance**: [Thinking, Fast and Slow](https://us.macmillan.com/books/9780374533557/thinkingfastandslow) (dual-process theory), [automation bias](https://journals.sagepub.com/doi/10.1518/001872097778543886), [trust in automation](https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392), [algorithm aversion](https://psycnet.apa.org/record/2014-48748-001)
+- **Cognitive Effects**: [Extended mind](https://academic.oup.com/analysis/article-abstract/58/1/7/153111), [cognitive offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5), [cognitive surrender](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646), [cognitive debt](https://arxiv.org/abs/2506.08872)
+- **Decision-Making**: [Algorithm-in-the-loop](https://dl.acm.org/doi/10.1145/3359152), [AI explanations & team performance](https://arxiv.org/abs/2006.14779), [cognitive forcing functions](https://arxiv.org/abs/2102.09692)
 
 ### 🎯 Advanced Applications
 - **Scientific AI**: [AI scientist](https://arxiv.org/pdf/2408.06292), [scientific software generation](https://arxiv.org/pdf/2509.06503), [architecture discovery](https://arxiv.org/pdf/2507.18074)
