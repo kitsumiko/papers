@@ -77,6 +77,11 @@ You can **follow a track** for a guided path, **jump to specific areas** based o
   - Hardware-Algorithm Co-design
   - Specialized AI Hardware
 
+- **[Human-AI Interaction & Cognition](learning/human-ai-interaction.md)**
+  - Trust, Reliance & Automation Bias
+  - Cognitive Effects of AI
+  - Human-AI Decision-Making
+
 - **[Policy, Safety & Societal Impact](learning/policy.md)**
   - Financial Services & Model Risk Management (OCC 2011-12, SR 11-7)
   - Data Protection & Privacy Law (GDPR, CCPA)
@@ -94,7 +99,7 @@ You can **follow a track** for a guided path, **jump to specific areas** based o
 Tracks suggest an order across areas for different goals. Pick one that fits your role or goal, then follow the listed areas in sequence (or skip around as needed).
 
 ### Comprehensive Track
-Full curriculum in a logical order: [Foundations](learning/foundations.md) → [Language Models](learning/language-models.md) → [Attention](learning/attention.md) → [Retrieval](learning/retrieval.md) → [Reasoning](learning/reasoning.md) → [Architectures](learning/architectures.md) → [Interpretability](learning/interpretability.md) → [Safety](learning/safety.md) → [Advanced](learning/advanced.md) → [Probabilistic](learning/probabilistic.md) → [Vision](learning/vision.md) → [Hardware](learning/hardware.md) → [Policy](learning/policy.md).
+Full curriculum in a logical order: [Foundations](learning/foundations.md) → [Language Models](learning/language-models.md) → [Attention](learning/attention.md) → [Retrieval](learning/retrieval.md) → [Reasoning](learning/reasoning.md) → [Architectures](learning/architectures.md) → [Interpretability](learning/interpretability.md) → [Safety](learning/safety.md) → [Advanced](learning/advanced.md) → [Probabilistic](learning/probabilistic.md) → [Vision](learning/vision.md) → [Hardware](learning/hardware.md) → [Human-AI Interaction](learning/human-ai-interaction.md) → [Policy](learning/policy.md).
 
 ### For Beginners
 Start with [Foundations](learning/foundations.md) and [Language Models — LLM Foundations](learning/language-models.md#llm-foundations), then explore based on interests.
@@ -147,4 +152,4 @@ Prioritize [Language Models](learning/language-models.md), [Attention](learning/
 
 ---
 
-*Last updated: March 4, 2026*
+*Last updated: March 23, 2026*
