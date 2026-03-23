@@ -9,6 +9,9 @@
 - [Agents of Chaos](https://arxiv.org/abs/2602.20021) (Shapira et al., 2026)
 - [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
 
+### 2026.01
+- [Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646) (Shaw & Nave, 2026)
+
 ## 2025
 
 ### 2025.12
@@ -47,6 +50,7 @@
 
 ### 2025.06
 - [Artificial Intelligent Disobedience: Rethinking the Agency of Our Artificial Teammates](https://arxiv.org/abs/2506.22276) (Mirsky, 2025)
+- [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872) (Kosmyna et al., 2025)
 - [Hierarchical Reasoning Model](https://arxiv.org/pdf/2506.21734)
 - [Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153)
 - [Reinforcement Pre-Training](https://arxiv.org/abs/2506.08007)
@@ -185,6 +189,9 @@
 
 ## 2021
 
+### 2021.05
+- [Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance](https://arxiv.org/abs/2006.14779) (Bansal et al., 2021)
+
 ### 2021.04
 - [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473)
 
@@ -192,6 +199,7 @@
 - [Learning Transferable Visual Models From Natural Language Supervision (CLIP)](https://arxiv.org/abs/2103.00020)
 
 ### 2021.02
+- [To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making](https://arxiv.org/abs/2102.09692) (Buçinca et al., 2021)
 - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (Vision Transformer/ViT)](https://arxiv.org/abs/2010.11929)
 
 ### 2021.01
@@ -221,6 +229,7 @@
 ## 2019
 
 ### 2019.11
+- [The Principles and Limits of Algorithm-in-the-Loop Decision Making](https://dl.acm.org/doi/10.1145/3359152) (Green & Chen, 2019)
 - [Generalization through Memorization: Nearest Neighbor Language Models (kNN-LM)](https://arxiv.org/abs/1911.00172)
 
 ### 2019.10
@@ -291,6 +300,9 @@
 ### 2016.10
 - [Equality of Opportunity in Supervised Learning](https://arxiv.org/abs/1610.02413)
 
+### 2016.09
+- 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5) (Risko & Gilbert, 2016) - *Paywalled*
+
 ### 2016.06
 - [Learning Convolutional Neural Networks for Graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
 - [Synthesizing the Preferred Inputs for Neurons via Deep Generator Networks](https://arxiv.org/abs/1605.09304)
@@ -320,6 +332,9 @@
 
 ### 2015.05
 - [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
+
+### 2015.02
+- 🔒 [Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err](https://psycnet.apa.org/record/2014-48748-001) (Dietvorst et al., 2015) - *Paywalled*
 
 ### 2015-CVPR
 - [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://openaccess.thecvf.com/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf)
@@ -357,6 +372,10 @@
 - [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 - [MCMC using Hamiltonian dynamics](https://arxiv.org/abs/1206.1901)
 
+## 2011
+
+- [Thinking, Fast and Slow](https://us.macmillan.com/books/9780374533557/thinkingfastandslow) (Kahneman, 2011)
+
 ## 2010
 
 - [Understanding the Difficulty of Training Deep Feedforward Neural Networks](https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
@@ -366,15 +385,21 @@
 
 - 🔒 [A Bayesian Framework for Modeling Intuitive Dynamics](https://cocosci.berkeley.edu/tom/papers/collisions.pdf) - *May require institutional access*
 
+## 2004
+
+- 🔒 [Trust in Automation: Designing for Appropriate Reliance](https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392) (Lee & See, 2004) - *Paywalled*
+
 ## 1997-2001
 
+- 🔒 [The Extended Mind](https://academic.oup.com/analysis/article-abstract/58/1/7/153111) (Clark & Chalmers, 1998) - *Paywalled*
+- 🔒 [Humans and Automation: Use, Misuse, Disuse, Abuse](https://journals.sagepub.com/doi/10.1518/001872097778543886) (Parasuraman & Riley, 1997) - *Paywalled*
 - 🔒 [Long Short-Term Memory (LSTM)](https://www.researchgate.net/publication/13853244_Long_Short-term_Memory) (1997) - *Paywalled*
 - [Gradient-Based Learning Applied to Document Recognition (LeNet)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) (1998)
 
 ---
 
-**Total Papers in Learning Path**: 150+ papers
-**Paywalled Papers**: 4 (marked with 🔒)  
-**Open Access**: ~97%
+**Total Papers in Learning Path**: 160+ papers
+**Paywalled Papers**: 11 (marked with 🔒)
+**Open Access**: ~93%
 
 [← Back to Main](README.md) | [→ View Learning Path](learning-path.md)
