@@ -19,6 +19,9 @@
 
 4. [A Log-Domain Implementation of the Diffusion Network in Very Large Scale Integration](https://papers.nips.cc/paper_files/paper/2010/file/7bcdf75ad237b8e02e301f4091fb6bc8-Paper.pdf) (2010)
 
+5. [cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization](https://arxiv.org/abs/2603.19163) (Liu, 2026)
+   - *Why*: Demonstrates a "one block evolves one solution" CUDA architecture with hardware-aware resource management across GPU generations (T4, V100, A800), outperforming general MIP solvers by orders of magnitude on combinatorial optimization problems.
+
 ---
 
 **Related**: [Vision](vision.md) | [Policy](policy.md) | [Safety](safety.md)
