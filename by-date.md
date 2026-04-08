@@ -63,6 +63,7 @@
 - [How much do language models memorize?](https://arxiv.org/pdf/2505.24832)
 
 ### 2025.04
+- [TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate](https://arxiv.org/abs/2504.19874) (Zandieh et al., 2025)
 - [Pr$εε$mpt: Sanitizing Sensitive Prompts for LLMs](https://arxiv.org/abs/2504.05147)
 - [Enterprise-Grade Security for the Model Context Protocol (MCP): Frameworks and Mitigation Strategies](https://arxiv.org/pdf/2504.08623)
 - [Token embeddings violate the manifold hypothesis](https://arxiv.org/abs/2504.01002)
