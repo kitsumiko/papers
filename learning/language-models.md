@@ -64,7 +64,10 @@
 3. [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764) (2024)
    - *Why*: **Ternary weight LLMs from scratch** - trains BitNet b1.58 with weights constrained to {-1, 0, 1}, matching full-precision LLM perplexity and task performance at 3B parameters; reduces memory footprint by 3.5x and increases throughput by 2.7x; replaces multiplication with addition for energy-efficient inference
 
-4. [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
+4. [TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate](https://arxiv.org/abs/2504.19874) (Zandieh et al., 2025)
+   - *Why*: **Near-optimal data-oblivious vector quantization** - achieves within ~2.7× of information-theoretic distortion limits using randomized rotations and optimal scalar quantizers per coordinate; preserves KV cache quality at 3.5 bits per channel and outperforms product quantization for nearest neighbor search, providing a principled low-bit compression primitive for inference.
+
+5. [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
    - *Why*: Shows that omitting prior assistant responses in multi-turn context often preserves quality while cutting context length; identifies context pollution and motivates selective context filtering.
 
 ---
