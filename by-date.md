@@ -2,6 +2,9 @@
 
 ## 2026
 
+### 2026.04
+- [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/abs/2604.01193) (Zhang et al., 2026)
+
 ### 2026.03
 - [cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization](https://arxiv.org/abs/2603.19163) (Liu, 2026)
 - [LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](https://arxiv.org/abs/2603.19312) (Maes et al., 2026)

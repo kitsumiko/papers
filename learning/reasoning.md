@@ -31,6 +31,9 @@
 8. [A Simple Neural Network Module for Relational Reasoning](https://arxiv.org/abs/1706.01427) (Santoro et al., 2017)
    - *Why*: **Relational reasoning foundation** - introduces Relation Networks for learning to reason about relationships between objects; essential for visual question answering and abstract reasoning tasks
 
+9. [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/abs/2604.01193) (Zhang et al., 2026)
+   - *Why*: **Self-distillation for code generation** - shows that sampling solutions at a tuned temperature and retraining on them lifts Qwen3-30B-Instruct's LiveCodeBench v6 pass@1 from 42.4% to 55.3%, with the largest gains on hard problems; frames the improvement as resolving a precision-exploration conflict in decoding by suppressing unhelpful token variations while preserving useful exploratory diversity.
+
 ## Agentic Systems
 **Goal**: Create autonomous AI agents
 
