@@ -49,6 +49,9 @@ As AI systems control increasingly important decisions—from content moderation
 6. [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0) (Lee et al., 2025)
    - *Why*: First fully automated benchmarking framework for evaluating LLM agents on authentic security engineering tasks; introduces multi-agent scaffold for constructing verified vulnerability datasets with reproducible PoCs and patches; reveals significant performance gaps (18% PoC generation, 34% vulnerability patching)
 
+7. [Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain](https://arxiv.org/abs/2604.08407) (Liu et al., 2026)
+   - *Why*: First systematic study of malicious LLM API routers as a supply-chain attack surface; formalizes payload injection and secret exfiltration attack classes with evasion variants; empirically tests 428 third-party routers finding active code injection, credential theft, and crypto draining; proposes three deployable client-side defenses
+
 ## Safety Evaluation & Red Teaming
 **Goal**: Systematically evaluate AI systems for safety risks and harmful behaviors
 
