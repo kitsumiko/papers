@@ -3,6 +3,7 @@
 ## 2026
 
 ### 2026.04
+- [MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU](https://arxiv.org/abs/2604.05091) (Yuan et al., 2026)
 - [Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain](https://arxiv.org/abs/2604.08407) (Liu et al., 2026)
 - [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/abs/2604.01193) (Zhang et al., 2026)
 
