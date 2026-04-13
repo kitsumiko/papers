@@ -34,6 +34,7 @@
 - [Nested Learning: The Illusion of Deep Learning Architectures](https://abehrouz.github.io/files/NL.pdf) - NeurIPS 2025
 
 ### 2025.10
+- [Scaling Latent Reasoning via Looped Language Models](https://arxiv.org/abs/2510.25741) (Zhu et al., 2025)
 - [Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](https://arxiv.org/abs/2510.22620)
 - [DeepSeek-OCR: Contexts Optical Compression](https://arxiv.org/pdf/2510.18234)
 - [A2AS: Agentic AI Runtime Security and Self-Defense](https://arxiv.org/pdf/2510.13825)
