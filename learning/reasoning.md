@@ -34,6 +34,9 @@
 9. [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/abs/2604.01193) (Zhang et al., 2026)
    - *Why*: **Self-distillation for code generation** - shows that sampling solutions at a tuned temperature and retraining on them lifts Qwen3-30B-Instruct's LiveCodeBench v6 pass@1 from 42.4% to 55.3%, with the largest gains on hard problems; frames the improvement as resolving a precision-exploration conflict in decoding by suppressing unhelpful token variations while preserving useful exploratory diversity.
 
+10. [Scaling Latent Reasoning via Looped Language Models](https://arxiv.org/abs/2510.25741) (Zhu et al., 2025)
+    - *Why*: **Reasoning baked into pretraining via weight-shared loops** - introduces Ouro, a family of looped LMs that perform iterative computation in latent space with an entropy-regularized objective for learned depth allocation, pretrained on 7.7T tokens; the 1.4B and 2.6B variants reportedly match 12B-parameter baselines, with gains traced to better knowledge manipulation rather than larger storage capacity, suggesting latent recurrence is an alternative axis to chain-of-thought for scaling reasoning.
+
 ## Agentic Systems
 **Goal**: Create autonomous AI agents
 
