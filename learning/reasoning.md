@@ -37,6 +37,9 @@
 10. [Scaling Latent Reasoning via Looped Language Models](https://arxiv.org/abs/2510.25741) (Zhu et al., 2025)
     - *Why*: **Reasoning baked into pretraining via weight-shared loops** - introduces Ouro, a family of looped LMs that perform iterative computation in latent space with an entropy-regularized objective for learned depth allocation, pretrained on 7.7T tokens; the 1.4B and 2.6B variants reportedly match 12B-parameter baselines, with gains traced to better knowledge manipulation rather than larger storage capacity, suggesting latent recurrence is an alternative axis to chain-of-thought for scaling reasoning.
 
+11. [A Formal Comparison Between Chain of Thought and Latent Thought](https://arxiv.org/abs/2509.25239) (Xu et al., 2025)
+    - *Why*: **Theoretical separation between CoT and latent reasoning** - proves that latent thought enables more efficient parallel computation than the inherently sequential CoT, while CoT uniquely supports approximate counting and sampling via stochastic decoding; gives principled guidance for choosing between discrete-token and continuous-representation reasoning based on whether a task needs iterative recursion, depth, or stochasticity.
+
 ## Agentic Systems
 **Goal**: Create autonomous AI agents
 
