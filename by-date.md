@@ -43,6 +43,7 @@
 - [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/pdf/2510.04871)
 
 ### 2025.09
+- [A Formal Comparison Between Chain of Thought and Latent Thought](https://arxiv.org/abs/2509.25239) (Xu et al., 2025)
 - [Learning in Stackelberg Mean Field Games: A Non-Asymptotic Analysis](https://arxiv.org/pdf/2509.15392)
 - [Federated Learning with Ad-hoc Adapter Insertions: The Case of Soft-Embeddings for Training Classifier-as-Retriever](https://arxiv.org/pdf/2509.16508)
 - [An AI system to help scientists write expert-level empirical software](https://arxiv.org/pdf/2509.06503)
