@@ -40,6 +40,9 @@
 11. [LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](https://arxiv.org/abs/2603.19312) (Maes et al., 2026)
    - *Why*: **First stable end-to-end JEPA from raw pixels** - trains a Joint Embedding Predictive Architecture using only a prediction loss and a Gaussian regularizer, eliminating the complex multi-term losses and EMA tricks prior JEPAs required; plans up to 48x faster than foundation-model-based world models on 2D/3D control tasks with ~15M parameters on a single GPU
 
+12. [A Network of Biologically Inspired Rectified Spectral Units (ReSUs) Learns Hierarchical Features Without Error Backpropagation](https://arxiv.org/abs/2512.23146) (Qin et al., 2025)
+   - *Why*: **Backprop-free hierarchical feature learning grounded in biology** - introduces Rectified Spectral Units that learn locally via canonical correlation analysis on input history, encoding information in synaptic weights and temporal filters; a two-layer network trained on natural scenes spontaneously develops temporal filters matching Drosophila post-photoreceptor neurons and direction-selective second-layer units resembling connectome-derived motion detectors, offering both a model of sensory circuits and a credible alternative to error backpropagation
+
 ## Theoretical Foundations
 **Goal**: Understand the mathematical foundations
 
