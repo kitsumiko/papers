@@ -25,6 +25,9 @@
 6. [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089) (2025)
    - *Why*: **Trainable sparse attention aligned to GPU hardware** - designs sparsity patterns that map directly to GPU memory hierarchies and tensor core operations, avoiding the overhead of unstructured sparse kernels; trains the sparsity pattern end-to-end rather than applying it post-hoc; maintains dense-attention quality at a fraction of the compute cost for long sequences
 
+7. [SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space](https://arxiv.org/abs/2511.20102) (Shen et al., 2025)
+   - *Why*: **Bridges the sparse/full attention divide** - diagnoses the *attention gap* (sparse inference on full-attention-trained models degrades quality) and the *capability gap* (pure sparse training loses gradient signal), then jointly trains both modes with bidirectional output alignment in feature space; theory bounds the approximation error linearly in the dropped attention mass, and a single trained model adapts to variable sparsity levels at inference, excelling on long-context inputs
+
 ## Long Context & Compression
 **Goal**: Handle longer sequences efficiently
 

@@ -29,6 +29,7 @@
 - 📄 [New York State A6453A/S6953B: Training and Use of Artificial Intelligence Frontier Models](https://www.nysenate.gov/legislation/bills/2025/A6453/amendment/A) (Signed December 2025)
 
 ### 2025.11
+- [SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space](https://arxiv.org/abs/2511.20102) (Shen et al., 2025)
 - [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0)
 - [Embedded Universal Predictive Intelligence: a coherent framework for multi-agent learning](https://arxiv.org/pdf/2511.22226)
 - [Weight-sparse transformers have interpretable circuits](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) (OpenAI, Nov 13, 2025)
