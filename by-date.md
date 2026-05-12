@@ -409,8 +409,8 @@
 
 ---
 
-**Total Papers in Learning Path**: 160+ papers
-**Paywalled Papers**: 11 (marked with 🔒)
-**Open Access**: ~93%
+**Total Papers in Learning Path**: 237 papers
+**Paywalled Papers**: 9 (marked with 🔒)
+**Open Access**: ~96%
 
 [← Back to Main](README.md) | [→ View Learning Path](learning-path.md)

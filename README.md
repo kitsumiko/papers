@@ -2,7 +2,7 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-160+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-235+-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-14_areas-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
 
@@ -10,7 +10,7 @@
 
 ## 🎯 What's Inside
 
-This repository contains **160+ carefully selected research papers** organized in three complementary ways:
+This repository contains **235+ carefully selected research papers and policy documents** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - Topic areas and curated tracks from foundations to cutting-edge research
 2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
@@ -91,22 +91,22 @@ The learning path is organized into **14 topic areas**; use [learning-path.md](l
 
 | Area | Topic | Papers | Focus |
 |------|-------|--------|-------|
-| **[Foundations](learning/foundations.md)** | 🏗️ **Foundations** | 15 | Deep learning basics, embeddings, CNNs, RNNs, GANs, tokenization |
-| **[Language Models](learning/language-models.md)** | 🤖 **Large Language Models** | 10 | Transformers, BERT, GPT, training at scale |
-| **[Attention](learning/attention.md)** | ⚡ **Attention Innovations** | 9 | FlashAttention 1 & 2, efficient attention, long context |
-| **[Retrieval](learning/retrieval.md)** | 🔍 **Retrieval & RAG** | 9 | THE RAG paper, dense retrieval, kNN-LM, semantic search |
-| **[Reasoning](learning/reasoning.md)** | 🧠 **Reasoning & Agents** | 12 | RLHF, chain-of-thought, agentic systems |
-| **[Architectures](learning/architectures.md)** | 🏛️ **Alternative Architectures** | 7 | RWKV, Mamba, state-space models, theory |
-| **[Interpretability](learning/interpretability.md)** | 🔬 **Interpretability** | 11 | LIME, integrated gradients, weight-sparse circuits |
-| **[Safety](learning/safety.md)** | 🛡️ **Security, Safety & Robustness** | 10+ | Alignment, security threats, safety evaluation, bias & fairness, harmful content, long-term safety |
-| **[Advanced](learning/advanced.md)** | 🎯 **Advanced Applications** | 7 | Multimodal, scientific AI, test-time compute |
-| **[Probabilistic](learning/probabilistic.md)** | 🎲 **Probabilistic Models** | 6 | Diffusion, probabilistic programming |
-| **[Vision](learning/vision.md)** | 👁️ **Vision & Multimodal** | 10 | ViT, CLIP, SAM, LLaVA, vision-language models |
-| **[Hardware](learning/hardware.md)** | ⚙️ **Hardware & Systems** | 4 | GPU optimization, inference scaling, photonic computing |
+| **[Foundations](learning/foundations.md)** | 🏗️ **Foundations** | 25 | Deep learning basics, embeddings, CNNs, RNNs, GANs, tokenization |
+| **[Language Models](learning/language-models.md)** | 🤖 **Large Language Models** | 20 | Transformers, BERT, GPT, training at scale |
+| **[Attention](learning/attention.md)** | ⚡ **Attention Innovations** | 10 | FlashAttention 1 & 2, efficient attention, long context |
+| **[Retrieval](learning/retrieval.md)** | 🔍 **Retrieval & RAG** | 11 | THE RAG paper, dense retrieval, kNN-LM, semantic search |
+| **[Reasoning](learning/reasoning.md)** | 🧠 **Reasoning & Agents** | 19 | RLHF, chain-of-thought, agentic systems |
+| **[Architectures](learning/architectures.md)** | 🏛️ **Alternative Architectures** | 16 | RWKV, Mamba, state-space models, theory |
+| **[Interpretability](learning/interpretability.md)** | 🔬 **Interpretability** | 16 | LIME, integrated gradients, weight-sparse circuits |
+| **[Safety](learning/safety.md)** | 🛡️ **Security, Safety & Robustness** | 34 | Alignment, security threats, safety evaluation, bias & fairness, harmful content, long-term safety |
+| **[Advanced](learning/advanced.md)** | 🎯 **Advanced Applications** | 8 | Multimodal, scientific AI, test-time compute |
+| **[Probabilistic](learning/probabilistic.md)** | 🎲 **Probabilistic Models** | 9 | Diffusion, probabilistic programming |
+| **[Vision](learning/vision.md)** | 👁️ **Vision & Multimodal** | 11 | ViT, CLIP, SAM, LLaVA, vision-language models |
+| **[Hardware](learning/hardware.md)** | ⚙️ **Hardware & Systems** | 5 | GPU optimization, inference scaling, photonic computing |
 | **[Human-AI Interaction](learning/human-ai-interaction.md)** | 🧠 **Human-AI Interaction** | 11 | Trust, automation bias, cognitive effects, human-AI teams |
-| **[Policy](learning/policy.md)** | 📜 **Policy & Governance** | 40+ | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
+| **[Policy](learning/policy.md)** | 📜 **Policy & Governance** | 42 | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
 
-**Total**: 160+ core papers across 14 areas (plus 40+ policy documents & frameworks)
+**Total**: 237 papers across 14 areas (including 42 policy documents & frameworks)
 
 ---
 
