@@ -2,6 +2,9 @@
 
 ## 2026
 
+### 2026.05
+- [Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901) (Kezins et al., 2026)
+
 ### 2026.04
 - [MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU](https://arxiv.org/abs/2604.05091) (Yuan et al., 2026)
 - [Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain](https://arxiv.org/abs/2604.08407) (Liu et al., 2026)

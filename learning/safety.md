@@ -77,6 +77,9 @@ As AI systems control increasingly important decisions—from content moderation
 7. [Agents of Chaos](https://arxiv.org/abs/2602.20021) (Shapira et al., 2026)
    - *Why*: Empirical red-teaming of autonomous LLM agents with persistent memory, email, shell access, and multi-agent communication in a live environment; documents eleven failure modes including unauthorized compliance, identity spoofing, cross-agent propagation, and partial system takeover
 
+8. [Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901) (Kezins et al., 2026)
+   - *Why*: Shifts guardrail verification from discrete input space to the classifier's pre-activation layer, where harmful prompts form convex regions certifiable via monotonicity of the sigmoid head; introduces SVD-aligned hyper-rectangles (exact) and Gaussian Mixture Models (probabilistic) for region construction, exposing large safety gaps in BERT (55-90% coverage) versus more stable GPT-2/Llama classifiers (~80-90%)
+
 ## Bias, Fairness & Robustness
 **Goal**: Detect, measure, and mitigate bias in AI systems while maintaining robustness
 
