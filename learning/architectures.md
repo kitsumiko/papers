@@ -43,6 +43,9 @@
 12. [A Network of Biologically Inspired Rectified Spectral Units (ReSUs) Learns Hierarchical Features Without Error Backpropagation](https://arxiv.org/abs/2512.23146) (Qin et al., 2025)
    - *Why*: **Backprop-free hierarchical feature learning grounded in biology** - introduces Rectified Spectral Units that learn locally via canonical correlation analysis on input history, encoding information in synaptic weights and temporal filters; a two-layer network trained on natural scenes spontaneously develops temporal filters matching Drosophila post-photoreceptor neurons and direction-selective second-layer units resembling connectome-derived motion detectors, offering both a model of sensory circuits and a credible alternative to error backpropagation
 
+13. [Lattice Deduction Transformers](https://arxiv.org/abs/2605.08605) (Davis et al., 2026)
+   - *Why*: **Recurrent transformer with sound deduction guarantees** - projects the latent state onto an abstract lattice between forward passes so each pass acts as a sound deduction step, trained on-policy in a constraint-solver-style loop with abstract-interpretation-based supervision; an 800K-parameter model reaches 100% accuracy on Sudoku-Extreme and Snowflake Sudoku and a 1.8M-parameter variant hits 99.9% on Maze-Hard, while frontier LLMs score 0% on all three, suggesting abstract interpretation can give small recurrent reasoners both correctness and competence.
+
 ## Theoretical Foundations
 **Goal**: Understand the mathematical foundations
 
