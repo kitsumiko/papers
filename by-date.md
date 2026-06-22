@@ -27,6 +27,7 @@
 ## 2025
 
 ### 2025.12
+- [TRINITY: An Evolved LLM Coordinator](https://arxiv.org/abs/2512.04695) (Xu et al., 2025)
 - [A Network of Biologically Inspired Rectified Spectral Units (ReSUs) Learns Hierarchical Features Without Error Backpropagation](https://arxiv.org/abs/2512.23146) (Qin et al., 2025)
 - [H-Neurons: On the Existence, Impact, and Origin of Hallucination-Associated Neurons in LLMs](https://arxiv.org/abs/2512.01797) (Gao et al., Tsinghua, 2025)
 - [Recursive Language Models](https://arxiv.org/abs/2512.24601)
