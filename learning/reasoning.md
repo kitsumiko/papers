@@ -67,6 +67,9 @@
 8. [Artificial Intelligent Disobedience: Rethinking the Agency of Our Artificial Teammates](https://arxiv.org/abs/2506.22276) (Mirsky, 2025)
    - *Why*: Argues for expanding AI teammate autonomy beyond rigid obedience to include intelligent disobedience; introduces a scale of AI agency levels and examines when autonomous contributions in human-AI teams are necessary, even when they conflict with explicit instructions
 
+9. [TRINITY: An Evolved LLM Coordinator](https://arxiv.org/abs/2512.04695) (Xu et al., 2025)
+   - *Why*: **Evolved coordinator for multi-LLM collaboration** - trains a compact ~0.6B-parameter language model plus a ~10K-parameter head with separable CMA-ES to orchestrate a pool of larger LLMs over multiple turns, dynamically assigning each a Thinker, Worker, or Verifier role; reaches 86.2% on LiveCodeBench with gains across coding, math, reasoning, and domain-knowledge tasks, and credits the advantage to rich contextualization from hidden-state representations and the suitability of separable CMA-ES under high dimensionality
+
 ---
 
 **Related**: [Retrieval](retrieval.md) | [Architectures](architectures.md) | [Safety](safety.md)
