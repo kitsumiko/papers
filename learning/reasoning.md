@@ -40,6 +40,9 @@
 11. [A Formal Comparison Between Chain of Thought and Latent Thought](https://arxiv.org/abs/2509.25239) (Xu et al., 2025)
     - *Why*: **Theoretical separation between CoT and latent reasoning** - proves that latent thought enables more efficient parallel computation than the inherently sequential CoT, while CoT uniquely supports approximate counting and sampling via stochastic decoding; gives principled guidance for choosing between discrete-token and continuous-representation reasoning based on whether a task needs iterative recursion, depth, or stochasticity.
 
+12. [NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models](https://arxiv.org/abs/2602.13237) (Putra et al., 2026)
+    - *Why*: **Neuro-symbolic NL-to-logic translation** - inserts an abstract syntax tree as an intermediate representation between a recursive LLM semantic parser and a grammar-constrained generator, deterministically producing solver-ready first-order logic so inference can be delegated to automated solvers; reaches 99% syntactic accuracy and up to 30% higher semantic correctness than prior LLM logic-parsing methods on FOLIO, LogicNLI, and ProofWriter, and lifts downstream reasoning accuracy by 31% when integrated into Logic-LM.
+
 ## Agentic Systems
 **Goal**: Create autonomous AI agents
 
