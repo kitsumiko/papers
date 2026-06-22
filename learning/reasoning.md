@@ -70,6 +70,9 @@
 9. [TRINITY: An Evolved LLM Coordinator](https://arxiv.org/abs/2512.04695) (Xu et al., 2025)
    - *Why*: **Evolved coordinator for multi-LLM collaboration** - trains a compact ~0.6B-parameter language model plus a ~10K-parameter head with separable CMA-ES to orchestrate a pool of larger LLMs over multiple turns, dynamically assigning each a Thinker, Worker, or Verifier role; reaches 86.2% on LiveCodeBench with gains across coding, math, reasoning, and domain-knowledge tasks, and credits the advantage to rich contextualization from hidden-state representations and the suitability of separable CMA-ES under high dimensionality
 
+10. [Learning to Orchestrate Agents in Natural Language with the Conductor](https://arxiv.org/abs/2512.04388) (Nielsen et al., 2025)
+    - *Why*: **RL-learned LLM orchestration** - trains a 7B Conductor with end-to-end reinforcement learning to coordinate a pool of worker LLMs, jointly designing agent-to-agent communication topologies and prompt-engineering targeted instructions to each worker; reaches state-of-the-art on reasoning benchmarks like LiveCodeBench and GPQA, generalizes to arbitrary open- and closed-source agent pools via randomized-pool training, and can select itself as a worker to form recursive topologies for dynamic test-time scaling
+
 ---
 
 **Related**: [Retrieval](retrieval.md) | [Architectures](architectures.md) | [Safety](safety.md)
