@@ -2,6 +2,9 @@
 
 ## 2026
 
+### 2026.06
+- [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf) (Cheng et al., 2026)
+
 ### 2026.05
 - [If LLMs Have Human-Like Attributes, Then So Does Age of Empires II](https://arxiv.org/abs/2605.31514) (de Wynter, 2026)
 - [Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901) (Kezins et al., 2026)
