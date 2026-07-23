@@ -52,6 +52,9 @@ As AI systems control increasingly important decisions—from content moderation
 7. [Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain](https://arxiv.org/abs/2604.08407) (Liu et al., 2026)
    - *Why*: First systematic study of malicious LLM API routers as a supply-chain attack surface; formalizes payload injection and secret exfiltration attack classes with evasion variants; empirically tests 428 third-party routers finding active code injection, credential theft, and crypto draining; proposes three deployable client-side defenses
 
+8. [Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems](https://arxiv.org/abs/2607.14611) (Gadgil et al., 2026)
+   - *Why*: Shows that persistent memory files change the prompt injection threat model - payloads planted in an agent's memory attack current and future sessions, even though getting an agent to overwrite its own memory from untrusted content is hard; evaluates two coding agents across four models and measures how attack success and payload persistence vary by system, adversarial goal, and multi-session sequence
+
 ## Safety Evaluation & Red Teaming
 **Goal**: Systematically evaluate AI systems for safety risks and harmful behaviors
 
