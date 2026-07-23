@@ -84,8 +84,8 @@ You can **follow a track** for a guided path, **jump to specific areas** based o
 
 - **[Policy, Safety & Societal Impact](learning/policy.md)**
   - Financial Services & Model Risk Management (OCC 2011-12, SR 11-7)
-  - Data Protection & Privacy Law (GDPR, CCPA)
-  - AI-Specific Legislation (EU AI Act, US Executive Orders)
+  - Data Protection & Privacy Law (GDPR, CCPA, CoE Framework Convention)
+  - AI-Specific Legislation (EU AI Act, US federal executive orders, US state laws, Korea, China)
   - Risk Management Frameworks (NIST AI RMF, ISO/IEC Standards)
   - Sector-Specific Guidance (Healthcare, Employment, Criminal Justice)
   - Dual-Use AI & National Security
@@ -152,4 +152,4 @@ Prioritize [Language Models](learning/language-models.md), [Attention](learning/
 
 ---
 
-*Last updated: March 23, 2026*
+*Last updated: July 22, 2026*

@@ -2,19 +2,19 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of modern artificial intelligence and machine learning.
 
-[![Papers](https://img.shields.io/badge/papers-235+-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-267-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-14_areas-green.svg)](learning-path.md)
-[![Glossary](https://img.shields.io/badge/glossary-250+_terms-purple.svg)](learning/glossary.md)
+[![Glossary](https://img.shields.io/badge/glossary-160_terms-purple.svg)](learning/glossary.md)
 
 ---
 
 ## 🎯 What's Inside
 
-This repository contains **235+ carefully selected research papers and policy documents** organized in three complementary ways:
+This repository contains **267 carefully selected research papers and policy documents** organized in three complementary ways:
 
 1. **📚 [Structured Learning Path](learning-path.md)** - Topic areas and curated tracks from foundations to cutting-edge research
-2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2025)
-3. **📖 [Comprehensive Glossary](learning/glossary.md)** - 250+ terms, concepts, and acronyms explained with context
+2. **📅 [Chronological Timeline](by-date.md)** - Papers organized by publication date (1997-2026)
+3. **📖 [Comprehensive Glossary](learning/glossary.md)** - 160 terms, concepts, and acronyms explained with context
 
 **Plus**: [Recommended tracks](#-how-to-use-this-repository), [notes on learning](#paper-reading-tips), and [quick start guides](#-quick-start) tailored to your role (beginner, practitioner, researcher, engineer, security specialist).
 
@@ -32,13 +32,13 @@ Jump to relevant areas:
 - **Production AI**: [Retrieval](learning/retrieval.md) (RAG), [Safety](learning/safety.md) (Security & Safety)
 
 ### For Researchers
-Browse the **[Chronological View](by-date.md)** to see latest 2025 research, or deep-dive into:
+Browse the **[Chronological View](by-date.md)** to see latest 2026 research, or deep-dive into:
 - [Alternative Architectures](learning/architectures.md)
 - [Interpretability](learning/interpretability.md)
 - [Advanced Topics](learning/advanced.md)
 
 ### Quick Reference
-**Need a definition?** → Check the **[📖 Glossary](learning/glossary.md)** for 250+ terms organized by category (architectures, training, NLP, security, etc.)
+**Need a definition?** → Check the **[📖 Glossary](learning/glossary.md)** for 160 terms organized by category (architectures, training, NLP, security, etc.)
 
 ---
 
@@ -92,21 +92,21 @@ The learning path is organized into **14 topic areas**; use [learning-path.md](l
 | Area | Topic | Papers | Focus |
 |------|-------|--------|-------|
 | **[Foundations](learning/foundations.md)** | 🏗️ **Foundations** | 25 | Deep learning basics, embeddings, CNNs, RNNs, GANs, tokenization |
-| **[Language Models](learning/language-models.md)** | 🤖 **Large Language Models** | 20 | Transformers, BERT, GPT, training at scale |
-| **[Attention](learning/attention.md)** | ⚡ **Attention Innovations** | 10 | FlashAttention 1 & 2, efficient attention, long context |
+| **[Language Models](learning/language-models.md)** | 🤖 **Large Language Models** | 21 | Transformers, BERT, GPT, training at scale |
+| **[Attention](learning/attention.md)** | ⚡ **Attention Innovations** | 11 | FlashAttention 1 & 2, efficient attention, long context |
 | **[Retrieval](learning/retrieval.md)** | 🔍 **Retrieval & RAG** | 11 | THE RAG paper, dense retrieval, kNN-LM, semantic search |
-| **[Reasoning](learning/reasoning.md)** | 🧠 **Reasoning & Agents** | 19 | RLHF, chain-of-thought, agentic systems |
-| **[Architectures](learning/architectures.md)** | 🏛️ **Alternative Architectures** | 16 | RWKV, Mamba, state-space models, theory |
+| **[Reasoning](learning/reasoning.md)** | 🧠 **Reasoning & Agents** | 22 | RLHF, chain-of-thought, agentic systems |
+| **[Architectures](learning/architectures.md)** | 🏛️ **Alternative Architectures** | 17 | RWKV, Mamba, state-space models, theory |
 | **[Interpretability](learning/interpretability.md)** | 🔬 **Interpretability** | 16 | LIME, integrated gradients, weight-sparse circuits |
-| **[Safety](learning/safety.md)** | 🛡️ **Security, Safety & Robustness** | 34 | Alignment, security threats, safety evaluation, bias & fairness, harmful content, long-term safety |
-| **[Advanced](learning/advanced.md)** | 🎯 **Advanced Applications** | 8 | Multimodal, scientific AI, test-time compute |
+| **[Safety](learning/safety.md)** | 🛡️ **Security, Safety & Robustness** | 36 | Alignment, security threats, safety evaluation, bias & fairness, harmful content, long-term safety |
+| **[Advanced](learning/advanced.md)** | 🎯 **Advanced Applications** | 9 | Multimodal, scientific AI, test-time compute |
 | **[Probabilistic](learning/probabilistic.md)** | 🎲 **Probabilistic Models** | 9 | Diffusion, probabilistic programming |
 | **[Vision](learning/vision.md)** | 👁️ **Vision & Multimodal** | 11 | ViT, CLIP, SAM, LLaVA, vision-language models |
 | **[Hardware](learning/hardware.md)** | ⚙️ **Hardware & Systems** | 5 | GPU optimization, inference scaling, photonic computing |
 | **[Human-AI Interaction](learning/human-ai-interaction.md)** | 🧠 **Human-AI Interaction** | 11 | Trust, automation bias, cognitive effects, human-AI teams |
-| **[Policy](learning/policy.md)** | 📜 **Policy & Governance** | 42 | GDPR, EU AI Act, NIST AI RMF, OCC model risk guidance |
+| **[Policy](learning/policy.md)** | 📜 **Policy & Governance** | 63 | GDPR, EU AI Act, US federal & state AI law, NIST AI RMF |
 
-**Total**: 237 papers across 14 areas (including 42 policy documents & frameworks)
+**Total**: 267 papers across 14 areas (including 63 policy documents & frameworks)
 
 ---
 
@@ -171,7 +171,7 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 - **Red Teaming & Evaluation**: [Red Teaming Language Models](https://arxiv.org/abs/2209.07858), [GPTFuzzer](https://arxiv.org/pdf/2309.10253), [HarmBench](https://arxiv.org/abs/2402.04249), [WMDP](https://arxiv.org/abs/2403.03218), [TruthfulQA](https://arxiv.org/abs/2109.07958)
 - **Bias & Fairness**: [Equality of Opportunity](https://arxiv.org/abs/1610.02413), [Gender Shades](http://proceedings.mlr.press/v81/buolamwini18a.html), [Tokenization bias](https://arxiv.org/abs/2406.16829), [model calibration](https://arxiv.org/abs/1706.04599)
 - **Harmful Content**: [RealToxicityPrompts](https://arxiv.org/abs/2009.11462)
-- **Long-term Safety**: [Sleeper Agents](https://arxiv.org/abs/2401.05566), [AI Safety Gridworlds](https://arxiv.org/abs/1711.09883), [Scalable oversight](https://www.anthropic.com/research/scalable-oversight), [Guaranteed Safe AI](https://arxiv.org/abs/2405.06624)
+- **Long-term Safety**: [Sleeper Agents](https://arxiv.org/abs/2401.05566), [AI Safety Gridworlds](https://arxiv.org/abs/1711.09883), [Scalable oversight](https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models), [Guaranteed Safe AI](https://arxiv.org/abs/2405.06624)
 
 ### 👁️ Computer Vision & Multimodal AI
 - Vision transformers: [ViT](https://arxiv.org/abs/2010.11929), [CLIP](https://arxiv.org/abs/2103.00020), [SAM](https://arxiv.org/abs/2304.02643)
@@ -192,9 +192,9 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 - **Test-time compute**: [o3 system](https://arxiv.org/pdf/2411.04996), [consciousness in AI](https://arxiv.org/pdf/2308.08708v3.pdf)
 
 ### 🎲 Probabilistic & Generative Models
-- Probabilistic programming: [Data analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf), [scene perception](https://openaccess.thecvf.com/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf) (Picture)
+- Probabilistic programming: [Data analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf), [scene perception](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf) (Picture)
 - MCMC methods: [Hamiltonian dynamics](https://arxiv.org/abs/1206.1901)
-- Bayesian approaches: [Intuitive dynamics modeling](https://cocosci.berkeley.edu/tom/papers/collisions.pdf) 🔒
+- Bayesian approaches: [Intuitive dynamics modeling](https://cocosci.princeton.edu/tom/papers/collisions.pdf)
 
 ### ⚙️ Hardware & Systems
 - Photonic computing for AI 🔒
@@ -202,12 +202,14 @@ This collection spans the full spectrum of modern AI/ML research, organized by t
 - Hardware-algorithm co-design
 
 ### 📜 Policy & Governance
-- **Financial services**: [OCC 2011-12](https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12a.pdf) (Model Risk Management), [SR 11-7](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm) (Federal Reserve), [Model Risk Handbook](https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/index-model-risk-management.html)
+- **Financial services**: [OCC 2011-12](https://web.archive.org/web/20240616095814/https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12a.pdf) (Model Risk Management), [SR 11-7](https://web.archive.org/web/20250103073254/https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm) (Federal Reserve), [FDIC adoption notice](https://www.fdic.gov/news/inactive-financial-institution-letters/2017/adoption-supervisory-guidance-model-risk-management)
 - **Data protection**: [GDPR](https://gdpr-info.eu/) (EU), [CCPA/CPRA](https://oag.ca.gov/privacy/ccpa) (California), [Convention 108+](https://www.coe.int/en/web/data-protection/convention108-and-protocol)
-- **AI legislation**: [EU AI Act](https://artificialintelligenceact.eu/), [Executive Order 14110](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/), [Blueprint for AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/), [China's Generative AI regulations](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm), [New York State Frontier AI Model Law](https://www.nysenate.gov/legislation/bills/2025/A6453/amendment/A) (A6453A/S6953B)
-- **Standards & frameworks**: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [ISO/IEC 42001](https://www.iso.org/standard/81230.html), [IEEE 7000 series](https://standards.ieee.org/featured/artificial-intelligence-systems/), [OECD AI Principles](https://oecd.ai/en/ai-principles)
-- **Sector-specific**: [FDA AI/ML guidance](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices), [EEOC AI discrimination guidance](https://www.eeoc.gov/laws/guidance/what-you-should-know-about-using-artificial-intelligence-when-making-employment), [NYC Local Law 144](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page)
-- **National security**: [Dual-use models report](https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf), [Export controls](https://www.bis.gov/index.php/emerging-tech-and-ai-controls), [NSCAI report](https://www.nscai.gov/2021-final-report/)
+- **International AI law**: [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) (Reg. (EU) 2024/1689), [GPAI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai), [CoE Framework Convention on AI](https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence) (CETS 225), [Korea Framework Act on AI](https://www.law.go.kr/LSW/eng/engLsSc.do?menuId=2&query=ARTIFICIAL+INTELLIGENCE), [China's Generative AI regulations](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm) and [AI content labeling measures](https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm)
+- **US federal**: [EO 14179](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence), [America's AI Action Plan](https://www.ai.gov/action-plan), [EO 14365](https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence) (state-law preemption) — plus [EO 14110](https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence) and the [Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/), both rescinded in 2025 but retained for context
+- **US states**: [California SB 53](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53) (first frontier-AI statute), [California SB 243](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243) (companion chatbots), [Texas TRAIGA](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149), [Colorado SB 26-189](https://leg.colorado.gov/bills/sb26-189), [New York RAISE Act](https://www.nysenate.gov/legislation/bills/2025/S6953)
+- **Standards & frameworks**: [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [NIST AI 600-1 GenAI Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf), [ISO/IEC 42001](https://www.iso.org/standard/81230.html), [IEEE 7000 series](https://standards.ieee.org/initiatives/autonomous-intelligence-systems/standards/), [OECD AI Principles](https://oecd.ai/en/ai-principles)
+- **Sector-specific**: [FDA AI/ML guidance](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices), [EEOC AI discrimination guidance](https://web.archive.org/web/20240527151347/https://www.eeoc.gov/laws/guidance/select-issues-assessing-adverse-impact-software-algorithms-and-artificial) (withdrawn 2025), [NYC Local Law 144](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page)
+- **National security**: [Dual-use models report](https://www.ntia.gov/sites/default/files/publications/ntia-ai-open-model-report.pdf), [Export controls](https://www.bis.doc.gov/index.php/policy-guidance/advanced-computing-and-semiconductor-manufacturing-items), [NSCAI report](https://web.archive.org/web/20240104154550/https://www.nscai.gov/2021-final-report/)
 - **Responsible AI**: [Model cards](https://arxiv.org/abs/1810.03993), [Datasheets for datasets](https://arxiv.org/abs/1803.09010), [Microsoft Responsible AI Standard](https://www.microsoft.com/en-us/ai/responsible-ai), [AI Incident Database](https://incidentdatabase.ai/)
 
 ---

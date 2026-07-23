@@ -126,7 +126,7 @@ As AI systems control increasingly important decisions—from content moderation
 2. [Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training](https://arxiv.org/abs/2401.05566) (Hubinger et al., 2024)
    - *Why*: **Critical deceptive alignment research** - demonstrates that LLMs can be trained with hidden behaviors that persist through safety training; shows current safety techniques may be insufficient for detecting deceptive models; essential for understanding alignment challenges
 
-3. [Scalable Oversight](https://www.anthropic.com/research/scalable-oversight) (Anthropic, 2022)
+3. [Scalable Oversight](https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models) (Anthropic, 2022)
    - *Why*: **Key long-term safety challenge** - addresses how to supervise AI systems that may become more capable than their human supervisors; explores techniques like debate, recursive reward modeling, and amplification
    - *Note*: Research blog post from Anthropic; foundational concept in AI safety
 

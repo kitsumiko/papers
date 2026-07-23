@@ -7,6 +7,7 @@
 - [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://arxiv.org/abs/2607.05147) (Cheng et al., 2026)
 
 ### 2026.05
+- 📄 [Colorado SB 26-189: Automated Decision-Making Technology](https://leg.colorado.gov/bills/sb26-189) (Colorado, signed May 14, 2026 — repeals and replaces the 2024 Colorado AI Act)
 - [If LLMs Have Human-Like Attributes, Then So Does Age of Empires II](https://arxiv.org/abs/2605.31514) (de Wynter, 2026)
 - [Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901) (Kezins et al., 2026)
 - [Lattice Deduction Transformers](https://arxiv.org/abs/2605.08605) (Davis et al., 2026)
@@ -26,6 +27,7 @@
 - [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
 
 ### 2026.01
+- 📄 [Framework Act on Artificial Intelligence Development and Trust Base Creation](https://www.law.go.kr/LSW/eng/engLsSc.do?menuId=2&query=ARTIFICIAL+INTELLIGENCE) (South Korea, effective January 22, 2026)
 - [NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models](https://arxiv.org/abs/2602.13237) (Putra et al., 2026)
 - [Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646) (Shaw & Nave, 2026)
 
@@ -38,7 +40,8 @@
 - [H-Neurons: On the Existence, Impact, and Origin of Hallucination-Associated Neurons in LLMs](https://arxiv.org/abs/2512.01797) (Gao et al., Tsinghua, 2025)
 - [Recursive Language Models](https://arxiv.org/abs/2512.24601)
 - [mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880)
-- 📄 [New York State A6453A/S6953B: Training and Use of Artificial Intelligence Frontier Models](https://www.nysenate.gov/legislation/bills/2025/A6453/amendment/A) (Signed December 2025)
+- 📄 [Executive Order 14365: Ensuring a National Policy Framework for Artificial Intelligence](https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence) (US, signed December 11, 2025)
+- 📄 [New York S6953B/A6453B: Responsible AI Safety and Education (RAISE) Act](https://www.nysenate.gov/legislation/bills/2025/S6953) (New York, signed December 19, 2025; chapter amendment March 27, 2026; effective January 1, 2027)
 
 ### 2025.11
 - [SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space](https://arxiv.org/abs/2511.20102) (Shen et al., 2025)
@@ -46,6 +49,7 @@
 - [Embedded Universal Predictive Intelligence: a coherent framework for multi-agent learning](https://arxiv.org/pdf/2511.22226)
 - [Weight-sparse transformers have interpretable circuits](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) (OpenAI, Nov 13, 2025)
 - [Nested Learning: The Illusion of Deep Learning Architectures](https://abehrouz.github.io/files/NL.pdf) - NeurIPS 2025
+- 📄 [Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)](https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence) (Council of Europe, entered into force November 1, 2025)
 
 ### 2025.10
 - [Scaling Latent Reasoning via Looped Language Models](https://arxiv.org/abs/2510.25741) (Zhu et al., 2025)
@@ -55,6 +59,7 @@
 - [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378)
 - [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618)
 - [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/pdf/2510.04871)
+- 📄 [California SB 243: Companion Chatbots](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243) (California, signed October 13, 2025)
 
 ### 2025.09
 - [A Formal Comparison Between Chain of Thought and Latent Thought](https://arxiv.org/abs/2509.25239) (Xu et al., 2025)
@@ -62,6 +67,7 @@
 - [Federated Learning with Ad-hoc Adapter Insertions: The Case of Soft-Embeddings for Training Classifier-as-Retriever](https://arxiv.org/pdf/2509.16508)
 - [An AI system to help scientists write expert-level empirical software](https://arxiv.org/pdf/2509.06503)
 - [REFRAG: Rethinking RAG based Decoding](https://arxiv.org/pdf/2509.01092)
+- 📄 [California SB 53: Transparency in Frontier Artificial Intelligence Act](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53) (California, signed September 29, 2025)
 
 ### 2025.08
 - [Semantic IDs for Joint Generative Search and Recommendation](https://arxiv.org/abs/2508.10478)
@@ -70,6 +76,8 @@
 - [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334) (Mei et al., 2025)
 - [Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data](https://arxiv.org/pdf/2507.14805) (Cloud et al., 2025)
 - [AlphaGo Moment for Model Architecture Discovery](https://arxiv.org/pdf/2507.18074)
+- 📄 [Winning the AI Race: America's AI Action Plan](https://www.ai.gov/action-plan) (US, July 2025)
+- 📄 [General-Purpose AI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai) (European Commission, July 10, 2025)
 
 ### 2025.06
 - [Artificial Intelligent Disobedience: Rethinking the Agency of Our Artificial Teammates](https://arxiv.org/abs/2506.22276) (Mirsky, 2025)
@@ -77,6 +85,7 @@
 - [Hierarchical Reasoning Model](https://arxiv.org/pdf/2506.21734)
 - [Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153)
 - [Reinforcement Pre-Training](https://arxiv.org/abs/2506.08007)
+- 📄 [Texas HB 149: Responsible Artificial Intelligence Governance Act (TRAIGA)](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149) (Texas, signed June 22, 2025)
 
 ### 2025.05
 - [Why Diffusion Models Don't Memorize: The Role of Implicit Dynamical Regularization in Training](https://arxiv.org/pdf/2505.17638)
@@ -91,11 +100,15 @@
 
 ### 2025.03
 - [Large Language Models are Unreliable for Cyber Threat Intelligence](https://arxiv.org/abs/2503.23175)
+- 📄 [Measures for Labeling AI-Generated Synthetic Content](https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm) (Cyberspace Administration of China, published March 14, 2025; effective September 1, 2025)
 
 ### 2025.02
 - [Forget What You Know about LLMs Evaluations -- LLMs are Like a Chameleon](https://arxiv.org/pdf/2502.07445)
 - [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089)
 - [The Illusion of Thinking](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf)
+
+### 2025.01
+- 📄 [Executive Order 14179: Removing Barriers to American Leadership in Artificial Intelligence](https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence) (US, signed January 23, 2025 — revokes EO 14110)
 
 ## 2024
 
@@ -198,7 +211,7 @@
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
 
 ### 2022
-- [Scalable Oversight](https://www.anthropic.com/research/scalable-oversight) (Anthropic)
+- [Scalable Oversight](https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models) (Anthropic)
 - [Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) (Anthropic)
 
 ### 2022.05
@@ -361,7 +374,7 @@
 - 🔒 [Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err](https://psycnet.apa.org/record/2014-48748-001) (Dietvorst et al., 2015) - *Paywalled*
 
 ### 2015-CVPR
-- [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://openaccess.thecvf.com/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf)
+- [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf)
 
 ### 2015-Earlier
 - 🔒 [Deep Learning (Nature Review)](https://www.nature.com/articles/nature14539) - *Paywalled*
@@ -407,7 +420,7 @@
 
 ## 2009
 
-- 🔒 [A Bayesian Framework for Modeling Intuitive Dynamics](https://cocosci.berkeley.edu/tom/papers/collisions.pdf) - *May require institutional access*
+- [A Bayesian Framework for Modeling Intuitive Dynamics](https://cocosci.princeton.edu/tom/papers/collisions.pdf)
 
 ## 2004
 
