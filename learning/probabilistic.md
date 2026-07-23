@@ -10,7 +10,7 @@
 1. [A Probabilistic Programming Approach to Probabilistic Data Analysis](https://papers.nips.cc/paper/6060-a-probabilistic-programming-approach-to-probabilistic-data-analysis.pdf) (2016)
    - *Why*: **Automating statistical modeling** - demonstrates that probabilistic programs can express and automatically infer complex statistical models for data analysis tasks; replaces hand-derived inference algorithms with general-purpose probabilistic programming, making Bayesian data analysis accessible to non-experts
 
-2. [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://openaccess.thecvf.com/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf) (2015)
+2. [Picture: An Imperative Probabilistic Programming Language for Scene Perception](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf) (2015)
    - *Why*: Probabilistic programming for computer vision; demonstrates analysis-by-synthesis
 
 3. [Encapsulating Models and Approximate Inference Programs in Probabilistic Modules](https://arxiv.org/abs/1612.04759) (2016)
@@ -37,7 +37,7 @@
 1. [Approximate Bayesian Image Interpretation using Generative Probabilistic Graphics Programs](http://papers.nips.cc/paper/4881-approximate-bayesian-image-interpretation-using-generative-probabilistic-graphics-programs.pdf) (2013)
    - *Why*: **Inverse graphics as Bayesian inference** - treats scene understanding as inverting a graphics rendering pipeline: given an image, infer the 3D scene (objects, poses, lighting) that most likely produced it; uses probabilistic programming to express the generative model as a renderer and performs approximate posterior inference over scene parameters
 
-2. 🔒 [A Bayesian Framework for Modeling Intuitive Dynamics](https://cocosci.berkeley.edu/tom/papers/collisions.pdf) (2009)
+2. [A Bayesian Framework for Modeling Intuitive Dynamics](https://cocosci.princeton.edu/tom/papers/collisions.pdf) (2009)
    - *Why*: **Bayesian models of intuitive physics** - formalizes human physical intuition (predicting collisions, stability, trajectories) as approximate Bayesian inference over a mental physics simulator; explains systematic biases in human physical reasoning as rational under uncertainty; foundational for cognitive science approaches to physical reasoning in AI
    - *Note*: Institutional repository - may require access
 
