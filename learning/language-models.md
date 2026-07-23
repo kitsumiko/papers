@@ -73,7 +73,7 @@
 5. [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026)
    - *Why*: Shows that omitting prior assistant responses in multi-turn context often preserves quality while cutting context length; identifies context pollution and motivates selective context filtering.
 
-6. [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf) (Cheng et al., 2026)
+6. [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://arxiv.org/abs/2607.05147) (Cheng et al., 2026)
    - *Why*: **Load-aware speculative decoding** - couples a parallel drafter with a lightweight sequential module (semi-autoregressive) to add intra-block dependencies and slow acceptance decay, then confidence-schedules verification length per request; deployed in DeepSeek-V4 serving, it lifts per-user generation speed 60–85% at matched throughput.
 
 ---
