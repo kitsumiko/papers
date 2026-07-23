@@ -2,6 +2,9 @@
 
 ## 2026
 
+### 2026.07
+- [Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems](https://arxiv.org/abs/2607.14611) (Gadgil et al., 2026)
+
 ### 2026.06
 - [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf) (Cheng et al., 2026)
 
