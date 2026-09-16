@@ -4,6 +4,9 @@
 
 ## 2026
 
+### 2026.09
+- [Dream-RSI: Recursive Self-Improvement through Evolving Worlds](https://arxiv.org/abs/2609.14858) (Zheng et al., 2026) — [Advanced](learning/advanced.md)
+
 ### 2026.07
 - [Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems](https://arxiv.org/abs/2607.14611) (Gadgil et al., 2026) — [Safety & Security](learning/safety.md)
 - [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://arxiv.org/abs/2607.05147) (Cheng et al., 2026) — [Language Models](learning/language-models.md)
@@ -608,7 +611,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 286 papers
+**Total Papers in Learning Path**: 287 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)

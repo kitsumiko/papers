@@ -16,6 +16,9 @@
 3. [AlphaGo Moment for Model Architecture Discovery](https://arxiv.org/pdf/2507.18074) (2025)
    - *Why*: **RL-driven architecture search** - applies AlphaGo-style reinforcement learning to discover novel neural network architectures that outperform human-designed ones; finds non-obvious design choices (activation functions, connection patterns) that transfer across scales; signals a shift toward AI-designed AI systems
 
+4. [Dream-RSI: Recursive Self-Improvement through Evolving Worlds](https://arxiv.org/abs/2609.14858) (Zheng et al., 2026)
+   - *Why*: **Dreaming to improve exploration** - turns accumulated discovery history into a replay simulator, then refines the agent's exploration policy offline against that simulator instead of paying for repeated expensive online rollouts; the improved policy is redeployed to widen the simulator pool, closing a self-improving loop that cuts discovery cost across algorithm engineering, mathematical optimization, and GPU kernel work
+
 ## Specialized Applications
 **Goal**: Apply AI to specific domains
 
