@@ -197,6 +197,7 @@
 - [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/pdf/2308.08708v3.pdf) (2024) — [Advanced](learning/advanced.md)
 
 ### 2023.07
+- [RLCD: Reinforcement Learning from Contrastive Distillation for Language Model Alignment](https://arxiv.org/abs/2307.12950) (Yang et al., 2023) — [Safety & Security](learning/safety.md)
 - [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) (Liu et al., 2023) — [Retrieval & RAG](learning/retrieval.md)
 - [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) (Sun et al., 2023) — [Attention](learning/attention.md)
 - [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) (Dao, 2023) — [Attention](learning/attention.md)
@@ -611,7 +612,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 287 papers
+**Total Papers in Learning Path**: 288 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)
