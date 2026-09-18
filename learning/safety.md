@@ -28,6 +28,9 @@ As AI systems control increasingly important decisions—from content moderation
 5. [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674) (Inan et al., 2023)
    - *Why*: **Practical safety guardrail** - open-source safety classifier for LLM inputs and outputs; defines taxonomy of unsafe content categories; enables deployment of safety-filtered LLM applications
 
+6. [RLCD: Reinforcement Learning from Contrastive Distillation for Language Model Alignment](https://arxiv.org/abs/2307.12950) (Yang et al., 2023)
+   - *Why*: **Alignment without human labels** - builds preference pairs by sampling the same model under a positive prompt (follow the principle) and a negative prompt (violate it), yielding cleaner automatic labels than RLAIF or context distillation; a simple, reproducible recipe for principle-driven alignment at 7B and 30B scale
+
 ## Security Threats & Attacks
 **Goal**: Understand and defend against security vulnerabilities in AI systems
 
