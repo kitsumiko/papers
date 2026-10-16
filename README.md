@@ -2,7 +2,7 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of artificial intelligence and machine learning — from the field's origins to the current frontier.
 
-[![Papers](https://img.shields.io/badge/papers-289-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-318-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-15_areas-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-161_terms-purple.svg)](learning/glossary.md)
 
@@ -12,7 +12,7 @@
 
 ## 🎯 The Collection
 
-This repository is a reading curriculum: **289 carefully selected research papers and policy documents**, each with a short note on why it matters. There are three ways in:
+This repository is a reading curriculum: **318 carefully selected research papers and policy documents**, each with a short note on why it matters. There are three ways in:
 
 1. **📚 [Learn by area](learning-path.md)** - 15 topic areas from the field's historical roots to the current frontier, plus curated tracks by goal
 2. **📅 [Browse by date](by-date.md)** - Every paper on one chronological timeline (1936-2026)
@@ -53,10 +53,10 @@ Every paper lives in exactly one area page, with a short "why it matters" note. 
 | 👁️ **[Vision & Multimodal](learning/vision.md)** | 11 | Vision Transformers · Multimodal & Speech · Vision Interpretability |
 | ⚙️ **[Hardware & Systems](learning/hardware.md)** | 5 | Hardware Considerations |
 | 🧠 **[Human-AI Interaction](learning/human-ai-interaction.md)** | 11 | Trust, Reliance & Automation Bias · Cognitive Effects of AI · Human-AI Decision-Making |
-| 📜 **[Policy & Governance](learning/policy.md)** | 53 | Financial Services & Model Risk Management · Data Protection & Privacy Law · AI-Specific Legislation & Executive Action · Risk Management Frameworks & Standards · Sector-Specific AI Guidance · Dual-Use AI & National Security · Responsible AI & Industry Best Practices |
+| 📜 **[Policy & Governance](learning/policy.md)** | 82 | Financial Services & Model Risk Management · Data Protection & Privacy Law · AI-Specific Legislation & Executive Action · Risk Management Frameworks & Standards · Sector-Specific AI Guidance · Dual-Use AI & National Security · Responsible AI & Industry Best Practices · Governance Research |
 <!-- COVERAGE:END -->
 
-**Total**: 289 papers across 15 areas (including 53 policy documents & frameworks)
+**Total**: 318 papers across 15 areas (including 76 policy documents & frameworks)
 
 ---
 
