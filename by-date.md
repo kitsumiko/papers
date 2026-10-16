@@ -4,6 +4,9 @@
 
 ## 2026
 
+### 2026.10
+- [Hybrid Reasoning Agents](https://arxiv.org/abs/2610.18861) (Zou et al., 2026) — [Reasoning & Agents](learning/reasoning.md)
+
 ### 2026.09
 - [Dream-RSI: Recursive Self-Improvement through Evolving Worlds](https://arxiv.org/abs/2609.14858) (Zheng et al., 2026) — [Advanced](learning/advanced.md)
 
@@ -612,7 +615,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 288 papers
+**Total Papers in Learning Path**: 289 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)

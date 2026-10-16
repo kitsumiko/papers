@@ -82,6 +82,9 @@
 11. [AI agents can coordinate beyond human scale](https://arxiv.org/abs/2409.02822) (De Marzo et al., 2024)
     - *Why*: **Coordination limits of AI agent societies** - applies complexity-science methods to show LLM groups coordinate via a majority force that weakens with group size, yielding a critical group size beyond which spontaneous consensus fails; this threshold grows exponentially with model capability and exceeds typical human informal group sizes for frontier LLMs
 
+12. [Hybrid Reasoning Agents](https://arxiv.org/abs/2610.18861) (Zou et al., 2026)
+    - *Why*: **Agents that switch between latent and text reasoning** - HybridAgents move between latent reasoning and text-based tool interaction in a single generation, using a lightweight HybridLink module and continuous working memory, trained with HybridSFT and HybridRL to learn when to think latently and when to act in text; across 11 math, science, medicine, search, and agentic benchmarks they gain 10.4% on average over frontier agents while cutting tokens 35-55% and inference cost 2.7-3.7x
+
 ---
 
 **Related**: [Retrieval](retrieval.md) | [Architectures](architectures.md) | [Safety](safety.md)
