@@ -8,13 +8,32 @@
 - [Hybrid Reasoning Agents](https://arxiv.org/abs/2610.18861) (Zou et al., 2026) — [Reasoning & Agents](learning/reasoning.md)
 
 ### 2026.09
+- 📄 [Executive Order 14434: Inaugurating the Era of Super Intelligence](https://www.federalregister.gov/documents/2026/10/02/2026-20321/inaugurating-the-era-of-super-intelligence) (US, signed September 29, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [California SB 1119: Companion Chatbots — Children's Safety](https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/) (California, signed September 10, 2026) — [Policy & Governance](learning/policy.md)
+- [The Law of Stop: Interruptibility, Injunctions, and the Governance of Agentic AI](https://arxiv.org/abs/2609.22882) (Perez, 2026) — [Policy & Governance](learning/policy.md)
 - [Dream-RSI: Recursive Self-Improvement through Evolving Worlds](https://arxiv.org/abs/2609.14858) (Zheng et al., 2026) — [Advanced](learning/advanced.md)
 
+### 2026.08
+- 📄 [Considerations for the Regulation of Generative AI-Enabled Medical Devices: Discussion Paper](https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices) (FDA, August 18, 2026) — [Policy & Governance](learning/policy.md)
+- [The 2026 Singapore Consensus on Global AI Safety Research Priorities](https://arxiv.org/abs/2608.14611) (Casper et al., 2026) — [Policy & Governance](learning/policy.md)
+
 ### 2026.07
+- 📄 [Regulation (EU) 2026/1744: Digital Omnibus on AI](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) (EU, published July 24, 2026; in force July 27, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [Guidelines on Transparency Obligations for Providers and Deployers of AI Systems (Article 50)](https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems) (European Commission, July 20, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [Illinois SB 315: Artificial Intelligence Safety Measures Act (Public Act 104-0538)](https://www.ilga.gov/Legislation/BillStatus?DocNum=315&GAID=18&DocTypeID=SB&SessionID=114&GA=104) (Illinois, signed July 6, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [Preliminary Report of the Independent International Scientific Panel on AI](https://www.un.org/independent-international-scientific-panel-ai/en/preliminary-report) (United Nations, July 1, 2026) — [Policy & Governance](learning/policy.md)
+- [Open Problems in AI Incident Governance](https://arxiv.org/abs/2607.05163) (Sidhu et al., 2026) — [Policy & Governance](learning/policy.md)
+- [How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements](https://arxiv.org/abs/2607.22619) (Koopmanschap & Barten, 2026) — [Policy & Governance](learning/policy.md)
 - [Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems](https://arxiv.org/abs/2607.14611) (Gadgil et al., 2026) — [Safety & Security](learning/safety.md)
 - [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://arxiv.org/abs/2607.05147) (Cheng et al., 2026) — [Language Models](learning/language-models.md)
 
+### 2026.06
+- 📄 [Code of Practice on Marking and Labelling of AI-Generated Content](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content) (European Commission, June 10, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [Executive Order 14409: Promoting Advanced Artificial Intelligence Innovation and Security](https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security) (US, signed June 2, 2026) — [Policy & Governance](learning/policy.md)
+
 ### 2026.05
+- 📄 [Hiroshima AI Process Reporting Framework 2.0](https://oecd.ai/en/haip-2-launch) (OECD / G7, May 28, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [Connecticut SB 5: An Act Concerning Online Safety (Public Act 26-15)](https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&which_year=2026&bill_num=5) (Connecticut, signed May 27, 2026) — [Policy & Governance](learning/policy.md)
 - 📄 [Colorado SB 26-189: Automated Decision-Making Technology](https://leg.colorado.gov/bills/sb26-189) (Colorado, signed May 14, 2026 — repeals and replaces the 2024 Colorado AI Act) — [Policy & Governance](learning/policy.md)
 - [AI Agents May Always Fall for Prompt Injections](https://arxiv.org/abs/2605.17634) (Abdelnabi & Bagdasarian, 2026) — [Safety & Security](learning/safety.md)
 - [If LLMs Have Human-Like Attributes, Then So Does Age of Empires II](https://arxiv.org/abs/2605.31514) (de Wynter, 2026) — [Advanced](learning/advanced.md)
@@ -22,6 +41,9 @@
 - [Lattice Deduction Transformers](https://arxiv.org/abs/2605.08605) (Davis et al., 2026) — [Architectures](learning/architectures.md)
 
 ### 2026.04
+- 📄 [Google DeepMind Frontier Safety Framework, Version 3.1](https://deepmind.google/frontier-safety/) (Google DeepMind, April 17, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [Interim Measures for the Administration of Anthropomorphic AI Interactive Services](https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm) (Cyberspace Administration of China et al., issued April 10, 2026; effective July 15, 2026) — [Policy & Governance](learning/policy.md)
+- [AI Identity: Standards, Gaps, and Research Directions for AI Agents](https://arxiv.org/abs/2604.23280) (Otsuka et al., 2026) — [Policy & Governance](learning/policy.md)
 - [MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU](https://arxiv.org/abs/2604.05091) (Yuan et al., 2026) — [Language Models](learning/language-models.md)
 - [Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain](https://arxiv.org/abs/2604.08407) (Liu et al., 2026) — [Safety & Security](learning/safety.md)
 - [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/abs/2604.01193) (Zhang et al., 2026) — [Reasoning & Agents](learning/reasoning.md)
@@ -32,17 +54,23 @@
 - [Farther the Shift, Sparser the Representation: Analyzing OOD Mechanisms in LLMs](https://arxiv.org/abs/2603.03415) (Jin et al., 2026) — [Interpretability](learning/interpretability.md)
 
 ### 2026.02
+- 📄 [Anthropic Responsible Scaling Policy, Version 3](https://www.anthropic.com/rsp-updates) (Anthropic, v3.0 effective February 24, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [International AI Safety Report 2026](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026) (Bengio et al., February 3, 2026) — [Policy & Governance](learning/policy.md)
 - [Agents of Chaos](https://arxiv.org/abs/2602.20021) (Shapira et al., 2026) — [Safety & Security](learning/safety.md)
 - [Do LLMs Benefit From Their Own Words?](https://arxiv.org/abs/2602.24287) (Huang et al., 2026) — [Language Models](learning/language-models.md)
 - [NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models](https://arxiv.org/abs/2602.13237) (Putra et al., 2026) — [Reasoning & Agents](learning/reasoning.md)
 
 ### 2026.01
-- 📄 [Framework Act on Artificial Intelligence Development and Trust Base Creation](https://www.law.go.kr/LSW/eng/engLsSc.do?menuId=2&query=ARTIFICIAL+INTELLIGENCE) (South Korea, effective January 22, 2026) — [Policy & Governance](learning/policy.md)
+- [Frontier AI Auditing: Toward Rigorous Third-Party Assessment of Safety and Security Practices at Leading AI Companies](https://arxiv.org/abs/2601.11699) (Brundage et al., 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [Framework Act on Artificial Intelligence Development and Trust Base Creation](https://www.korea.kr/news/policyNewsView.do?newsId=148958380) (South Korea, effective January 22, 2026) — [Policy & Governance](learning/policy.md)
 - [Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646) (Shaw & Nave, 2026) — [Human-AI Interaction](learning/human-ai-interaction.md)
 
 ## 2025
 
 ### 2025.12
+- 📄 [OMB M-26-04: Increasing Public Trust in Artificial Intelligence Through Unbiased AI Principles](https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles-1.pdf) (Office of Management and Budget, December 11, 2025) — [Policy & Governance](learning/policy.md)
+- 📄 [Law on Artificial Intelligence No. 134/2025/QH15](https://vanban.chinhphu.vn/?pageid=27160&docid=216334&classid=1&typegroupid=3) (Vietnam, adopted December 10, 2025; in force March 1, 2026) — [Policy & Governance](learning/policy.md)
+- 📄 [OWASP Top 10 for Agentic Applications for 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) (OWASP GenAI Security Project, December 9, 2025) — [Policy & Governance](learning/policy.md)
 - 📄 [Executive Order 14365: Ensuring a National Policy Framework for Artificial Intelligence](https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence) (US, signed December 11, 2025) — [Policy & Governance](learning/policy.md)
 - 📄 [New York S6953B/A6453B: Responsible AI Safety and Education (RAISE) Act](https://www.nysenate.gov/legislation/bills/2025/S6953) (New York, signed December 19, 2025; chapter amendment March 27, 2026; effective January 1, 2027) — [Policy & Governance](learning/policy.md)
 - [Learning to Orchestrate Agents in Natural Language with the Conductor](https://arxiv.org/abs/2512.04388) (Nielsen et al., 2025) — [Reasoning & Agents](learning/reasoning.md)
@@ -53,14 +81,15 @@
 - [mHC: Manifold-Constrained Hyper-Connections](https://arxiv.org/abs/2512.24880) (Xie et al., 2025) — [Architectures](learning/architectures.md)
 
 ### 2025.11
+- 📄 [Law of the Republic of Kazakhstan on Artificial Intelligence (No. 230-VIII)](https://www.akorda.kz/ru/glavoy-gosudarstva-podpisan-zakon-respubliki-kazahstan-ob-iskusstvennom-intellekte-17105536) (Kazakhstan, signed November 17, 2025) — [Policy & Governance](learning/policy.md)
 - [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0) (Lee et al., 2025) — [Safety & Security](learning/safety.md)
 - [Weight-sparse transformers have interpretable circuits](https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf) (OpenAI, Nov 13, 2025) — [Interpretability](learning/interpretability.md)
 - [Nested Learning: The Illusion of Deep Learning Architectures](https://abehrouz.github.io/files/NL.pdf) (Behrouz et al., NeurIPS 2025) — [Architectures](learning/architectures.md)
-- 📄 [Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)](https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence) (Council of Europe, entered into force November 1, 2025) — [Policy & Governance](learning/policy.md)
 - [SSA: Sparse Sparse Attention by Aligning Full and Sparse Attention Outputs in Feature Space](https://arxiv.org/abs/2511.20102) (Shen et al., 2025) — [Attention](learning/attention.md)
 - [Embedded Universal Predictive Intelligence: a coherent framework for multi-agent learning](https://arxiv.org/pdf/2511.22226) (Meulemans et al., 2025) — [Reasoning & Agents](learning/reasoning.md)
 
 ### 2025.10
+- 📄 [Cybersecurity Law of the PRC, 2025 Amendment (new Article 20 on AI)](https://www.gov.cn/yaowen/liebiao/202510/content_7046194.htm) (NPC Standing Committee, adopted October 28, 2025; in force January 1, 2026) — [Policy & Governance](learning/policy.md)
 - 📄 [California SB 243: Companion Chatbots](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243) (California, signed October 13, 2025) — [Policy & Governance](learning/policy.md)
 - [Scaling Latent Reasoning via Looped Language Models](https://arxiv.org/abs/2510.25741) (Zhu et al., 2025) — [Reasoning & Agents](learning/reasoning.md)
 - [Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](https://arxiv.org/abs/2510.22620) (Bazinska et al., 2025) — [Safety & Security](learning/safety.md)
@@ -71,6 +100,7 @@
 - [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/pdf/2510.04871) (2025) — [Reasoning & Agents](learning/reasoning.md)
 
 ### 2025.09
+- 📄 [Law No. 132 of 23 September 2025: Provisions and Delegations on Artificial Intelligence](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-09-23;132) (Italy, September 23, 2025) — [Policy & Governance](learning/policy.md)
 - 📄 [California SB 53: Transparency in Frontier Artificial Intelligence Act](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53) (California, signed September 29, 2025) — [Policy & Governance](learning/policy.md)
 - [A Formal Comparison Between Chain of Thought and Latent Thought](https://arxiv.org/abs/2509.25239) (Xu et al., 2025) — [Reasoning & Agents](learning/reasoning.md)
 - [Learning in Stackelberg Mean Field Games: A Non-Asymptotic Analysis](https://arxiv.org/pdf/2509.15392) (Zeng et al., 2025) — [Reasoning & Agents](learning/reasoning.md)
@@ -82,6 +112,7 @@
 - [Semantic IDs for Joint Generative Search and Recommendation](https://arxiv.org/abs/2508.10478) (2025) — [Retrieval & RAG](learning/retrieval.md)
 
 ### 2025.07
+- 📄 [ISO/IEC 42006: Requirements for Bodies Providing Audit and Certification of AI Management Systems](https://www.iso.org/standard/42006) (ISO/IEC, July 2025) — [Policy & Governance](learning/policy.md)
 - 📄 [Winning the AI Race: America's AI Action Plan](https://www.ai.gov/action-plan) (US, July 2025) — [Policy & Governance](learning/policy.md)
 - 📄 [General-Purpose AI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai) (European Commission, July 10, 2025) — [Policy & Governance](learning/policy.md)
 - [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334) (Mei et al., 2025) — [Retrieval & RAG](learning/retrieval.md)
@@ -89,6 +120,7 @@
 - [AlphaGo Moment for Model Architecture Discovery](https://arxiv.org/pdf/2507.18074) (2025) — [Advanced](learning/advanced.md)
 
 ### 2025.06
+- 📄 [Act on the Promotion of Research, Development and Utilization of AI-Related Technologies (Act No. 53 of 2025) and AI Basic Plan](https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html) (Japan, promulgated June 4, 2025) — [Policy & Governance](learning/policy.md)
 - 📄 [Texas HB 149: Responsible Artificial Intelligence Governance Act (TRAIGA)](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149) (Texas, signed June 22, 2025) — [Policy & Governance](learning/policy.md)
 - [Artificial Intelligent Disobedience: Rethinking the Agency of Our Artificial Teammates](https://arxiv.org/abs/2506.22276) (Mirsky, 2025) — [Reasoning & Agents](learning/reasoning.md)
 - [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872) (Kosmyna et al., 2025) — [Human-AI Interaction](learning/human-ai-interaction.md)
@@ -138,6 +170,7 @@
 - [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/abs/2410.07095) (2024) — [Interpretability](learning/interpretability.md)
 
 ### 2024.09
+- 📄 [Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)](https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence) (Council of Europe, opened for signature September 5, 2024; not yet in force) — [Policy & Governance](learning/policy.md)
 - [AI agents can coordinate beyond human scale](https://arxiv.org/abs/2409.02822) (De Marzo et al., 2024) — [Reasoning & Agents](learning/reasoning.md)
 - [Accelerating Training With Neuron Interaction And Nowcasting Networks](https://arxiv.org/pdf/2409.04434) (2024) — [Architectures](learning/architectures.md)
 - [Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model](https://arxiv.org/pdf/2409.15254) (2024) — [Architectures](learning/architectures.md)
@@ -615,7 +648,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 289 papers
+**Total Papers in Learning Path**: 318 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)
