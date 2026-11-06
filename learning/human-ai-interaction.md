@@ -20,6 +20,9 @@
 4. 🔒 [Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err](https://psycnet.apa.org/record/2014-48748-001) (Dietvorst et al., 2015)
    - *Why*: Demonstrates the paradox where people reject statistically superior algorithms after observing single errors while tolerating worse human forecasters; the flip side of automation bias
 
+5. [Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf) (Herdağdelen et al., 2026)
+   - *Why*: A randomized trial where 50 causal-inference practitioners worked with an AI coding agent secretly assigned a coin-flip lean on each judgment call; their choices matched the lean 86% of the time (50% by chance), yet only 15% mentioned the agent when justifying them. It shows deference moving to decisions with no ground truth, where it is invisible in the delivered work and in experts' own accounts.
+
 ## Cognitive Effects of AI
 **Goal**: Understand how AI reshapes human thinking, memory, and reasoning
 
