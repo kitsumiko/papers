@@ -46,6 +46,9 @@
 13. [Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach](https://arxiv.org/abs/2502.05171) (Geiping et al., 2025)
     - *Why*: **Test-time depth instead of test-time tokens** - iterates a recurrent block to unroll a model to arbitrary depth at inference, so reasoning happens in latent space rather than as emitted chain-of-thought; needs no specialized reasoning data and works with small context windows, and a 3.5B proof-of-concept trained on 800B tokens reaches benchmark performance equivalent to a ~50B-parameter compute load.
 
+14. [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409) (Yang et al., 2023)
+    - *Why*: Introduces OPRO (Optimization by PROmpting), in which an LLM proposes new solutions from a prompt listing past solutions and their scores, so the model acts as a gradient-free optimizer driven by natural language. Applied to prompt search, it finds instructions that beat human-written prompts by up to 8% on GSM8K and up to 50% on Big-Bench Hard, and it is the source of the well-known "Take a deep breath and work on this problem step-by-step" prompt.
+
 ## Agentic Systems
 **Goal**: Create autonomous AI agents
 

@@ -227,6 +227,7 @@
 - [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674) (Inan et al., 2023) — [Safety & Security](learning/safety.md)
 
 ### 2023.09
+- [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409) (Yang et al., 2023) — [Reasoning & Agents](learning/reasoning.md)
 - [GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253) (Yu et al., 2023) — [Safety & Security](learning/safety.md)
 - [Efficient streaming language models with attention sinks](https://arxiv.org/pdf/2309.17453.pdf) (2023) — [Attention](learning/attention.md)
 
@@ -649,7 +650,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 319 papers
+**Total Papers in Learning Path**: 320 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)
