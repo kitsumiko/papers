@@ -5,6 +5,7 @@
 ## 2026
 
 ### 2026.10
+- [Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf) (Herdağdelen et al., 2026) — [Human-AI Interaction](learning/human-ai-interaction.md)
 - [Hybrid Reasoning Agents](https://arxiv.org/abs/2610.18861) (Zou et al., 2026) — [Reasoning & Agents](learning/reasoning.md)
 
 ### 2026.09
@@ -648,7 +649,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 318 papers
+**Total Papers in Learning Path**: 319 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)
