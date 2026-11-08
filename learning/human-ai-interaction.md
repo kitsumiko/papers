@@ -23,6 +23,9 @@
 5. [Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf) (Herdağdelen et al., 2026)
    - *Why*: A randomized trial where 50 causal-inference practitioners worked with an AI coding agent secretly assigned a coin-flip lean on each judgment call; their choices matched the lean 86% of the time (50% by chance), yet only 15% mentioned the agent when justifying them. It shows deference moving to decisions with no ground truth, where it is invisible in the delivered work and in experts' own accounts.
 
+6. [LLMs Corrupt Your Documents When You Delegate](https://arxiv.org/abs/2604.15597) (Laban et al., 2026)
+   - *Why*: DELEGATE-52 simulates long delegated editing workflows across 52 professional domains; across 19 LLMs, even frontier models (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4) silently corrupt about 25% of document content by the end, and agentic tool use does not help. It quantifies why delegation-level trust is not yet warranted: errors are sparse but severe and compound over long interactions.
+
 ## Cognitive Effects of AI
 **Goal**: Understand how AI reshapes human thinking, memory, and reasoning
 
