@@ -42,6 +42,7 @@
 - [Lattice Deduction Transformers](https://arxiv.org/abs/2605.08605) (Davis et al., 2026) — [Architectures](learning/architectures.md)
 
 ### 2026.04
+- [LLMs Corrupt Your Documents When You Delegate](https://arxiv.org/abs/2604.15597) (Laban et al., 2026) — [Human-AI Interaction](learning/human-ai-interaction.md)
 - 📄 [Google DeepMind Frontier Safety Framework, Version 3.1](https://deepmind.google/frontier-safety/) (Google DeepMind, April 17, 2026) — [Policy & Governance](learning/policy.md)
 - 📄 [Interim Measures for the Administration of Anthropomorphic AI Interactive Services](https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm) (Cyberspace Administration of China et al., issued April 10, 2026; effective July 15, 2026) — [Policy & Governance](learning/policy.md)
 - [AI Identity: Standards, Gaps, and Research Directions for AI Agents](https://arxiv.org/abs/2604.23280) (Otsuka et al., 2026) — [Policy & Governance](learning/policy.md)
@@ -650,7 +651,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 320 papers
+**Total Papers in Learning Path**: 321 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)
