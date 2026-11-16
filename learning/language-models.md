@@ -49,10 +49,7 @@
 4. [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021)
    - *Why*: **3D parallelism at trillion scale** - combines tensor, pipeline, and data parallelism into a unified framework; analyzes interaction effects between parallelism strategies on communication overhead and memory; achieves 52% compute efficiency training a 1T-parameter model across thousands of GPUs
 
-5. [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378) (2025)
-   - *Why*: **Second-order methods revisited for LLMs** - makes full Gauss-Newton optimization tractable at LLM scale through careful implementation; shows curvature-aware updates converge in fewer steps than Adam on language modeling tasks; quantifies the gap between first- and second-order methods to motivate future optimizer research
-
-6. [MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU](https://arxiv.org/abs/2604.05091) (Yuan et al., 2026)
+5. [MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU](https://arxiv.org/abs/2604.05091) (Yuan et al., 2026)
    - *Why*: Stores parameters and optimizer states in host memory and treats the GPU as a transient compute engine, using pipelined double-buffered execution across CUDA streams and stateless layer templates in place of a persistent autograd graph; trains up to 120B parameters full precision on a single H200 and achieves 1.84× the throughput of DeepSpeed ZeRO-3 with CPU offloading at 14B.
 
 ## Memory & Efficiency Optimizations

@@ -59,7 +59,7 @@ The repo validates itself — all machinery lives in the repo, nothing external:
 
 ### Area Fit
 
-The 15 areas (names match each file's title):
+The 16 areas (names match each file's title):
 
 | Area file | Canonical name | Example papers |
 |-----------|----------------|----------------|
@@ -70,6 +70,7 @@ The 15 areas (names match each file's title):
 | `learning/retrieval.md` | Retrieval & Knowledge Systems | RAG, Dense Passage Retrieval |
 | `learning/reasoning.md` | Reasoning & Agents | ReAct, RLHF, PPO |
 | `learning/architectures.md` | Novel Architectures & Theory | Mamba, KAN, Neural Turing Machines |
+| `learning/optimization.md` | Optimization & Energy-Based Methods | Gauss-Newton, CRAM, OPRO |
 | `learning/interpretability.md` | Interpretability & Evaluation | LIME, Integrated Gradients |
 | `learning/safety.md` | Security, Safety & Robustness | Prompt injection, red teaming, alignment |
 | `learning/advanced.md` | Advanced Topics & Applications | AI Scientist, TabPFN |
