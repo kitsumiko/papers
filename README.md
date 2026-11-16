@@ -38,23 +38,23 @@ All tracks, reading-order suggestions, and study tips live in **[learning-path.m
 Every paper lives in exactly one area page, with a short "why it matters" note. Areas are listed in curriculum order:
 
 | Area | Papers | What's inside |
-|------|--------|---------------|
-| 🏺 **[Classics](learning/classics.md)** | 29 | Computation & the First Neurons · Perceptrons & the First Winter · Backprop's Prehistory & Associative Memory · Attractors & Self-Organization · The Connectionist Revival · Limits, Winter, and the Way Out · Guides & Retrospectives |
-| 🏗️ **[Foundations](learning/foundations.md)** | 25 | Deep Learning Basics · Word Embeddings & Representations · Sequence Models · Generative Models · Tokenization & Subword Models |
-| 🤖 **[Language Models](learning/language-models.md)** | 20 | LLM Foundations · Training at Scale · Memory & Efficiency Optimizations |
-| ⚡ **[Attention](learning/attention.md)** | 11 | Efficient Attention · Long Context & Compression |
-| 🔍 **[Retrieval & RAG](learning/retrieval.md)** | 11 | Retrieval-Augmented Generation (RAG) · Federated & Distributed Learning |
-| 🧠 **[Reasoning & Agents](learning/reasoning.md)** | 25 | Teaching Models to Reason · Agentic Systems |
-| 🏛️ **[Architectures](learning/architectures.md)** | 18 | Alternative Architectures · Theoretical Foundations |
-| 📉 **[Optimization](learning/optimization.md)** | 5 | Training Dynamics & Optimizers · Energy-Based Models & Optimization as Inference · Learned & LLM-Driven Optimization |
-| 🔬 **[Interpretability](learning/interpretability.md)** | 16 | Understanding Model Behavior · Model Evaluation & Robustness |
-| 🛡️ **[Safety & Security](learning/safety.md)** | 37 | AI Alignment & Safety Training · Security Threats & Attacks · Safety Evaluation & Red Teaming · Bias, Fairness & Robustness · Harmful Content & Misinformation · Long-term Safety Research |
-| 🎯 **[Advanced](learning/advanced.md)** | 9 | Automated AI Research · Specialized Applications · Consciousness & AGI |
-| 🎲 **[Probabilistic](learning/probabilistic.md)** | 9 | Probabilistic Programming · Diffusion Models · Generative Models for Vision |
-| 👁️ **[Vision & Multimodal](learning/vision.md)** | 11 | Vision Transformers · Multimodal & Speech · Vision Interpretability |
-| ⚙️ **[Hardware & Systems](learning/hardware.md)** | 4 | Hardware Considerations |
-| 🧠 **[Human-AI Interaction](learning/human-ai-interaction.md)** | 13 | Trust, Reliance & Automation Bias · Cognitive Effects of AI · Human-AI Decision-Making |
-| 📜 **[Policy & Governance](learning/policy.md)** | 82 | Financial Services & Model Risk Management · Data Protection & Privacy Law · AI-Specific Legislation & Executive Action · Risk Management Frameworks & Standards · Sector-Specific AI Guidance · Dual-Use AI & National Security · Responsible AI & Industry Best Practices · Governance Research |
+|------|:------:|---------------|
+| 🏺&nbsp;**[Classics](learning/classics.md)** | 29 | Computation&nbsp;&&nbsp;the&nbsp;First&nbsp;Neurons · Perceptrons&nbsp;&&nbsp;the&nbsp;First&nbsp;Winter · Backprop's&nbsp;Prehistory&nbsp;&&nbsp;Associative&nbsp;Memory · Attractors&nbsp;&&nbsp;Self&#8209;Organization · The&nbsp;Connectionist&nbsp;Revival · Limits,&nbsp;Winter,&nbsp;and&nbsp;the&nbsp;Way&nbsp;Out · Guides&nbsp;&&nbsp;Retrospectives |
+| 🏗️&nbsp;**[Foundations](learning/foundations.md)** | 25 | Deep&nbsp;Learning&nbsp;Basics · Word&nbsp;Embeddings&nbsp;&&nbsp;Representations · Sequence&nbsp;Models · Generative&nbsp;Models · Tokenization&nbsp;&&nbsp;Subword&nbsp;Models |
+| 🤖&nbsp;**[Language&nbsp;Models](learning/language-models.md)** | 20 | LLM&nbsp;Foundations · Training&nbsp;at&nbsp;Scale · Memory&nbsp;&&nbsp;Efficiency&nbsp;Optimizations |
+| ⚡&nbsp;**[Attention](learning/attention.md)** | 11 | Efficient&nbsp;Attention · Long&nbsp;Context&nbsp;&&nbsp;Compression |
+| 🔍&nbsp;**[Retrieval&nbsp;&&nbsp;RAG](learning/retrieval.md)** | 11 | Retrieval&#8209;Augmented&nbsp;Generation&nbsp;(RAG) · Federated&nbsp;&&nbsp;Distributed&nbsp;Learning |
+| 🧠&nbsp;**[Reasoning&nbsp;&&nbsp;Agents](learning/reasoning.md)** | 25 | Teaching&nbsp;Models&nbsp;to&nbsp;Reason · Agentic&nbsp;Systems |
+| 🏛️&nbsp;**[Architectures](learning/architectures.md)** | 18 | Alternative&nbsp;Architectures · Theoretical&nbsp;Foundations |
+| 📉&nbsp;**[Optimization](learning/optimization.md)** | 5 | Training&nbsp;Dynamics&nbsp;&&nbsp;Optimizers · Energy&#8209;Based&nbsp;Models&nbsp;&&nbsp;Optimization&nbsp;as&nbsp;Inference · Learned&nbsp;&&nbsp;LLM&#8209;Driven&nbsp;Optimization |
+| 🔬&nbsp;**[Interpretability](learning/interpretability.md)** | 16 | Understanding&nbsp;Model&nbsp;Behavior · Model&nbsp;Evaluation&nbsp;&&nbsp;Robustness |
+| 🛡️&nbsp;**[Safety&nbsp;&&nbsp;Security](learning/safety.md)** | 37 | AI&nbsp;Alignment&nbsp;&&nbsp;Safety&nbsp;Training · Security&nbsp;Threats&nbsp;&&nbsp;Attacks · Safety&nbsp;Evaluation&nbsp;&&nbsp;Red&nbsp;Teaming · Bias,&nbsp;Fairness&nbsp;&&nbsp;Robustness · Harmful&nbsp;Content&nbsp;&&nbsp;Misinformation · Long&#8209;term&nbsp;Safety&nbsp;Research |
+| 🎯&nbsp;**[Advanced](learning/advanced.md)** | 9 | Automated&nbsp;AI&nbsp;Research · Specialized&nbsp;Applications · Consciousness&nbsp;&&nbsp;AGI |
+| 🎲&nbsp;**[Probabilistic](learning/probabilistic.md)** | 9 | Probabilistic&nbsp;Programming · Diffusion&nbsp;Models · Generative&nbsp;Models&nbsp;for&nbsp;Vision |
+| 👁️&nbsp;**[Vision&nbsp;&&nbsp;Multimodal](learning/vision.md)** | 11 | Vision&nbsp;Transformers · Multimodal&nbsp;&&nbsp;Speech · Vision&nbsp;Interpretability |
+| ⚙️&nbsp;**[Hardware&nbsp;&&nbsp;Systems](learning/hardware.md)** | 4 | Hardware&nbsp;Considerations |
+| 🧠&nbsp;**[Human&#8209;AI&nbsp;Interaction](learning/human-ai-interaction.md)** | 13 | Trust,&nbsp;Reliance&nbsp;&&nbsp;Automation&nbsp;Bias · Cognitive&nbsp;Effects&nbsp;of&nbsp;AI · Human&#8209;AI&nbsp;Decision&#8209;Making |
+| 📜&nbsp;**[Policy&nbsp;&&nbsp;Governance](learning/policy.md)** | 82 | Financial&nbsp;Services&nbsp;&&nbsp;Model&nbsp;Risk&nbsp;Management · Data&nbsp;Protection&nbsp;&&nbsp;Privacy&nbsp;Law · AI&#8209;Specific&nbsp;Legislation&nbsp;&&nbsp;Executive&nbsp;Action · Risk&nbsp;Management&nbsp;Frameworks&nbsp;&&nbsp;Standards · Sector&#8209;Specific&nbsp;AI&nbsp;Guidance · Dual&#8209;Use&nbsp;AI&nbsp;&&nbsp;National&nbsp;Security · Responsible&nbsp;AI&nbsp;&&nbsp;Industry&nbsp;Best&nbsp;Practices · Governance&nbsp;Research |
 <!-- COVERAGE:END -->
 
 **Total**: 322 papers across 16 areas (including 76 policy documents & frameworks)

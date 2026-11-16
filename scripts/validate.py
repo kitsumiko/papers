@@ -647,15 +647,22 @@ def generate_coverage(repo):
         'Every paper lives in exactly one area page, with a short "why it matters" note. Areas are listed in curriculum order:',
         "",
         "| Area | Papers | What's inside |",
-        "|------|--------|---------------|",
+        "|------|:------:|---------------|",
     ]
+
+    def nowrap(text):
+        # Keep a phrase on one line in GitHub's table renderer: non-breaking
+        # spaces, and non-breaking hyphens (U+2011) so "Human-AI" can't split.
+        return text.replace(" ", "&nbsp;").replace("-", "&#8209;")
+
     for stem, emoji, label in AREAS:
         if stem not in repo.topics:
             continue
         sections = [sec["name"] for sec in repo.topics[stem] if sec["entries"]]
         count = sum(len(sec["entries"]) for sec in repo.topics[stem])
-        names = " · ".join(sections)
-        out.append(f"| {emoji} **[{label}](learning/{stem}.md)** | {count} | {names} |")
+        # Lines may break only between sections, never inside a section name.
+        names = " · ".join(nowrap(s) for s in sections)
+        out.append(f"| {emoji}&nbsp;**[{nowrap(label)}](learning/{stem}.md)** | {count} | {names} |")
     return out
 
 
