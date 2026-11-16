@@ -4,6 +4,9 @@
 
 ## 2026
 
+### 2026.11
+- [Classical Energies Learn to Reason 1,000x Faster than Looped Models](https://arxiv.org/abs/2611.17309) (Hoover et al., 2026) — [Optimization](learning/optimization.md)
+
 ### 2026.10
 - [Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf) (Herdağdelen et al., 2026) — [Human-AI Interaction](learning/human-ai-interaction.md)
 - [Hybrid Reasoning Agents](https://arxiv.org/abs/2610.18861) (Zou et al., 2026) — [Reasoning & Agents](learning/reasoning.md)
@@ -51,7 +54,7 @@
 - [Embarrassingly Simple Self-Distillation Improves Code Generation](https://arxiv.org/abs/2604.01193) (Zhang et al., 2026) — [Reasoning & Agents](learning/reasoning.md)
 
 ### 2026.03
-- [cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization](https://arxiv.org/abs/2603.19163) (Liu, 2026) — [Hardware & Systems](learning/hardware.md)
+- [cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization](https://arxiv.org/abs/2603.19163) (Liu, 2026) — [Optimization](learning/optimization.md)
 - [LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](https://arxiv.org/abs/2603.19312) (Maes et al., 2026) — [Architectures](learning/architectures.md)
 - [Farther the Shift, Sparser the Representation: Analyzing OOD Mechanisms in LLMs](https://arxiv.org/abs/2603.03415) (Jin et al., 2026) — [Interpretability](learning/interpretability.md)
 
@@ -97,7 +100,7 @@
 - [Breaking Agent Backbones: Evaluating the Security of Backbone LLMs in AI Agents](https://arxiv.org/abs/2510.22620) (Bazinska et al., 2025) — [Safety & Security](learning/safety.md)
 - [DeepSeek-OCR: Contexts Optical Compression](https://arxiv.org/pdf/2510.18234) (2025) — [Attention](learning/attention.md)
 - [A2AS: Agentic AI Runtime Security and Self-Defense](https://arxiv.org/pdf/2510.13825) (2025) — [Safety & Security](learning/safety.md)
-- [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378) (2025) — [Language Models](learning/language-models.md)
+- [The Potential of Second-Order Optimization for LLMs: A Study with Full Gauss-Newton](https://arxiv.org/pdf/2510.09378) (2025) — [Optimization](learning/optimization.md)
 - [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618) (2025) — [Attention](learning/attention.md)
 - [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/pdf/2510.04871) (2025) — [Reasoning & Agents](learning/reasoning.md)
 
@@ -174,7 +177,7 @@
 ### 2024.09
 - 📄 [Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)](https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence) (Council of Europe, opened for signature September 5, 2024; not yet in force) — [Policy & Governance](learning/policy.md)
 - [AI agents can coordinate beyond human scale](https://arxiv.org/abs/2409.02822) (De Marzo et al., 2024) — [Reasoning & Agents](learning/reasoning.md)
-- [Accelerating Training With Neuron Interaction And Nowcasting Networks](https://arxiv.org/pdf/2409.04434) (2024) — [Architectures](learning/architectures.md)
+- [Accelerating Training With Neuron Interaction And Nowcasting Networks](https://arxiv.org/pdf/2409.04434) (2024) — [Optimization](learning/optimization.md)
 - [Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model](https://arxiv.org/pdf/2409.15254) (2024) — [Architectures](learning/architectures.md)
 - [EuroLLM: Multilingual Language Models for Europe](https://arxiv.org/pdf/2409.11741) (2024) — [Language Models](learning/language-models.md)
 
@@ -228,7 +231,7 @@
 - [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674) (Inan et al., 2023) — [Safety & Security](learning/safety.md)
 
 ### 2023.09
-- [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409) (Yang et al., 2023) — [Reasoning & Agents](learning/reasoning.md)
+- [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409) (Yang et al., 2023) — [Optimization](learning/optimization.md)
 - [GPTFuzzer: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253) (Yu et al., 2023) — [Safety & Security](learning/safety.md)
 - [Efficient streaming language models with attention sinks](https://arxiv.org/pdf/2309.17453.pdf) (2023) — [Attention](learning/attention.md)
 
@@ -651,7 +654,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 321 papers
+**Total Papers in Learning Path**: 322 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)

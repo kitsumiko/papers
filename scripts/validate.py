@@ -48,6 +48,7 @@ AREAS = [
     ("retrieval", "🔍", "Retrieval & RAG"),
     ("reasoning", "🧠", "Reasoning & Agents"),
     ("architectures", "🏛️", "Architectures"),
+    ("optimization", "📉", "Optimization"),
     ("interpretability", "🔬", "Interpretability"),
     ("safety", "🛡️", "Safety & Security"),
     ("advanced", "🎯", "Advanced"),

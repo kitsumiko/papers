@@ -56,6 +56,11 @@ You can **follow a track** for a guided path, **jump to specific areas** based o
   - Alternative Architectures (RWKV, KAN)
   - Theoretical Foundations (Neural Tangent Kernel)
 
+- **[Optimization & Energy-Based Methods](learning/optimization.md)**
+  - Training Dynamics & Optimizers (Gauss-Newton, NiNo)
+  - Energy-Based Models & Optimization as Inference (CRAM)
+  - Learned & LLM-Driven Optimization (OPRO, cuGenOpt)
+
 - **[Interpretability & Evaluation](learning/interpretability.md)**
   - Understanding Model Behavior
   - Model Evaluation & Robustness (TruthfulQA)
@@ -110,7 +115,7 @@ You can **follow a track** for a guided path, **jump to specific areas** based o
 Tracks suggest an order across areas for different goals. Pick one that fits your role or goal, then follow the listed areas in sequence (or skip around as needed).
 
 ### Comprehensive Track
-Full curriculum in a logical order: [Classics](learning/classics.md) → [Foundations](learning/foundations.md) → [Language Models](learning/language-models.md) → [Attention](learning/attention.md) → [Retrieval](learning/retrieval.md) → [Reasoning](learning/reasoning.md) → [Architectures](learning/architectures.md) → [Interpretability](learning/interpretability.md) → [Safety](learning/safety.md) → [Advanced](learning/advanced.md) → [Probabilistic](learning/probabilistic.md) → [Vision](learning/vision.md) → [Hardware](learning/hardware.md) → [Human-AI Interaction](learning/human-ai-interaction.md) → [Policy](learning/policy.md).
+Full curriculum in a logical order: [Classics](learning/classics.md) → [Foundations](learning/foundations.md) → [Language Models](learning/language-models.md) → [Attention](learning/attention.md) → [Retrieval](learning/retrieval.md) → [Reasoning](learning/reasoning.md) → [Architectures](learning/architectures.md) → [Optimization](learning/optimization.md) → [Interpretability](learning/interpretability.md) → [Safety](learning/safety.md) → [Advanced](learning/advanced.md) → [Probabilistic](learning/probabilistic.md) → [Vision](learning/vision.md) → [Hardware](learning/hardware.md) → [Human-AI Interaction](learning/human-ai-interaction.md) → [Policy](learning/policy.md).
 
 ### For Beginners
 Start with [Foundations](learning/foundations.md) and [Language Models — LLM Foundations](learning/language-models.md#llm-foundations), then explore based on interests.

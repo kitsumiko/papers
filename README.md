@@ -2,8 +2,8 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of artificial intelligence and machine learning — from the field's origins to the current frontier.
 
-[![Papers](https://img.shields.io/badge/papers-321-blue.svg)](by-date.md)
-[![Learning Path](https://img.shields.io/badge/learning-15_areas-green.svg)](learning-path.md)
+[![Papers](https://img.shields.io/badge/papers-322-blue.svg)](by-date.md)
+[![Learning Path](https://img.shields.io/badge/learning-16_areas-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-161_terms-purple.svg)](learning/glossary.md)
 
 **Jump to**: [The Collection](#-the-collection) · [Pick Your Path](#-pick-your-path) · [The Areas](#-the-areas) · [Contributing](#-contributing) · [Resources](#-additional-resources) · [License](#-license)
@@ -12,7 +12,7 @@
 
 ## 🎯 The Collection
 
-This repository is a reading curriculum: **321 carefully selected research papers and policy documents**, each with a short note on why it matters. There are three ways in:
+This repository is a reading curriculum: **322 carefully selected research papers and policy documents**, each with a short note on why it matters. There are three ways in:
 
 1. **📚 [Learn by area](learning-path.md)** - 15 topic areas from the field's historical roots to the current frontier, plus curated tracks by goal
 2. **📅 [Browse by date](by-date.md)** - Every paper on one chronological timeline (1936-2026)
@@ -41,22 +41,23 @@ Every paper lives in exactly one area page, with a short "why it matters" note. 
 |------|--------|---------------|
 | 🏺 **[Classics](learning/classics.md)** | 29 | Computation & the First Neurons · Perceptrons & the First Winter · Backprop's Prehistory & Associative Memory · Attractors & Self-Organization · The Connectionist Revival · Limits, Winter, and the Way Out · Guides & Retrospectives |
 | 🏗️ **[Foundations](learning/foundations.md)** | 25 | Deep Learning Basics · Word Embeddings & Representations · Sequence Models · Generative Models · Tokenization & Subword Models |
-| 🤖 **[Language Models](learning/language-models.md)** | 21 | LLM Foundations · Training at Scale · Memory & Efficiency Optimizations |
+| 🤖 **[Language Models](learning/language-models.md)** | 20 | LLM Foundations · Training at Scale · Memory & Efficiency Optimizations |
 | ⚡ **[Attention](learning/attention.md)** | 11 | Efficient Attention · Long Context & Compression |
 | 🔍 **[Retrieval & RAG](learning/retrieval.md)** | 11 | Retrieval-Augmented Generation (RAG) · Federated & Distributed Learning |
-| 🧠 **[Reasoning & Agents](learning/reasoning.md)** | 26 | Teaching Models to Reason · Agentic Systems |
-| 🏛️ **[Architectures](learning/architectures.md)** | 19 | Alternative Architectures · Theoretical Foundations |
+| 🧠 **[Reasoning & Agents](learning/reasoning.md)** | 25 | Teaching Models to Reason · Agentic Systems |
+| 🏛️ **[Architectures](learning/architectures.md)** | 18 | Alternative Architectures · Theoretical Foundations |
+| 📉 **[Optimization](learning/optimization.md)** | 5 | Training Dynamics & Optimizers · Energy-Based Models & Optimization as Inference · Learned & LLM-Driven Optimization |
 | 🔬 **[Interpretability](learning/interpretability.md)** | 16 | Understanding Model Behavior · Model Evaluation & Robustness |
 | 🛡️ **[Safety & Security](learning/safety.md)** | 37 | AI Alignment & Safety Training · Security Threats & Attacks · Safety Evaluation & Red Teaming · Bias, Fairness & Robustness · Harmful Content & Misinformation · Long-term Safety Research |
 | 🎯 **[Advanced](learning/advanced.md)** | 9 | Automated AI Research · Specialized Applications · Consciousness & AGI |
 | 🎲 **[Probabilistic](learning/probabilistic.md)** | 9 | Probabilistic Programming · Diffusion Models · Generative Models for Vision |
 | 👁️ **[Vision & Multimodal](learning/vision.md)** | 11 | Vision Transformers · Multimodal & Speech · Vision Interpretability |
-| ⚙️ **[Hardware & Systems](learning/hardware.md)** | 5 | Hardware Considerations |
+| ⚙️ **[Hardware & Systems](learning/hardware.md)** | 4 | Hardware Considerations |
 | 🧠 **[Human-AI Interaction](learning/human-ai-interaction.md)** | 13 | Trust, Reliance & Automation Bias · Cognitive Effects of AI · Human-AI Decision-Making |
 | 📜 **[Policy & Governance](learning/policy.md)** | 82 | Financial Services & Model Risk Management · Data Protection & Privacy Law · AI-Specific Legislation & Executive Action · Risk Management Frameworks & Standards · Sector-Specific AI Guidance · Dual-Use AI & National Security · Responsible AI & Industry Best Practices · Governance Research |
 <!-- COVERAGE:END -->
 
-**Total**: 321 papers across 15 areas (including 76 policy documents & frameworks)
+**Total**: 322 papers across 16 areas (including 76 policy documents & frameworks)
 
 ---
 
