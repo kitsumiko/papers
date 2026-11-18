@@ -64,6 +64,9 @@
 3. [How much do language models memorize?](https://arxiv.org/pdf/2505.24832) (2025)
    - *Why*: **Quantifying memorization in LLMs** - develops rigorous methods to measure how much of the training set language models can reproduce verbatim; distinguishes extractable memorization from latent memorization; reveals that memorization scales predictably with model size, data repetition, and sequence length, informing privacy and data governance decisions
 
+4. [Proving and Improving the Platonic Representation Hypothesis with JEPAs](https://arxiv.org/abs/2610.39302) (Balestriero & LeCun, 2026)
+   - *Why*: **When representations align across modalities** - proves that separately trained JEPAs learn representations equivalent up to a rotation under good-view assumptions, with bounded misalignment otherwise. Explains how positive-pair construction controls alignment and shows why next-token prediction can require far more data than text JEPAs to align with vision encoders.
+
 ---
 
 **Related**: [Reasoning](reasoning.md) | [Interpretability](interpretability.md) | [Safety](safety.md)
