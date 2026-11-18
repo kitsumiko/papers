@@ -2,7 +2,7 @@
 
 > A curated, pedagogically-organized collection of essential research papers spanning the landscape of artificial intelligence and machine learning — from the field's origins to the current frontier.
 
-[![Papers](https://img.shields.io/badge/papers-322-blue.svg)](by-date.md)
+[![Papers](https://img.shields.io/badge/papers-323-blue.svg)](by-date.md)
 [![Learning Path](https://img.shields.io/badge/learning-16_areas-green.svg)](learning-path.md)
 [![Glossary](https://img.shields.io/badge/glossary-161_terms-purple.svg)](learning/glossary.md)
 
@@ -12,7 +12,7 @@
 
 ## 🎯 The Collection
 
-This repository is a reading curriculum: **322 carefully selected research papers and policy documents**, each with a short note on why it matters. There are three ways in:
+This repository is a reading curriculum: **323 carefully selected research papers and policy documents**, each with a short note on why it matters. There are three ways in:
 
 1. **📚 [Learn by area](learning-path.md)** - 15 topic areas from the field's historical roots to the current frontier, plus curated tracks by goal
 2. **📅 [Browse by date](by-date.md)** - Every paper on one chronological timeline (1936-2026)
@@ -45,7 +45,7 @@ Every paper lives in exactly one area page, with a short "why it matters" note. 
 | ⚡&nbsp;**[Attention](learning/attention.md)** | 11 | Efficient&nbsp;Attention · Long&nbsp;Context&nbsp;&&nbsp;Compression |
 | 🔍&nbsp;**[Retrieval&nbsp;&&nbsp;RAG](learning/retrieval.md)** | 11 | Retrieval&#8209;Augmented&nbsp;Generation&nbsp;(RAG) · Federated&nbsp;&&nbsp;Distributed&nbsp;Learning |
 | 🧠&nbsp;**[Reasoning&nbsp;&&nbsp;Agents](learning/reasoning.md)** | 25 | Teaching&nbsp;Models&nbsp;to&nbsp;Reason · Agentic&nbsp;Systems |
-| 🏛️&nbsp;**[Architectures](learning/architectures.md)** | 18 | Alternative&nbsp;Architectures · Theoretical&nbsp;Foundations |
+| 🏛️&nbsp;**[Architectures](learning/architectures.md)** | 19 | Alternative&nbsp;Architectures · Theoretical&nbsp;Foundations |
 | 📉&nbsp;**[Optimization](learning/optimization.md)** | 5 | Training&nbsp;Dynamics&nbsp;&&nbsp;Optimizers · Energy&#8209;Based&nbsp;Models&nbsp;&&nbsp;Optimization&nbsp;as&nbsp;Inference · Learned&nbsp;&&nbsp;LLM&#8209;Driven&nbsp;Optimization |
 | 🔬&nbsp;**[Interpretability](learning/interpretability.md)** | 16 | Understanding&nbsp;Model&nbsp;Behavior · Model&nbsp;Evaluation&nbsp;&&nbsp;Robustness |
 | 🛡️&nbsp;**[Safety&nbsp;&&nbsp;Security](learning/safety.md)** | 37 | AI&nbsp;Alignment&nbsp;&&nbsp;Safety&nbsp;Training · Security&nbsp;Threats&nbsp;&&nbsp;Attacks · Safety&nbsp;Evaluation&nbsp;&&nbsp;Red&nbsp;Teaming · Bias,&nbsp;Fairness&nbsp;&&nbsp;Robustness · Harmful&nbsp;Content&nbsp;&&nbsp;Misinformation · Long&#8209;term&nbsp;Safety&nbsp;Research |
@@ -57,7 +57,7 @@ Every paper lives in exactly one area page, with a short "why it matters" note. 
 | 📜&nbsp;**[Policy&nbsp;&&nbsp;Governance](learning/policy.md)** | 82 | Financial&nbsp;Services&nbsp;&&nbsp;Model&nbsp;Risk&nbsp;Management · Data&nbsp;Protection&nbsp;&&nbsp;Privacy&nbsp;Law · AI&#8209;Specific&nbsp;Legislation&nbsp;&&nbsp;Executive&nbsp;Action · Risk&nbsp;Management&nbsp;Frameworks&nbsp;&&nbsp;Standards · Sector&#8209;Specific&nbsp;AI&nbsp;Guidance · Dual&#8209;Use&nbsp;AI&nbsp;&&nbsp;National&nbsp;Security · Responsible&nbsp;AI&nbsp;&&nbsp;Industry&nbsp;Best&nbsp;Practices · Governance&nbsp;Research |
 <!-- COVERAGE:END -->
 
-**Total**: 322 papers across 16 areas (including 76 policy documents & frameworks)
+**Total**: 323 papers across 16 areas (including 76 policy documents & frameworks)
 
 ---
 

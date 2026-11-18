@@ -8,6 +8,7 @@
 - [Classical Energies Learn to Reason 1,000x Faster than Looped Models](https://arxiv.org/abs/2611.17309) (Hoover et al., 2026) — [Optimization](learning/optimization.md)
 
 ### 2026.10
+- [Proving and Improving the Platonic Representation Hypothesis with JEPAs](https://arxiv.org/abs/2610.39302) (Balestriero & LeCun, 2026) — [Architectures](learning/architectures.md)
 - [Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf) (Herdağdelen et al., 2026) — [Human-AI Interaction](learning/human-ai-interaction.md)
 - [Hybrid Reasoning Agents](https://arxiv.org/abs/2610.18861) (Zou et al., 2026) — [Reasoning & Agents](learning/reasoning.md)
 
@@ -654,7 +655,7 @@
 
 ---
 
-**Total Papers in Learning Path**: 322 papers
+**Total Papers in Learning Path**: 323 papers
 **Paywalled Papers**: 10 (marked with 🔒)
   - 🔒 [High-dimensional on-chip dataflow sensing and routing using spatial photonic networks](https://www.nature.com/articles/s41566-023-01272-3.pdf)
   - 🔒 [Cognitive Offloading](https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(16)30098-5)
